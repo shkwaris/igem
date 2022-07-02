@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/patras-medicine/'
+  }
+
   server: {
     port: 8000,
     host: '0.0.0.0'
