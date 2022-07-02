@@ -31,13 +31,12 @@ The template structure is as follows:
   * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
   * [Vue.js](https://vuejs.org/): a Javascript web framework
   * [Nuxt.js](https://nuxtjs.org/): a Vue.js framework
-  * [Sass](https://nuxtjs.org/): a CSS extension language
+  * [Sass](https://sass-lang.com/): a CSS extension language
   * [Bootstrap](https://getbootstrap.com/): a CSS framework
 
 ## Building locally
 
 ### Using npm:
-To work locally with this project using npm, you'll have to follow the steps below:
 ``` bash
 git clone https://gitlab.igem.org/2022/patras-medicine
 cd patras-medicine
@@ -46,8 +45,9 @@ npm run dev
 ```
 
 ### Using Docker:
-To work locally with this project using Docker, you'll have to follow the steps below:
 ``` bash
+git clone https://gitlab.igem.org/2022/patras-medicine
+cd patras-medicine
 docker-compose up -d --build
 docker-compose down #to stop the running container
 ```
