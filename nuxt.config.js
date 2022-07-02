@@ -4,7 +4,7 @@ export default {
 
   router: {
     base: '/patras-medicine/'
-  }
+  },
 
   server: {
     port: 8000,
