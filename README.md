@@ -38,7 +38,7 @@ The template structure is as follows:
 
 ### Using npm:
 ``` bash
-git clone https://gitlab.igem.org/2022/patras-medicine
+git clone https://gitlab.igem.org/2022/patras-medicine.git
 cd patras-medicine
 npm install
 npm run dev
@@ -46,7 +46,7 @@ npm run dev
 
 ### Using Docker:
 ``` bash
-git clone https://gitlab.igem.org/2022/patras-medicine
+git clone https://gitlab.igem.org/2022/patras-medicine.git
 cd patras-medicine
 docker-compose up -d --build
 docker-compose down #to stop the running container
