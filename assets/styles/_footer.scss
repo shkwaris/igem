@@ -1,0 +1,27 @@
+.footer {
+    background-color: $dark !important; 
+    color: $white;
+    text-decoration: none;
+    font-family: "Figtree";
+    position: relative;
+    margin: 15px !important;
+    .sponsors {
+        a {
+            img {
+              transition: all 250ms ease;
+              height: 70px;
+              filter: grayscale(0.7);
+            }
+            &:hover img {
+              filter: grayscale(0);
+            }
+          }
+    }
+    .link {
+      transition: all 500ms ease;
+      color: $main-light;
+    }
+    .link:hover {
+      color: $main;
+    }
+}

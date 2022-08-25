@@ -1,10 +1,10 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
 
             <!---- TEAM NAME ---->
             <NuxtLink class="navbar-brand" to="/"><img
-                    src="https://static.igem.wiki/teams/4118/wiki/syn-pnoia-white.png" width="100" height="43" />
+                    src="https://static.igem.wiki/teams/4118/wiki/logo-syn-pnoia-white.png" width="100" height="43" />
             </NuxtLink>
 
             <!---- SMALL SCREEN MENU ICON ---->
@@ -14,8 +14,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto left-aligned">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
 
                     <!---- HOME ---->
                     <li class="nav-item">
@@ -30,15 +30,20 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <NuxtLink class="dropdown-item" to="/team">Team</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/team/members">Members</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/attributions">Attributions</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/team/attributions">Attributions</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/collaborations">Collaborations</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/team/contribution">Contribution</NuxtLink>
                             </li>
                         </ul>
+                    </li>
+                    
+                    <!-- COLLABORATION -->
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link" to="/collaboration">Collaboration</NuxtLink>
                     </li>
 
                     <!---- PROJECT ---->
@@ -49,104 +54,123 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <NuxtLink class="dropdown-item" to="/communication">Communication</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/project/description">Description</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/contribution">Contribution</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/project/implementation">Implementation</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/description">Description</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/engineering">Engineering</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/experiments">Experiments</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/implementation">Implementation</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/notebook">Notebook</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/partnership">Partnership</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/proof-of-concept">Proof of Concept</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/results">Results</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/project/proof-of-concept">Proof of Concept</NuxtLink>
                             </li>
                         </ul>
                     </li>
 
-                    <!---- PARTS ---->
+                    <!---- LAB ---->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Parts
+                            Lab
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <NuxtLink class="dropdown-item" to="/part-collection">Part Collection</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/lab/experiments">Experiments</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/parts">Parts</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/lab/results">Results</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink class="dropdown-item" to="/improve">Improve</NuxtLink>
+                                <NuxtLink class="dropdown-item" to="/lab/engineering-success">Engineering Success</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/lab/measurement">Measurement</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/lab/parts">Parts</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/lab/notebook">Notebook</NuxtLink>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- MODEL -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Model
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/model/mathematical-model">Mathematical Model</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/model/molecular-dynamics">Molecular Dynamics</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/model/nucleic-acid-interactions">Nucleic Acid Interactions</NuxtLink>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- PARTNERSHIP -->
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link" to="/partnership">Partnership</NuxtLink>
+                    </li>
+
+                    <!---- ENTERPRENEURSHIP ---->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Entrepreneurship
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/entrepreneurship/company-description">Company Description</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/entrepreneurship/market-analysis">Market Analysis</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/entrepreneurship/financial-analysis">Financial Analysis</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/entrepreneurship/prospects">Prospects</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/entrepreneurship/business-plan">Business Plan</NuxtLink>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!---- (INTEGRATED) HUMAN PRACTICES ---->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            (Integrated) Human Practicies
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/integrated-human-practicies/human-practicies">Human Practiices</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/integrated-human-practicies/science-communication">Science Communication</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/integrated-human-practicies/education">Education</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/integrated-human-practicies/inclusivity">Inclusivity</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink class="dropdown-item" to="/integrated-human-practicies/sustainable-development-goals">Sustainable Development Goals</NuxtLink>
                             </li>
                         </ul>
                     </li>
 
                     <!---- SAFETY ---->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <NuxtLink class="nav-link" to="/safety">Safety</NuxtLink>
-                    </li>
-
-                    <!---- HUMAN PRACTICES ---->
-                    <li class="nav-item">
-                        <NuxtLink class="nav-link" to="/human-practices">Human Practices</NuxtLink>
-                    </li>
-
-                    <!---- AWARDS ---->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Awards
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/education">Education</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/entrepreneurship">Entrepreneurship</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/hardware">Hardware</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/inclusivity">Inclusivity</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/measurement">Measurement</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/model">Model</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/plant">Plant</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/software">Software</NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink class="dropdown-item" to="/sustainable">Sustainable</NuxtLink>
-                            </li>
-                        </ul>
-                    </li>
-
+                    </li> -->
                 </ul>
             </div>
         </div>

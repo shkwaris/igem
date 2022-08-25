@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <Header title="Proof of Concept">Expand upon your Silver medal work for Proposed Implementation and develop a
+            proof of concept for your project.</Header>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="bd-callout bd-callout-info">
+                        <h4>Gold Medal Criterion #4</h4>
+                        <p>Expand upon your Silver medal work for Proposed Implementation and develop a proof of concept
+                            for your project.
+                        <p>
+                            <hr>
+                        <p>Please see the <a href="https://competition.igem.org/judging/medals">2022 Medals Page</a> for
+                            more information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

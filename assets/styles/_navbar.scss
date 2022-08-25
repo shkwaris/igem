@@ -1,0 +1,14 @@
+.navbar {
+    .hamburger {
+      width: 30px;
+      height: 3px;
+      background-color: $white;
+      margin: 4px 0;
+    }
+    background-color: $dark !important;
+    margin: 15px !important;
+  }
+
+  .navbar-dark {
+    background-color: $dark !important;
+  }

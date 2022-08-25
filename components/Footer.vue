@@ -1,38 +1,40 @@
 <template>
-  <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+  <footer class="pt-5 pb-5 footer py-5 mt-5">
     <div class="container">
-      <div class="row mb-4">
-        <div class="col-lg-6 col-xs-12">
-          <h4 class="mb-3">Heading</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis</p>
+      <div class="row">
+        <div class="col-lg-4 col-xs-12 d-flex align-items-center">
+          <img src="https://static.igem.wiki/teams/4118/wiki/logo-patras-med-white.png" height="130" width="105" alt="iGEM University of Patras" />
+          <div class="ms-4">
+            University of Patras<br>
+            26504 Rio, Greece<br><br>
+            patrasmedigem@gmail.com
+          </div>
         </div>
-        <div class="col-lg-3 col-xs-12">
-          <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-          <ul class="m-2 p-2">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Nam mauris velit</a></li>
-            <li><a href="#">Etiam vitae mauris</a></li>
-            <li><a href="#">Fusce scelerisque</a></li>
-            <li><a href="#">Sed faucibus</a></li>
-            <li><a href="#">Mauris efficitur nulla</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-xs-12">
-          <h4 class="mt-lg-0 mt-sm-4 mb-3">Contact</h4>
-          <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-          <p class="mb-0">(541) 754-3010</p>
-          <p>info@hsdf.com</p>
+        <div class="col-lg-8 col-xs-12 sponsors d-flex justify-content-end align-items-center">
+          <a href="https://www.rgcc-group.com" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/logo-rgcc.png" alt="RGCC" /></a>
+          <a href="https://redbull.com" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/logo-red-bull.png" alt="Red Bull" /></a>
+          <a href="https://www.upatras.gr" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/logo-university-of-patras.png" alt="University of Patras" /></a>
         </div>
       </div>
       <hr>
-      <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
       <div class="row mt-4">
+        <div class="col-lg-6 col-xs-12">
+          <p class="mb-0">&copy; Copyright iGEM Patras Medicine 2022. All Rights Reserved</p>
+        </div>
+        <div class="col-lg-6 col-xs-12 d-flex justify-content-end">
+          <a href="https://open.spotify.com/show/3uL0UutbwkTXckC3YIxaqv?si=7b80e181b9e3448a" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/icon-spotify.svg" alt="Listen our podcasts" /></a>
+          <a href="https://www.facebook.com/igempatras" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/icon-facebook.svg" alt="Follow us on Facebook" /></a>
+          <a href="https://www.instagram.com/patras.med/" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/icon-instagram.svg" alt="Follow us on Instagram" /></a>
+          <a href="https://twitter.com/IgemMed" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/icon-twitter.svg" alt="Follow us on Twitter" /></a>
+          <a href="https://gr.linkedin.com/company/igem-patras-medicine" class="ms-3"><img src="https://static.igem.wiki/teams/4118/wiki/icon-linkedin.svg" alt="Follow us on Linkedin" /></a>
+        </div>
+      </div>
+      <div class="row mt-5">
         <div class="col">
-          <p class="mb-0"><small>© 2022 - Content on this site is licensed under a <a class="subfoot"
-                href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0
-                International license</a>.</small></p>
-          <p><small>The repository used to create this website is available at <a
-                href="https://gitlab.igem.org/2022/patras-medicine">gitlab.igem.org/2022/patras-medicine</a>.</small>
+          <p>
+            <small>
+              The repository used to create this website is available at <a class="link" href="https://gitlab.igem.org/2022/patras-medicine">gitlab.igem.org/2022/patras-medicine</a>.
+            </small>
           </p>
         </div>
       </div>
