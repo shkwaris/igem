@@ -9,7 +9,7 @@
                         <h4>Gold Medal Criterion #6: Education & Communication</h4>
                         <p>Develop and implement education, science communication, and/or outreach materials related to
                             synthetic biology.
-                        </p>
+                        <p>
                         <p>All activities must follow Safety policies for <a
                                 href="https://responsibility.igem.org/safety-policies/human-subjects">Human Subjects
                                 Research</a>.</p>

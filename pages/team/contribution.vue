@@ -9,7 +9,7 @@
                         <h4>Bronze Medal Criterion #4</h4>
                         <p>Make a useful contribution for future iGEM teams. Use this page to document that
                             contribution.
-                        </p>
+                        <p>
                         <p>If you are making a contribution by adding information to an existing Part or creating a new
                             Part, you must document your contribution on the Part's Main Page on the <a
                                 href="http://parts.igem.org/Main_Page">Registry</a> for your team to be eligible for
