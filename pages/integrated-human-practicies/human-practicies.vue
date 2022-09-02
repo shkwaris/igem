@@ -58,7 +58,7 @@
                         Best Integrated Human Practices prize with this page.</p>
                     <p>For more information, please see the <a
                             href="https://responsibility.igem.org/human-practices/what-is-human-practices">Human
-                            Practices Hub</a>.
+                            Practices Hub</a>.</p>
                     <p>On this page, your team should document all of your Human Practices work and activities. You
                         should write about the Human Practices topics you considered in your project, document any
                         activities you conducted to explore these topics (such as engaging with experts and

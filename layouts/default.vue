@@ -1,7 +1,7 @@
 <template>
     <div>
         <Nav />
-        <Nuxt />
+        <slot />
         <Footer />
         <WikiTools />
     </div>

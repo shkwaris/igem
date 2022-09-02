@@ -7,7 +7,7 @@
                     <div class="bd-callout bd-callout-info">
                         <h4>Bronze Medal Criterion #3</h4>
                         <p>Describe how and why you chose your iGEM project.
-                        <p>
+                        </p>
                             <hr>
                         <p>Please see the <a href="https://competition.igem.org/judging/medals">2022 Medals Page</a> for
                             more information.</p>

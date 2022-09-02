@@ -34,21 +34,21 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><a href="http://parts.igem.org/Part:BBa_B0011">BBa_B0011</a></th>
+                                <th><a href="http://parts.igem.org/Part:BBa_B0011">BBa_B0011</a></th>
                                 <td>Terminator</td>
                                 <td>LuxICDABEG (+/-)</td>
                                 <td>Reshma Shetty</td>
                                 <td>46 bp</td>
                             </tr>
                             <tr>
-                                <td><a href="http://parts.igem.org/Part:BBa_C0012">BBa_C0012</a></th>
+                                <th><a href="http://parts.igem.org/Part:BBa_C0012">BBa_C0012</a></th>
                                 <td>Coding lacI</td>
                                 <td>lacI repressor from E. coli (+LVA)</td>
                                 <td>Grace Kenney, Daniel Shen, Neelaksh Varshney, Samantha Sutton</td>
                                 <td>1153 bp</td>
                             </tr>
                             <tr>
-                                <td><a href="http://parts.igem.org/Part:BBa_E0020">BBa_E0020</a></th>
+                                <th><a href="http://parts.igem.org/Part:BBa_E0020">BBa_E0020</a></th>
                                 <td>Coding ecfp</td>
                                 <td>engineered cyan fluorescent protein derived from A. victoria GFP</td>
                                 <td>Caitlin Conboy and Jennifer Braff</td>
