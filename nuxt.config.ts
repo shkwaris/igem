@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: '',
-            baseURL: "/patras-medicine/",
+            buildAssetsDir: "/patras-medicine/_nuxt/",
             htmlAttrs: {
               lang: 'en'
             },
