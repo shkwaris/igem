@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: '',
+            baseURL: "/patras-medicine/",
             htmlAttrs: {
               lang: 'en'
             },
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
               { rel: 'icon', type: 'image/x-icon', href: 'https://static.igem.wiki/teams/4118/wiki/favicon.png' }
             ]
         }
-    },
+    }, 
     
     css: [
         'assets/styles/main.scss'
