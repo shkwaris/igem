@@ -1,0 +1,88 @@
+.hide {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.acc {
+
+  margin-top: 20px;
+
+  .acc-item {
+    position: relative;
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid $border-light !important;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.acc-label {
+  font-family: 'Abril Fatface', cursive;
+  color: $main-light;
+  padding: 20px 0 0 20px;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   height: 5px;
+  //   width: 5px;
+  //   top: 30px;
+  //   left: 12px;
+  //   display: inline-block;
+  //   border-left: 5px solid #999;
+  //   border-top: 5px solid transparent;
+  //   border-bottom: 5px solid transparent;
+  // }
+  &.icon {
+    background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/arrow-blue-right.png') 2px 32px no-repeat;
+    background-size: 6px;
+  }
+
+  input[type=checkbox]:checked ~ &.icon {
+    background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/arrow-blue-bottom.png') 0 34px no-repeat;
+    background-size: 10px;
+  }
+}
+
+.acc-child {
+  margin: 0 20px 15px 20px;
+  padding: 0 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  opacity: 0;
+  height: 0;
+  // transform: scale(1,0);
+  // transform-origin: left top;
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  img {
+    padding-bottom: 20px;
+  }
+
+  input[type=checkbox]:checked ~ & {
+    margin: 0 20px 15px 20px;
+    padding: 10px;
+
+    height: auto;
+    opacity: 1;
+    // transform: scale(1,1);
+  }
+}

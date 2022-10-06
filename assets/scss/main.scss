@@ -1,0 +1,154 @@
+$hamburger-layer-color: #1e6cf7 !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+*,
+::before,
+::after {
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "reset";
+@import "variables";
+@import "menu";
+@import "footer";
+@import "home";
+@import "members";
+@import "scrollspy";
+@import "scrolltotop";
+@import "accordion";
+@import "fonts";
+@import "highlighter";
+
+body, html {
+  height: 100%;
+}
+body {
+  font-family: 'Figtree', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: #efefef;
+}
+
+section {
+  padding: 80px 0 60px 0;
+}
+.intro {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  @include media-breakpoint-up(sm) {
+    max-width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  &.smaller {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  &.line {
+    padding-top: 20px;
+    border-top: 1px solid $main-light;
+  }
+}
+
+.bg {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+
+  &.team {
+    height: 70vh;
+  }
+
+  .head-title {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 40px;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 80px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: 80px;
+      transform: translateX(0);
+    }
+  }
+}
+
+.primary-button {
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 25px 7px;
+  background-color: $main-light;
+
+  transition: all .2s ease;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.home-sections img.smaller {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.large-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  line-height: 85px;
+  color: $main-light;
+}
+.main-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  line-height: 55px;
+  color: $main-light;
+}
+.small-title {
+  font-family: 'Abril Fatface', cursive;
+  color: $main-light;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+figcaption {
+  font-weight: bold;
+}
