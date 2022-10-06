@@ -11,6 +11,7 @@
           <div class="col-lg-6 order-lg-last" data-aos="fade-left" data-aos-duration="1000">
             <h3 class="main-title">What is project syn-PNOIA?</h3>
             <p>We develop a non-invasive diagnostic tool for detecting NSCLC in its early stages, aiming to increase patient chances of survival. </p>
+            <a class="primary-button" href="description">Read more</a>
           </div>
         </div>
       </div>
@@ -185,6 +186,6 @@ import 'aos/dist/aos.css'
 export default {
   mounted() {
     AOS.init({});
-  }
+  },
 }
 </script>

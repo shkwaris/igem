@@ -113,7 +113,7 @@ p {
   border-radius: 25px;
   padding: 5px 25px 7px;
   background-color: $main-light;
-
+  cursor: pointer;
   transition: all .2s ease;
   &:hover {
     background-color: black;
@@ -151,4 +151,27 @@ p {
 
 figcaption {
   font-weight: bold;
+}
+
+.link-download {
+  cursor: pointer;
+  color: $secondary;
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $secondary;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 }

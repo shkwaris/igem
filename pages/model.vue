@@ -31,6 +31,31 @@
         </div>
 
         <div class="col-lg-9 main-content" id="main-content">
+          <div>
+            <div class="row">
+              <div><a @click="folderIndex = 1" class="primary-button">hsa-circ-1</a></div>
+              <div><a @click="folderIndex = 2" class="primary-button">hsa-circ-2</a></div>
+              <div><a @click="folderIndex = 3" class="primary-button">hsa-circ-3</a></div>
+            </div>
+            <label for="range" class="form-label">{{folderIndex}} - {{n1}} - {{n2}}</label>
+            <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
+            <div class="row">
+              <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"/>
+              </div>
+              <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h2-${n1}-${n2}.png`"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/ldn-${n1}-${n2}.png`"/>
+              </div>
+              <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"/>
+              </div>
+            </div>
+          </div>
           <section id="kinetics">
             <h2 class="main-title">Kinetics</h2>
             <section id="circrna">
@@ -103,6 +128,8 @@ export default {
         return {
             currentPage: "Model",
             dictionaryData: null,
+            folderIndex: 1,
+            inputRange: 0,
         };
     },
     mounted() {
@@ -117,6 +144,14 @@ export default {
     },
     beforeDestroy() {
         window.removeEventListener("scroll", this.scrolled);
+    },
+    computed: {
+      n1 () {
+        return Number(this.inputRange) + 10;
+      },
+      n2 () {
+        return 20 - Number(this.inputRange);
+      }
     },
     methods: {
         scrolled: function () {
