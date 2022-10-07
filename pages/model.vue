@@ -40,10 +40,17 @@
           </div>
           <label for="range" class="form-label">{{folderIndex}} - {{n1}} - {{n2}}</label>
           <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
+
+
           <div class="gallery">
-            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title=""/></a>
+            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title="1"/></a>
+            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h2-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h2-${n1}-${n2}.png`" alt="" title="2"/></a>
+            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/ldn-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/ldn-${n1}-${n2}.png`" alt="" title="3"/></a>
+            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title="4"/></a>
           </div>
-          <div class="row">
+
+
+          <!-- div class="row">
             <div class="col-xs-12 col-xl-6 align-self-xl-center">
               <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"/>
             </div>
@@ -58,7 +65,8 @@
             <div class="col-xs-12 col-xl-6 align-self-xl-center">
               <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"/>
             </div>
-          </div>
+          </div -->
+
           <section id="kinetics">
             <h2 class="main-title">Kinetics</h2>
             <section id="circrna">
@@ -138,7 +146,13 @@ export default {
         };
     },
     mounted() {
-        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+        var lightbox = new SimpleLightbox('.gallery a',
+          {
+            overlayOpacity: 0.9,
+            animationSpeed: '150',
+            animationSlide: false,
+          }
+        );
         window.addEventListener("scroll", this.scrolled);
         window.addEventListener("load", () => {
             this.scrolled();
