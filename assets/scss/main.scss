@@ -175,3 +175,16 @@ figcaption {
     transform-origin: bottom left;
   }
 }
+
+.main-content {
+  .btns {
+    a {
+      display: inline-block;
+    }
+  }
+  label.form-label {
+    padding: 25px 0 15px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+  }
+}
