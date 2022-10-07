@@ -6,110 +6,124 @@
       <h1 class="head-title">{{currentPage}}</h1>
     </div>
 
-    <section class="intro">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <Scrollspy :currentPage="currentPage" initialSection="section1">
+    <Scrollspy :currentPage="currentPage" initialSection="byus">
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
             <ol>
-              <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Section 1</a></li>
-              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Section 2</a></li>
+              <li><a :href="`${currentPage}/#byus`" v-scroll-to="'#byus'">Organized by us</a></li>
               <ul>
-                <li class="sub"><a :href="`${currentPage}/#section2-1`" v-scroll-to="'#section2-1'" parent="section2">Section 2-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-2`" v-scroll-to="'#section2-2'" parent="section2">Section 2-2</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-3`" v-scroll-to="'#section2-3'" parent="section2">Section 2-3</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-4`" v-scroll-to="'#section2-4'" parent="section2">Section 2-4</a></li>
+                <li class="sub"><a :href="`${currentPage}/#ijet`" v-scroll-to="'#ijet'" parent="byus">iJET video</a></li>
+                <li class="sub"><a :href="`${currentPage}/#dnaday`" v-scroll-to="'#dnaday'" parent="byus">World DNA day</a></li>
+                <li class="sub"><a :href="`${currentPage}/#diagnostics`" v-scroll-to="'#diagnostics'" parent="byus">Applications of Synthetic Biology in Diagnostics</a></li>
+                <li class="sub"><a :href="`${currentPage}/#tobacco`" v-scroll-to="'#tobacco'" parent="byus">World no Tobacco day</a></li>
+                <li class="sub"><a :href="`${currentPage}/#promotion`" v-scroll-to="'#promotion'" parent="byus">Promotion video translation</a></li>
               </ul>
-              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Section 3</a></li>
+              <li><a :href="`${currentPage}/#participated`" v-scroll-to="'#participated'">Participated in</a></li>
               <ul>
-                <li class="sub"><a :href="`${currentPage}/#section3-1`" v-scroll-to="'#section3-1'" parent="section3">Section 3-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section3-2`" v-scroll-to="'#section3-2'" parent="section3">Section 3-2</a></li>
+                <li class="sub"><a :href="`${currentPage}/#msp`" v-scroll-to="'#msp'" parent="participated">MSP Vector journal</a></li>
+                <li class="sub"><a :href="`${currentPage}/#biosafety`" v-scroll-to="'#biosafety'" parent="participated">Biosafety Practices</a></li>
+                <li class="sub"><a :href="`${currentPage}/#journal`" v-scroll-to="'#journal'" parent="participated">Synthetic Biology Art Journal</a></li>
+                <li class="sub"><a :href="`${currentPage}/#pharaohs`" v-scroll-to="'#pharaohs'" parent="participated">Pharaohs CU iGEM from Egypt</a></li>
+                <li class="sub"><a :href="`${currentPage}/#emoji`" v-scroll-to="'#emoji'" parent="participated">Emoji Challenge</a></li>
+                <li class="sub"><a :href="`${currentPage}/#lymphoma`" v-scroll-to="'#lymphoma'" parent="participated">World Lymphoma day</a></li>
+                <li class="sub"><a :href="`${currentPage}/#dengue`" v-scroll-to="'#dengue'" parent="participated">World Dengue day</a></li>
+                <li class="sub"><a :href="`${currentPage}/#environment`" v-scroll-to="'#environment'" parent="participated">World Environment day</a></li>
               </ul>
-              <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Section 4</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section4">Section 4-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section4">Section 4-2</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-3`" v-scroll-to="'#section4-3'" parent="section4">Section 4-3</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Section 5</a></li>
-              <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">Section 6</a></li>
+              <li><a :href="`${currentPage}/#meetups`" v-scroll-to="'#meetups'">Meetups & Meetings</a></li>
             </ol>
           </nav>
         </div>
 
         <div class="col-lg-9 main-content">
-          <section id="section1">
-            <h2 class="main-title">Section 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-          <section id="section2">
-            <h2 class="main-title">Section 2</h2>
-            <section id="section2-1">
-              <h3 class="small-title">Section 2-1</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <section id="byus">
+            <h2 class="main-title">Organized by us</h2>
+            <section id="ijet">
+              <h3 class="small-title">iJET video</h3>
+              <p>Considering the global impact of the iGEM Competition and inspired by the "iJET paper plane that unites the world," a collaboration video organized by iGEM Aachen 2020, we decided to develop the existing idea further. Because of this, we created a video in which several iGEM teams, represented by one or more team members, would report their experience in the competition and their motivation for participating. The iGEM members were also requested to reveal the track they selected to compete in and briefly describe their project. Our iJET paper plane traveled in 11 cities worldwide, each represented by one iGEM team sharing their own fascinating idea and excitement for iGEM Competition 2022. This collaboration video was our way to cover thousands of miles bringing young researchers together and allowing them to highlight the importance and utility of Synthetic Biology by presenting their SynBio-based solution to an existing problem.</p>
             </section>
-            <section id="section2-2">
-              <h3 class="small-title">Section 2-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="dnaday" class="gallery">
+              <h3 class="small-title">World DNA day</h3>
+              <p>On World DNA day, April 25, our team decided to bring together iGEMers from around the world by organizing an exciting collaboration. Our idea was based on creating a DNA graphic, the bases of which would be represented by pictures of iGEMers, each holding the corresponding nucleotide. Therefore, we invited other iGEM teams from many countries to photograph one of their team members holding a DNA base. Afterward, we included all images in our final poster, with more than 40 participants.</p>
+              <a style="width: 50%; height: auto;" class="rounded mx-auto d-block" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"/></a>
             </section>
-            <section id="section2-3">
-              <h3 class="small-title">Section 2-3</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="diagnostics" class="gallery">
+              <h3 class="small-title">Applications of Synthetic Biology in Diagnostics</h3>
+              <p>As part of our partnership with the iGEM MetaThess team, we decided to co-organize a collaboration. Hence we came up with the idea of creating a poster with the title: "Applications of Synthetic Biology" in Diagnostics intending to show the multiple applications of Synthetic Biology science to this particular field of medicine. For this reason, we invited iGEM teams competing in the diagnostics track of the competition to send us a picture of them during the experiments at the laboratory. We finally merged all of the images into the poster writing down the disease each team aims to diagnose. By sharing the final result on our social media, we informed the public about how widespread Synthetic Biology provides promising solutions for many diseases.</p>
+              <a style="width: 50%; height: auto;" class="rounded mx-auto d-block" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig2.png"/></a>
             </section>
-            <section id="section2-4">
-              <h3 class="small-title">Section 2-4</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="tobacco">
+              <h3 class="small-title">World no Tobacco day</h3>
+              <p>May 31 has been established as World No Tobacco day. Since smoking is one of the most common risk factors for developing lung tumors, we decided to raise public awareness by inviting school students and other iGEMers to create posters against smoking.</p>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco4.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco5.jpg"/></a>
+              </div>
             </section>
-          </section>
-          <section id="section3">
-            <h2 class="main-title">Section 3</h2>
-            <section id="section3-1">
-              <h3 class="small-title">Section 3-1</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section3-2">
-              <h3 class="small-title">Section 3-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="promotion" class="gallery">
+              <h3 class="small-title">Promotion video translation</h3>
+              <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into Chinese by iGEM CUHK-Hong Kong, in Finnish by iGEM Aboa, in Hindi by iGEM IIT Delhi, and in Spanish by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
             </section>
           </section>
-          <section id="section4">
-            <h2 class="main-title">Section 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <section id="section4-1">
-              <h3 class="small-title">Section 4-1</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <section id="participated">
+            <h2 class="main-title">Participated in</h2>
+            <section id="msp">
+              <h3 class="small-title">Scientific article writing for MSP Vector journal</h3>
+              <p>One of the most remarkable collaborations we participated in is the journal organized by the MSP 2022 iGEM team. This year's journal is the third edition, and this initiative aims to highlight the most innovative investigation and research teams have done for iGEM Competition 2022. After a peer review process and expert reviews from the journal editing community members, the three best articles are selected to be published. Our scientific article was distinguished among the three best participant articles and finally published! The title of our paper is: "Redefining lung cancer diagnosis with the use of DNA nanostructures." It refers to the research done by our team, which is based on Synthetic Biology combining liquid biopsies and circRNAs as specific biomarkers for developing a new diagnostic tool for lung cancer. </p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/2022-patras-medicine-msp-journal-article.pdf">Download the article</a>
             </section>
-            <section id="section4-2">
-              <h3 class="small-title">Section 4-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="biosafety">
+              <h3 class="small-title">Biosafety Practices</h3>
+              <p>Biosafety has been a crucial factor throughout the development of our project. Hence we were interested in participating in the collaboration that iGEM'22 Team-IISER_Mohali organized about a series of informative videos based on Biosafety Practices followed in Labs. Thus we filmed a short video about biosafety related to a cell line that we use as a negative control to test our diagnostic tool. BEAS 2B cell line is classified as biosafety level 2 because it contains polyoma viral DNA sequences. To minimize the risk of accidental exposure to the cells, the laboratory personnel must follow precise safety rules, which we analyzed in our video. In addition, we rigorously present safety measures in case of exposure to the cell line.</p>
+              <a class="link-download" target="_blank" href="https://www.youtube.com/watch?v=noctwnApqTg">Watch the video</a>
             </section>
-            <section id="section4-3">
-              <h3 class="small-title">Section 4-3</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="journal">
+              <h3 class="small-title">Synthetic Biology Art Journal</h3>
+              <p>Aiming to embrace art and combine it with science, we took part in a fascinating collaboration, a Synthetic Biology art journal organized by the ASU iGEM team. Getting inspired by Synthetic Biology, we created our art pieces, a poster, and a poem, and we submitted them to be part of a collection of fragments from iGEM teams worldwide.</p>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art2.png"/></a>
+              </div>
+            </section>
+            <section id="pharaohs">
+              <h3 class="small-title">Collaboration with Pharaohs CU iGEM from Egypt</h3>
+              <p>In the context of our partnership with Pharaohs CU iGEM team, we were asked to film a video about Alzheimer's disease. More specifically, they invited us to translate the informative video they had already created into Greek so that more people could watch it and understand the epidemiology of Alzheimer's disease.</p>
+              <p>Moreover, Pharaohs CU team invited us to translate into Greek a 30 pages book related to their project where Alzheimer's disease is described in detail and in a simple way. </p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Download the book</a>
+            </section>
+            <section id="emoji">
+              <h3 class="small-title">Emoji Challenge</h3>
+              <p>One of the most fun collaborations we were invited to is the Emoji Challenge by iGEM Aboa. Our mission was to design our own Emoji, which our project, lung cancer diagnosis, should inspire. They picked the Emoji we created as the best participation and posted it on their social media.</p>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpeg"/></a>
+              </div>
+            </section>
+            <section id="lymphoma">
+              <h3 class="small-title">World Lymphoma day</h3>
+              <p>On the occasion of World Lymphoma Day, September 15th, we were invited by iGEM UB to join an exciting collaboration. We selected information and wrote a short text about a lymphoma subtype called Peripheral T non-Hodgkin lymphoma. iGEM UB, having assigned a different lymphoma subtype to each of the 9 participant teams, finally created a joint post with all the information. It was an excellent opportunity to learn about another cancer type, apart from lung cancer which we have thoroughly studied. </p>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma1.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma2.jpg"/></a>
+              </div>
+            </section>
+            <section id="dengue">
+              <h3 class="small-title">World Dengue day</h3>
+              <p>On World Dengue Day, we were invited by the iGEM 2 IISER Pune team to join them in their attempt to combat dengue. Our mission was to collaborate by filming a short video in which one of our team members would take a pledge related to the prevention of the disease.</p>
+            </section>
+            <section id="environment">
+              <h3 class="small-title">World Environment day</h3>
+              <p>To celebrate world environment day, we took part in the relevant collaboration organized by the iGEM IISER Pune team, with the title "Only one earth." To contribute to making Earth a better place to live in, we pictured two of our team members collecting waste from the countryside, aiming to clean rural areas. The photo was included in a final collage and posted on social media to raise public awareness for environmental protection. </p>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment1.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment2.jpg"/></a>
+              </div>
             </section>
           </section>
-          <section id="section5">
-            <h2 class="main-title">Section 5</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-          <section id="section6">
-            <h2 class="main-title">Section 6</h2>
+          <section id="meetups">
+            <h2 class="main-title">Meetups & Meetings</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -121,11 +135,24 @@
 </template>
 
 <script>
+import SimpleLightbox from "simplelightbox";
+
 export default {
     data() {
         return {
             currentPage: "Collaborations",
         };
     }, 
+    mounted() {
+        var lightbox = new SimpleLightbox('.gallery a',
+          {
+            overlayOpacity: 0.9,
+            animationSpeed: '150',
+            animationSlide: false,
+            // maxHeight: null,
+            // maxWidth: null
+          }
+        );
+    }
 }
 </script>

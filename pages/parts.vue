@@ -87,7 +87,7 @@
                   <div class="col-xs-12 col-xl-6 order-xl-last align-self-xl-center">
                     <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-small.png" width="100%" alt="" />
                   </div>
-                  <div class="col-xs-12 col-xl-6 order-xl-first align-self-xl-center">
+                  <div class="col-xs-12 col-xl-6 order-xl-first">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
                   </div>
                 </div>

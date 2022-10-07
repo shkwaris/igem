@@ -35,7 +35,9 @@
           <section id="started">
             <h2 class="main-title">How it all started?</h2>
             <p>Patras Medicine was formed in December 2021 with a shared vision; to contribute to the battle against lung cancer. With over 25% of all cancer fatalities attributed to lung cancer, including small and non-small cell lung cancer, it is the deadliest type of cancer among men and women. Detecting lung cancer in its earliest stages, when it is most treatable, is crucial to patients' survival, as with many other cancer types. The cure rate for people with localized, early-stage lung cancer can reach 80% to 90% <a class="link-ref" v-scroll-to="'#refs'">[1]</a>. The team's objective was to develop a new approach to diagnosis that would be non-invasive, inexpensive, accurate, sensitive, and quick. Shielding and saving human life has been our motivation as Patras Medicine team to develop our test named syn-PNOIA and contribute to the progress of medical science.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig1.png" class="mx-auto d-block" width="60%" alt=""/>
+            <figure class="gallery rounded mx-auto d-block" style="width: 50%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig1.png"/></a>
+            </figure>
           </section>
           <section id="why">
             <h2 class="main-title">Why “syn-PNOIA”?</h2>
@@ -55,20 +57,20 @@
             <section id="circ">
               <h3 class="small-title">Circular RNAs</h3>
               <p>After hours of literature review and discussions with professors, our team decided to concentrate on Circular RNAs, a cutting-edge approach to cancer regulation. Circular RNAs (circRNAs) are a class of covalently closed molecules that exert their physiological and pathological effects by acting as protein decoys, protein translators, or microRNA (miRNA) sponges <a class="link-ref" v-scroll-to="'#refs'">[4]</a> <span>(Fig.1)</span>.</p>
-              <figure class="gallery">
-                <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig2.jpg"/></a>
+              <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig2.jpg"/></a>
                 <figcaption class="figure-caption text-left"><span>Fig.1 Circular RNA functions:</span> a. They can act as miRNA sponges protecting target mRNAs from miRNA-dependent degradation b. circRNAs containing RNA binding protein (RBP) motifs can act as sponges for these proteins and indirectly regulate their functions c. They can interact and enhance the function of specific proteins d. Some circRNAs have been shown to function as protein scaffolds, facilitating the localization of enzymes (phosphatases, acetylases, and ubiquitin ligases) and their substrates to influence reaction kinetics, e. and f. circRNAs can also recruit specific proteins or even be translated under certain conditions</figcaption>
               </figure>
               <br>
               <p>They were originally thought to be mere splicing byproducts with no functional capacity. Only one circRNA from the sex-determining region Y was found to have any function. In 2013, scientists found the first circRNA that functioned as a miRNA sponge. Today, with the help of RNAseq and Bioinformatics, over 100,000 circRNAs have been identified. Research on circRNA functions, although in its early stages, has shown many findings and is very promising. Specifically, in cancer cells, regulating the expression of many circRNAs seems to have a decisive role in the initiation and progression of the tumor. Numerous studies in the field of cancer <a class="link-ref" v-scroll-to="'#refs'">[5]</a>, including lung cancer <a class="link-ref" v-scroll-to="'#refs'">[6]</a>, <a class="link-ref" v-scroll-to="'#refs'">[7]</a>, have confirmed that circRNAs' abnormal expression contributes to carcinogenesis and the development of malignancies <span>(Fig.2)</span>, highlighting their potential as biomarkers for diagnosis, prognosis, and treatment.</p>
-              <figure class="gallery">
-                <a width="30%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig3.jpg"/></a>
+              <figure class="gallery rounded mx-auto d-block" style="width: 70%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig3.jpg"/></a>
                 <figcaption class="figure-caption text-left">Fig.2 circRNA role in cancer: An abnormal increase or decrease in their expression levels makes them regulators of cell proliferation, metastasis, apoptosis, induction of resistance to many drugs, regulation of the tumor microenvironment, and immune tolerance.</figcaption>
               </figure>
               <br>
               <p>Circular RNAs appear to arise in two ways: either due to competition between linear (canonical) splicing and back-splicing (noncanonical) or as byproducts of linear splicing  <a class="link-ref" v-scroll-to="'#refs'">[4]</a>. Back-splicing is a noncanonical form of splicing in which the donor sequence of an upstream exon covalently links to the acceptor sequence of a downstream exon (back-splice junction), which results in the formation of single-stranded circRNA molecules. The back-splice junction site differentiates them from their linear isoforms <span>(Fig.3)</span>.</p>
-              <figure class="gallery">
-                <a width="30%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig4.jpg"/></a>
+              <figure class="gallery rounded mx-auto d-block" style="width: 70%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig4.jpg"/></a>
                 <figcaption class="figure-caption text-left">Fig.3  Schematic representation of canonical and non-canonical splicing</figcaption>
               </figure>
               <br>
@@ -97,8 +99,8 @@
               <p>LDN is a DNA nanostructure that can be used to detect circRNA directly in complex samples, even in cells. The binding of LDN to the target circRNA causes enzyme-free amplification, and then conformational transformations of the two probes occur, emitting fluorescence signal <a class="link-ref" v-scroll-to="'#refs'">[10]</a>.</p>
               <p>More specifically, a long linear DNA scaffold with multiple hairpin probe installation sites is synthesized by Rolling Circle Amplification (RCA). The probes (H1 and H2) are then installed on the DNA scaffold because of their complementary hanging tail to form the LDN <span>(Fig.4a)</span>. </p>
               <p>In the reaction mixture, H1 identifies the unique Backsplice Junction site of circRNA, which is, as mentioned, a diagnostic advantage for distinguishing circRNA from its linear isoforms in a complex sample. H2 contains a pair of fluorophore and quencher groups. In the absence of a target circRNA, no interaction is observed between H1 and H2, which are in a hairpin structure. However, in the presence of the target circRNA, the circRNA hybridizes to H1, which then interacts and hybridizes with H2. During the second hybridization, the fluorophore group dissociates from the quencher. The released target circRNA can then continue to hybridize with other H1 probes, triggering a non-enzymatic amplification reaction along the linear scaffold, and the entire LDN immediately fluoresces <span>(Fig4b)</span>. With the aid of modeling, we designed the probe sequences to hybridize with the three corresponding circRNAs.</p>
-              <figure class="gallery">
-                <a width="300" href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig5.jpg"/></a>
+              <figure class="gallery rounded mx-auto d-block" style="width: 70%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/description/fig5.jpg"/></a>
                 <figcaption class="figure-caption text-left">Fig.4 Depiction of: a) LDN Synthesis and b) circRNA detection reactions.</figcaption>
               </figure>
               <br>

@@ -126,6 +126,9 @@ export default {
         return {
             currentPage: "Partnership",
         };
-    }, 
+    },
+    start() {
+      this.$nuxt.$loading.finish()
+    },
 }
 </script>

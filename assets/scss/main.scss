@@ -171,6 +171,7 @@ figcaption {
 }
 
 .link-download {
+  font-size: 20px;
   cursor: pointer;
   color: $secondary;
   display: inline-block;
@@ -213,6 +214,16 @@ figcaption {
   grid-row-gap: 10px;
   @include media-breakpoint-up(md) {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.gallery.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
