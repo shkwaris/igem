@@ -160,11 +160,12 @@ figcaption {
 }
 
 .link-ref {
+  color: $main-light;
   border-bottom: 1px solid #e5e7eb;
   transition: all 0.3s ease;
   &:hover {
-    color: $main-light;
-    border-bottom: 1px solid $main-light;
+    color: $main;
+    border-bottom: 1px solid $main;
   }
 }
 
@@ -213,3 +214,13 @@ figcaption {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.bullets {
+  li {
+    list-style-type: disc;
+    margin-left: 2rem;
+    text-align: justify;  
+    line-height: 30px;
+  }
+}
+
