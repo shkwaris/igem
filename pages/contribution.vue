@@ -19,7 +19,6 @@
               <ol>
                 <li><a :href="`${currentPage}/#fundraising`" v-scroll-to="'#fundraising'">Fundraising</a></li>
                 <li><a :href="`${currentPage}/#business`" v-scroll-to="'#business'">Business plan</a></li>
-                <li><a :href="`${currentPage}/#dry-lab`" v-scroll-to="'#dry-lab'">Dry lab tool</a></li>
               </ol>
             </div>
               
@@ -37,11 +36,6 @@
             <h2 class="main-title">Business plan</h2>
             <p>A business plan can be very tricky so we are happy to provide this tool for the future iGEM teams, shaped from our experience. </p>
             <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/business-plan-tool.pdf" download="" target="_blank">Download the business plan tool</a>
-          </section>
-          <section id="dry-lab">
-            <h2 class="main-title">Dry lab tool</h2>
-            <p>provides an algorithm whose final product is the ideal sequence of nucleic acids that will hybridize with the circRNA</p>
-            <a class="link-download" href="" download="" target="_blank">Download the dry lab tool</a>
           </section>
         </div>
       </div>

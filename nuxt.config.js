@@ -26,7 +26,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://static.igem.wiki/teams/4118/wiki/favicon.png' }],
   },
 
-  loading: '~/components/Loading.vue',
+  // loading: '~/components/Loading.vue',
   
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['assets/scss/main.scss'],
