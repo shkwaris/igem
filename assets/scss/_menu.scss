@@ -5,6 +5,10 @@
     // letter-spacing: 0.06em;
     user-select: none;
 
+    &.opened aside {
+        box-shadow: -13px 0px 28px -22px rgba(0,0,0,0.65);
+    }
+
     &.items {
         cursor: pointer;
         // text-transform: uppercase;
@@ -35,7 +39,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background-color: $white;
+            background-color: #efefef;
             display: flex;
             align-items: center;
             text-align: center;
@@ -157,7 +161,7 @@
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        background-color: $white;
+        background-color: #efefef;
         display: flex;
         align-items: center;
         text-align: center;
