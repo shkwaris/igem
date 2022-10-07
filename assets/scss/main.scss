@@ -122,6 +122,11 @@ p {
   }
 }
 
+.primary-button.active {
+  background-color: black;
+  color: white;
+}
+
 .home-sections img.smaller {
   width: 70%;
   margin: 0 auto;
@@ -152,6 +157,15 @@ p {
 
 figcaption {
   font-weight: bold;
+}
+
+.link-ref {
+  border-bottom: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  &:hover {
+    color: $main-light;
+    border-bottom: 1px solid $main-light;
+  }
 }
 
 .link-download {
@@ -190,7 +204,7 @@ figcaption {
   }
 }
 
-.gallery {
+.gallery.grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
