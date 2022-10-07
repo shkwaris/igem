@@ -40,6 +40,9 @@
           </div>
           <label for="range" class="form-label">{{folderIndex}} - {{n1}} - {{n2}}</label>
           <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
+          <div class="gallery">
+            <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title=""/></a>
+          </div>
           <div class="row">
             <div class="col-xs-12 col-xl-6 align-self-xl-center">
               <img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"/>
@@ -117,6 +120,8 @@
 </template>
 
 <script>
+import SimpleLightbox from "simplelightbox";
+
 export default {
     layout: "highlighter",
     props: {
@@ -133,6 +138,7 @@ export default {
         };
     },
     mounted() {
+        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
         window.addEventListener("scroll", this.scrolled);
         window.addEventListener("load", () => {
             this.scrolled();
