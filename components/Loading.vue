@@ -1,9 +1,7 @@
 <template>
   <div v-if="loading" class="loading-page">
     <div class="centered">
-      <!-- <video autoplay loop muted inline>
-        <source src="~/assets/images/Logomark-animated.mp4" width="100%" alt="" />
-      </video> -->
+      <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/animated-logo.gif" width="100%" alt=""/>
     </div>
   </div>
 </template>
