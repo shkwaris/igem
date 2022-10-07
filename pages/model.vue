@@ -126,7 +126,7 @@
                 <li>10<sup>6</sup> steps of an MD relaxation on CUDA with a maximum-value of the cutoff for the backbone potential </li>
               </ul>
               <br>
-              <p>The oxDNA2 model [12] was used, since it allows DNA to be studied with salt concentrations, and sequence-specific parameters were applied. The temperature and salt concentration were set according to each experiment. You can view all our input options in their corresponding files on our GitHub Page. The visualization of the output was achieved using oxView [13], a web-service that provides the ability for oxDNA models to be dynamically represented through their initial .top file and the output trajectory or last configuration files.</p>
+              <p>T?he oxDNA2 model [12] was used, since it allows DNA to be studied with salt concentrations, and sequence-specific parameters were applied. The temperature and salt concentration were set according to each experiment. You can view all our input options in their corresponding files on our GitHub Page. The visualization of the output was achieved using oxView [13], a web-service that provides the ability for oxDNA models to be dynamically represented through their initial .top file and the output trajectory or last configuration files.</p>
             </section>
           </section>
           <section id="kinetics">
@@ -209,6 +209,10 @@ export default {
         };
     },
     mounted() {
+        this.$nextTick(() => {
+          this.$nuxt.$loading.start()
+          setTimeout(() => this.$nuxt.$loading.finish(), 1000)
+        })
         var lightbox = new SimpleLightbox('.gallery a',
           {
             overlayOpacity: 0.9,
