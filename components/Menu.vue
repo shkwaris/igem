@@ -11,6 +11,7 @@
               </span>
             </button>
         </div>
+        <div class="blured"></div>
         <div class="content" @click="clickOuside()">
             <slot/>
         </div>
@@ -35,10 +36,7 @@
                     <a @click="handleSubMenu('#parts')">Parts</a>
                     <span class="arrow-right"></span>
                 </li>
-                <li class="menu items">
-                    <a @click="handleSubMenu('#product-development')">Product Development</a>
-                    <span class="arrow-right"></span>
-                </li>
+                <li class="menu items"><a @click="pushRoute('/entrepreneurship')">Entrepreneurship</a></li>
                 <li class="menu items">
                     <a @click="handleSubMenu('#awards')">Awards</a>
                     <span class="arrow-right"></span>
@@ -68,10 +66,6 @@
         <SubMenu id="parts" selected="#parts" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/part-collection')">Part Collection</a></li>
             <li class="menu items"><a @click="pushRoute('/parts')">Parts</a></li>
-        </SubMenu>
-        <SubMenu id="product-development" selected="#product-development" className="submenu closed" :closeSubMenu="closeSubMenu">
-            <li class="menu items"><a @click="pushRoute('/product-design')">Product Design</a></li>
-            <li class="menu items"><a @click="pushRoute('/entrepreneurship')">Entrepreneurship</a></li>
         </SubMenu>
         <SubMenu id="awards" selected="#awards" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/education')">Education</a></li>
