@@ -33,16 +33,9 @@
         <div class="col-lg-8 copy order-lg-first">
           <p class="small">&copy; 2022 - iGEM Patras Medicine.<br>
           Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank">Creative Commons Attribution 4.0 International license</a>.<br>
-          The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/patras-medicine" rel="gitlab" target="_blank">gitlab.igem.org/templates/wiki-frozen-flask</a>.</p>
+          The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/patras-medicine" rel="gitlab" target="_blank">gitlab.igem.org/2022/patras-medicine</a>.</p>
         </div>
       </div>
-
-      <!-- div class="row creds">
-        <div class="col-sm-6 copy">
-          <small>© 2022 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small>
-	        <small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/patras-medicine">gitlab.igem.org/templates/wiki-frozen-flask</a>.</small>
-        </div>
-      </div -->
     </div>
   </footer>
 </template>
