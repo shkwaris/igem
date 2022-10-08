@@ -1,41 +1,44 @@
 <template>
   <div>
-    <Header :title="currentPage"></Header>
-
-    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
-      <h1 class="head-title">{{currentPage}}</h1>
-    </div>
+    <Header :title="currentPage">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+        <h1 class="head-title">{{currentPage}}</h1>
+      </div>    
+    </Header>
 
     <Scrollspy :currentPage="currentPage" initialSection="byus">
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#byus`" v-scroll-to="'#byus'">Organized by us</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#ijet`" v-scroll-to="'#ijet'" parent="byus">iJET video</a></li>
-                <li class="sub"><a :href="`${currentPage}/#dnaday`" v-scroll-to="'#dnaday'" parent="byus">World DNA day</a></li>
-                <li class="sub"><a :href="`${currentPage}/#diagnostics`" v-scroll-to="'#diagnostics'" parent="byus">Applications of Synthetic Biology in Diagnostics</a></li>
-                <li class="sub"><a :href="`${currentPage}/#tobacco`" v-scroll-to="'#tobacco'" parent="byus">World no Tobacco day</a></li>
-                <li class="sub"><a :href="`${currentPage}/#promotion`" v-scroll-to="'#promotion'" parent="byus">Promotion video translation</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#participated`" v-scroll-to="'#participated'">Participated in</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#msp`" v-scroll-to="'#msp'" parent="participated">MSP Vector journal</a></li>
-                <li class="sub"><a :href="`${currentPage}/#biosafety`" v-scroll-to="'#biosafety'" parent="participated">Biosafety Practices</a></li>
-                <li class="sub"><a :href="`${currentPage}/#journal`" v-scroll-to="'#journal'" parent="participated">Synthetic Biology Art Journal</a></li>
-                <li class="sub"><a :href="`${currentPage}/#pharaohs`" v-scroll-to="'#pharaohs'" parent="participated">Pharaohs CU iGEM from Egypt</a></li>
-                <li class="sub"><a :href="`${currentPage}/#emoji`" v-scroll-to="'#emoji'" parent="participated">Emoji Challenge</a></li>
-                <li class="sub"><a :href="`${currentPage}/#lymphoma`" v-scroll-to="'#lymphoma'" parent="participated">World Lymphoma day</a></li>
-                <li class="sub"><a :href="`${currentPage}/#dengue`" v-scroll-to="'#dengue'" parent="participated">World Dengue day</a></li>
-                <li class="sub"><a :href="`${currentPage}/#environment`" v-scroll-to="'#environment'" parent="participated">World Environment day</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#meetups`" v-scroll-to="'#meetups'">Meetups & Meetings</a></li>
-            </ol>
+            <div class="row">
+              <progress min="0" max="100" value="0"></progress>
+              <ol>
+                <li><a :href="`${currentPage}/#byus`" v-scroll-to="'#byus'">Organized by us</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#ijet`" v-scroll-to="'#ijet'" parent="byus">iJET video</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#dnaday`" v-scroll-to="'#dnaday'" parent="byus">World DNA day</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#diagnostics`" v-scroll-to="'#diagnostics'" parent="byus">Applications of Synthetic Biology in Diagnostics</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#tobacco`" v-scroll-to="'#tobacco'" parent="byus">World no Tobacco day</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#promotion`" v-scroll-to="'#promotion'" parent="byus">Promotion video translation</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#participated`" v-scroll-to="'#participated'">Participated in</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#msp`" v-scroll-to="'#msp'" parent="participated">MSP Vector journal</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#biosafety`" v-scroll-to="'#biosafety'" parent="participated">Biosafety Practices</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#journal`" v-scroll-to="'#journal'" parent="participated">Synthetic Biology Art Journal</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#pharaohs`" v-scroll-to="'#pharaohs'" parent="participated">Pharaohs CU iGEM from Egypt</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#emoji`" v-scroll-to="'#emoji'" parent="participated">Emoji Challenge</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#lymphoma`" v-scroll-to="'#lymphoma'" parent="participated">World Lymphoma day</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#dengue`" v-scroll-to="'#dengue'" parent="participated">World Dengue day</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#environment`" v-scroll-to="'#environment'" parent="participated">World Environment day</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#meetups`" v-scroll-to="'#meetups'">Meetups & Meetings</a></li>
+              </ol>
+            </div>
           </nav>
         </div>
 
-        <div class="col-lg-9 main-content">
+        <div class="col-lg-9 main-content" id="main-content">
           <section id="byus">
             <h2 class="main-title">Organized by us</h2>
             <section id="ijet">
@@ -166,10 +169,20 @@ export default {
             overlayOpacity: 0.9,
             animationSpeed: '150',
             animationSlide: false,
-            // maxHeight: null,
-            // maxWidth: null
           }
         );
+        window.addEventListener("scroll", this.scrolled);
+        window.addEventListener("load", () => {
+          this.scrolled();
+        });
+    },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.scrolled);
+    },
+    methods: {
+      scrolled: function () {
+        document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      }
     }
 }
 </script>

@@ -1,37 +1,40 @@
 <template>
   <div>
-    <Header :title="currentPage"></Header>
-
-    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
-      <h1 class="head-title">{{currentPage}}</h1>
-    </div>
+    <Header :title="currentPage">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+        <h1 class="head-title">{{currentPage}}</h1>
+      </div>    
+    </Header>
 
     <Scrollspy :currentPage="currentPage" initialSection="started">
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#started`" v-scroll-to="'#started'">How it all started?</a></li>
-              <li><a :href="`${currentPage}/#why`" v-scroll-to="'#why'">Why “syn-PNOIA”?</a></li>
-              <li><a :href="`${currentPage}/#liquid`" v-scroll-to="'#liquid'">What about liquid biopsies?</a></li>
-              <li><a :href="`${currentPage}/#bncr`" v-scroll-to="'#bncr'">Biomarkers & Circular RNAs</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#bio`" v-scroll-to="'#bio'" parent="bncr">Biomarkers</a></li>
-                <li class="sub"><a :href="`${currentPage}/#circ`" v-scroll-to="'#circ'" parent="bncr">Circular RNAs</a></li>
-                <li class="sub"><a :href="`${currentPage}/#our`" v-scroll-to="'#our'" parent="bncr">Our biomarkers</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#nano`" v-scroll-to="'#nano'">DNA Nanostructures</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#general`" v-scroll-to="'#general'" parent="nano">General</a></li>
-                <li class="sub"><a :href="`${currentPage}/#ldn`" v-scroll-to="'#ldn'" parent="nano">Our Design</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#next`" v-scroll-to="'#next'">Next Steps</a></li>
-              <li><a :href="`${currentPage}/#refs`" v-scroll-to="'#refs'">References</a></li>
-            </ol>
+            <div class="row">
+              <progress min="0" max="100" value="0"></progress>
+              <ol>
+                <li><a :href="`${currentPage}/#started`" v-scroll-to="'#started'">How it all started?</a></li>
+                <li><a :href="`${currentPage}/#why`" v-scroll-to="'#why'">Why “syn-PNOIA”?</a></li>
+                <li><a :href="`${currentPage}/#liquid`" v-scroll-to="'#liquid'">What about liquid biopsies?</a></li>
+                <li><a :href="`${currentPage}/#bncr`" v-scroll-to="'#bncr'">Biomarkers & Circular RNAs</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#bio`" v-scroll-to="'#bio'" parent="bncr">Biomarkers</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#circ`" v-scroll-to="'#circ'" parent="bncr">Circular RNAs</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#our`" v-scroll-to="'#our'" parent="bncr">Our biomarkers</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#nano`" v-scroll-to="'#nano'">DNA Nanostructures</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#general`" v-scroll-to="'#general'" parent="nano">General</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#ldn`" v-scroll-to="'#ldn'" parent="nano">Our Design</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#next`" v-scroll-to="'#next'">Next Steps</a></li>
+                <li><a :href="`${currentPage}/#refs`" v-scroll-to="'#refs'">References</a></li>
+              </ol>
+            </div>
           </nav>
         </div>
 
-        <div class="col-lg-9 main-content">
+        <div class="col-lg-9 main-content" id="main-content">
           <section id="started">
             <h2 class="main-title">How it all started?</h2>
             <p>Patras Medicine was formed in December 2021 with a shared vision; to contribute to the battle against lung cancer. With over 25% of all cancer fatalities attributed to lung cancer, including small and non-small cell lung cancer, it is the deadliest type of cancer among men and women. Detecting lung cancer in its earliest stages, when it is most treatable, is crucial to patients' survival, as with many other cancer types. The cure rate for people with localized, early-stage lung cancer can reach 80% to 90% <a class="link-ref" v-scroll-to="'#refs'">[1]</a>. The team's objective was to develop a new approach to diagnosis that would be non-invasive, inexpensive, accurate, sensitive, and quick. Shielding and saving human life has been our motivation as Patras Medicine team to develop our test named syn-PNOIA and contribute to the progress of medical science.</p>
@@ -117,16 +120,16 @@
           </section>
           <section id="refs">
             <h2 class="main-title">References</h2>
-            <p>[1] Lung Cancer Statistics | How Common is Lung Cancer? (n.d.). Retrieved October 5, 2022, from <a class="link-ref" href="https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html">https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html</a>
+            <p>[1]. Lung Cancer Statistics | How Common is Lung Cancer? (n.d.). Retrieved October 5, 2022, from <a class="link-ref" href="https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html">https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html</a>
               <br> [2]. Poulet, G., Massias, J., & Taly, V. (2019). Liquid Biopsy: General Concepts. Acta Cytologica, 63(6), 449–455. <a class="link-ref" href="https://doi.org/10.1159/000499337">https://doi.org/10.1159/000499337</a>
-              <br> [3] Strimbu, K., & Tavel, J. A. (2010, November). What are biomarkers? Current Opinion in HIV and AIDS, 5(6), 463–466. <a class="link-ref" href="https://doi.org/10.1097/coh.0b013e32833ed177">https://doi.org/10.1097/coh.0b013e32833ed177</a>
-              <br> [4] Kristensen, L. S., Andersen, M. S., Stagsted, L. V. W., Ebbesen, K. K., Hansen, T. B., & Kjems, J. (2019, August 8). The biogenesis, biology and characterization of circular RNAs. Nature Reviews Genetics, 20(11), 675–691. <a class="link-ref" href="https://doi.org/10.1038/s41576-019-0158-7">https://doi.org/10.1038/s41576-019-0158-7</a> 
-              <br> [5] Chen, L., & Shan, G. (2021, May). CircRNA in cancer: Fundamental mechanism and clinical potential. Cancer Letters, 505, 49–57. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2021.02.004">https://doi.org/10.1016/j.canlet.2021.02.004</a> 
-              <br> [6] Di, X., Jin, X., Li, R., Zhao, M., & Wang, K. (2019, March). CircRNAs and lung cancer: Biomarkers and master regulators. Life Sciences, 220, 177–185. <a class="link-ref" href="https://doi.org/10.1016/j.lfs.2019.01.055">https://doi.org/10.1016/j.lfs.2019.01.055</a>
-              <br> [7] Wang, C., Tan, S., Li, J., Liu, W. R., Peng, Y., & Li, W. (2020, November). CircRNAs in lung cancer - Biogenesis, function and clinical implication. Cancer Letters, 492, 106–115. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2020.08.013">https://doi.org/10.1016/j.canlet.2020.08.013</a>
-              <br> [8] Wang, S., Zhang, K., Tan, S., Xin, J., Yuan, Q., Xu, H., Xu, X., Liang, Q., Christiani, D. C., Wang, M., Liu, L., & Du, M. (2021, January 11). Circular RNAs in body fluids as cancer biomarkers: the new frontier of liquid biopsies. Molecular Cancer, 20(1). <a class="link-ref" href="https://doi.org/10.1186/s12943-020-01298-z">https://doi.org/10.1186/s12943-020-01298-z</a>
-              <br> [9] DNA Nanotechnology Tools: From Design to Applications. (2022, April 22). Wyss Institute. Retrieved October 5, 2022, from <a class="link-ref" href="">https://wyss.harvard.edu/technology/dna-nanotechnology-tools-from-design-to-applications/</a>
-              <br> [10] Jiao, J., Xiang, Y., Duan, C., Liu, Y., Li, C., & Li, G. (2020, August 24). Lighting Up CircRNA Using a Linear DNA Nanostructure. Analytical Chemistry, 92(18), 12394–12399. <a class="link-ref" href="https://doi.org/10.1021/acs.analchem.0c02146">https://doi.org/10.1021/acs.analchem.0c02146</a> 
+              <br> [3]. Strimbu, K., & Tavel, J. A. (2010, November). What are biomarkers? Current Opinion in HIV and AIDS, 5(6), 463–466. <a class="link-ref" href="https://doi.org/10.1097/coh.0b013e32833ed177">https://doi.org/10.1097/coh.0b013e32833ed177</a>
+              <br> [4]. Kristensen, L. S., Andersen, M. S., Stagsted, L. V. W., Ebbesen, K. K., Hansen, T. B., & Kjems, J. (2019, August 8). The biogenesis, biology and characterization of circular RNAs. Nature Reviews Genetics, 20(11), 675–691. <a class="link-ref" href="https://doi.org/10.1038/s41576-019-0158-7">https://doi.org/10.1038/s41576-019-0158-7</a> 
+              <br> [5]. Chen, L., & Shan, G. (2021, May). CircRNA in cancer: Fundamental mechanism and clinical potential. Cancer Letters, 505, 49–57. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2021.02.004">https://doi.org/10.1016/j.canlet.2021.02.004</a> 
+              <br> [6]. Di, X., Jin, X., Li, R., Zhao, M., & Wang, K. (2019, March). CircRNAs and lung cancer: Biomarkers and master regulators. Life Sciences, 220, 177–185. <a class="link-ref" href="https://doi.org/10.1016/j.lfs.2019.01.055">https://doi.org/10.1016/j.lfs.2019.01.055</a>
+              <br> [7]. Wang, C., Tan, S., Li, J., Liu, W. R., Peng, Y., & Li, W. (2020, November). CircRNAs in lung cancer - Biogenesis, function and clinical implication. Cancer Letters, 492, 106–115. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2020.08.013">https://doi.org/10.1016/j.canlet.2020.08.013</a>
+              <br> [8]. Wang, S., Zhang, K., Tan, S., Xin, J., Yuan, Q., Xu, H., Xu, X., Liang, Q., Christiani, D. C., Wang, M., Liu, L., & Du, M. (2021, January 11). Circular RNAs in body fluids as cancer biomarkers: the new frontier of liquid biopsies. Molecular Cancer, 20(1). <a class="link-ref" href="https://doi.org/10.1186/s12943-020-01298-z">https://doi.org/10.1186/s12943-020-01298-z</a>
+              <br> [9]. DNA Nanotechnology Tools: From Design to Applications. (2022, April 22). Wyss Institute. Retrieved October 5, 2022, from <a class="link-ref" href="">https://wyss.harvard.edu/technology/dna-nanotechnology-tools-from-design-to-applications/</a>
+              <br> [10]. Jiao, J., Xiang, Y., Duan, C., Liu, Y., Li, C., & Li, G. (2020, August 24). Lighting Up CircRNA Using a Linear DNA Nanostructure. Analytical Chemistry, 92(18), 12394–12399. <a class="link-ref" href="https://doi.org/10.1021/acs.analchem.0c02146">https://doi.org/10.1021/acs.analchem.0c02146</a> 
             </p>
           </section>
         </div>
@@ -150,7 +153,20 @@ export default {
             overlayOpacity: 0.9,
             animationSpeed: '150',
             animationSlide: false,
-          });
-    } 
+          }
+      );
+      window.addEventListener("scroll", this.scrolled);
+      window.addEventListener("load", () => {
+          this.scrolled();
+        });
+    },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.scrolled);
+    },
+    methods: {
+      scrolled: function () {
+        document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      }
+    }
 }
 </script>
