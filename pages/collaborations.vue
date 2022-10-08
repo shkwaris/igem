@@ -124,9 +124,26 @@
           </section>
           <section id="meetups">
             <h2 class="main-title">Meetups & Meetings</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Among the most significant collaborations, we participated in were the meet-ups, where we had the opportunity to interact with other iGEM teams, present our project, receive and give feedback, as well as exchange ideas.</p>
+            <p>Thankfully, we were invited to join many meet-ups globally and communicate syn-PNOIA on four continents, gaining positive feedback and learning about other teams' projects.</p>
+            <p><span>America:</span> On August 20th, we attended the Mini Jamboree, hosted by iGEM Cornell and iGEM McGill team, which was a large meet-up for iGEM teams from USA and Canada. We performed a 15-minute presentation of our project and research so far, including Dry Lab, Wet Lab, and Human Practices, in front of a panel of judges. We got an early taste of what the Grand Jamboree judging process would look like and the feedback we got helped us evolve our project, by integrating more entrepreneurial aspects.</p>
+            <p><span>Africa:</span> On August 23rd, Pharaoh's CU iGEM team invited us to participate virtually in their meet-up with Egyptian iGEM teams, professors from Cairo, and African iGEM Ambassadors.</p>
+            <p><span>Asia:</span> On August 6th, we joined the Worldshaper-HZ China team's meet-up among Chinese teams, where we had the opportunity to present syn-PNOIA and gain feedback.</p>
+            <p><span>Europe:</span> On 22-24 of July, we took part in the Summer Mediterranean iGEM meeting organized by iGEM UBarcelona, where many iGEM teams were invited to share their knowledge, different approaches, and experience. The panel also included projects and selected scientists' presentations.</p>
+            <p><span>Greece:</span> On May 28th, we attended the Pre-Aegean meeting from the iGEM Patras team, an online introductory meeting between the Greek iGEM teams to meet each other and present our initial project ideas. An extra task for the participant teams was to choose and describe a person or scientist who inspired them to participate in the competition. Thus, we selected Shirley Chisholm, who fought for public health to become a right and requested equal rights for women, minorities, immigrants, and the poor. That motivated us to engage with Synthetic Biology in Medicine and prove that science is for everyone!</p>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/shirley.pdf">Read about Shirley</a>
+            <br>
+            <br>
+            <p>Afterward, we participated in the Aegean meeting, which took place with a physical presence in Patras on the 10-11 of July. At this event, we had the opportunity to exchange feedback on our projects and play interactive games to enhance the bonding among the Greek teams. We also presented our research to the Minister of Agriculture, an honored guest.</p>
+            <div class="gallery grid2">
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean1.jpg"/></a>
+            </div>
+            <p>Apart from the meet-ups we attended, we had the idea to host several online meetings throughout our journey to iGEM Competition 2022, inviting other iGEM teams from around the world to discuss our projects and share our excitement for the competition and the research process. </p>
+            <p><span>These are the teams we contacted from our collaboration / meetings:</span></p>
+            <p>iGEM Aachen, iGEM ICT Mumbai, iGEM WWU, iGEM CU Egypt - Pharaohs, iGEM DU DTU NSUT, iGEM Thessaloniki, Empire Gene iGEM team, iGEM Waterloo, iGEM CUHK-Hong Kong, iGEM Munster, iGEM Freiburg, iGEM Tuebingen.</p>
+            <p>Through these meetings, we met incredible young people willing to work and investigate more about Synthetic Biology science, and we also gave and gained helpful advice regarding each others' projects.</p>
+            <p>Particularly, iGEM ICT Mumbai helped us in our first Dry Lab steps regarding the mathematical modeling of our project, making modest suggestions such as to include molecular dynamics in our project, and we, therefore, got involved with GROMACS and oxDNA. At the same time, our team assisted iGEM ICT-Mumbai in forming and coordinating their team. Moreover, we collaborated with the iGEM Tubingen team, instructing them to do molecular dynamics simulations in GROMACS.</p>
           </section>
         </div>
       </div>
