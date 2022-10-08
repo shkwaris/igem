@@ -66,16 +66,17 @@
               <p>Note that all nucleic acid secondary structures are represented in the dot-parens-plus notation, where each target represents a nucleotide. Dots depict unpaired nucleotides, two matching parentheses represent bonded nucleotides, and a + corresponds to a nick between adjacent strands.</p>
               <div class="row">
                 <div class="col btns">
-                  <a @click="folderIndex = 1; activebutton = 1; inputRange = 0;" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
-                  <a @click="folderIndex = 2; activebutton = 2; inputRange = 0;" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
-                  <a @click="folderIndex = 3; activebutton = 3; inputRange = 0;" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005960</a>
+                  <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
+                  <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
+                  <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005960</a>
+                  <a @click="thermoDetails()" class="primary-button">see Thermodynamic details</a>
                 </div>
               </div>
               <div class="row ">
                 <label for="range" class="form-label col"><span>Donor sequence length: </span>{{n1}}</label>
                 <label for="range" class="form-label col"><span>Acceptor sequence length: </span>{{n2}}</label>
               </div>
-              <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
+              <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange" @change="changeDetails">
               <div class="gallery grid">
                 <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`" alt="" title="H1 probe"/></a>
                 <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`" alt="" title="H2 probe"/></a>
@@ -224,7 +225,7 @@ export default {
         window.addEventListener("load", () => {
             this.scrolled();
         });
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model4.json")
           .then(res => res.json())
           .then(data => this.dictionaryData = data)
           .catch(err => { throw err });
@@ -259,6 +260,32 @@ export default {
             this.$emit('update:wordName', "");
             this.$emit('update:wordDescription', "");
           }
+        },
+        changeDetails: function () {
+          const index = this.dictionaryData.findIndex((index) => index.name == this.folderIndex + "-" + this.inputRange);
+          if (index != -1) {
+            this.$emit('update:wordName', "Thermodynamic details");
+            this.$emit('update:wordDescription', this.dictionaryData[index].description);              
+          } else {
+            this.$emit('update:wordName', "");
+            this.$emit('update:wordDescription', "");
+          }
+        },
+        thermoDetails: function () {
+          if (this.isOpened) {
+            this.$emit('update:isOpened', false);
+            this.$emit('update:wordName', "");
+            this.$emit('update:wordDescription', "");
+          } else {
+            this.$emit('update:isOpened', true);
+            this.changeDetails();
+          }
+        },
+        buttonEvent: function (index) {
+          this.inputRange = 0;
+          this.folderIndex = index; 
+          this.activebutton = index; 
+          this.changeDetails(); 
         }
     }
 }

@@ -5,7 +5,7 @@
         </div>
         <div class="highlighter" :class="isOpened && scrollY > 400 ? 'active' : ''">
           <h5 class="small-title">{{wordName}}</h5>
-          <p>{{wordDescription}}</p>
+          <p v-html="wordDescription"></p>
           <div class="close" @click="closeHighlighter()">Close</div>
         </div>
         <Menu>
