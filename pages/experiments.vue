@@ -68,7 +68,7 @@
           </section>
           <section id="validation">
             <h2 class="main-title">Detection method validation</h2>
-            <p>In order to reach reliable results, <a class="link-primary" @click="changeWord('a Bioanalytical method')">a Bioanalytical method</a> needs to be validated <a class="link-ref" v-scroll-to="'#references'">[1]</a>, <a class="link-ref" v-scroll-to="'#references'">[2]</a>. We organized our experimental assays to output results to estimate the method's reliability, reproducibility, and quality. We provide three types of validation: partial, full, and cross-validation.</p>
+            <p>In order to reach reliable results, a <a class="link-primary" @click="changeWord('a Bioanalytical method')">Bioanalytical method</a> needs to be validated <a class="link-ref" v-scroll-to="'#references'">[1]</a>, <a class="link-ref" v-scroll-to="'#references'">[2]</a>. We organized our experimental assays to output results to estimate the method's reliability, reproducibility, and quality. We provide three types of validation: partial, full, and cross-validation.</p>
             <section id="primary">
               <h3 class="small-title">Primary validation</h3>
               <p>Our partial validation involves the method's specificity, linearity, accuracy, precision, and sensitivity, using the <a class="link-primary" @click="changeWord('Back-splicing')">back-splice</a> junction (BSJ) site with the desired sequence as a target. We ordered a synthetic BSJ sequence for all three targets (hsa_circ_070354, hsa_circ_0102533, hsa_circ_005962).</p>
