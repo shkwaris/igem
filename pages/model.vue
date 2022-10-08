@@ -66,9 +66,9 @@
               <p>Note that all nucleic acid secondary structures are represented in the dot-parens-plus notation, where each target represents a nucleotide. Dots depict unpaired nucleotides, two matching parentheses represent bonded nucleotides, and a + corresponds to a nick between adjacent strands.</p>
               <div class="row">
                 <div class="col btns">
-                  <a @click="folderIndex, activebutton = 1" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa-circ-1</a>
-                  <a @click="folderIndex, activebutton = 2" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa-circ-2</a>
-                  <a @click="folderIndex, activebutton = 3" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa-circ-3</a>
+                  <a @click="folderIndex = 1; activebutton = 1; inputRange = 0;" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
+                  <a @click="folderIndex = 2; activebutton = 2; inputRange = 0;" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
+                  <a @click="folderIndex = 3; activebutton = 3; inputRange = 0;" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005960</a>
                 </div>
               </div>
               <div class="row ">
@@ -77,10 +77,10 @@
               </div>
               <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
               <div class="gallery grid">
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title="H1 probe"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h2-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h2-${n1}-${n2}.png`" alt="" title="H2 probe"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/ldn-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/ldn-${n1}-${n2}.png`" alt="" title="Nanostructure"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-1/h1-${n1}-${n2}.png`" alt="" title="Target detection"/></a>
+                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`" alt="" title="H1 probe"/></a>
+                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`" alt="" title="H2 probe"/></a>
+                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`" alt="" title="Nanostructure"/></a>
+                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`" alt="" title="Target detection"/></a>
               </div>
               <p>Unexpectedly, we observed no vast difference in ΔG between the various H1 and H2 probes and the LDN, proving our initial design was thermodynamically favored.</p>
               <h3 class="small-title">CircRNA secondary structure.</h3>
