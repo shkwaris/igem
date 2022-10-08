@@ -127,10 +127,17 @@
             <h2 class="main-title">Protocols</h2>
           </section>
           <section id="references">
-            <h2 class="main-title">References</h2>
-            <p>[1]. Tiwari, G., & Tiwari, R. (2010). Bioanalytical method validation: An updated review. Pharmaceutical Methods, 1(1), 25. <a class="link-ref" href="https://doi.org/10.4103/2229-4708.72226">https://doi.org/10.4103/2229-4708.72226</a> <br>
-            [2]. Moein, M. M., El Beqqali, A., & Abdel-Rehim, M. (2017, February). Bioanalytical method development and validation: Critical concepts and strategies. Journal of Chromatography B, 1043, 3–11. <a class="link-ref" href="https://doi.org/10.1016/j.jchromb.2016.09.028">https://doi.org/10.1016/j.jchromb.2016.09.028</a>
-            </p>
+            <ul class="acc">
+              <li class="acc-item references">
+                <input id="s1" class="hide" type="checkbox">
+                <label for="s1" class="acc-label icon">References</label>
+                <div class="acc-child">
+                  <p>[1]. Tiwari, G., & Tiwari, R. (2010). Bioanalytical method validation: An updated review. Pharmaceutical Methods, 1(1), 25. <a class="link-ref" href="https://doi.org/10.4103/2229-4708.72226">https://doi.org/10.4103/2229-4708.72226</a> <br>
+                  [2]. Moein, M. M., El Beqqali, A., & Abdel-Rehim, M. (2017, February). Bioanalytical method development and validation: Critical concepts and strategies. Journal of Chromatography B, 1043, 3–11. <a class="link-ref" href="https://doi.org/10.1016/j.jchromb.2016.09.028">https://doi.org/10.1016/j.jchromb.2016.09.028</a>
+                  </p>
+                </div>
+              </li>
+            </ul>
           </section>
         </div>
       </div>
