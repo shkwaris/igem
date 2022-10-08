@@ -225,7 +225,7 @@ export default {
         window.addEventListener("load", () => {
             this.scrolled();
         });
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model4.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model.json")
           .then(res => res.json())
           .then(data => this.dictionaryData = data)
           .catch(err => { throw err });
