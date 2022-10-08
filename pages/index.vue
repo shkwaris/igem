@@ -1,8 +1,11 @@
 <template>
   <div style="overflow-x: hidden">
     <Header title="Home"></Header>
+
     <div class="anim">
-      <iframe title="Patras_Medicine: Intro (2022) [English]" width="100%" height="auto" src="https://video.igem.org/videos/embed/e793be73-ed5b-477a-9ca9-19ae9ab0d0f0?loop=1&amp;autoplay=1&amp;muted=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+      <video playsinline autoplay loop muted>
+        <source src="https://video.igem.org/download/streaming-playlists/hls/videos/e793be73-ed5b-477a-9ca9-19ae9ab0d0f0-1080-fragmented.mp4" alt=""/>
+      </video>
     </div>
 
     <section class="bg-section">

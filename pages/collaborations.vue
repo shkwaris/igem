@@ -140,7 +140,7 @@
             <p>Afterward, we participated in the Aegean meeting, which took place with a physical presence in Patras on the 10-11 of July. At this event, we had the opportunity to exchange feedback on our projects and play interactive games to enhance the bonding among the Greek teams. We also presented our research to the Minister of Agriculture, an honored guest.</p>
             <div class="gallery grid2">
               <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"/></a>
-              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean1.jpg"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean.jpg"/></a>
             </div>
             <p>Apart from the meet-ups we attended, we had the idea to host several online meetings throughout our journey to iGEM Competition 2022, inviting other iGEM teams from around the world to discuss our projects and share our excitement for the competition and the research process. </p>
             <p><span>These are the teams we contacted from our collaboration / meetings:</span></p>
