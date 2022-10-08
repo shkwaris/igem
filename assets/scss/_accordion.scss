@@ -17,6 +17,18 @@
     border: none !important;
     border-bottom: 1px solid $border-light !important;
 
+    &.references {
+      border-top: 1px solid $border-light !important;
+      border-bottom: none !important;
+
+      > .acc-child {
+        margin: 0 20px 15px 10px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
     &:last-child {
       border-bottom: none;
     }
@@ -29,7 +41,7 @@
   padding: 20px 0 0 20px;
   width: 100%;
   display: block;
-  font-size: 18px;
+  font-size: 28px;
 
   &:hover {
     cursor: pointer;
@@ -59,7 +71,7 @@
 }
 
 .acc-child {
-  margin: 0 20px 15px 20px;
+  margin: 0 20px 15px 10px;
   padding: 0 10px;
   overflow: hidden;
   transition: all 0.3s ease;

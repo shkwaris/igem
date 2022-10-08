@@ -3,7 +3,7 @@
     <Header :title="currentPage">
       <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
-      </div>    
+      </div>
     </Header>
 
     <Scrollspy :currentPage="currentPage" initialSection="started">
@@ -118,19 +118,27 @@
           <section id="next">
             <h2 class="main-title">Next Steps</h2>
           </section>
+
           <section id="refs">
-            <h2 class="main-title">References</h2>
-            <p>[1]. Lung Cancer Statistics | How Common is Lung Cancer? (n.d.). Retrieved October 5, 2022, from <a class="link-ref" href="https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html">https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html</a>
-              <br> [2]. Poulet, G., Massias, J., & Taly, V. (2019). Liquid Biopsy: General Concepts. Acta Cytologica, 63(6), 449–455. <a class="link-ref" href="https://doi.org/10.1159/000499337">https://doi.org/10.1159/000499337</a>
-              <br> [3]. Strimbu, K., & Tavel, J. A. (2010, November). What are biomarkers? Current Opinion in HIV and AIDS, 5(6), 463–466. <a class="link-ref" href="https://doi.org/10.1097/coh.0b013e32833ed177">https://doi.org/10.1097/coh.0b013e32833ed177</a>
-              <br> [4]. Kristensen, L. S., Andersen, M. S., Stagsted, L. V. W., Ebbesen, K. K., Hansen, T. B., & Kjems, J. (2019, August 8). The biogenesis, biology and characterization of circular RNAs. Nature Reviews Genetics, 20(11), 675–691. <a class="link-ref" href="https://doi.org/10.1038/s41576-019-0158-7">https://doi.org/10.1038/s41576-019-0158-7</a> 
-              <br> [5]. Chen, L., & Shan, G. (2021, May). CircRNA in cancer: Fundamental mechanism and clinical potential. Cancer Letters, 505, 49–57. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2021.02.004">https://doi.org/10.1016/j.canlet.2021.02.004</a> 
-              <br> [6]. Di, X., Jin, X., Li, R., Zhao, M., & Wang, K. (2019, March). CircRNAs and lung cancer: Biomarkers and master regulators. Life Sciences, 220, 177–185. <a class="link-ref" href="https://doi.org/10.1016/j.lfs.2019.01.055">https://doi.org/10.1016/j.lfs.2019.01.055</a>
-              <br> [7]. Wang, C., Tan, S., Li, J., Liu, W. R., Peng, Y., & Li, W. (2020, November). CircRNAs in lung cancer - Biogenesis, function and clinical implication. Cancer Letters, 492, 106–115. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2020.08.013">https://doi.org/10.1016/j.canlet.2020.08.013</a>
-              <br> [8]. Wang, S., Zhang, K., Tan, S., Xin, J., Yuan, Q., Xu, H., Xu, X., Liang, Q., Christiani, D. C., Wang, M., Liu, L., & Du, M. (2021, January 11). Circular RNAs in body fluids as cancer biomarkers: the new frontier of liquid biopsies. Molecular Cancer, 20(1). <a class="link-ref" href="https://doi.org/10.1186/s12943-020-01298-z">https://doi.org/10.1186/s12943-020-01298-z</a>
-              <br> [9]. DNA Nanotechnology Tools: From Design to Applications. (2022, April 22). Wyss Institute. Retrieved October 5, 2022, from <a class="link-ref" href="">https://wyss.harvard.edu/technology/dna-nanotechnology-tools-from-design-to-applications/</a>
-              <br> [10]. Jiao, J., Xiang, Y., Duan, C., Liu, Y., Li, C., & Li, G. (2020, August 24). Lighting Up CircRNA Using a Linear DNA Nanostructure. Analytical Chemistry, 92(18), 12394–12399. <a class="link-ref" href="https://doi.org/10.1021/acs.analchem.0c02146">https://doi.org/10.1021/acs.analchem.0c02146</a> 
-            </p>
+            <ul class="acc">
+              <li class="acc-item references">
+                <input id="s1" class="hide" type="checkbox">
+                <label for="s1" class="acc-label icon">References</label>
+                <div class="acc-child">
+                  <p>[1]. Lung Cancer Statistics | How Common is Lung Cancer? (n.d.). Retrieved October 5, 2022, from <a class="link-ref" href="https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html">https://www.cancer.org/cancer/lung-cancer/about/key-statistics.html</a>
+                  <br> [2]. Poulet, G., Massias, J., & Taly, V. (2019). Liquid Biopsy: General Concepts. Acta Cytologica, 63(6), 449–455. <a class="link-ref" href="https://doi.org/10.1159/000499337">https://doi.org/10.1159/000499337</a>
+                  <br> [3]. Strimbu, K., & Tavel, J. A. (2010, November). What are biomarkers? Current Opinion in HIV and AIDS, 5(6), 463–466. <a class="link-ref" href="https://doi.org/10.1097/coh.0b013e32833ed177">https://doi.org/10.1097/coh.0b013e32833ed177</a>
+                  <br> [4]. Kristensen, L. S., Andersen, M. S., Stagsted, L. V. W., Ebbesen, K. K., Hansen, T. B., & Kjems, J. (2019, August 8). The biogenesis, biology and characterization of circular RNAs. Nature Reviews Genetics, 20(11), 675–691. <a class="link-ref" href="https://doi.org/10.1038/s41576-019-0158-7">https://doi.org/10.1038/s41576-019-0158-7</a>
+                  <br> [5]. Chen, L., & Shan, G. (2021, May). CircRNA in cancer: Fundamental mechanism and clinical potential. Cancer Letters, 505, 49–57. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2021.02.004">https://doi.org/10.1016/j.canlet.2021.02.004</a>
+                  <br> [6]. Di, X., Jin, X., Li, R., Zhao, M., & Wang, K. (2019, March). CircRNAs and lung cancer: Biomarkers and master regulators. Life Sciences, 220, 177–185. <a class="link-ref" href="https://doi.org/10.1016/j.lfs.2019.01.055">https://doi.org/10.1016/j.lfs.2019.01.055</a>
+                  <br> [7]. Wang, C., Tan, S., Li, J., Liu, W. R., Peng, Y., & Li, W. (2020, November). CircRNAs in lung cancer - Biogenesis, function and clinical implication. Cancer Letters, 492, 106–115. <a class="link-ref" href="https://doi.org/10.1016/j.canlet.2020.08.013">https://doi.org/10.1016/j.canlet.2020.08.013</a>
+                  <br> [8]. Wang, S., Zhang, K., Tan, S., Xin, J., Yuan, Q., Xu, H., Xu, X., Liang, Q., Christiani, D. C., Wang, M., Liu, L., & Du, M. (2021, January 11). Circular RNAs in body fluids as cancer biomarkers: the new frontier of liquid biopsies. Molecular Cancer, 20(1). <a class="link-ref" href="https://doi.org/10.1186/s12943-020-01298-z">https://doi.org/10.1186/s12943-020-01298-z</a>
+                  <br> [9]. DNA Nanotechnology Tools: From Design to Applications. (2022, April 22). Wyss Institute. Retrieved October 5, 2022, from <a class="link-ref" href="">https://wyss.harvard.edu/technology/dna-nanotechnology-tools-from-design-to-applications/</a>
+                  <br> [10]. Jiao, J., Xiang, Y., Duan, C., Liu, Y., Li, C., & Li, G. (2020, August 24). Lighting Up CircRNA Using a Linear DNA Nanostructure. Analytical Chemistry, 92(18), 12394–12399. <a class="link-ref" href="https://doi.org/10.1021/acs.analchem.0c02146">https://doi.org/10.1021/acs.analchem.0c02146</a>
+                </p>
+                </div>
+              </li>
+            </ul>
           </section>
         </div>
       </div>
