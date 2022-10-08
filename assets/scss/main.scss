@@ -232,8 +232,21 @@ figcaption {
   li {
     list-style-type: disc;
     margin-left: 2rem;
-    text-align: justify;  
+    text-align: justify;
     line-height: 30px;
+  }
+}
+
+.half-content {
+  img {
+    width: 80%;
+    margin: 0 auto;
+    @include media-breakpoint-up(sm) {
+      width: 50%;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 75%;
+    }
   }
 }
 
