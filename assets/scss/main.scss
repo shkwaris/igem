@@ -76,6 +76,13 @@ p {
     }
   }
 
+  &.sustainable {
+    height: 70vh;
+    .head-title {
+      color: $main-light;
+    }
+  }
+
   &.team {
     height: 70vh;
   }
