@@ -1,4 +1,33 @@
+.timeline-menu {
+    //display: inline-block;
+    position: sticky;
+    z-index: 9999;
+    top: 90px;
+    padding: 15px 20px;
+    background: $white;
+    margin-bottom: 30px;
+    text-align: center;
+    a {
+        margin: 0 5px;
+        border-bottom: 1px solid $white;
+        transition: all 0.3s ease;
+        &:hover {
+            color: $main-light;
+            border-bottom: 1px solid $main-light;
+        }
+
+        &.active {
+            color: $main-light;
+            border-bottom: 1px solid $main-light;
+        }
+    }
+    display: none;
+    @include media-breakpoint-up(sm) {
+        display: block;
+    }
+}
 .centered {
+    position: relative;
     .main-title {
         text-align: center;
         margin-bottom: 30px;

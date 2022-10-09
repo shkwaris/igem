@@ -1,25 +1,33 @@
 <template>
-  <div style="overflow-x: hidden">
+  <div>
     <Header :title="currentPage"></Header>
 
     <div class="bg partnership" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/partnership-cover-syn-pnoia.jpg') center center no-repeat; background-size: cover;">
       <h1 class="head-title">{{currentPage}}</h1>
     </div>
-
     <section class="intro">
       <h2 class="main-title">Introduction</h2>
       <p>During our fun journey to the iGEM competition, we found fellow travelers with the same dreams and goals. Thus, on March 3, excellent collaboration with the Patras Medicine 2022 team began. From our first meetings, we got to know each other, and after the presentation of the projects, we found that both teams intend to manufacture In vitro diagnostic tools for the early detection of non-small cell cancer of the lung (NSCLC). So we decided to solve the problem of the high mortality of lung cancer, reaching the top of DIAS with sun-PNOIA, that is, with collaboration. So we established meetings every Thursday to coordinate our common course and appointed responsible for the Partnership Anatoli Betsou from the Patras Medicine 2022 team and Maria Kosmidou from the MetaThess 2022 team.</p>
       <p>From our first steps, we planned to cooperate at all levels, that is, in Fundraising, in the Wet Lab, and the Dry Lab. We also organized joint actions for science communication and Synthetic Biology. We ranked interesting Collaborations among ourselves and with other teams. At the same time, in the context of Human Practices, we approached several Stakeholders who helped us improve our diagnostic tools so that they could be easily marketed. In addition, we attended a joint seminar on Safety, analyzed the 17 Goals for sustainable development of the United Nations, and organized webinars and workshops together. The most important thing was that we created a beautiful company in that we overcame difficulties and shared our anxieties and worries while having a good time in our online meetings. The best moment was when we met up close in Thessaloniki and had the time to organize joint actions together. Let's browse this page and follow us on our journey!</p>
     </section>
 
-
-
     <section class="container">
       <div class="row centered">
         <div class="col">
           <h2 class="main-title">Our Journey</h2>
-          <ul class="timeline timeline-centered">
 
+          <div class="timeline-menu">
+            <a href="#" class="active">March</a> -
+            <a href="#">April</a> -
+            <a href="#">May</a> -
+            <a href="#">June</a> -
+            <a href="#">July</a> -
+            <a href="#">August</a> -
+            <a href="#">September</a> -
+            <a href="#">October</a>
+          </div>
+
+          <ul class="timeline timeline-centered">
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
