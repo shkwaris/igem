@@ -17,21 +17,21 @@
           <h2 class="main-title">Our Journey</h2>
 
           <div class="timeline-menu">
-            <a href="#" class="active">March</a> -
-            <a href="#">April</a> -
-            <a href="#">May</a> -
-            <a href="#">June</a> -
-            <a href="#">July</a> -
-            <a href="#">August</a> -
-            <a href="#">September</a> -
-            <a href="#">October</a>
+            <a @click="scrollToMonth('#march')" class="active">March</a> -
+            <a @click="scrollToMonth('#april')">April</a> -
+            <a @click="scrollToMonth('#may')">May</a> -
+            <a @click="scrollToMonth('#june')">June</a> -
+            <a @click="scrollToMonth('#july')">July</a> -
+            <a @click="scrollToMonth('#august')">August</a> -
+            <a @click="scrollToMonth('#september')">September</a> -
+            <a @click="scrollToMonth('#october')">October</a>
           </div>
 
           <ul class="timeline timeline-centered">
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">March</h2>
+                <h2 class="timeline-title" id="march">March</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -79,7 +79,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">April</h2>
+                <h2 class="timeline-title" id="april">April</h2>
               </div>
             </li>
             <li class="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -96,7 +96,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">May</h2>
+                <h2 class="timeline-title" id="may">May</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -131,7 +131,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">June</h2>
+                <h2 class="timeline-title" id="june">June</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -160,7 +160,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">July</h2>
+                <h2 class="timeline-title" id="july">July</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -205,7 +205,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">August</h2>
+                <h2 class="timeline-title" id="august">August</h2>
               </div>
             </li>
             <li class="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -272,7 +272,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">September</h2>
+                <h2 class="timeline-title" id="september">September</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -383,7 +383,7 @@
             <li class="timeline-item period">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h2 class="timeline-title">October</h2>
+                <h2 class="timeline-title" id="october">October</h2>
               </div>
             </li>
             <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -445,6 +445,14 @@ export default {
     data() {
         return {
             currentPage: "Partnership",
+            options: {
+              easing: [0.25, 0.1, 0.25, 1.0],
+              offset: -150,
+              force: true,
+              cancelable: false,
+              x: false,
+              y: true,
+            }
         };
     },
     mounted() {
@@ -456,6 +464,11 @@ export default {
           }
         );
       AOS.init({});
+    },
+    methods: {
+      scrollToMonth: function (month) {
+        this.$scrollTo(month, 500, this.options);
+      }
     },
     start() {
       this.$nuxt.$loading.finish()
