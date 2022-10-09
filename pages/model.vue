@@ -68,21 +68,33 @@
                 <div class="col btns">
                   <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
                   <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
-                  <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005960</a>
-                  <a @click="thermoDetails()" class="primary-button">see Thermodynamic details</a>
+                  <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005962</a>
                 </div>
               </div>
-              <div class="row ">
+              <div class="row">
                 <label for="range" class="form-label col"><span>Donor sequence length: </span>{{n1}}</label>
                 <label for="range" class="form-label col"><span>Acceptor sequence length: </span>{{n2}}</label>
               </div>
-              <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange" @change="changeDetails">
+              <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
               <div class="gallery grid">
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`" alt="" title="H1 probe"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`" alt="" title="H2 probe"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`" alt="" title="Nanostructure"/></a>
-                <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`" alt="" title="Target detection"/></a>
+                <figure>
+                  <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`" alt="" title="H1 probe"/></a>
+                  <figcaption class="figure-caption text-legt">H1 probe</figcaption>
+                </figure>
+                <figure>
+                  <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`" alt="" title="H2 probe"/></a>
+                  <figcaption class="figure-caption text-left">H2 probe</figcaption>
+                </figure>
+                <figure>
+                  <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`" alt="" title="Nanostructure"/></a>
+                  <figcaption class="figure-caption text-left">Nanostructure</figcaption>
+                </figure>
+                <figure>
+                  <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`" alt="" title="Target detection"/></a>
+                  <figcaption class="figure-caption text-left">Target detection</figcaption>
+                </figure>
               </div>
+              <a @click="thermoDetails()" class="primary-button thermo">View Thermodynamic details</a>
               <p>Unexpectedly, we observed no vast difference in ΔG between the various H1 and H2 probes and the LDN, proving our initial design was thermodynamically favored.</p>
               <h3 class="small-title">CircRNA secondary structure.</h3>
               <p>A necessary component to understanding our system and progressing our Modeling work is understanding how the circular RNAs appeared to be. Hence, we used the ViennaRNA Web services, particularly the RNAfold server, a gold standard in RNA 2D visualization [3], [4]. By importing the mature circRNA sequence and selecting the "assume RNA molecule to be circular" option under the advanced options menu, we generated the secondary structure for the circRNA targets.</p>
@@ -225,7 +237,7 @@ export default {
         window.addEventListener("load", () => {
             this.scrolled();
         });
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model1.json")
           .then(res => res.json())
           .then(data => this.dictionaryData = data)
           .catch(err => { throw err });
@@ -233,13 +245,18 @@ export default {
     beforeDestroy() {
         window.removeEventListener("scroll", this.scrolled);
     },
+    watch: {
+      inputRange(oldRange, newRange) {
+        this.changeDetails();
+      }
+    },
     computed: {
       n1 () {
         return Number(this.inputRange) + 10;
       },
       n2 () {
         return 20 - Number(this.inputRange);
-      }
+      },
     },
     methods: {
         scrolled: function () {

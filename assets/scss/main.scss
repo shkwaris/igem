@@ -111,6 +111,10 @@ p {
   background-color: $main-light;
   cursor: pointer;
   transition: all .2s ease;
+  &.thermo {
+    background-color: $main;
+    margin-bottom: 30px;
+  }
   &:hover {
     background-color: black;
     color: white;
