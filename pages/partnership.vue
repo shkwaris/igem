@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-x: hidden">
     <Header :title="currentPage"></Header>
 
     <div class="bg partnership" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/partnership-cover-syn-pnoia.jpg') center center no-repeat; background-size: cover;">
