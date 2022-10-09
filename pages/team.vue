@@ -25,7 +25,11 @@
                                         <span class="role human-practices" v-if="category === 'Human Practices'">{{category}}</span>
                                         <span class="role public-relations" v-if="category === 'Public Relations'">{{category}}</span>
                                     </template>
-                                    <p>{{member.title}}</p>
+                                    <p class="member">
+                                        <a href="#"><img src="https://static.igem.wiki/teams/4118/wiki/icon-linkedin.svg" class="linkedin" alt="Follow on Linkedin"></a>
+                                        <br>
+                                        {{member.title}}
+                                    </p>
                                     <a>View more</a>
                                 </figcaption>
                             </figure>

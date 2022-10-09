@@ -10,7 +10,7 @@
     // height: 360px;
     background: #3085a3;
     text-align: center;
-    cursor: pointer;
+    //cursor: pointer;
 
     img {
       position: relative;
@@ -108,6 +108,21 @@ figure {
       text-align: right;
       opacity: 0;
       transition: all 0.35s ease;
+      z-index: 99999;
+      a {
+        img {
+          opacity: 1 !important;
+        }
+        display: inline-block;
+        margin-bottom: 5px;
+        border-radius: 4px;
+        background-color: #0a66c2;
+        padding: 6px;
+        transition: all 0.25s ease;
+        &:hover {
+          transform: translateY(-3px);
+        }
+      }
     }
 
     .name {
@@ -183,8 +198,12 @@ figure {
       opacity: 1;
     }
 
-     &:hover p {
-      opacity: 1;
+    &:hover p {
+      opacity: 1 !important;
+      transition-delay: 0.1s;
+    }
+    &:hover .linkedin {
+      opacity: 1 !important;
       transition-delay: 0.1s;
     }
   }
