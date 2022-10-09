@@ -14,7 +14,7 @@
               <progress min="0" max="100" value="0"></progress>
               <ol>
                 <li><a :href="`${currentPage}/#byus`" v-scroll-to="'#byus'">Organized by us</a></li>
-                <ul>
+                <ul style="display: none;">
                   <li class="sub"><a :href="`${currentPage}/#ijet`" v-scroll-to="'#ijet'" parent="byus">iJET video</a></li>
                   <li class="sub"><a :href="`${currentPage}/#dnaday`" v-scroll-to="'#dnaday'" parent="byus">World DNA day</a></li>
                   <li class="sub"><a :href="`${currentPage}/#diagnostics`" v-scroll-to="'#diagnostics'" parent="byus">Applications of Synthetic Biology in Diagnostics</a></li>
@@ -22,7 +22,7 @@
                   <li class="sub"><a :href="`${currentPage}/#promotion`" v-scroll-to="'#promotion'" parent="byus">Promotion video translation</a></li>
                 </ul>
                 <li><a :href="`${currentPage}/#participated`" v-scroll-to="'#participated'">Participated in</a></li>
-                <ul>
+                <ul style="display: none;">
                   <li class="sub"><a :href="`${currentPage}/#msp`" v-scroll-to="'#msp'" parent="participated">MSP Vector journal</a></li>
                   <li class="sub"><a :href="`${currentPage}/#biosafety`" v-scroll-to="'#biosafety'" parent="participated">Biosafety Practices</a></li>
                   <li class="sub"><a :href="`${currentPage}/#journal`" v-scroll-to="'#journal'" parent="participated">Synthetic Biology Art Journal</a></li>
@@ -80,9 +80,9 @@
               <div class="gallery grid2">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"/></a>
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco4.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco5.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"/></a>
               </div>
             </section>
             <section id="promotion" class="gallery">
@@ -120,7 +120,7 @@
               <h3 class="small-title">Emoji Challenge</h3>
               <p>One of the most fun collaborations we were invited to is the Emoji Challenge by iGEM Aboa. Our mission was to design our own Emoji, which our project, lung cancer diagnosis, should inspire. They picked the Emoji we created as the best participation and posted it on their social media.</p>
               <div class="gallery grid2">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpeg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"/></a>
               </div>
             </section>
             <section id="lymphoma">
@@ -129,11 +129,15 @@
               <div class="gallery grid2">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma1.jpg"/></a>
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma2.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma3.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma4.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/lymphoma5.jpg"/></a>
               </div>
             </section>
             <section id="dengue">
               <h3 class="small-title">World Dengue day</h3>
               <p>On World Dengue Day, we were invited by the iGEM 2 IISER Pune team to join them in their attempt to combat dengue. Our mission was to collaborate by filming a short video in which one of our team members would take a pledge related to the prevention of the disease.</p>
+              <a class="link-download" href="">Watch the video</a>
             </section>
             <section id="environment">
               <h3 class="small-title">World Environment day</h3>
@@ -141,6 +145,9 @@
               <div class="gallery grid2">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment1.jpg"/></a>
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment2.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment3.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment4.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment4.jpg"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment5.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/environment5.jpg"/></a>
               </div>
             </section>
           </section>
