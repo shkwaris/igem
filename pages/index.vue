@@ -115,7 +115,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Wet lab</div>
                   <p class="txt">You can browse through our first steps. The promising results encourage us for the long way to go!</p>
-                  <a href="#" class="pills">Check out our lab journey</a>
+                  <a href="experiments" class="pills">Check out our lab journey</a>
                 </div>
               </div>
             </li>
@@ -129,7 +129,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Product</div>
                   <p class="txt">We envision our technique applied to hospitals, health clinics, and microbiological labs. All needed components will be included in a single kit to ensure ease of use.</p>
-                  <a href="#" class="pills">Visit our product design page</a>
+                  <a href="entrepreneurship" class="pills">Visit our product design page</a>
                 </div>
               </div>
             </li>
@@ -143,7 +143,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Integrated Human Practices</div>
                   <p class="txt">See how our team communicated project syn-PNOIA with the audience and how the experts' opinion developed our the project.</p>
-                  <a href="#" class="pills">Check out our journey</a>
+                  <a href="human-practices" class="pills">Check out our journey</a>
                 </div>
               </div>
             </li>
@@ -157,7 +157,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Education & Science Communication</div>
                   <p class="txt">Comics, podcasts, board games, project presentations, and many more. Did we manage to spread Syn-Bio knowledge?</p>
-                  <a href="#" class="pills">Read more</a>
+                  <a href="education" class="pills">Read more</a>
                 </div>
               </div>
             </li>
@@ -171,7 +171,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Model</div>
                   <p class="txt">Observe our system through different angles: Thermodynamic analysis, 2D & 3D structure modeling, Molecular Dynamics simulations, and design's kinetic behavior.</p>
-                  <a href="#" class="pills">Take a look at our design</a>
+                  <a href="model" class="pills">Take a look at our design</a>
                 </div>
               </div>
             </li>

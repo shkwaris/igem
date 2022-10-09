@@ -15,7 +15,7 @@
               <li><a :href="`${currentPage}/#goals`" v-scroll-to="'#goals'">Our Sustainable Development Goals</a></li>
               <ul>
                 <li class="sub"><a :href="`${currentPage}/#hunger`" v-scroll-to="'#hunger'" parent="goals">Zero Hunger</a></li>
-                <li class="sub"><a :href="`${currentPage}/#good`" v-scroll-to="'#good'" parent="goals">Good Health and Well-Being</a></li>
+                <li class="sub"><a :href="`${currentPage}/#good`" v-scroll-to="'#good'" parent="goals">Good Health & Well-Being</a></li>
                 <li class="sub"><a :href="`${currentPage}/#education`" v-scroll-to="'#education'" parent="goals">Quality Education</a></li>
                 <li class="sub"><a :href="`${currentPage}/#gender`" v-scroll-to="'#gender'" parent="goals">Gender Equality</a></li>
                 <li class="sub"><a :href="`${currentPage}/#innovation`" v-scroll-to="'#innovation'" parent="goals">Industry, Innovation & Infrastructure</a></li>
@@ -52,7 +52,7 @@
               <p>"Even though our team comes from Greece, a country with much potential in the primary sector, we noticed important deficiencies in the field of Agriculture, such as a lack of important data regarding soil physical and chemical properties in large and isolated  areas,  insufficient information regarding the  combination between precision agriculture tools and other technological advancements and low efficiency of crop inputs including fertilizers, tillage, pesticides, and irrigation water. Our team's project's central pillar idea is improving production quality using technology  (GPS, DSS, soil-sampling drones, ML) through precision agriculture. Some  of  the project's primary goals are access  to  agricultural  data  even  in remote and large areas, the precise prediction of soil biodiversity and crops for planting, and  the  environmental  protection  related  to  the  reduction."</p>
             </section>
             <section id="good">
-              <h3 class="small-title">3. Good Health and Well-Being</h3>
+              <h3 class="small-title">3. Good Health & Well-Being</h3>
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-3-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-3-min.png"/></a>
               </div>
