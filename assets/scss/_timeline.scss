@@ -16,7 +16,10 @@
             color: $main-light;
             border-bottom: 1px solid $main-light;
         }
-
+        &:focus {
+            color: $main-light;
+            border-bottom: 1px solid $main-light;
+        }
         &.active {
             color: $main-light;
             border-bottom: 1px solid $main-light;
@@ -154,30 +157,30 @@
 
     .timeline-split {
         @media (min-width: 768px) {
-            .timeline {
+            section .timeline {
                 display: table;
             }
-            .timeline-item {
+            section .timeline-item {
                 display: table-row;
                 padding: 0;
             }
-            .timeline-info,
-            .timeline-marker,
-            .timeline-content,
-            .period .timeline-info {
+            section .timeline-info,
+            section .timeline-marker,
+            section .timeline-content,
+            section .period .timeline-info {
                 display: table-cell;
                 vertical-align: top;
             }
-            .timeline-marker {
+            section .timeline-marker {
                 position: relative;
             }
-            .timeline-content {
+            section .timeline-content {
                 padding-left: 30px;
             }
-            .timeline-info {
+            section .timeline-info {
                 padding-right: 30px;
             }
-            .period .timeline-title {
+            section .period .timeline-title {
                 position: relative;
                 left: -45px;
             }
@@ -191,71 +194,71 @@
     .timeline-centered {
         @extend .timeline-split;
         @media (min-width: 992px) {
-            &,
-            .timeline-item,
-            .timeline-info,
-            .timeline-marker,
-            .timeline-content {
+            section &,
+            section .timeline-item,
+            section .timeline-info,
+            section .timeline-marker,
+            section .timeline-content {
                 display: block;
                 margin: 0;
                 padding: 0;
             }
-            .timeline-item {
+            section .timeline-item {
                 padding-bottom: 40px;
                 overflow: hidden;
             }
-            .timeline-marker {
+            section .timeline-marker {
                 position: absolute;
                 left: 50%;
                 margin-left: -7.5px;
             }
-            .timeline-info,
-            .timeline-content {
+            section .timeline-info,
+            section .timeline-content {
                 width: 50%;
             }
-            > .timeline-item.right .timeline-info {
+            > section .timeline-item.right .timeline-info {
                 float: left;
                 text-align: right;
                 padding-right: 30px;
                 margin-top: -3px;
             }
-            > .timeline-item.right .timeline-content {
+            > section .timeline-item.right .timeline-content {
                 float: right;
                 text-align: left;
                 padding-left: 30px;
             }
-            > .timeline-item.left .timeline-info {
+            > section .timeline-item.left .timeline-info {
                 float: right;
                 text-align: left;
                 padding-left: 30px;
                 margin-top: -3px;
             }
-            > .timeline-item.left .timeline-content {
+            > section .timeline-item.left .timeline-content {
                 float: left;
                 text-align: right;
                 padding-right: 30px;
             }
-            > .timeline-item.right .timeline-images {
+            > section .timeline-item.right .timeline-images {
                 justify-content: flex-start;
             }
-            > .timeline-item.left .timeline-images {
+            > section .timeline-item.left .timeline-images {
                 justify-content: flex-end;
             }
-            > .timeline-item.period .timeline-content {
+            > section .timeline-item.period .timeline-content {
                 float: none;
                 padding: 0;
                 width: 100%;
                 text-align: center;
             }
-            .timeline-item.period {
+            section .timeline-item.period {
                 padding: 50px 0 90px;
             }
-            .period .timeline-marker:after {
+            section .period .timeline-marker:after {
                 height: 30px;
                 bottom: 0;
                 top: auto;
             }
-            .period .timeline-title {
+            section .period .timeline-title {
                 left: auto;
             }
         }
