@@ -17,9 +17,9 @@
                 <li><a :href="`${currentPage}/#supervisors`" v-scroll-to="'#supervisors'">Supervisors</a></li>
                 <li><a :href="`${currentPage}/#instructors`" v-scroll-to="'#instructors'">Instructors</a></li>
                 <li><a :href="`${currentPage}/#advisor`" v-scroll-to="'#advisor'">Advisor</a></li>
-                <li><a :href="`${currentPage}/#general-support`" v-scroll-to="'#general-support'">General Support - Acknowledgment</a></li>
+                <li><a :href="`${currentPage}/#general-support`" v-scroll-to="'#general-support'">General Support</a></li>
                 <li><a :href="`${currentPage}/#human-practices`" v-scroll-to="'#human-practices'">Human Practices</a></li>
-                <li><a :href="`${currentPage}/#education`" v-scroll-to="'#education'">Education</a></li>
+                <li><a :href="`${currentPage}/#education`" v-scroll-to="'#education'">Education & Communication</a></li>
                 <li><a :href="`${currentPage}/#finance`" v-scroll-to="'#finance'">Finance</a></li>
                 <li><a :href="`${currentPage}/#acknowledgment `" v-scroll-to="'#acknowledgment '">Acknowledgment</a></li>
                 <li><a :href="`${currentPage}/#sponsors`" v-scroll-to="'#sponsors'">Sponsors</a></li>
@@ -59,7 +59,7 @@
             <p><span>Bochalis Christodoulos:</span> MSc in Artificial Intelligence at the National Centre for Scientific Research “Demokritos”. He was our coding advisor. He helped with the setup of Linux and the compilation of the software used in our Dry Lab. With his guidance, we created the thermodynamic model to identify which LDN was best.</p>
           </section>
           <section id="general-support">
-            <h2 class="main-title">General Support - Acknowledgment</h2>
+            <h2 class="main-title">General Support</h2>
             <p><span>Andronikidis George:</span> MSc, Data-Driven Computing and Decision Making, Department Computer Engineering and Informatics, University of Patras. With his three-year experience in the iGEM competition, he guided us through many aspects of the competition, such as Human Practices, Project Design, and Wiki Design.</p>
             <p><span>Varitis George:</span> Pharmacist | International Master in Innovation & Entrepreneurship (IMIE), Graduate School of Management, Politecnico di Milano. Alongside Andronikidis George, his iGEM experience proved valuable in aspects such as deliverables management, Science Communication, and Project Design.</p>
             <p><span>Botsou Anna:</span> History and Theory of Art graduate student, ASFA. She contributed to the creation of the team's comic in the context of science communication.</p>
@@ -78,13 +78,13 @@
             <p><span>Vizirianakis Ioannis:</span> Associate Professor of Molecular Pharmacology and Pharmacogenomics at the Department of Pharmacy at the Aristotle University of Thessaloniki. He is the Principal Investigator of the MetaThess iGEM team and helped us with their feedback regarding our project throughout the Partnership.</p>
             <p><span>Symeonidis Argyris:</span> Professor of Medicine, Hematologist at the Hematology Department at the University Hospital of Patras. He gave us insight into a hematologist’s role in lung cancer diagnosis. He also pointed out the advantages and disadvantages of liquid biopsies.</p>
             <p><span>Liouta Galateia:</span> Oncologist, Junior Doctor at the General Oncological Hospital of Kifisia. She helped us understand lung cancer's physiology and its characteristics with precise and up-to-date information.</p>
-            <p><span>Stauropoulos George:</span> Thoracic surgeon, head of his department at the Hippocrates hospital, studied at the Medical School of Athens and had his specialty and his master's degree in Great Britain. He precisely described to us the procedures followed by surgeons in order to remove the lung tumor and explained the importance of early detection of lung cancer to perform a successful surgery, as there will most likely be no metastasis to other tissues or organs.</p>
+            <p><span>Stavropoulos George:</span> Thoracic surgeon, head of his department at the Hippocrates hospital, studied at the Medical School of Athens and had his specialty and his master's degree in Great Britain. He precisely described to us the procedures followed by surgeons in order to remove the lung tumor and explained the importance of early detection of lung cancer to perform a successful surgery, as there will most likely be no metastasis to other tissues or organs.</p>
             <p><span>Tsoukalas Nikolaos:</span> Medical Oncologist, MSc in Bioinformatics, Deputy Director of the Oncology Department at 401 General Military Hospital, Consultant at Henry Dunant Hospital Center of Athens. He gave us insight into the biogenesis of lung cancer and biomarker analysis.</p>
             <p><span>Sotiropoulos Christos:</span> Microbiologist at the microbiological laboratory “Alphalab''. He presented us with all the details and procedures needed in order to preserve and utilize the blood samples and extract RNA molecules, without deforming them.</p>
             <p><span>Torosiadis Nikolaos:</span> Head of Department for Biological sample collection, processing, isolation, storage, and information management at the Access to Genome - ATG Laboratory. He was helpful regarding the circular RNA detection techniques, pointing out their pros and cons in order to select the most suitable one for our project.</p>
             <p><span>Nikokavoura Aspasia:</span> Chemist, National Association for the Medicines Health Material Evaluation Department employee. She enlightened us about the legal aspects of our diagnostic tool, providing information on the biosafety and biosecurity of our project to be approved.</p>
             <p><span>Nasigogos Dimitrios:</span> Sales Manager at Menarini Diagnostics Greece. He helped us complete the structure of the product sheet, define the price of our kit, and propose ideas for the further development of the project.</p>
-            <p><span>Kavakiotis Ioannis:</span> Head of Biomedical Data Science and Bioinformatics Unit. He instructed on the different methods RNAs.</p>
+            <p><span>Kavakiotis Ioannis:</span> Head of Biomedical Data Science and Bioinformatics Unit. He instructed on the different methods of nucleic acid interaction analysis and confirmed that NUPACK is the gold-standard in that field.</p>
             <p><span>Klapa Maria:</span> Principal Researcher, Lab Head at FORTH/ICE-HT. During our Human Practices meeting with her, she analyzed all the experiments we had to do to validate our method.</p>
             <p><span>Kourkoumelis Nikolaos:</span> Biophysicist at the department of Medicine at the University of Ioannina. He was our molecular dynamics teacher, he showed us the basics of a simulation and how to use different software such as GROMACS and OxDNA.</p>
             <p><span>Liloglou Triantafillos (Lakis):</span> Director of the CardioRespiratory Research Centre, Faculty of Health, Social Care & Medicine / Edge Hill University. He pointed out that we must use blood samples cautiously when our project gets to that point. He also gave us ideas on organizing our lab work and doing a proper total RNA extraction from cancer cell lines.</p>
@@ -98,7 +98,7 @@
             <p><span>Theologou Liana, Kapritsou Maria & Pissaka George:</span> Members of the Association “Pnoi Agapis”. Based on their knowledge as doctors, they informed us about the statistics regarding lung cancer and the already existing diagnostic methods.</p>
           </section>
           <section id="education">
-            <h2 class="main-title">Education</h2>
+            <h2 class="main-title">Education & Communication</h2>
             <p><span>Arlapanos George:</span> Biology teacher at the Experimental high school of Patras. He contributed to the improvement of our board games and the instructions manual of them.</p>
             <p>We want to thank the principal and the professors at the Experiments High School of Patras, who gave us the approval to present our idea to students.</p>
             <p><span>Petsiou Dioni – Pinelopi:</span> Undergraduate medicine student at the National and Kapodistrian University of Athens and Deputy Secretary General at CPRGG. She participated in one of the episodes of the podcast series from the perspective of a future doctor.</p>
@@ -123,7 +123,7 @@
             <p><span>NACO XEROX</span></p>
             <p><span>IDT:</span> Integrated DNA Technologies</p>
             <p><span>NEB:</span> New England Biolabs</p>
-            <p><span>SnapG</span></p>
+            <p><span>SnapGene</span></p>
           </section>
         </div>
       </div>

@@ -129,7 +129,7 @@
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Product</div>
                   <p class="txt">We envision our technique applied to hospitals, health clinics, and microbiological labs. All needed components will be included in a single kit to ensure ease of use.</p>
-                  <a href="entrepreneurship" class="pills">Visit our product design page</a>
+                  <a href="implementation" class="pills">Visit our product design page</a>
                 </div>
               </div>
             </li>

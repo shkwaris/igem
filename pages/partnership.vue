@@ -27,7 +27,7 @@
             <a @click="scrollToMonth('#october'); clicked='october'" :class="clicked == 'october' ? 'active' : ''" name="october">October</a>
           </div>
 
-          <ul class="timeline timeline-centered">
+          <ul class="timeline timeline-centered" style="overflow-x: hidden">
             <section id="march" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
@@ -479,7 +479,7 @@ export default {
             currentPage: "Partnership",
             options: {
               easing: [0.25, 0.1, 0.25, 1.0],
-              offset: -70,
+              offset: -120,
               force: true,
               cancelable: false,
               x: false,
