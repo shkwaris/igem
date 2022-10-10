@@ -257,6 +257,19 @@ figcaption {
   }
 }
 
+.half-content2 {
+  img {
+    width: 50%;
+    margin: 0 auto;
+    @include media-breakpoint-up(sm) {
+      width: 50%;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 75%;
+    }
+  }
+}
+
 .figure-caption {
   font-size: 14px;
   line-height: 22px;

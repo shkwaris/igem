@@ -7,8 +7,10 @@
     </div>
     <section class="intro">
       <h2 class="main-title">Introduction</h2>
-      <p>During our fun journey to the iGEM competition, we found fellow travelers with the same dreams and goals. Thus, on March 3, excellent collaboration with the iGEM MetaThess team began. From our first meetings, we got to know each other, and after the presentation of the projects, we found that both teams intend to manufacture In vitro diagnostic tools for the early detection of non-small cell cancer of the lung (NSCLC). So we decided to solve the problem of the high mortality of lung cancer, reaching the top of syn-PNOIA with DIAS, that is, with collaboration. So we established meetings every Thursday to coordinate our common course and appointed responsible for the Partnership Anatoli Betsou from the Patras Medicine 2022 team and Maria Kosmidou from the MetaThess 2022 team.</p>
+      <p>During our fun journey to the iGEM competition, we found fellow travelers with the same dreams and goals. Thus, on March 3, excellent collaboration with the iGEM MetaThess team began. From our first meetings, we got to know each other, and after the presentation of the projects, we found that both teams intend to manufacture In vitro diagnostic tools for the early detection of non-small cell cancer of the lung (NSCLC). So we decided to solve the problem of the high mortality of lung cancer, reaching the top of DIAS with syn-PNOIA, that is, with collaboration. So we established meetings every Thursday to coordinate our common course and appointed responsible for the Partnership Anatoli Betsou from the Patras Medicine 2022 team and Maria Kosmidou from the MetaThess 2022 team.</p>
       <p>From our first steps, we planned to cooperate at all levels, that is, in Fundraising, in the Wet Lab, and the Dry Lab. We also organized joint actions for science communication and Synthetic Biology. We ranked interesting Collaborations among ourselves and with other teams. At the same time, in the context of Human Practices, we approached several Stakeholders who helped us improve our diagnostic tools so that they could be easily marketed. In addition, we attended a joint seminar on Safety, analyzed the 17 Goals for sustainable development of the United Nations, and organized webinars and workshops together. The most important thing was that we created a beautiful company in that we overcame difficulties and shared our anxieties and worries while having a good time in our online meetings. The best moment was when we met up close in Thessaloniki and had the time to organize joint actions together. Let's browse this page and follow us on our journey!</p>
+      <p>Our Partnership's journey had stations every Thursday. So you can see more details about what we did here: </p>
+      <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/partnership-notebook.pdf" download="" target="_blank">Weekly Call minutes</a>
     </section>
 
     <section class="container">
@@ -58,8 +60,8 @@
                   <p>On the 10th of March, we scheduled an online meeting to get to know each other. In the beginning, everyone introduced themselves by saying a few things about their work, and then we presented the two projects in detail. We then created a common communication platform, and the leaders of each subgroup discussed ways of possible cooperation in their field and scheduled different calls to discuss their progress in more detail.</p>
                   <div class="timeline-images gallery">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/3.png"/></a>
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/4.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/4.png"/></a>
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5.png"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-3.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"/></a>
                   </div>
                 </div>
               </li>
@@ -253,7 +255,7 @@
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
                   <h3 class="timeline-title">The 17 sustainable development goals (SDGs) to transform our world!</h3>
-                  <p>On the 7th of August, we scheduled a meeting to study the 17 sustainable development goals (SDGs) of the United Nations Foundation to transform our world. After discussing and analyzing the goals, we discovered which goals we achieve with the projects we implement. So we wrote corresponding texts analyzing each goal. For more information, visit: Sustainable</p>
+                  <p>On the 7th of August, we scheduled a meeting to study the 17 sustainable development goals (SDGs) of the United Nations Foundation to transform our world. After discussing and analyzing the goals, we discovered which goals we achieve with the projects we implement. So we wrote corresponding texts analyzing each goal. For more information, please visit our <a href="sustainable" class="link-ref">Sustainable Development Impact page</a>.</p>
                 </div>
               </li>
               <li class="timeline-item left" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -279,6 +281,9 @@
                 <div class="timeline-content">
                   <h3 class="timeline-title">Translation of the Script of Promotion Video</h3>
                   <p>According to the iGEM Competition timeline, September 2nd was the deadline for uploading promotion videos for our projects. We prepared the video and then wrote the text, which will be recorded to be combined with the image. Both teams made promotion videos in English and Greek. So, on August 18th, we thought it would be a good idea for each team to translate the Greek text of the video into English. In this way, we saw the content of each group's video and gave our feedback. Finally, it was another way to spend our time pleasantly in a fun call all together!</p>
+                  <div class="timeline-images gallery">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-38.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-38.jpg"/></a>
+                  </div>
                 </div>
               </li>
             </section>
@@ -297,7 +302,7 @@
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
                   <h3 class="timeline-title">Webinar: "A Step Closer to the Gold Medal"</h3>
-                  <p>On the 1st of September, we organized a meeting with our partners and a webinar to help the iGEM teams get one step closer to the Gold Medal of the Competition. Two workshops were planned in the webinar. The first was related to bioinformatics analysis, which programming languages ​​we use, and which databases we can analyze. In this way, we wanted to help iGEM teams to validate the biomarkers they chose for their projects and take their first steps towards modeling. The first session was held by Kardamiliotis Konstantinos, a member of the MetaThess team. In the second part of the webinar took place a workshop about Graphic Design. For the iGEM Competition, the teams are asked to make graphics for their actions or social media. So Nteriki Eirini, a member of the Patras Medicine team, showed how to use the Adobe Illustrator program, a Graphic Design software. Using this program, a member of an iGEM team can create whatever graphic he wants to meet the needs of his team. The webinar had a great response, and the audience learned exciting tools used by a team for the complete implementation of the Project.</p>
+                  <p>On the 1st of September, we organized a meeting with our partners and a webinar to help the iGEM teams get one step closer to the Gold Medal of the Competition. Two workshops were planned in the webinar. The first was related to bioinformatics analysis, which programming languages ​​we use, and which databases we can analyze. In this way, we wanted to help iGEM teams to validate the biomarkers they chose for their projects and take their first steps towards modeling. The first session was held by Kardamiliotis Konstantinos, a member of the MetaThess team. In the second part of the webinar took place a workshop about Graphic Design. For the iGEM Competition, the teams are asked to make graphics for their actions or social media. So Dereki Eirini, a member of the Patras Medicine team, showed how to use the Adobe Illustrator program, a Graphic Design software. Using this program, a member of an iGEM team can create whatever graphic he wants to meet the needs of his team. The webinar had a great response, and the audience learned exciting tools used by a team for the complete implementation of the Project.</p>
                   <div class="timeline-images gallery">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/21.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/21.png"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/22.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/22.png"/></a>
@@ -325,6 +330,10 @@
                 <div class="timeline-content">
                   <h3 class="timeline-title">In-person meeting of the wet lab teams - Laboratory of Molecular Pharmacology -School of pharmacy - AUTH</h3>
                   <p>Driven by the collaboration in the context of the experimental procedures of our projects, our wet lab members had the honor to visit iGEM MetaThess team’s lab. Initially, we were guided around the lab premises, such as the facilities specially designed for molecular cloning experiments and cell culture procedures. We exchanged views regarding the cloning methods followed by each team during the experimental development of each project and discussed different difficulties encountered regarding the Golden Gate assembly cloning methodology and the protein expression experiments. In addition, since members of iGEM MetaThess wet lab already conducted some experiments during this day, members of our team participated in the experimental procedures of the PCR setup protocol, giving appropriate feedback. During this day, we exchanged the experimental protocols developed by each lab, we discussed cloning tips, and of course, we took magnificent photos that will remind us of this memorable day for the partnership of our teams.</p>
+                  <div class="timeline-images gallery">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-35.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-35.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-36.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-36.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -337,7 +346,6 @@
                   <p>Patras Medicine 2022 team, following an invitation from MetaThess 2022 team, visited Thessaloniki to participate with a Stand at Pavilion 14 named "Academia" of the 86h TIF. This year, 212,000 people, including government members, visited the TIF. Both teams came into contact with visitors of different ages, where we described how their diagnostic tools work and how we propose adding them to the population's annual blood tests for the diagnosis of lung cancer in the early stages. Most showed great enthusiasm and confirmed the value of our diagnostic tools while sharing personal stories of relatives who died of cancer due to late diagnosis and limited treatment options. They encouraged us to continue the research and develop new diagnostic tools for other types of cancer as well and promised us that they would be among the first to test our test in a diagnostic center in the future. These new acquaintances motivated us to continue our research to finish our diagnostic devices and take them to the market soon. Finally, Patras Medicine team's members answered the questionnaire of the MetaThess team, which validated the value of our projects.</p>
                   <div class="timeline-images gallery">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/24.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/24.jpg"/></a>
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/25.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/25.jpg"/></a>
                   </div>
                 </div>
               </li>
@@ -411,10 +419,10 @@
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
                   <h3 class="timeline-title">European Medical Agency</h3>
-                  <p>On Saturday, 1.10.2022, we scheduled with our partners iGEM MetaThess team, an online meeting with a European Medical Agency representative (EMA) representative. Firstly, we described the mechanism that our diagnostic tools use and the process that a microbiologist must follow to use the DIAS and syn-PNOIA tools and obtain the diagnostic result. The EMA Representative informed us that in 2021 the law 2017//0746 concerning medical devices for laboratory tests considered IVDs (in-vitro Diagnostics) was amended to be classified in the category of Companion Diagnostics. To file and get our tool approved for this category, we would have to associate it with a chemotherapy drug for lung cancer. So we searched the literature and suggested that the patient should be referred for more specialized tests in cases where our diagnostic test is positive.
+                  <p>On Saturday, 1.10.2022, we scheduled with our partners iGEM MetaThess team, an online meeting with a European Medical Agency (EMA) representative. Firstly, we described the mechanism that our diagnostic tools use and the process that a microbiologist must follow to use the DIAS and syn-PNOIA tools and obtain the diagnostic result. The EMA Representative informed us that in 2021 the law 2017//0746 concerning medical devices for laboratory tests considered IVDs (in-vitro Diagnostics) was amended to be classified in the category of Companion Diagnostics. To file and get our tool approved for this category, we would have to associate it with a chemotherapy drug for lung cancer. So we searched the literature and suggested that the patient should be referred for more specialized tests in cases where our diagnostic test is positive.
                     <br><br>
-                  Furthermore, once the cancerous tumor is established, cis-platin and paclitaxel should be administered to shrink the tumor. He also told us to carefully read the medical device legislation 2017/0746 and follow the steps outlined there. Finally, he recommended we contact the Ministry of Health and, more specifically, the HTA - Health Technology Assessment to inform us about the process we need to follow to add the DIAS diagnostic tool to the annual screening.</p>
-                  <div class="timeline-images gallery">
+                  Furthermore, once the cancerous tumor is established, cis-platin and paclitaxel should be administered to shrink the tumor. He also told us to carefully read the medical device legislation 2017/0746 and follow the steps outlined there. Finally, he recommended we contact the Ministry of Health and, more specifically, the HTA - Health Technology Assessment to inform us about the process we need to follow to add the syn-PNOIA diagnostic tool to the annual screening.
+                    <div class="timeline-images gallery">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/32.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/32.png"/></a>
                   </div>
                 </div>
@@ -440,9 +448,6 @@
                 <div class="timeline-content">
                   <h3 class="timeline-title">The last meeting of Dry Lab teams</h3>
                   <p>The final part of our dry lab collaboration was reaction kinetics analysis. iGEM MetaThess team informed us about the importance of predicting the fluorescence signal in our simulations to compare it with the experimental data. We were provided with the MATLAB script that our partners utilized to analyze their system, and we were given insights for constructing a simple but accurate model to predict these values.</p>
-                  <div class="timeline-images gallery">
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/34.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/34.jpg"/></a>
-                  </div>
                 </div>
               </li>
               <li class="timeline-item right" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
@@ -456,6 +461,9 @@
                     <br><br>
                   It has been a long road, but we indeed gained so much from this ongoing collaboration as partners.
                   </p>
+                  <div class="timeline-images gallery">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-37.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-37.jpg"/></a>
+                  </div>
                 </div>
               </li>
             </section>
@@ -463,8 +471,6 @@
         </div>
       </div>
     </section>
-
-
   </div>
 </template>
 

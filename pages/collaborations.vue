@@ -53,7 +53,7 @@
                     <h3 class="small-title">World DNA day</h3>
                     <p>Considering the global impact of the iGEM Competition and inspired by the "iJET paper plane that unites the world," a collaboration video organized by iGEM Aachen 2020, we decided to develop the existing idea further. Because of this, we created a video in which several iGEM teams, represented by one or more team members, would report their experience in the competition and their motivation for participating. The iGEM members were also requested to reveal the track they selected to compete in and briefly describe their project. Our iJET paper plane traveled in 11 cities worldwide, each represented by one iGEM team sharing their own fascinating idea and excitement for iGEM Competition 2022. This collaboration video was our way to cover thousands of miles bringing young researchers together and allowing them to highlight the importance and utility of Synthetic Biology by presenting their SynBio-based solution to an existing problem.</p>
                   </div>
-                  <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                  <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
                     <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"/></a>
                   </div>
                 </div>
@@ -67,7 +67,7 @@
                     <h3 class="small-title">Applications of Synthetic Biology in Diagnostics</h3>
                     <p>As part of our partnership with the iGEM MetaThess team, we decided to co-organize a collaboration. Hence we came up with the idea of creating a poster with the title: "Applications of Synthetic Biology" in Diagnostics intending to show the multiple applications of Synthetic Biology science to this particular field of medicine. For this reason, we invited iGEM teams competing in the diagnostics track of the competition to send us a picture of them during the experiments at the laboratory. We finally merged all of the images into the poster writing down the disease each team aims to diagnose. By sharing the final result on our social media, we informed the public about how widespread Synthetic Biology provides promising solutions for many diseases.</p>
                   </div>
-                  <div class="col-xs-12 col-xl-6 align-self-xl-center">
+                  <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
                     <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig2.png"/></a>
                   </div>
                 </div>
@@ -117,10 +117,16 @@
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Download the book</a>
             </section>
             <section id="emoji">
-              <h3 class="small-title">Emoji Challenge</h3>
-              <p>One of the most fun collaborations we were invited to is the Emoji Challenge by iGEM Aboa. Our mission was to design our own Emoji, which our project, lung cancer diagnosis, should inspire. They picked the Emoji we created as the best participation and posted it on their social media.</p>
-              <div class="gallery grid2">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"/></a>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-xl-6">
+                    <h3 class="small-title">Emoji Challenge</h3>
+                    <p>One of the most fun collaborations we were invited to is the Emoji Challenge by iGEM Aboa. Our mission was to design our own Emoji, which our project, lung cancer diagnosis, should inspire. They picked the Emoji we created as the best participation and posted it on their social media.</p>
+                  </div>
+                  <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
+                    <a class="half-content2" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/emoji.jpg"/></a>
+                  </div>
+                </div>
               </div>
             </section>
             <section id="lymphoma">
