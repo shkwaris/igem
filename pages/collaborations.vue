@@ -85,17 +85,37 @@
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"/></a>
               </div>
             </section>
-            <section id="promotion" class="gallery">
+            <section id="promotion">
               <h3 class="small-title">Promotion video translation</h3>
-              <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into Chinese by iGEM CUHK-Hong Kong, in Finnish by iGEM Aboa, in Hindi by iGEM IIT Delhi, and in Spanish by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
+              <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Chinese</a> by iGEM CUHK-Hong Kong, in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Finnish</a> by iGEM Aboa, in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Hindi</a> by iGEM IIT Delhi, and in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Spanish</a> by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
             </section>
+            <section id="synbio">
+              <h3 class="small-title">The SynBio Dictionary</h3>
+              <p>Ιn the context of science communication we collaborated with other iGEM teams and created a prototype dictionary that includes specific synthetic biology terms related to our project. Our SynBio dictionary, as we call it, includes more than 30 terms and has also been enriched and extended by iGEM TecCem and iGEM CUHK-Hong Kong teams who added their own project-related terms.</p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">You can find the SynBio Dictionary here</a>
+            </section>
+            <section id="pride">
+              <h3 class="small-title">String Science with PRIDE</h3>
+              <p>On the occasion of the day against homophobia and pride, our team participated in a collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”, by creating a prose regarding pride and. Our main goal is to highlight the value of pride through active participation and awareness-raising. Thus reaffirming once again that " we are all different but also equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-word-pride.pdf">Read our article</a>
+            </section>
+            <section id="board-game">
+              <h3 class="small-title">GENE-US Board Game</h3>
+              <p>GENE - US is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players! We invited iGEM Pharaohs CU and iGEM CUHK-Hong Kong teams to add a new session (each one 20 more questions with multiple choices) related to their project as an extension to the already existing questions.</p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/gene-us-extended-version.pdf">You can see our GENE-US Extended version here</a>
+            </section>
+            <section id="sgds">
+              <h3 class="small-title">Collaboration for SDGs</h3>
+              <p>Aiming to achieve as many Sustainable Development Goals as possible we collaborated with other iGEM teams whose project is closely related to some of the 17 SDGs. Particularly, we asked iGEM Patras to send us a short text about the impact of their project in sustainable agriculture for SDG number 2 and iGEM Crete to send us a paragraph explaining the impact of their global food security-related project for SDG number 15.</p>
+              <p>For more information, please visit our <a class="link-download" target="_blank" href="sustainable">Sustainable Development Impact page</a>.</p>
+            </section>                 
           </section>
           <section id="participated">
             <h2 class="main-title">Participated in</h2>
             <section id="msp">
               <h3 class="small-title">Scientific article writing for MSP Vector journal</h3>
               <p>One of the most remarkable collaborations we participated in is the journal organized by the MSP 2022 iGEM team. This year's journal is the third edition, and this initiative aims to highlight the most innovative investigation and research teams have done for iGEM Competition 2022. After a peer review process and expert reviews from the journal editing community members, the three best articles are selected to be published. Our scientific article was distinguished among the three best participant articles and finally published! The title of our paper is: "Redefining lung cancer diagnosis with the use of DNA nanostructures." It refers to the research done by our team, which is based on Synthetic Biology combining liquid biopsies and circRNAs as specific biomarkers for developing a new diagnostic tool for lung cancer. </p>
-              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/2022-patras-medicine-msp-journal-article.pdf">Download the article</a>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/msp-vector-2022.pdf">Download the journal</a>
             </section>
             <section id="biosafety">
               <h3 class="small-title">Biosafety Practices</h3>
