@@ -466,6 +466,12 @@
                   </div>
                 </div>
               </li>
+              <li class="timeline-item period">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h2 class="timeline-title">~See you in Paris our lovely Partners~</h2>
+                </div>
+              </li>
             </section>
           </ul>
         </div>
