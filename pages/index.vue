@@ -150,12 +150,12 @@
             <li>
               <input type="radio" name="select" id="image4">
               <div class="item-hugger" data-aos="fade-up" data-aos-duration="1000">
-                <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/esc-small.jpg" />
+                <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/e-sc-lab-horizontal.jpg" />
                 <label for="image4"></label>
               </div>
               <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/esc.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
-                  <div class="title">Communication & Education</div>
+                  <div class="title">Education & Communication</div>
                   <p class="txt">Comics, podcasts, board games, project presentations, and many more. Did we manage to spread Syn-Bio knowledge?</p>
                   <a href="communication" class="pills">Read more</a>
                 </div>
