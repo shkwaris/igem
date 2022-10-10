@@ -1,5 +1,5 @@
 <template>
-  <div style="overflow-x: hidden">
+  <div>
     <Header :title="currentPage"></Header>
 
     <div class="bg partnership" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/partnership-cover-syn-pnoia.jpg') center center no-repeat; background-size: cover;">
@@ -28,7 +28,7 @@
           </div>
 
           <ul class="timeline timeline-centered">
-            <section id="march">
+            <section id="march" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -78,7 +78,7 @@
               </li>
             </section>
 
-            <section id="april">
+            <section id="april" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -97,7 +97,7 @@
               </li>
             </section>
 
-            <section id="may">
+            <section id="may" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -134,7 +134,7 @@
               </li>
             </section>
 
-            <section id="june">
+            <section id="june" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -166,7 +166,7 @@
               </li>
             </section>
 
-            <section id="july">
+            <section id="july" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -213,7 +213,7 @@
               </li>
             </section>
 
-            <section id="august">
+            <section id="august" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -283,7 +283,7 @@
               </li>
             </section>
 
-            <section id="september">
+            <section id="september" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -397,7 +397,7 @@
               </li>
             </section>
 
-            <section id="october">
+            <section id="october" class="nopad">
               <li class="timeline-item period">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -511,15 +511,15 @@ export default {
             if (this.activeMonth == "") {
               this.activeMonth = id;
               document.querySelector(`.timeline-menu a[name="${this.activeMonth}"]`).className = "active";
-            } 
+            }
             if (this.activeMonth != id) {
               document.querySelector(`.timeline-menu a[name="${this.activeMonth}"]`).className = "";
               this.activeMonth = id;
               document.querySelector(`.timeline-menu a[name="${this.activeMonth}"]`).className = "active";
             }
           }
-        });   
-      }, this.observerOptions);   
+        });
+      }, this.observerOptions);
 
       document
         .querySelectorAll("section[id]")

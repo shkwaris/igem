@@ -1,3 +1,6 @@
+section.nopad {
+    padding: 0 !important;
+}
 .timeline-menu {
     //display: inline-block;
     position: sticky;
@@ -79,9 +82,9 @@
         position: absolute;
         top: 24px; bottom: 0; left: 6px;
     }
-    .timeline-item:last-child &:after {
-        content: none;
-    }
+    // .timeline-item:last-child &:after {
+    //     content: none;
+    // }
 }
 .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
