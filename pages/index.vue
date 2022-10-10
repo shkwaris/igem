@@ -111,7 +111,7 @@
                 <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/wet-lab-small.jpg" />
                 <label for="image1"></label>
               </div>
-              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/wet-lab.jpg') center center no-repeat; background-size: cover;">
+              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/wet1.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Wet lab</div>
                   <p class="txt">You can browse through our first steps. The promising results encourage us for the long way to go!</p>
@@ -125,7 +125,7 @@
                 <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/product-small.jpg" />
                 <label for="image2"></label>
               </div>
-              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/product.jpg') center center no-repeat; background-size: cover;">
+              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/product1.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Product</div>
                   <p class="txt">We envision our technique applied to hospitals, health clinics, and microbiological labs. All needed components will be included in a single kit to ensure ease of use.</p>
@@ -139,7 +139,7 @@
                 <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/hp-small.jpg" />
                 <label for="image3"></label>
               </div>
-              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/hp.jpg') center center no-repeat; background-size: cover;">
+              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/hp1.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">(Integrated) Human Practices</div>
                   <p class="txt">See how our team communicated project syn-PNOIA with the audience and how the experts' opinion developed our the project.</p>
@@ -153,7 +153,7 @@
                 <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/e-sc-lab-horizontal.jpg" />
                 <label for="image4"></label>
               </div>
-              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/esc.jpg') center center no-repeat; background-size: cover;">
+              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/e-c1.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Education & Communication</div>
                   <p class="txt">Comics, podcasts, board games, project presentations, and many more. Did we manage to spread Syn-Bio knowledge?</p>
@@ -167,7 +167,7 @@
                 <img class="thumb-image" src="https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/model-small.jpg" />
                 <label for="image5"></label>
               </div>
-              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/model.gif') center center no-repeat; background-size: cover;">
+              <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/model1.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
                   <div class="title">Model</div>
                   <p class="txt">Observe our system through different angles: Thermodynamic analysis, 2D & 3D structure modeling, Molecular Dynamics simulations, and design's kinetic behavior.</p>
