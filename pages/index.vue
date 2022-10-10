@@ -141,7 +141,7 @@
               </div>
               <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/hp.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
-                  <div class="title">Integrated Human Practices</div>
+                  <div class="title">(Integrated) Human Practices</div>
                   <p class="txt">See how our team communicated project syn-PNOIA with the audience and how the experts' opinion developed our the project.</p>
                   <a href="human-practices" class="pills">Check out our journey</a>
                 </div>
@@ -155,9 +155,9 @@
               </div>
               <div class="gal-content" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/home-gallery/esc.jpg') center center no-repeat; background-size: cover;">
                 <div class="item-wrapper" data-aos="fade-right" data-aos-duration="1000">
-                  <div class="title">Education & Science Communication</div>
+                  <div class="title">Communication & Education</div>
                   <p class="txt">Comics, podcasts, board games, project presentations, and many more. Did we manage to spread Syn-Bio knowledge?</p>
-                  <a href="education" class="pills">Read more</a>
+                  <a href="communication" class="pills">Read more</a>
                 </div>
               </div>
             </li>
