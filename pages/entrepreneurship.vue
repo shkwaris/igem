@@ -74,8 +74,8 @@
                 <li>SOM (Serviceable Obtainable Market / Share of Market). For our diagnostic test, SOM is planned to consist of clinics, diagnostic centers, and hospitals located in the biggest cities of Greece.</li>
               </ul>
               <br><br>
-              <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/entrepreneurship/tam.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/entrepreneurship/tam.png"/></a>
+              <figure class="gallery rounded mx-auto d-block" style="width: 50%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/entrepreneurship/tam-1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/entrepreneurship/tam-1.png"/></a>
               </figure>
             </section>
           </section>
