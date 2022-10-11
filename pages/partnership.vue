@@ -59,9 +59,9 @@
                   <h3 class="timeline-title">Acquaintance of the two teams</h3>
                   <p>On the 10th of March, we scheduled an online meeting to get to know each other. In the beginning, everyone introduced themselves by saying a few things about their work, and then we presented the two projects in detail. We then created a common communication platform, and the leaders of each subgroup discussed ways of possible cooperation in their field and scheduled different calls to discuss their progress in more detail.</p>
                   <div class="timeline-images gallery">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/3.png"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/foto-3.jpg"/></a>
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/5-allagi.png"/></a>
                   </div>
                 </div>
               </li>
@@ -384,7 +384,6 @@
                   <h3 class="timeline-title">Seminar "Synthetic Biology Approaches in Cancer Translational Research"</h3>
                   <p>On the 19th of September, we organized a Seminar about Synthetic Biology, which was addressed to students. This webinar took place in Thessaloniki KE.D.E.A. Conference Hall and was attended by approximately 100 students from the faculties of Medicine, Biology, Pharmacy, Chemistry, and Chemical Engineering. The first part of the conference program featured talks on the science of Synthetic Biology and what could be applied. Then it was described what the iGEM competition is and what conditions exist for someone to be able to participate. After this report, the two teams presented their projects to the public, receiving very encouraging comments on the impact of the diagnostic tools on the public. In the third part of the program, speeches were heard about the applications of Synthetic Biology in treating lung cancer, the construction of drug delivery systems, and pharmacogenomics. Finally, they were presented by Mr. Bochalis Eleftherios with the diagnostic techniques used today and explained the reasons why they are not capable of early diagnosis.</p>
                   <div class="timeline-images gallery">
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/28.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/28.jpg"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/29.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/29.jpg"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/30.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/30.jpg"/></a>
                   </div>

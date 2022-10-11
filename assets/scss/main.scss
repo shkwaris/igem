@@ -268,6 +268,13 @@ figcaption {
     text-align: justify;
     line-height: 30px;
   }
+  &.acc li {
+    font-size: 16px;
+    line-height: 22px;
+    list-style-type: disc;
+    margin-left: 2rem;
+    text-align: justify;
+  } 
 }
 
 .half-content {
