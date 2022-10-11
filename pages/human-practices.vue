@@ -1,59 +1,60 @@
 <template>
   <div>
-    <Header :title="currentPage"></Header>
-
-    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
-      <h1 class="head-title">{{currentPage}}</h1>
-    </div>
-
-    <section class="intro">
+    <Header :title="currentPage">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+        <h1 class="head-title">{{currentPage}}</h1>
+      </div>
+      <section class="intro">
       <div class="container">
-        <div class="row">
-          <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
-            <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"/></a>
-          </div>
-          <div class="col-xs-12 col-xl-6">
-              <p>Inspired by "The iGEM Cycle," we oriented the work of our Integrated Human Practices around it. Therefore, changing the categories, we divided our own cycle into 6 new ones while maintaining the chronological order defined by the competition. We start by understanding the problem we are willing to solve, and finally, we come to a proposed implementation and some future steps.
-                If you want to follow us on the journey of Integrated Human Practices, all you have to do is consult the circle.</p>
+          <div class="row">
+            <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
+              <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"/></a>
+            </div>
+            <div class="col-xs-12 col-xl-6">
+                <p>Inspired by "The iGEM Cycle," we oriented the work of our Integrated Human Practices around it. Therefore, changing the categories, we divided our own cycle into 6 new ones while maintaining the chronological order defined by the competition. We start by understanding the problem we are willing to solve, and finally, we come to a proposed implementation and some future steps.
+                  If you want to follow us on the journey of Integrated Human Practices, all you have to do is consult the circle.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="intro">
-      <p>Respecting personal data and the applicable laws that concern them, our team has created a <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/integrated/consent-form.pdf">consent form</a> to be filled out by the participants. Some have decided to remain anonymous and not have their photos published. For this reason, not all of our interviews have photographic material.</p>
-    </section>
+      </section>
+      <section class="intro">
+        <p>Respecting personal data and the applicable laws that concern them, our team has created a <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/integrated/consent-form.pdf">consent form</a> to be filled out by the participants. Some have decided to remain anonymous and not have their photos published. For this reason, not all of our interviews have photographic material.</p>
+      </section>
+    </Header>
 
     <Scrollspy :currentPage="currentPage" initialSection="section1">
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Understanding the Problem</a></li>
-              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Verifying the Need</a></li>
-              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Define a Good Solution</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section3-1`" v-scroll-to="'#section3-1'" parent="section3">Wet Lab Experts</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section3-2`" v-scroll-to="'#section3-2'" parent="section3">Dry Lab Experts</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Design a Good Solution</a></li>
-              <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Proposed Implementation</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section4">Public Sector</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section4">Private Sector</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-3`" v-scroll-to="'#section4-3'" parent="section4">Future Doctors</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-3`" v-scroll-to="'#section4-3'" parent="section4">Future Steps</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">Bioethics & Biosafety</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section4">Governmental Associatons</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section4">Biosafety & Biosecurity</a></li>
-              </ul>
-            </ol>
+            <div class="row">
+              <progress min="0" max="100" value="0"></progress>
+              <ol>
+                <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Understanding the Problem</a></li>
+                <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Verifying the Need</a></li>
+                <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Define a Good Solution</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#section3-1`" v-scroll-to="'#section3-1'" parent="section3">Wet Lab Experts</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section3-2`" v-scroll-to="'#section3-2'" parent="section3">Dry Lab Experts</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Design a Good Solution</a></li>
+                <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Proposed Implementation</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#section5-1`" v-scroll-to="'#section5-1'" parent="section5">Public Sector</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section5-2`" v-scroll-to="'#section5-2'" parent="section5">Private Sector</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section5-3`" v-scroll-to="'#section5-3'" parent="section5">Future Doctors</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section5-3`" v-scroll-to="'#section5-3'" parent="section5">Future Steps</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">Bioethics & Biosafety</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section6">Governmental Associatons</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section6">Biosafety & Biosecurity</a></li>
+                </ul>
+              </ol>
+            </div>
           </nav>
         </div>
 
-        <div class="col-lg-9 main-content">
+        <div class="col-lg-9 main-content" id="main-content">
           <section id="section1">
             <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
             <p>Ηaving already formed our team for iGEM Competition 2022, and in the process of searching for the project we will work on, the idea arose from a lecture at the Medical School of the University of Patras.</p>
@@ -140,11 +141,34 @@
 </template>
 
 <script>
+import SimpleLightbox from "simplelightbox";
+
 export default {
     data() {
         return {
             currentPage: "Human Practices",
         };
-    }, 
+    },
+    mounted() {
+      var lightbox = new SimpleLightbox('.gallery a',
+          {
+            overlayOpacity: 0.9,
+            animationSpeed: '150',
+            animationSlide: false,
+          }
+        );
+      window.addEventListener("scroll", this.scrolled);
+      window.addEventListener("load", () => {
+          this.scrolled();
+        });
+    },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.scrolled);
+    },
+    methods: {
+      scrolled: function () {
+        document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      }
+    }
 }
 </script>
