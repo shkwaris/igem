@@ -44,6 +44,7 @@
             <li class="menu items"><a @click="pushRoute('/team')">Members</a></li>
             <li class="menu items"><a @click="pushRoute('/attributions')">Attributions</a></li>
             <li class="menu items"><a @click="pushRoute('/collaborations')">Collaborations</a></li>
+            <li class="menu items"><a @click="pushRoute('/sponsors')">Sponsors</a></li>
         </SubMenu>
         <SubMenu id="project" selected="#project" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/description')">Description</a></li>
