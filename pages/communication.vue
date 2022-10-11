@@ -92,7 +92,6 @@
                 <label for="a2" class="acc-label icon" style="margin-bottom: 20px">Synthetic Biology approaches in Cancer Translational Research</label>
                 <div class="acc-child">
                   <p>During our visit to Thessaloniki, we were pleased to attend the seminar organized by our partners from iGEM MetaThess titled "Synthetic Biology approaches in Cancer Translational Research." Throughout the event, outstanding speakers gave discourses about synthetic biology and the institution of the iGEM competition. Then followed the two iGEM groups' presentations regarding explaining our project. The seminar was very engaging, and the participants were willing to ask questions about the presentations and the competition processes as they piqued their interest.</p>
-                  https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg
                   <div class="gallery grid2">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-2.jpg"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg"/></a>
