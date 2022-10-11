@@ -26,7 +26,7 @@
                                         <span class="role public-relations" v-if="category === 'Public Relations'">{{category}}</span>
                                     </template>
                                     <p class="member">
-                                        <a href="#"><img src="https://static.igem.wiki/teams/4118/wiki/icon-linkedin.svg" class="linkedin" alt="Follow on Linkedin"></a>
+                                        <a :href="member.linkedin" v-if="member.linkedin != ''"><img src="https://static.igem.wiki/teams/4118/wiki/icon-linkedin.svg" class="linkedin" alt="Follow on Linkedin"></a>
                                         <br>
                                         {{member.title}}
                                     </p>
@@ -52,7 +52,11 @@
                                         <span class="role lab-instructor" v-if="category === 'Lab Instructor'">{{category}}</span>
                                         <span class="role entrepreneurship" v-if="category === 'Team Advisor'">{{category}}</span>
                                     </template>
-                                    <p>{{supervisor.title}}</p>
+                                    <p class="member">
+                                        <a :href="supervisor.linkedin" v-if="supervisor.linkedin != ''"><img src="https://static.igem.wiki/teams/4118/wiki/icon-linkedin.svg" class="linkedin" alt="Follow on Linkedin"></a>
+                                        <br>
+                                        {{supervisor.title}}
+                                    </p>
                                     <a>View more</a>
                                 </figcaption>
                             </figure>
@@ -77,11 +81,11 @@ export default {
         };
     },
     mounted() {
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/members/members.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/members/members-2.json")
           .then(res => res.json())
           .then(data => this.memberList = data)
           .catch(err => { throw err });
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/members/supervisors.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/members/supervisors-2.json")
           .then(res => res.json())
           .then(data => this.superList = data)
           .catch(err => { throw err });
