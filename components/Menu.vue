@@ -55,7 +55,7 @@
             <li class="menu items"><a @click="pushRoute('/experiments')">Experiments</a></li>
             <li class="menu items"><a @click="pushRoute('/results')">Results</a></li>
             <li class="menu items"><a @click="pushRoute('/proof-of-concept')">Proof of Concept</a></li>
-            <li class="menu items"><a @click="pushRoute('/implementation')">Implementation</a></li>
+            <li class="menu items"><a @click="pushRoute('/implementation')">Proposed Implementation</a></li>
             <li class="menu items"><a @click="pushRoute('/contribution')">Contribution</a></li>
         </SubMenu>
         <SubMenu id="public-engagement" selected="#public-engagement" className="submenu closed" :closeSubMenu="closeSubMenu">
