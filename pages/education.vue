@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header :title="currentPage"></Header>
-
-    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
-      <h1 class="head-title">{{currentPage}}</h1>
-    </div>
+    <Header :title="currentPage">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+        <h1 class="head-title">{{currentPage}}</h1>
+      </div>
+    </Header>
 
     <section class="intro">
       <p>Setting a goal to inspire and motivate young people to engage with Synthetic Biology and understand the prospects of this scientific field in solving global problems, we implemented several educational activities and presentations.</p>
@@ -14,22 +14,26 @@
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Comic</a></li>
-              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Board Games</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section2-1`" v-scroll-to="'#section2-1'" parent="section2">DNA Runner</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-2`" v-scroll-to="'#section2-2'" parent="section2">GENE-US</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">The SynBio Dictionary</a></li>
-              <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Summer Camp</a></li>
-              <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Presentation at School</a></li>
-              <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">New Chapter</a></li>
-            </ol>
+            <div class="row">
+              <progress min="0" max="100" value="0"></progress>
+              <ol>
+                <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Comic</a></li>
+                <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Board Games</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#section2-1`" v-scroll-to="'#section2-1'" parent="section2">DNA Runner</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section2-2`" v-scroll-to="'#section2-2'" parent="section2">GENE-US</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">The SynBio Dictionary</a></li>
+                <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Summer Camp</a></li>
+                <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Presentation at School</a></li>
+                <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">New Chapter</a></li>
+              </ol>
+            </div>
+
           </nav>
         </div>
 
-        <div class="col-lg-9 main-content">
+        <div class="col-lg-9 main-content" id="main-content">
           <section id="section1">
             <p>Our team has an unwavering goal to fight cancer. As we know, awareness and information are the key to preventing and fighting this morbidity. Therefore, starting from childhood, we decided to create a comic that will bring children closer to our idea and our project. After all, knowledge is power.This is how we bring young people into contact with health, wellness, cancer and Igemers through a delightful story. Our comic made the rounds of Greek schools where the children had the opportunity to hear our story and read it. The comic is called the lamp of health.</p>
           </section>
@@ -76,6 +80,20 @@ export default {
         return {
             currentPage: "Education",
         };
-    }, 
+    },
+    mounted() {
+      window.addEventListener("scroll", this.scrolled);
+      window.addEventListener("load", () => {
+          this.scrolled();
+        });
+    },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.scrolled);
+    },
+    methods: {
+      scrolled: function () {
+        document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      }
+    }
 }
 </script>
