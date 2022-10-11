@@ -35,21 +35,26 @@
 
         <div class="col-lg-9 main-content" id="main-content">
           <section id="section1">
+            <h2 class="main-title">Comic</h2>
             <p>Our team has an unwavering goal to fight cancer. As we know, awareness and information are the key to preventing and fighting this morbidity. Therefore, starting from childhood, we decided to create a comic that will bring children closer to our idea and our project. After all, knowledge is power.This is how we bring young people into contact with health, wellness, cancer and Igemers through a delightful story. Our comic made the rounds of Greek schools where the children had the opportunity to hear our story and read it. The comic is called the lamp of health.</p>
           </section>
           <section id="section2">
-            <h2 class="main-title">Section 2</h2>
+            <h2 class="main-title">Board Games</h2>
             <section id="section2-1">
+              <h3 class="small-title">DNA Runner</h3>
               <p>This is a board game about the complementarity of DNA bases, which also includes various factors - such as DNA polymerase or mutagenic agents - that can affect it. So, in a more playful way, we educate younger children on how DNA is organized inside the cell.</p>
             </section>
             <section id="section2-2">
+              <h3 class="small-title">GENE-US</h3>
               <p>This is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</p>
             </section>
           </section>
           <section id="section3">
+            <h2 class="main-title">The SynBio Dictionary</h2>
             <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology we came up with the creation of a dictionary. Our “SynBio Dictionary” contains terms scientifically and accurately defined, related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached from the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms, and so we invited 2 more teams to create their own extension to our idea.</p>
           </section>
           <section id="section4">
+            <h2 class="main-title">Summer Camp</h2>
             <p>In the context of "Education," we visited the Experimental High School of Patras to communicate synthetic biology to young people and students.</p>
             <p>In the workshop area of the summer camp and with the supervising professor, Mr. Arlapanos Georgios, we encountered the members of the "Ludo ergo sum" team, and we were allowed to discuss our project and the team's achievements during the competition. </p>
             <p>However, the most important thing is that our goal was to introduce the students to the concept of synthetic biology. After giving a short presentation, we played the board games we created as a team which, in addition to entertainment, also have an educational role.</p>
@@ -59,13 +64,16 @@
             <p>We learned about tabletop design from the students' experience and Mr. Arlapanos, and those of us got a little taste of the concept of SynBio.</p>
           </section>
           <section id="section5">
+            <h2 class="main-title">Presentation at School</h2>
             <p>Visiting a High School of Patras, we had the opportunity to simply present our project and explain in a fun way Synthetic Biology basics through the board games we created, which we played for a second time to a more significant portion of students who are striving to become upcoming medical students. We also presented the comic that we created as a team to the students, which describes in a simpler way how cancer works and how it can affect a person's life.</p> 
             <p>It is remarkable how interesting they found the activities we prepared for them and paid attention the whole time. Our role that day was not only to disseminate synthetic biology but also to inform future health scientists about the wider problem of lung cancer diagnosis and, by extension, prognosis.</p>
-            <p>To sum up, through our two meetings at the Experimental High School of Patras, we conclude that as Patras Medicine, we managed to teach the students the concept of complementarity, genetics, and the various variations that occur in the DNA of each person through the DNA Runner board game. On the other hand, we use the question-answer method through the Gene-us board game, the goal of which is for students to retain some of the basic concepts of synthetic biology - we know very well that this way of learning is more efficient. Furthermore, through the comic book "The Lamp of Health," we helped them to understand in a simple but at the same time explanatory way that many of our choices can affect our lives positively or negatively. Finally, we were given the opportunity to contribute to the vocational guidance of young people, considering that we are undergraduate students 
+            <p>To sum up, through our two meetings at the Experimental High School of Patras, we conclude that as Patras Medicine, we managed to teach the students the concept of complementarity, genetics, and the various variations that occur in the DNA of each person through the DNA Runner board game. On the other hand, we use the question-answer method through the Gene-us board game, the goal of which is for students to retain some of the basic concepts of synthetic biology - we know very well that this way of learning is more efficient.</p> 
+            <p>Furthermore, through the comic book "The Lamp of Health," we helped them to understand in a simple but at the same time explanatory way that many of our choices can affect our lives positively or negatively. Finally, we were given the opportunity to contribute to the vocational guidance of young people, considering that we are undergraduate students 
               in the field of health sciences, participating in a synthetic biology competition and dealing with such a combustive issue.</p>
             <p>Overall from our point of view, we feel that we have been a positive influence on the students, and our meetings have been efficacious.</p>
           </section>
           <section id="section6">
+            <h2 class="main-title">New Chapter</h2>
             <p>After we had successfully visited schools and the summer camp, we got impressed by the interest students showed in our project and most importantly in Synthetic Biology. The majority of them expressed their desire to further study and explore this scientific field. We thought that it would be really helpful to integrate Synthetic Biology to their lessons’ schedule. For this reason one of our team members, our advisor, wrote a whole chapter in which Synthetic Biology is scientifically defined and further approaches and biosecurity are described in detail. This chapter is a proposed extension for the school book of high school students interested in this field, so that they will  have the opportunity to be taught more about Synthetic Biology during their school life.</p>
           </section>
         </div>
