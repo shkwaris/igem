@@ -96,7 +96,7 @@
             @apply transform -translate-x-full duration-700;
         }
         .content {
-            @apply scale-95 origin-top duration-700;
+            @apply scale-95 origin-top duration-1000;
             filter: blur(4px);
         }
     }

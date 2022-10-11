@@ -10,26 +10,29 @@
       <div class="row">
         <div class="col-lg-3">
           <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#intoduction`" v-scroll-to="'#intoduction'">Intoduction</a></li>
-              <li><a :href="`${currentPage}/#goals`" v-scroll-to="'#goals'">Our Sustainable Development Goals</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#hunger`" v-scroll-to="'#hunger'" parent="goals">Zero Hunger</a></li>
-                <li class="sub"><a :href="`${currentPage}/#good`" v-scroll-to="'#good'" parent="goals">Good Health & Well-Being</a></li>
-                <li class="sub"><a :href="`${currentPage}/#education`" v-scroll-to="'#education'" parent="goals">Quality Education</a></li>
-                <li class="sub"><a :href="`${currentPage}/#gender`" v-scroll-to="'#gender'" parent="goals">Gender Equality</a></li>
-                <li class="sub"><a :href="`${currentPage}/#innovation`" v-scroll-to="'#innovation'" parent="goals">Industry, Innovation & Infrastructure</a></li>
-                <li class="sub"><a :href="`${currentPage}/#reduced`" v-scroll-to="'#reduced'" parent="goals">Reduced Inequalities</a></li>
-                <li class="sub"><a :href="`${currentPage}/#land`" v-scroll-to="'#land'" parent="goals">Life on Land</a></li>
-                <li class="sub"><a :href="`${currentPage}/#peace`" v-scroll-to="'#peace'" parent="goals">Peace, Justice & Strong Institutions</a></li>
-                <li class="sub"><a :href="`${currentPage}/#partnerships`" v-scroll-to="'#partnerships'" parent="goals">Partnerships for the Goals</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#conclusion`" v-scroll-to="'#conclusion'">Conclusion</a></li>
-            </ol>
+            <div class="row">
+              <progress min="0" max="100" value="0"></progress>
+              <ol>
+                <li><a :href="`${currentPage}/#intoduction`" v-scroll-to="'#intoduction'">Intoduction</a></li>
+                <li><a :href="`${currentPage}/#goals`" v-scroll-to="'#goals'">Our Sustainable Development Goals</a></li>
+                <ul>
+                  <li class="sub"><a :href="`${currentPage}/#hunger`" v-scroll-to="'#hunger'" parent="goals">Zero Hunger</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#good`" v-scroll-to="'#good'" parent="goals">Good Health & Well-Being</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#education`" v-scroll-to="'#education'" parent="goals">Quality Education</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#gender`" v-scroll-to="'#gender'" parent="goals">Gender Equality</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#innovation`" v-scroll-to="'#innovation'" parent="goals">Industry, Innovation & Infrastructure</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#reduced`" v-scroll-to="'#reduced'" parent="goals">Reduced Inequalities</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#land`" v-scroll-to="'#land'" parent="goals">Life on Land</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#peace`" v-scroll-to="'#peace'" parent="goals">Peace, Justice & Strong Institutions</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#partnerships`" v-scroll-to="'#partnerships'" parent="goals">Partnerships for the Goals</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#conclusion`" v-scroll-to="'#conclusion'">Conclusion</a></li>
+              </ol>
+            </div>
           </nav>
         </div>
 
-        <div class="col-lg-9 main-content">
+        <div class="col-lg-9 main-content" id="main-content">
           <section id="intoduction">
             <h2 class="main-title">Intoduction</h2>
             <p>The concept of sustainable development, which was defined in 1987 by the Brundtland Commission, is people-centered and spans three fundamental approaches: economic, environmental, and social.</p>
@@ -142,7 +145,7 @@ import SimpleLightbox from "simplelightbox";
 export default {
     data() {
         return {
-            currentPage: "Sustainable",
+            currentPage: "Sustainable Development Impact",
         };
     }, 
     mounted() {
@@ -153,6 +156,18 @@ export default {
             animationSlide: false,
           }
         );
+      window.addEventListener("scroll", this.scrolled);
+      window.addEventListener("load", () => {
+          this.scrolled();
+        });
     },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.scrolled);
+    },
+    methods: {
+      scrolled: function () {
+        document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      }
+    }
 }
 </script>

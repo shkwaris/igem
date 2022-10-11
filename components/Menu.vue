@@ -71,7 +71,7 @@
             <li class="menu items"><a @click="pushRoute('/education')">Education</a></li>
             <li class="menu items"><a @click="pushRoute('/inclusivity')">Inclusivity</a></li>
             <li class="menu items"><a @click="pushRoute('/software')">Software</a></li>
-            <li class="menu items"><a @click="pushRoute('/sustainable')">Sustainable</a></li>
+            <li class="menu items"><a @click="pushRoute('/sustainable')">Sustainable Development Impact</a></li>
         </SubMenu>
     </div>
 </template>
