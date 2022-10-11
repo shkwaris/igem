@@ -48,7 +48,7 @@
           </section>
           <section id="liquid">
             <h2 class="main-title">What about liquid biopsies?</h2>
-            <p>Liquid biopsy allows cancer detection, analysis, and monitoring in various body effluents, such as blood or urine, instead of a fragment of cancer tissue [2]. The body fluid used most commonly for liquid biopsy is blood. By analyzing the sample for cancer cells or circulating tumor DNA, doctors can determine whether a tumor is present or whether treatment is working. In addition, liquid biopsies use blood as a tracking device for neoplastic cells in tumors. They also allow doctors to monitor how treatments work by observing mutations occurring over time within a tumor cell. Liquid biopsies are performed on peripheral blood, which is simple to access, allowing for more widespread use, particularly in patients who cannot undergo surgery.</p>
+            <p>Liquid biopsy allows cancer detection, analysis, and monitoring in various body effluents, such as blood or urine, instead of a fragment of cancer tissue <a class="link-ref" v-scroll-to="'#refs'">[2]</a>. The body fluid used most commonly for liquid biopsy is blood. By analyzing the sample for cancer cells or circulating tumor DNA, doctors can determine whether a tumor is present or whether treatment is working. In addition, liquid biopsies use blood as a tracking device for neoplastic cells in tumors. They also allow doctors to monitor how treatments work by observing mutations occurring over time within a tumor cell. Liquid biopsies are performed on peripheral blood, which is simple to access, allowing for more widespread use, particularly in patients who cannot undergo surgery.</p>
             <p>On the other hand, standard tissue biopsies typically require time-intensive and invasive procedures, such as bronchoscopy for lung cancer, to discover a malignancy. Often, these procedures do not seem appealing to the patient leading to them not getting tested at the onset of the disease. Because of this, liquid biopsies provide a simple way to diagnose malignancies, speeding up tumor identification and treatment of the patient. In addition, liquid biopsy, in contrast to tissue biopsy, allows non-invasive and real-time monitoring of disease development. As the biomarkers have a lifetime of several minutes to a few hours, we can estimate the risk for metastatic relapse or metastatic progression, provide information about the tumor's heterogeneity, and maybe identify therapeutic targets better.</p>
           </section>
           <section id="bncr">
@@ -112,7 +112,7 @@
               <p>Compared to traditional circRNA detection approaches, the LDN-based method presents several advantages:</p>
               <ul class="bullets">
                 <li>It does not require advanced laboratory equipment and expensive reagents. After LDN is formed, it can perform enzyme-free detection. It is an isothermal process and, unlike PCR, does not require a thermal cycler.</li>
-                <li>It can accurately recognize circRNA without interference from its linear isoforms. Therefore, no RNAse treatment is required before the reaction..</li>
+                <li>It can accurately recognize circRNA without interference from its linear isoforms. Therefore, no RNAse treatment is required before the reaction.</li>
                 <li>Biomarker detection happens in only 70 min, using a total RNA extract from a potential patient’s blood sample.</li>
               </ul>
             </section>
