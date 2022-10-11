@@ -131,16 +131,37 @@
               <p>Positive samples incubated at 37 <sup>o</sup>C gave off a fluorescence intensity of 57.4±3.9 (a.u.), while negative samples gave off 42.8±4.2 (a.u.). The standard error value was calculated for n=4 replicates. A S<sub>positive</sub>/S<sub>negative</sub> ratio of 1.4 indicated the possibility of our method to perform properly.</p>
               <p>Positive samples incubated at 42 <sup>o</sup>C gave off a fluorescence intensity of 46.9±3.7 (a.u.), while negative samples gave off 39.7±2.3 (a.u.). N=5 replicates were used for standard error calculation. Comparing the results above and the S<sub>positive</sub>/S<sub>negative</sub> ratios, we proceeded using 37 <sup>o</sup>C as an incubation temperature.</p>
               <p>Our next decision was concerning the buffer selection. We repeated everything using two different buffers instead of the Tris-MgCl2 buffer. We used 4x Saline Sodium Citrate (4x SSC, 1% BSA, pH=7.0) and 1x Phosphate Buffer Saline (1x PBS, 1% BSA, pH=7.4). Please refer to the <a href="" class="link-ref">Buffer preparation protocol</a> for more details. We prepared one LDN (hsa_circ_0102533) using 35 μL of each buffer, 5 μL of H1 (10 pmol/μL), 5 μL of H2 (10 pmol/μL), and 5μL of Linear scaffold (95.3 ng/μL). After incubation positive and negative samples were prepared as per our last experiment. Samples were incubated and loaded on Thermo Scientific™ Nunc 384-Well Black Plates. Fluorescence intensity was measured. Unfortunately, the ratio 7:5 did not vary between the different buffers. Therefore, we decided to continue our experiments with PBS (pH=7.4) because our fluorescent dye is more stable at this pH.</p>
+              <p>Also, after our kinetics experiment results described in the “Time-response kinetics analysis” subsection of our Results page, we decided to halt our reaction at 70 min, when it reaches maximum fluorescence intensity.</p>
             </section>
             <section>
-              <h3 class="small-title">Design</h3>
+              <h3 class="small-title">Retest</h3>
+              <p>So, next, we prepared an LDN for our last target, hsa_circ_0005962. We repeated the same protocol using 35 μL PBS buffer (pH=7.4), 5 μL of H1 (10 pmol/μL), 5 μL of H2 (10 pmol/μL), and 5μL of Linear scaffold. After incubation, we prepared positive samples with a range of BSJ fragment concentrations from 100 nM to 0.5 nM. Positive samples contained 18 μL of LDN reaction pool (LDN and buffer in 5:13 ratio). The samples were incubated in a thermal cycler at 37 <sup>o</sup>C for 70 min. We loaded the samples on Thermo Scientific™ Nunc 384-Well Black Plates, measured their fluorescence intensity at the corresponding wavelengths (Ex: 615 nm, Em: 634 nm), and received the calibration curve described in our Results page's <a href="" class="link-ref">"Calibration curve: BSJ hsa_circ_0005962"</a> subsection. This was our first satisfactory result. The ratio between positive and negative samples was 2.5, and the calibration curve is shown on <span>Fig.2</span>.</p>
+              <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/engineering/fig-2-1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/engineering/fig-2-1.png"/></a>
+                <figcaption class="figure-caption text-left"><span>Fig.2 Calibration curve of the LDN system in 0.5-100 nM BSJ target concentration range:</span> Error bars correspond to standard deviation of n=2 replicates. The horizontal axis is displayed on a logarithmic scale.</figcaption>
+              </figure>
+              <br><br>
+              <p>We decided that preparing calibration curves instead of positive-negative samples could give us more info on the quantification efficacy of the technique. So, we created a calibration curve for hsa_circ_102533, following exactly the last protocol. We, also, decide to load our samples on Thermo Scientific™ Nunc 384-Well Clear Plates. The fluorescence was measured at the corresponding wavelength and the results are presented on <span>Fig.3</span>. Results might not be comparable with positives and negatives of previous assays due to the change of microplate type, but, again, we see a ratio  S<sub>positive</sub>/S<sub>negative</sub> = 1.4 between the most concentrated sample and the negative.</p>
+              <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/engineering/102-cal-curve-f-w.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/engineering/102-cal-curve-f-w.png"/></a>
+                <figcaption class="figure-caption text-left"><span>Fig.3 Fluorescence emission spectra of LDN reaction mixture after incubation with different target concentrations (100 nM, 50 nM, 10 nM, 5 nM, 1 nM, and 0.5 nM) and absence of the target: </span>Samples were loaded on Thermo Scientific™ Nunc 384-Well Clear Plates. Excitation 554 nm, Emission 576-630 nm.</figcaption>
+              </figure>
+              <br><br>
             </section>
             <section>
-              <h3 class="small-title">Design</h3>
+              <h3 class="small-title">Learn and Improve</h3>
+              <p>We observed that all negative samples showed a high fluorescence intensity. So, at this point, we had to pause our experiments and plan our next step. We also faced a practical difficulty: The H2 we ordered for the hsa_circ_0005962 target had a yield of 0.6 nmol, while the one we ordered for the hsa_circ_0102533 target had a yield of 6.27 nmol. Therefore, the number of experiments we could perform with the hsa_circ_0005962 target was limited. So, we had a question: Why did the LDN for the hsa_circ_0005962 target perform a more efficient detection than the hsa_circ_0102533 target? </p>
+              <p>To solve this problem, we needed more info, hence, we planned the following experiments to test the interaction of H1 and H2 probes prior to target addition in the mixture. The experiments are described in our Results page, in the subsection <a @click="scrollToAncillary()" class="link-ref">“H1 and H2 interaction experiments”</a>. Please refer to this section before proceeding. After those experiments we concluded that H1 and H2 for the hsa_circ_0102533 target hybridize to each other in a mixture even though the target is absent. In fact, H1 and H2 hybridize at a greater level when assembled on the linear scaffold in the absence of the target. Of course, the fluorescence emitted in the presence of the target is still higher than the above mixtures in the absence of the target. We figured that we should minimize the fluorescence emitted in the absence of the target. On the other hand, for hsa_circ_0005962 the presence of H1 in a mixture of H2 did not significantly affect the fluorescence emission. Therefore, we concluded that H2 emits a significant amount of fluorescence when present in a mixture alone.</p>
+              <p>We gained information, but the problem remained. The solution was found after a few days of troubleshooting when we came up with an idea: to change the order of the reagents added into the mixture. We figured that H1 and H2 hybridize to each other during the Assembly step. Hence, we modified the Assemble protocol for hsa_circ_102533: 5 μL of H1 (10 pmol/μL), 5μL of Linear scaffold, 35 μL of Tris-MgCl2 buffer (500 mM, pH=8.0) were added in a 0.2mL PCR tube. The mixture was incubated at 37 <sup>o</sup>C for 1h. Then 5 μL of H2 (10 pmol/μL) were added to the mixture and incubated for 1 h. The calibration curve constructed after this Assembly protocol is presented as our final result in the <a href="" class="link-ref">"Calibration curve: BSJ hsa_circ_0102533"</a> subsection. By this alteration we achieved a 2-fold signal-to-background ratio in only 70 min when the most concentrated positive sample reached fluorescence emission of 184.6±4.0 (a.u).</p>
+              <p>This was our final <a @click="scrollToProtocols()" class="link-ref">protocol</a>. We proceeded with the rest of our <a href="experiments" class="link-ref">Experiments</a> following this optimized protocol. </p>
             </section>
             <section>
-              <h3 class="small-title">Design</h3>
+              <h3 class="small-title">Further work</h3>
+              <p>We repeated the final protocol at 25 <sup>o</sup>C and 42 <sup>o</sup>C. We concluded that the temperature of 37 <sup>o</sup>C was the ideal. Also, we repeated the protocol for the hsa_circ_0070354 target, but we received no positive results. </p>
             </section>
+          </section>
+          <section id="steps">
+            <h2 class="main-title">Future steps</h2>
           </section>
         </div>
       </div>
@@ -190,6 +211,12 @@ export default {
             this.$scrollTo("#protocols", 350, this.options);
           }, 1000)
         },
+      scrollToAncillary: function () {
+        this.$router.push({path: "experiments"});
+          setTimeout(() =>{
+            this.$scrollTo("#ancillary", 350, this.options);
+          }, 1000)
+      }
     }
 }
 </script>
