@@ -134,6 +134,9 @@ p {
     background-color: $main;
     margin-bottom: 30px;
   }
+  &.quiz {
+    background-color: $main;
+  }
   &:hover {
     background-color: black;
     color: white;
@@ -143,6 +146,18 @@ p {
 .primary-button.active {
   background-color: black;
   color: white;
+}
+
+.primary-button.true {
+  background-color: $secondary;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.primary-button.false {
+  background-color: $team-leader;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .home-sections img.smaller {
