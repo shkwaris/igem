@@ -44,6 +44,9 @@
             <section id="ijet">
               <h3 class="small-title">iJET video</h3>
               <p>Considering the global impact of the iGEM Competition and inspired by the "iJET paper plane that unites the world," a collaboration video organized by iGEM Aachen 2020, we decided to develop the existing idea further. Because of this, we created a video in which several iGEM teams, represented by one or more team members, would report their experience in the competition and their motivation for participating. The iGEM members were also requested to reveal the track they selected to compete in and briefly describe their project. Our iJET paper plane traveled in 11 cities worldwide, each represented by one iGEM team sharing their own fascinating idea and excitement for iGEM Competition 2022. This collaboration video was our way to cover thousands of miles bringing young researchers together and allowing them to highlight the importance and utility of Synthetic Biology by presenting their SynBio-based solution to an existing problem.</p>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="Patras_Medicine: iJET Video (2022) [English]" width="720" height="360" src="https://video.igem.org/videos/embed/3805057f-f83e-43d5-9e36-c794c75ae74a" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
             </section>
 
             <section>
@@ -197,6 +200,16 @@
             <p>Apart from the meet-ups we attended, we had the idea to host several online meetings throughout our journey to iGEM Competition 2022, inviting other iGEM teams from around the world to discuss our projects and share our excitement for the competition and the research process. </p>
             <p><span>These are the teams we contacted from our collaboration / meetings:</span></p>
             <p>iGEM Aachen, iGEM ICT Mumbai, iGEM WWU, iGEM CU Egypt - Pharaohs, iGEM DU DTU NSUT, iGEM Thessaloniki, Empire Gene iGEM team, iGEM Waterloo, iGEM CUHK-Hong Kong, iGEM Munster, iGEM Freiburg, iGEM Tuebingen.</p>
+            <div class="gallery grid">
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aachen.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aachen.jpeg"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-cuhk-hong-kong.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-cuhk-hong-kong.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-delhi.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-delhi.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-empire-gene.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-empire-gene.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-ict-mumbai-meeting.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-ict-mumbai-meeting.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-ocu-egypt-meeting.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-ocu-egypt-meeting.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-wwu-meeting.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/igem-wwu-meeting.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/screenshot-39.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/screenshot-39.png"/></a>
+            </div>
             <p>Through these meetings, we met incredible young people willing to work and investigate more about Synthetic Biology science, and we also gave and gained helpful advice regarding each others' projects.</p>
             <p>Particularly, iGEM ICT Mumbai helped us in our first Dry Lab steps regarding the mathematical modeling of our project, making modest suggestions such as to include molecular dynamics in our project, and we, therefore, got involved with GROMACS and oxDNA. At the same time, our team assisted iGEM ICT-Mumbai in forming and coordinating their team. Moreover, we collaborated with the iGEM Tubingen team, instructing them to do molecular dynamics simulations in GROMACS.</p>
           </section>
