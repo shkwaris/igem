@@ -32,10 +32,6 @@
                     <span class="arrow-right"></span>
                 </li>
                 <li class="menu items"><a @click="pushRoute('/partnership')">Partnership</a></li>
-                <li class="menu items">
-                    <a @click="handleSubMenu('#parts')">Parts</a>
-                    <span class="arrow-right"></span>
-                </li>
                 <li class="menu items"><a @click="pushRoute('/entrepreneurship')">Entrepreneurship</a></li>
                 <li class="menu items">
                     <a @click="handleSubMenu('#awards')">Awards</a>
@@ -56,19 +52,16 @@
             <li class="menu items"><a @click="pushRoute('/results')">Results</a></li>
             <li class="menu items"><a @click="pushRoute('/proof-of-concept')">Proof of Concept</a></li>
             <li class="menu items"><a @click="pushRoute('/implementation')">Proposed Implementation</a></li>
+            <li class="menu items"><a @click="pushRoute('/parts')">Parts</a></li>
             <li class="menu items"><a @click="pushRoute('/contribution')">Contribution</a></li>
         </SubMenu>
         <SubMenu id="public-engagement" selected="#public-engagement" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/human-practices')">(Integrated) Human Practices</a></li>
             <li class="menu items"><a @click="pushRoute('/communication')">Communication</a></li>
         </SubMenu>
-        <SubMenu id="parts" selected="#parts" className="submenu closed" :closeSubMenu="closeSubMenu">
-            <li class="menu items"><a @click="pushRoute('/part-collection')">Part Collection</a></li>
-            <li class="menu items"><a @click="pushRoute('/parts')">Parts</a></li>
-        </SubMenu>
         <SubMenu id="awards" selected="#awards" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/education')">Education</a></li>
-            <li class="menu items"><a @click="pushRoute('/inclusivity')">Inclusivity</a></li>
+            <li class="menu items"><a @click="pushRoute('/inclusivity')">Diversity & Inclusion</a></li>
             <li class="menu items"><a @click="pushRoute('/software')">Software</a></li>
             <li class="menu items"><a @click="pushRoute('/sustainable')">Sustainable Development Impact</a></li>
         </SubMenu>
