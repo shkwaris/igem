@@ -87,7 +87,7 @@
             </section>
             <section id="promotion">
               <h3 class="small-title">Promotion video translation</h3>
-              <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Chinese</a> by iGEM CUHK-Hong Kong, in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aboa-finnish-docx.pdf">Finnish</a> by iGEM Aboa, in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/iit-delhi-hindi-docx.pdf">Hindi</a> by iGEM IIT Delhi, and in <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tec-chihuahua-spanish-docx.pdf">Spanish</a> by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
+              <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Chinese</a> by iGEM CUHK-Hong Kong, in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aboa-finnish-docx.pdf">Finnish</a> by iGEM Aboa, in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/iit-delhi-hindi-docx.pdf">Hindi</a> by iGEM IIT Delhi, and in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tec-chihuahua-spanish-docx.pdf">Spanish</a> by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
             </section>
             <section id="synbio">
               <h3 class="small-title">The SynBio Dictionary</h3>
@@ -107,7 +107,7 @@
             <section id="sgds">
               <h3 class="small-title">Collaboration for SDGs</h3>
               <p>Aiming to achieve as many Sustainable Development Goals as possible we collaborated with other iGEM teams whose project is closely related to some of the 17 SDGs. Particularly, we asked iGEM Patras to send us a short text about the impact of their project in sustainable agriculture for SDG number 2 and iGEM Crete to send us a paragraph explaining the impact of their global food security-related project for SDG number 15.</p>
-              <p>For more information, please visit our <a class="link-download" target="_blank" href="sustainable">Sustainable Development Impact page</a>.</p>
+              <p>For more information, please visit our <a class="link-ref" target="_blank" href="sustainable">Sustainable Development Impact page</a>.</p>
             </section>                 
           </section>
           <section id="participated">
@@ -126,8 +126,8 @@
               <h3 class="small-title">Synthetic Biology Art Journal</h3>
               <p>Aiming to embrace art and combine it with science, we took part in a fascinating collaboration, a Synthetic Biology art journal organized by the ASU iGEM team. Getting inspired by Synthetic Biology, we created our art pieces, a poster, and a poem, and we submitted them to be part of a collection of fragments from iGEM teams worldwide.</p>
               <div class="gallery grid2">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"/></a>
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art2.png"/></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/art1.jpeg"/></a>
               </div>
             </section>
             <section id="pharaohs">
