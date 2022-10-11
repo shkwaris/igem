@@ -11,7 +11,7 @@
               <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/syn-pnoia-cycle.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/syn-pnoia-cycle.png"/></a>
             </div>
             <div class="col-xs-12 col-xl-6">
-                <p>Inspired by "The iGEM Cycle", we oriented the work of our Integrated Human Practices around it. Therefore, changing the categories, we divided our own cycle into 6 new ones while maintaining the chronological order defined by the competition. We start by understanding the problem we are willing to solve, and finally, we come to a proposed implementation and some future steps.
+                <p><span>Inspired by "The iGEM Cycle"</span>, we oriented the work of our Integrated Human Practices around it. Therefore, changing the categories, we divided our own cycle into 6 new ones while maintaining the chronological order defined by the competition. We start by understanding the problem we are willing to solve, and finally, we come to a proposed implementation and some future steps.
                   If you want to follow us on the journey of Integrated Human Practices, all you have to do is consult the "syn-PNOIA Cycle".</p>
                 <p>Respecting personal data and the applicable laws that concern them, our team has created a <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/integrated/consent-form.pdf">consent form</a> to be filled out by the participants. Some have decided to remain anonymous and not have their photos published. For this reason, not all of our interviews have photographic material.</p>
             </div>
@@ -32,8 +32,8 @@
                 <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Define a Good Solution</a></li>
                 <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Design a Good Solution</a></li>
                 <ul>
-                  <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section3">Wet Lab Experts</a></li>
-                  <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section3">Dry Lab Experts</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section4">Wet Lab Experts</a></li>
+                  <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section4">Dry Lab Experts</a></li>
                 </ul>
                 <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Proposed Implementation</a></li>
                 <ul>
@@ -340,7 +340,9 @@
               <p>For this reason, we addressed the Technical Security Office at the University of Patras, which provides a Health and Safety Guide. Each section of the guide has been drafted and approved by the Health and Safety Coordinating Committee and is based on international and Greek literature and legislation. Strict observation of the provisions for the conduct of the experimental procedure is mandatory to guarantee the project's safety. </p>
               <p>As far as the safety and security of our project are concerned, we performed additional research, which is extensively presented on our Safety page.</p>
               <p>Moreover, through our participation in the biosafety practices collaboration of iGEM Team-IISER_Mohali, we explained the protective measures and rules in the laboratory step by filming a short video.</p>
-              <iframe title="Yale: Biosynthesis of an Optimized (S)-equol Pathway in Gut Microbial Species fo... (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/4e16b958-4b57-4021-943e-f5a9b31b82d5" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="Yale: Biosynthesis of an Optimized (S)-equol Pathway in Gut Microbial Species fo... (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/4e16b958-4b57-4021-943e-f5a9b31b82d5" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
               <p>Our team had a beneficial meeting with a microbiologist, Mr. Sotiropoulos, who assisted us in blood sample preservation and handling, and he also gave us worthwhile insights about laboratory procedures.</p>
               <figure class="gallery">
                 <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig3.jpg"/></a>
