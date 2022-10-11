@@ -30,25 +30,34 @@
         <div class="col-lg-9 main-content" id="main-content">
           <section id="general">
             <h2 class="main-title">General Public</h2>
-            <p>With the aim of attracting more and more people to get interested in Synthetic Biology, iGEM Competition and syn-PNOIA we designed a sequel of activities including presentations in fairs, even quiz games combining entertainment and educational character.</p>
+            <p>Intending to attract more and more people to get interested in Synthetic Biology, iGEM Competition, and syn-PNOIA, we designed a sequel of activities including presentations in fairs and even quiz games combining entertainment and educational character.</p>
             <ul class="acc">
               <li class="acc-item">
                 <input id="g1" class="hide" type="checkbox">
                 <label for="g1" class="acc-label icon" style="margin-bottom: 20px">Thessaloniki International Fair</label>
                 <div class="acc-child">
                   <p>On September 17-18, our team attended the Thessaloniki International Fair 2022. The Thessaloniki International Fair (TIF) is an annual commercial exhibition event of great importance for Greece that takes place at the International Exhibition Center of Thessaloniki. This action took place within the framework of the Partnership since our partners from iGEM MetaThess invited us to the Academia stand.</p>
-                  <p>During our stay for several hours, we were allowed to inform the public about the field in which we operate as a group and to inform the world about the problem arising from the late diagnosis of lung cancer.</p>
+                  <p>During our presence, we had the chance to inform the public about our field of research as a group and the problem arising from the late diagnosis of lung cancer.</p>
                   <p>We distributed brochures to interested parties, verbally informed them about our actions, and showed our comics to younger children who visited the exhibition. In addition to informing the public, we had the honor to tell the former prime minister of our country, Mr. Tsipras, about what we do now and our future goals, who congratulated us on our work.</p>
                   <p>All the presentations and the public information were done with our partners from the iGEM MetaThess Team since we both have close projects to all extents. Our presence at TIF would not have been possible without them, and we thank them for the invitation.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair1.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair2.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/thessaloniki-international-fair3.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="g2" class="hide" type="checkbox">
                 <label for="g2" class="acc-label icon" style="margin-bottom: 20px">TEDxPatras</label>
                 <div class="acc-child">
-                  <p>On October 8th we participated in TEDxPatras which was a great opportunity to promote our team and stimulate university students’ interest on our project. </p>
-                  <p>In general, TED is an international nonpartisan nonprofit devoted to spreading ideas, covering almost all topics-including science-, while TEDx events help share ideas in communities around the world. TEDxPatras was organized in Western Greece at the University of Patras and Patras Medicine was part of it. In this event we presented our project to many young people and further informed them about iGEM Competition.</p>
-                  <p>Additionally, we interacted with several university students’ voluntary and research groups, took part in educational games and finally joined a Q&A session where we were asked to properly explain our project and provide special information about it.</p>
+                  <p>On October 8th, we participated in TEDxPatras, an excellent opportunity to promote our team and stimulate university students' interest in our project.</p>
+                  <p>TED is an international nonpartisan non-profit devoted to spreading ideas, covering almost all topics- including science-while TEDx events help share ideas in communities worldwide. TEDxPatras was organized in Western Greece at the University of Patras, and Patras Medicine was part of it. We presented our project to many young people at this event and further informed them about iGEM Competition. Additionally, we interacted with several university students' voluntary and research groups, participated in educational games, and finally joined a Q&A session where we were asked to explain our project and provide exceptional information about it. Through this event, we had the opportunity to interact with voluntary groups, iGEM teams, and non-profit organizations, exchanging ideas.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-1.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-2.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tedxpatras-3.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
@@ -64,13 +73,18 @@
 
           <section id="community">
             <h2 class="main-title">Academic Community</h2>
-            <p>Even though Synthetic Biology keeps growing as a scientific field the last few years and attracts the interest of more and more young researchers, it is not yet well known and widely applied in Greece. Our duty as a research group is to communicate and highlight the achievements and opportunities offered by the branch of science we have been studying, and for this reason we intended to spread Synthetic Biology and our idea among the academic community.</p>
+            <p>Even though Synthetic Biology has kept growing as a scientific field in the last few years and has attracted the interest of more and more young researchers, it is not yet well-known and widely applied in Greece. Our duty as a research group is to communicate and highlight the achievements and opportunities offered by the branch of science we have been studying. For this reason, we intended to spread Synthetic Biology and our idea among the academic community.</p>
             <ul class="acc">
               <li class="acc-item">
                 <input id="a1" class="hide" type="checkbox">
                 <label for="a1" class="acc-label icon" style="margin-bottom: 20px">Scientific Conference of Medical Students of Greece</label>
                 <div class="acc-child">
-                  <p>On May 14, our team attended the 28th Scientific Conference of Medical Students of Greece. The SCMSG is the crown of the activities of the Scientific Society of Medical Students of Greece. It has been organized continuously since 1994 and is hosted in a different Annex every year. This year it was organized in Athens, and our team leader had the opportunity to present our idea to medical students and delegates from Medical Schools in Greece and abroad, as well as from other Academies of Health Sciences. Also, it was the first live meeting of the Greek iGEM teams since they were all invited.</p>
+                  <p>On May 14th, our team attended the 28th Scientific Conference of Medical Students of Greece. The SCMSG is the crown of the activities of the Scientific Society of Medical Students of Greece. It has been organized continuously since 1994 and is hosted in a different Annex yearly. This year it was organized in Athens, and our team leader had the opportunity to present our idea to medical students and delegates from Medical Schools in Greece and abroad, as well as from other Academies of Health Sciences. Also, it was the first live meeting of the Greek iGEM teams since they were all invited.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie3.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie2.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie1.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
@@ -78,13 +92,21 @@
                 <label for="a2" class="acc-label icon" style="margin-bottom: 20px">Synthetic Biology approaches in Cancer Translational Research</label>
                 <div class="acc-child">
                   <p>During our visit to Thessaloniki, we were pleased to attend the seminar organized by our partners from iGEM MetaThess titled "Synthetic Biology approaches in Cancer Translational Research." Throughout the event, outstanding speakers gave discourses about synthetic biology and the institution of the iGEM competition. Then followed the two iGEM groups' presentations regarding explaining our project. The seminar was very engaging, and the participants were willing to ask questions about the presentations and the competition processes as they piqued their interest.</p>
+                  https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-2.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synthetic-biology-approaches-in-cancer-research-1.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="a3" class="hide" type="checkbox">
                 <label for="a3" class="acc-label icon" style="margin-bottom: 20px">Hellenic Conference “Present and Future of Oncology”</label>
                 <div class="acc-child">
-                  <p>On the 16th of June, our team attended the 2nd Hellenic Conference “Present and Future of Oncology”, at the University of Patras. Our Principal Investigator, Ms. Kallergi gave a presentation about the contribution of liquid biopsy in handling patients with cancer. She elaborated on the procedures needed to perform a liquid biopsy, the types of liquid biopsies, and the process from discovery to clinical application. She highlighted that more and more clinical studies focus on liquid biopsy, and that is why it is a non-invasive procedure that can provide very useful data about a person's health. Ms. Kallergi explained that according to the biomarkers detected in the patients' liquids, doctors can gain important information about the type and subtype of cancer and then select the best combination of drugs to target and eliminate cancer more efficiently. The presentation of our PI regarding liquid biopsies as the diagnostic method we have based our project on as a research team was enlightening for the academic audience who attended the conference.</p>
+                  <p>On June 16th, our team attended the 2nd Hellenic Conference "Present and Future of Oncology", at the University of Patras. Our Principal Investigator, Ms. Kallergi gave a presentation about the contribution of liquid biopsy in handling patients with cancer. She elaborated on the procedures needed to perform a liquid biopsy, the types of liquid biopsies, and the process from discovery to clinical application. She highlighted that more and more clinical studies focus on liquid biopsy, which is why it is a non-invasive procedure that can provide instrumental data about a person's health. Ms. Kallergi explained that according to the biomarkers detected in the patients' liquids, doctors could gain important information about the type and subtype of cancer and then select the best combination of drugs to target and eliminate cancer more efficiently. The presentation of our PI regarding liquid biopsies as the diagnostic method we have based our project on as a research team was enlightening for the academic audience who attended the conference.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/kallergi1.jpeg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/kallergi1.jpeg"/></a>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -98,25 +120,33 @@
                 <input id="e1" class="hide" type="checkbox">
                 <label for="e1" class="acc-label icon" style="margin-bottom: 20px">Board games</label>
                 <div class="acc-child">
-                  <p>The goal of the Patras Medicine team is to bring children and adolescents up to 18 years old in contact with synthetic biology. For this purpose, we created 2 board games, and then we made sure to present them in schools, where students had the opportunity to play with them. More specifically:</p>
+                  <p>Patras Medicine team aims to bring children and adolescents up to 18 years old in contact with synthetic biology. For this purpose, we created 2 board games, and then we made sure to present them in schools, where students had the opportunity to play with them. More specifically</p>
                   <ul class="bullets acc">
-                    <li><span>DNA Runner:</span> This is a board game about the complementarity of DNA bases, which also includes various factors - such as DNA polymerase or mutagenic agents - that can affect it. So, in a more playful way, we educate younger children on how DNA is organized inside the cell.</li>
-                    <li><span>GENE - US:</span> This is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</li>
+                    <li><span>DNA Runner:</span> This is a board game about the complementarity of DNA bases, which includes various mutagenic factors - such as DNA polymerase or mutagenic agents - that can affect it. So, more playfully, we educate younger children on how DNA is organized inside the cell.</li>
+                    <li><span>GENE - US:</span> This is a knowledge board game in the form of questions and answers, which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</li>
                   </ul>
+                  <div class="gallery rounded mx-auto d-block" style="width: 80%; margin-top: 30px;">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/board-games.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/board-games.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="e4" class="hide" type="checkbox">
                 <label for="e4" class="acc-label icon" style="margin-bottom: 20px">Comic</label>
                 <div class="acc-child">
-                  <p>Our team has an unwavering goal to fight cancer. As we know, awareness and information are the key to preventing and fighting this morbidity. Therefore, starting from childhood, we decided to create a comic that will bring children closer to our idea and our project. After all, knowledge is power.This is how we bring young people into contact with health, wellness, cancer and Igemers through a delightful story. Our comic made the rounds of Greek schools where the children had the opportunity to hear our story and read it. The comic is called the lamp of health.</p>
+                  <p>Our team has an unwavering goal to fight cancer. As we know, awareness and information are the keys to preventing and fighting this morbidity. Therefore, starting from childhood, we decided to create a comic that would bring children closer to our idea and project. After all, knowledge is power. This is how we get young people into contact with health, wellness, cancer, and iGEMers through a delightful story. Our comic made the rounds of Greek schools, where the children had the opportunity to hear our story and read it. The comic is called the "lamp of health".</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic1.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic2.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="e5" class="hide" type="checkbox">
                 <label for="e5" class="acc-label icon" style="margin-bottom: 20px">The SynBio dictionary</label>
                 <div class="acc-child">
-                  <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology we came up with the creation of a dictionary. Our “SynBio Dictionary” contains terms scientifically and accurately defined, related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached from the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms, and so we invited 2 more teams to create their own extension to our idea.</p>
+                  <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology, we came up with the creation of a dictionary. Our "SynBio Dictionary" contains scientifically and accurately defined terms related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached by the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms. So we invited 2 more teams to create their extension of our idea, adding more Synthetic Biology related words based on their project. </p>
+                  <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">You can find the SynBio Dictionary here</a>
                 </div>
               </li>
               <li class="acc-item">
@@ -124,21 +154,35 @@
                 <label for="e6" class="acc-label icon" style="margin-bottom: 20px">Summer camp</label>
                 <div class="acc-child">
                   <p>In the context of "Education," we visited the Experimental High School of Patras to communicate synthetic biology to young people and students.</p>
-                  <p>In the workshop area of the summer camp and with the supervising professor, Mr. Arlapanos Georgios, we encountered the members of the "Ludo ergo sum" team, and we were allowed to discuss our project and the team's achievements during the competition.</p>
-                  <p>However, the most important thing is that our goal was to introduce the students to the concept of synthetic biology. After giving a short presentation, we played the board games we created as a team which, in addition to entertainment, also have an educational role.</p>
-                  <p>We noticed that the students found this way of learning particularly fun; however, during the game, we were allowed to realize any misunderstandings in the instruction manual and the design of the board games. This happened because Mr. Arlapanos and his team have experience designing board games since they actively develop blind-friendly board games as a team, receiving outstanding accolades.</p>
-                  <p>Thus, they knew to evaluate our work, to point out any changes to us, but most importantly, for the students to learn some initial information about synthetic biology.</p>
-                  <p>We learned two things from this first meeting. On the one hand, we can achieve the dissemination of synthetic biology more playfully to a portion of people who are not familiar with it. But on the other hand, we learned first-hand that knowledge is not one-sided and that the two teams within the framework of our cooperation had to learn from each other. We learned about tabletop design from the students' experience and Mr. Arlapanos, and those of us got a little taste of the concept of SynBio.</p>
+                  <p>In the workshop area of the summer camp and with the supervising professor, Mr. Arlapanos Georgios, we encountered the members of the "Ludo ergo sum" team, and we were allowed to discuss our project and the team's achievements during the competition. However, the most important thing is that our goal was to introduce the students to the concept of synthetic biology. After giving a short presentation, we played the board games we created as a team which, in addition to entertainment, also have an educational role.</p>
+                  <p>We noticed that the students found this way of learning particularly fun; however, during the game, we were allowed to realize any misunderstandings in the instruction manual and the design of the board games. This is due to the experience of Mr. Arlapanos and his team on designing board games since they actively develop blind-friendly board games as a team, receiving outstanding accolades.</p>
+                  <p>Thus, they evaluated our final design, to point out any changes to us, but most importantly, for the students to learn some initial information about synthetic biology.</p>
+                  <p>We learned two things from this first meeting. On the one hand, we can achieve the dissemination of synthetic biology more playfully to a portion of people who are not familiar with it. But on the other hand, we learned firsthand that knowledge is not one-sided and that the two teams within the framework of our cooperation had to learn from each other. We learned about tabletop design from the students' experience and Mr. Arlapanos, and those of us got a little taste of the concept of SynBio.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/summer-camp.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/summer-camp.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="e7" class="hide" type="checkbox">
                 <label for="e7" class="acc-label icon" style="margin-bottom: 20px">Presentation at School</label>
                 <div class="acc-child">
-                  <p>Visiting a High School of Patras, we had the opportunity to simply present our project and explain in a fun way Synthetic Biology basics through the board games we created, which we played for a second time to a more significant portion of students who are striving to become upcoming medical students. We also presented the comic that we created as a team to the students, which describes in a simpler way how cancer works and how it can affect a person's life. </p>
-                  <p>It is remarkable how interesting they found the activities we prepared for them and paid attention the whole time. Our role that day was not only to disseminate synthetic biology but also to inform future health scientists about the wider problem of lung cancer diagnosis and, by extension, prognosis.</p>
-                  <p>To sum up, through our two meetings at the Experimental High School of Patras, we conclude that as Patras Medicine, we managed to teach the students the concept of complementarity, genetics, and the various variations that occur in the DNA of each person through the DNA Runner board game. On the other hand, we use the question-answer method through the Gene-us board game, the goal of which is for students to retain some of the basic concepts of synthetic biology - we know very well that this way of learning is more efficient. Furthermore, through the comic book "The Lamp of Health," we helped them to understand in a simple but at the same time explanatory way that many of our choices can affect our lives positively or negatively. Finally, we were given the opportunity to contribute to the vocational guidance of young people, considering that we are undergraduate students in the field of health sciences, participating in a synthetic biology competition and dealing with such a combustive issue.</p>
-                  <p>Overall from our point of view, we feel that we have been a positive influence on the students, and our meetings have been efficacious.</p>
+                  <p>Visiting a High School in Patras, we had the opportunity to present our project and explain in a fun way Synthetic Biology basics through the board games we created. We played the board games for a second time, with a more significant portion of students striving to become upcoming medical students. We also presented the comic that we created as a team to the students, which describes in a more straightforward way how cancer works and how it can affect a person's life. </p>
+                  <p>It is remarkable how interesting they found the activities we prepared for them and paid attention the whole time. Our role that day was not only to disseminate synthetic biology but also to inform future health scientists about the broader problem of lung cancer diagnosis and, by extension, prognosis.</p>
+                  <p>To sum up, through our two meetings at the Experimental High School of Patras, we conclude that as Patras Medicine, we managed to teach the students the concept of complementarity, genetics, and the various variations that occur in the DNA of each person through the DNA Runner board game. On the other hand, we use the question-answer method through the Gene-us board game, the goal of which is for students to retain some of the basic concepts of synthetic biology - we know very well that this way of learning is more efficient. Furthermore, through the comic book "The Lamp of Health," we helped them to understand in a simple but at the same time explanatory way that many of our choices can affect our lives positively or negatively. Finally, we were given the opportunity to contribute to the vocational guidance of young people, considering that we are undergraduate students in the field of health sciences, participating in a synthetic biology competition, and dealing with such a combustive issue.</p>
+                  <p>Overall, from our point of view, we have positively influenced the students, and our meetings have been productive.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/presentation-at-school.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/presentation-at-school.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/presentation-at-school2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/presentation-at-school2.jpg"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="acc-item">
+                <input id="e8" class="hide" type="checkbox">
+                <label for="e8" class="acc-label icon" style="margin-bottom: 20px">New chapter</label>
+                <div class="acc-child">
+                  <p>After we had successfully visited schools and the summer camp, we got impressed by the interest students showed in our project and, most importantly, in Synthetic Biology. Most of them expressed their desire to study further and explore this scientific field. Therefore, we thought integrating Synthetic Biology into their lesson schedule would be helpful. For this reason, one of our team members, our advisor, wrote a whole chapter in which Synthetic Biology is scientifically defined, and further approaches and biosecurity are described in detail. This chapter is a proposed extension for the school book for high school students interested in this field so that they can be taught more about Synthetic Biology during their school life. </p>
+                  <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">Download synthetic biology chapter archive</a>
                 </div>
               </li>
             </ul>
@@ -151,14 +195,21 @@
                 <input id="v1" class="hide" type="checkbox">
                 <label for="v1" class="acc-label icon" style="margin-bottom: 20px">“A step closer to the gold medal”</label>
                 <div class="acc-child">
-                  <p>Within the partnership with the iGEM MetaThess team and in our effort to expand into the Science communication part, we jointly organized a webinar. More specifically, the webinar called "A step closer to the gold medal" related to familiarity with bioinformatics and graphic design will benefit other members of iGEM and other people interested in the above topics. The bioinformatics part was about software tools and was covered by the iGEM MetaThess team members. The corresponding part of graphic design examined the first steps in using adobe illustrator and was encircled by our team. The participants paid particular attention to both parts of the webinar, and at the end of it, we gave them the opportunity ....</p>
+                  <p>Within the Partnership with the iGEM MetaThess team and in our effort to expand into the Science communication part, we jointly organized a webinar. More specifically, the webinar called "A step closer to the gold medal" related to familiarity with bioinformatics and graphic design, will benefit other members of iGEM and other people interested in the above topics. The bioinformatics part was about software tools and was covered by the iGEM MetaThess team members. The corresponding part of graphic design examined the first steps in using adobe illustrator and was encircled by our team. The participants paid particular attention to both parts of the webinar, and at the end of it, we gave them the opportunity ...</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/webinar-metathess.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/webinar-metathess.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="v2" class="hide" type="checkbox">
                 <label for="v2" class="acc-label icon" style="margin-bottom: 20px">“Lung Cancer: From Epidemiology to new forms of Diagnosis and Treatment” </label>
                 <div class="acc-child">
-                  <p>On September 2nd, we hosted an informative Webinar with title: “Lung Cancer: From Epidemiology to new forms of Diagnosis and Treatment” along with Cancer Prevention Research Group in Greece and our partners, iGEM MetaThess and it had a great response and success, as it was attended by approximately 300 people. In this webinar young scientists have formed their presentations so that specialists and the general public can come into contact with topics such as pathophysiology, causes, epidemiology, basic symptoms and diagnostic and therapeutic approaches to lung cancer in an understandable way. In this context our team introduced project syn-PNOIA to the audience emphasizing that late diagnosis of the disease can be faced on the basis of Synthetic Biology. Among the speakers were administrative members of Cancer Prevention Research Group, doctors, associate professors of Chemistry, biologists, hygienists, health visitors, undergraduate and postgraduate students from both iGEM teams, who gave extremely interesting speeches raising public awareness.</p>
+                  <p>On September 2nd, we hosted an informative Webinar with title: "Lung Cancer: From Epidemiology to new forms of Diagnosis and Treatment" along with Cancer Prevention Research Group in Greece and our partners, iGEM MetaThess. The webinar had a great response and success, as approximately 300 people attended it. Young scientists have formed their presentations so that specialists and the general public can come into contact with topics such as pathophysiology, causes, epidemiology, primary symptoms, and diagnostic and therapeutic approaches to lung cancer in an understandable way. In this context, our team introduced project syn-PNOIA to the audience, emphasizing that late diagnosis of the disease can be faced based on Synthetic Biology. Among the speakers were administrative members of Cancer Prevention Research Group, doctors, associate professors of Chemistry, biologists, hygienists, health visitors, and undergraduate and postgraduate students from both iGEM teams, who gave engrossing speeches raising public awareness.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/lung-cancer-webinar.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/lung-cancer-webinar.png"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/lung-cancer-webinar2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/lung-cancer-webinar2.png"/></a>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -171,26 +222,36 @@
                 <input id="m1" class="hide" type="checkbox">
                 <label for="m1" class="acc-label icon" style="margin-bottom: 20px">Podcast series: The SynBio Voice</label>
                 <div class="acc-child">
-                  <p>Podcasts have lately been an effective, intimate and popular way to reach out especially to young people. Developing our own podcast series named “The SynBio Voice” we aim to raise public awareness about our team, Syn-Pnoia project and iGEM Competition and most importantly bring science and society together. To achieve this we included informative episodes related to health issues concerning our topic, lung cancer, and analyzed social and entrepreneurial aspects of the competition. Last but not least, we interviewed guest iGEM teams and award-winning research teams in different scientific fields who shared their experiences and passion for science inspiring the audience. Our series is easily accessible on <a href="https://open.spotify.com/show/3uL0UutbwkTXckC3YIxaqv?si=2198ae984262412f" class="link-ref">Spotify</a>.</p>
+                  <p>Podcasts have lately been an effective, intimate, and popular way to reach out, especially to young people. Developing our podcast series named "The SynBio Voice" we aim to raise public awareness about our team, Syn-Pnoia project, and iGEM Competition and, most importantly, bring science and society together. To achieve this, we included informative episodes related to health issues concerning our topic, lung cancer, and analyzed the social and entrepreneurial aspects of the competition. Last but not least, we interviewed guest iGEM and award-winning research teams in different scientific fields who shared their experiences and passion for science, inspiring the audience. Our series is easily accessible on <a href="https://open.spotify.com/show/3uL0UutbwkTXckC3YIxaqv?si=2198ae984262412f" class="link-ref">Spotify</a>.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synbio-voice-logo.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/synbio-voice-logo.png"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="m2" class="hide" type="checkbox">
                 <label for="m2" class="acc-label icon" style="margin-bottom: 20px">Social Media</label>
                 <div class="acc-child">
-                  <p>In the context of promoting our team and interacting with the public, we used social media that are extremely popular, provide immediacy and contribute to the building of a good relationship and bonding with the audience. Developing our profile on social media platforms (Instagram, Facebook, Twitter, LinkedIn) not only increased the popularity of the team and our project, but we also organized several activities.</p>
+                  <p>In promoting our team and interacting with the public, we used social media that are extremely popular, provide immediacy and contribute to building a good relationship and bonding with the audience. Developing our profile on social media platforms (<a href="https://www.instagram.com/patras.med/" class="link-ref">Instagram</a>, <a href="https://www.facebook.com/igempatras" class="link-ref">Facebook</a>, <a href="https://twitter.com/IgemMed" class="link-ref">Twitter</a>, <a href="https://www.linkedin.com/company/igem-patras-medicine/" class="link-ref">LinkedIn</a>) not only increased the popularity of the team and our project, but we also organized several activities. </p>
                   <ul class="bullets acc">
-                    <li>For instance, we created quiz and fun fact series in order to make Synthetic Biology and our topic accessible to everyone in a fun way. </li>
+                    <li>For instance, we created quizzes and fun fact series to make Synthetic Biology and our topic accessible to everyone in a fun way. </li>
                     <li>We also designed informative posts about lung cancer basics and our technique, as well as posts related to Synthetic Biology, such as The SynBio timeline and Nobel Prize on Synthetic Biology issues winners series.</li>
-                    <li>Moreover, Social Media has been a useful tool to develop and take part in several collaboration invitations with other iGEM teams.</li>
+                    <li>Moreover, Social Media has been a valuable tool for developing and participating in several collaboration invitations with other iGEM teams.</li>
                   </ul>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/social-media.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/social-media.jpg"/></a>
+                  </div>
                 </div>
               </li>
               <li class="acc-item">
                 <input id="m3" class="hide" type="checkbox">
                 <label for="m3" class="acc-label icon" style="margin-bottom: 20px">Article</label>
                 <div class="acc-child">
-                  
+                  <p>As part of our science communication, we wrote an <a href="https://incorrect.gr/2022/09/21/patras-medicine-epanaprosdiorizontas-th-diagnvsh/" class="link-ref">informative article</a> to promote our team and the project we are involved in. Our article has been published by many websites and journals, providing the opportunity even to people who are not experts to unearth more about Synthetic Biology and lung cancer and meet our research group and our innovative diagnostic approach to the disease.</p>
+                  <p>Furthermore, regarding the informative webinar about lung cancer we organized with CPRG and iGEM MetaThess team, our event got published and advertised on a <a href="https://www.iatronet.gr/article/111934/moriakos-diakopths-kai-ygrh-viopsia-gia-proimh-diagnosh-karkinoy-toy-pneymona" class="link-ref">website</a> gaining excellent reviews for its content, coordination, and speakers.</p>
+                  <div class="gallery grid2">
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/article2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/article2.jpg"/></a>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -283,6 +344,8 @@
 </template>
 
 <script>
+import SimpleLightbox from "simplelightbox";
+
 export default {
     data() {
         return {
@@ -291,6 +354,14 @@ export default {
         };
     },
     mounted() {
+      var lightbox = new SimpleLightbox('.gallery a',
+          {
+            overlayOpacity: 0.9,
+            animationSpeed: '150',
+            animationSlide: false,
+          }
+        );
+
       window.addEventListener("scroll", this.scrolled);
       window.addEventListener("load", () => {
           this.scrolled();
