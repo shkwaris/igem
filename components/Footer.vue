@@ -13,11 +13,11 @@
         <div class="col-sm-6 sponsors">
           <div>
             <a href="https://www.rgcc-group.com"><img class="rgcc" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/logo-rgcc-white.png" alt="RGCC" /></a>
-            <a href="https://www.upatras.gr/en"><img class="patrasuniversity" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/patras-university-logo.png" alt="Patras University" /></a>
             <a href="https://eu.idtdna.com/pages"><img class="idt" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/idt-logo.png" alt="IDT" /></a>
             <a href="https://international.neb.com/about-neb/neb-overview "><img class="neb" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/neb-logo.png" alt="NEB" /></a>
             <a href="https://www.naco.gr/ "><img class="naco" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/naco-logo.png" alt="Naco" /></a>
             <a href="https://www.snapgene.com/"><img class="snapgene" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/snapgene-logo.png" alt="SnapGene" /></a>
+            <a href="https://www.upatras.gr/en"><img class="patrasuniversity" src="https://static.igem.wiki/teams/4118/wiki/website-assets/sponsors/patras-university-logo.png" alt="Patras University" /></a>
           </div>
         </div>
       </div>
