@@ -54,7 +54,7 @@
                 <div class="row">
                   <div class="col-xs-12 col-xl-6">
                     <h3 class="small-title">World DNA day</h3>
-                    <p>Considering the global impact of the iGEM Competition and inspired by the "iJET paper plane that unites the world," a collaboration video organized by iGEM Aachen 2020, we decided to develop the existing idea further. Because of this, we created a video in which several iGEM teams, represented by one or more team members, would report their experience in the competition and their motivation for participating. The iGEM members were also requested to reveal the track they selected to compete in and briefly describe their project. Our iJET paper plane traveled in 11 cities worldwide, each represented by one iGEM team sharing their own fascinating idea and excitement for iGEM Competition 2022. This collaboration video was our way to cover thousands of miles bringing young researchers together and allowing them to highlight the importance and utility of Synthetic Biology by presenting their SynBio-based solution to an existing problem.</p>
+                    <p>On World DNA Day, April 25, our team decided to bring together iGEMers from around the world by organizing an exciting collaboration. Our idea was based on creating a DNA graphic, the bases of which would be represented by pictures of iGEMers, each holding the corresponding nucleotide. Therefore, we invited other iGEM teams from many countries to photograph one of their team members holding a DNA base. Afterward, we included all images in our final poster, with more than 40 participants.</p>
                   </div>
                   <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
                     <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/fig1.png"/></a>
@@ -94,7 +94,7 @@
             </section>
             <section id="synbio">
               <h3 class="small-title">The SynBio Dictionary</h3>
-              <p>Ιn the context of science communication we collaborated with other iGEM teams and created a prototype dictionary that includes specific synthetic biology terms related to our project. Our SynBio dictionary, as we call it, includes more than 30 terms and has also been enriched and extended by iGEM TecCem and iGEM CUHK-Hong Kong teams who added their own project-related terms.</p>
+              <p>Ιn the context of science communication we collaborated with other iGEM teams and created a prototype dictionary that includes specific synthetic biology terms related to our project. Our SynBio dictionary, as we call it, includes more than 30 terms and has also been enriched and extended by iGEM TecCem, iGEM Worldshaper HZ, and iGEM CUHK-Hong Kong teams who added their own project-related terms.</p>
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">You can find the SynBio Dictionary here</a>
             </section>
             <section id="board-game">
@@ -136,6 +136,9 @@
             <section id="pharaohs">
               <h3 class="small-title">Collaboration with Pharaohs CU iGEM from Egypt</h3>
               <p>In the context of our partnership with Pharaohs CU iGEM team, we were asked to film a video about Alzheimer's disease. More specifically, they invited us to translate the informative video they had already created into Greek so that more people could watch it and understand the epidemiology of Alzheimer's disease.</p>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="CU_Egypt: Alzheimer's awareness collaboration video  (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/001f078b-5598-415e-a4b4-1479c45fd286" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
               <p>Moreover, Pharaohs CU team invited us to translate into Greek a 30 pages book related to their project where Alzheimer's disease is described in detail and in a simple way. </p>
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/greek-ad-book.pdf">Download the book</a>
             </section>
@@ -166,7 +169,6 @@
             <section id="dengue">
               <h3 class="small-title">World Dengue day</h3>
               <p>On World Dengue Day, we were invited by the iGEM 2 IISER Pune team to join them in their attempt to combat dengue. Our mission was to collaborate by filming a short video in which one of our team members would take a pledge related to the prevention of the disease.</p>
-              <a class="link-download" href="">Watch the video</a>
             </section>
             <section id="environment">
               <h3 class="small-title">World Environment day</h3>
