@@ -2,7 +2,7 @@
   <div>
     <Header :title="currentPage"></Header>
 
-    <div class="bg partnership" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/partnership-cover-syn-pnoia.jpg') center center no-repeat; background-size: cover;">
+    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/partnership123.jpg') center center no-repeat; background-size: cover;">
       <h1 class="head-title">{{currentPage}}</h1>
     </div>
     <section class="intro">
@@ -420,7 +420,7 @@
                   <h3 class="timeline-title">European Medical Agency</h3>
                   <p>On Saturday, 1.10.2022, we scheduled with our partners iGEM MetaThess team, an online meeting with a European Medical Agency (EMA) representative. Firstly, we described the mechanism that our diagnostic tools use and the process that a microbiologist must follow to use the DIAS and syn-PNOIA tools and obtain the diagnostic result. The EMA Representative informed us that in 2021 the law 2017//0746 concerning medical devices for laboratory tests considered IVDs (in-vitro Diagnostics) was amended to be classified in the category of Companion Diagnostics. To file and get our tool approved for this category, we would have to associate it with a chemotherapy drug for lung cancer. So we searched the literature and suggested that the patient should be referred for more specialized tests in cases where our diagnostic test is positive.
                     <br><br>
-                  Furthermore, once the cancerous tumor is established, cis-platin and paclitaxel should be administered to shrink the tumor. He also told us to carefully read the medical device legislation 2017/0746 and follow the steps outlined there. Finally, he recommended we contact the Ministry of Health and, more specifically, the HTA - Health Technology Assessment to inform us about the process we need to follow to add the syn-PNOIA diagnostic tool to the annual screening.
+                  Furthermore, once the cancerous tumor is established, cis-platin and paclitaxel should be administered to shrink the tumor. He also told us to carefully read the medical device legislation 2017/0746 and follow the steps outlined there. Finally, he recommended we contact the Ministry of Health and, more specifically, the HTA - Health Technology Assessment to inform us about the process we need to follow to add the syn-PNOIA diagnostic tool to the annual screening.</p>
                     <div class="timeline-images gallery">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/32.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/partnership/32.png"/></a>
                   </div>
