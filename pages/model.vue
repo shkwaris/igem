@@ -54,10 +54,10 @@
               </div><br>
               <p>As shown in <span>Fig.1</span>, H1 consists of five domains c, b*, a, b, and r. Without the BSJ-target in the reaction mixture, H1 exists in a stem-loop conformation. The two complementary domains b and b* form the H1-stem. H1-loop consists of domain α. Η1 also possesses two different overhang regions, r, responsible for the hybridization with the RCA product through complementarity, and c, a toehold domain. The BSJ of the circRNA-target is complementary to the b and c domains. </p>
               <p>As shown in <span>Fig.2</span>, the first reaction includes two steps: BSJ binds to H1 via invading the toehold c and displaces the b* domain by branch migration.</p>
-              <p>The rate kf1 denotes the hybridization rate of c to its complement. The base composition of the c domain can cause the value of kf1 to vary significantly. </p>
-              <p>The rate kb1 denotes the rate at which the branch migration junction crosses the middle of the b domain. As the incumbent, b*, and invader, BSJ, exchange base pairs with the substrate, b, the branch point of the three-stranded complex moves back and forth. Eventually, the b* domain dissociates, completing strand displacement. Overall, displacement is thermodynamically driven forward by the net gain in base pairs due to the toehold. The length of the b domain determines the value of kb1. Finally, kr1 denotes the rate at which toehold c dissociates. The binding of c to its complement is reversible because the toehold may ‘fray’ and eventually dissociate.</p>
-              <p>kr1 = kf1 * (2/b) * eΔGo(c)/RT</p>
-              <p>where ΔGo(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain <a v-scroll-to="'#references'" class="link-ref">[1]</a>.</p>
+              <p>The rate k<sub>f1</sub> denotes the hybridization rate of c to its complement. The base composition of the c domain can cause the value of k<sub>f1</sub> to vary significantly. </p>
+              <p>The rate k<sub>b1</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. As the incumbent, b*, and invader, BSJ, exchange base pairs with the substrate, b, the branch point of the three-stranded complex moves back and forth. Eventually, the b* domain dissociates, completing strand displacement. Overall, displacement is thermodynamically driven forward by the net gain in base pairs due to the toehold. The length of the b domain determines the value of k<sub>b1</sub>. Finally, k<sub>r1</sub> denotes the rate at which toehold c dissociates. The binding of c to its complement is reversible because the toehold may ‘fray’ and eventually dissociate.</p>
+              <p>k<sub>r1</sub> = k<sub>f1</sub> * (2/b) * e<sup>ΔG<sub>o</sub>(c)/RT</sup></p>
+              <p>where ΔG<sub>o</sub>(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain <a v-scroll-to="'#references'" class="link-ref">[1]</a>.</p>
             </section>
             <section>
               <h3 class="small-title">2<sup>nd</sup> toehold-mediated strand displacement reaction</h3>
@@ -73,14 +73,25 @@
               </div><br>
               <p>As depicted in <span>Fig.3</span>, H2 also consists of five domains a*, b, a, b*, and r. Initially, H2 forms a stem-loop conformation by hybridizing the two complementary domains, b and b*. The formed loop consists of domain l. Like H1, the H2 hairpin possesses two overhang regions: a toehold domain, a* domain, and an RCA binding domain, s domain. In addition, H2 brings a fluorophore and a quencher. We represent them in Fig3 as a green and a black dot, respectively.</p>
               <p>The second toehold reaction is illustrated in <span>Fig.4</span>. Toehold domain a* binds to H1’s complementary domain a. After the toehold invasion, branch migration displacement occurs. The H1 b domain displaces the stem b domain. H2 now exists in an open conformation, which results in the fluorophore diverging from the quencher and emitting fluorescence when excited at the right wavelength. </p>
-              <p>As in step 1, the rate kf2 represents the hybridization rate of toehold domain a* to its complement. In addition, the rate kb2 denotes the rate at which the branch migration junction crosses the middle of the b domain. Finally, kr2 denotes the rate at which toehold a* frays and dissociates. </p>
-              <p>kr2 = kf12 * (2/b) * eΔGo(a)/RT</p>
+              <p>As in step 1, the rate k<sub>f2</sub> represents the hybridization rate of toehold domain a* to its complement. In addition, the rate k<sub>b2</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. Finally, kr2 denotes the rate at which toehold a* frays and dissociates. </p>
+              <p>k<sub>r2</sub> = k<sub>k<sub>f1</sub>2</sub> * (2/b) * e<sup>ΔG<sub>o</sub>(a)/RT</sup></p>
               <p>where ΔGo(a) &lt; 0 is the binding energy between a and its complement, and b the length of b domain.</p>
             </section>
             <section>
               <h3 class="small-title">KinDA: Kinetic DNA strand displacement analyzer</h3>
               <p>KinDA <a v-scroll-to="'#references'" class="link-ref">[2]</a> is a python package that can predict system <a @click="changeWord('Thermodynamics-kinetics')" class="link-primary">kinetic and thermodynamic behavior</a> at the sequence level. With KinDA, we can determine if the system as a whole behaves as designed. We tested KinDA through the available Amazon Web Services (AWS) Amazon Machine Image (AMI).</p>
               <p>First, the user creates a PIL file that specifies the domains, as described above, stands, and complexes of the DNA strand-displacement system. An example of the user input is the following</p>
+              <p># Specify all strands:
+              <br>strand h1 = c b a b* r : 76
+              <br>strand bsj = b* c* : 30
+              <br>strand rca = r* s : 51
+                            <br>
+              <br># Specify all predicted complexes:
+              <br>structure 1 = h1 + rca : .(.)(+).
+              <br>structure B = bsj : ..
+              <br>structure 2 = bsj + h1 + rca : .(+)(.)(+).
+              <br>structure 3 = bsj + h1 + rca : ((+))..(+).
+              </p>
               <p>Then, KinDA uses Peppercorn, a reaction enumerator to create the Chain Reaction Network (CRN) at a domain-level. Next, the simulation proceeds with kinetics and thermodynamics analyses at a sequence-level using Multistrand and NUPACK, respectively. Of course, sequence-level interactions may not have direct counterparts in the domain-level system. Hence, KinDA calculates the conformation probability, that is the p-approximation for the sequence-level secondary structure to behave as the domain-level structure, from the fraction of nucleotides that are bound or unbound when both structures share the same ordered strands. </p>
               <p>KinDA uses the “first-step reaction model” and separates the reactions into two steps and calculates one constant for each reaction: the initial binding step, with a rate of initiating the reaction, k1, and the folding trajectory that follows, with the rate of how long it takes to complete, k2. Errors for k1 and k2 are determined based on the system parameters. Also, KinDA determines spurious reactions that do not correspond to the predicted behavior and unproductive reactions when reactants and products coincide. </p>
             </section>
@@ -88,7 +99,10 @@
               <h3 class="small-title">The Simulation</h3>
               <p>We simulated our two steps as separate reactions. We chose this design because the system categorizes two complexes with the same strand order but different dot-and-bracket notation as a single reactant multiset and calculates the total k1 and k2. So, we decided to run a simulation for each step and retrieve the individual rate constant. Also, with two simulations, we could decrease the system's complexity to take only a few hours on a t2.micro instance.</p>
               <p>We calculated the following rates for the 1st toehold-mediated strand displacement reaction:</p>
-              <p>From [I] we calculated that kf1 >>> kr1, using the value of ΔGo(c) = -10.88 kcal/mol, as calculated by ViennaRNA. So, we can assume that the toehold domain is long enough so that the dissociation step proceeds slowly relative to the toehold invasion step. Hence, the toehold invasion step determines the rate of the whole reaction.</p>
+              <p>k1i: (3.41 ± 0.887) 10<sup>7</sup>
+              <br>k2i: (2.18 ± 0.576) 10<sup>7</sup></p>
+              <p>In this model:	k1i = k<sub>f1</sub> [k<sub>b1</sub> / (k<sub>b1</sub>+k<sub>r1</sub>)] [III],	k2i = k<sub>b1</sub> [IV]</p>
+              <p>From [I] we calculated that k<sub>f1</sub> >>> k<sub>r1</sub>, using the value of ΔGo(c) = -10.88 kcal/mol, as calculated by ViennaRNA. So, we can assume that the toehold domain is long enough so that the dissociation step proceeds slowly relative to the toehold invasion step. Hence, the toehold invasion step determines the rate of the whole reaction.</p>
               <p>Then we calculated the following rates for the 2nd toehold-mediated strand displacement reaction:</p>
               <p>Following the same process, we proved that the toehold invasion step again determines the rate of the whole reaction.</p>
             </section>
