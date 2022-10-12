@@ -2,7 +2,7 @@
   <div>
     <Header :title="currentPage"></Header>
 
-    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+    <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/safety123.jpg') center center no-repeat; background-size: cover;">
       <h1 class="head-title">{{currentPage}}</h1>
     </div>
 
