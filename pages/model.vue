@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :title="currentPage">
-      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/results123.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
     </Header>
@@ -108,7 +108,14 @@
             </section>
             <section>
               <h3 class="small-title">The results</h3>
-              <p>Modifying a MATLAB script provided by our partners, MetaThess team, we simulated our KinDA results.</p>
+              <p>Modifying a MATLAB script provided by our partners, MetaThess team, we simulated our KinDA results. The plot for hsa_circ_0102533 is depicted on fig.5. The equations for the simulated reactions are the following:</p>
+              <p>[H1-closed] = - k1i [H1-closed][BSJ]
+	            <br>[BSJ] = - k1i [H1-closed][BSJ]
+	            <br>[H1-open] = k1i [H1][BSJ] - k1ii[H2-closed][H1-open]
+	            <br>[H2-closed] = - k1ii[H2-closed][H1-open]
+	            <br>[H2-open] = k1ii[H2-closed][H1-open]
+              </p>
+              <p>The initial concentrations of [H1-closed] and [H2-closed] in the simulation correspond to H1 and H2 probes hybridized on the linear scaffold in their closed conformation, and are the experimental ones. We run a script using multiple target concentrations, [BSJ]. We observe that [H2-open] increases with time for all given [BSJ] concentrations. Also, [H2-open] maximum concentration increases with [BSJ]. This is crucial because [H2-open] determines the fluorescence emitted, which confirms our laboratory results.</p>
             </section>
           </section>
           <section id="biomarker">
