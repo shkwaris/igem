@@ -26,6 +26,38 @@
         </div>
 
         <div class="col-lg-9 main-content" id="main-content">
+          <div class="row">
+            <div class="col btns">
+              <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
+              <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
+              <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''">hsa_circ_0005962</a>
+            </div>
+          </div>
+          <div class="row">
+            <label for="range" class="form-label col"><span>Donor sequence length: </span>{{n1}}</label>
+            <label for="range" class="form-label col"><span>Acceptor sequence length: </span>{{n2}}</label>
+          </div>
+          <input type="range" class="form-range" min="0" max="10" step="1" id="range" v-model="inputRange">
+          <div class="gallery grid">
+            <figure>
+              <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h1-${n1}-${n2}.jpg`" alt="" title="H1 probe"/></a>
+              <figcaption class="figure-caption text-legt">H1 probe</figcaption>
+            </figure>
+            <figure>
+              <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/h2-${n1}-${n2}.jpg`" alt="" title="H2 probe"/></a>
+              <figcaption class="figure-caption text-left">H2 probe</figcaption>
+            </figure>
+            <figure>
+              <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/ldn-${n1}-${n2}.jpg`" alt="" title="Nanostructure"/></a>
+              <figcaption class="figure-caption text-left">Nanostructure</figcaption>
+            </figure>
+            <figure>
+              <a :href="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`"><img :src="`https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-${folderIndex}/bsj-${n1}-${n2}.jpg`" alt="" title="Target detection"/></a>
+              <figcaption class="figure-caption text-left">Target detection</figcaption>
+            </figure>
+          </div>
+          <a @click="thermoDetails()" class="primary-button thermo">View Thermodynamic details</a>
+              
           <section id="overview">
             <h2 class="main-title">Overview</h2>
             <p>A crucial step in an experiment's design is understanding how different reaction components interact. Setting that as a center point for this year's Model, we tried to cover as many aspects of our project as possible. Integrating elements such as 2D/3D structural analysis, Molecular Dynamics/Docking, and Mass action kinetic analysis, we got a comprehensive and well-rounded view of how the novel LDN system functions. </p>
