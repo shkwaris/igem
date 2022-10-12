@@ -277,7 +277,7 @@ figcaption {
     list-style-type: disc;
     margin-left: 2rem;
     text-align: justify;
-  } 
+  }
 }
 
 .half-content {
@@ -310,5 +310,26 @@ figcaption {
   font-size: 14px;
   line-height: 22px;
   font-weight: normal;
+}
+
+.sponsors-content {
+  max-width: 980px;
+  .col-xs-12 {
+    border-bottom: 1px solid #b1b1b1;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+  }
+
+  img {
+    padding-bottom: 20px;
+    width: 260px;
+    &.patrasuniversity {
+      width: 150px;
+    }
+  }
+  .sponsors-link {
+    font-weight: 700;
+    color: $main-light;
+  }
 }
 
