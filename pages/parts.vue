@@ -7,174 +7,93 @@
     </div>
 
     <section class="intro">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Part</th>
+              <th scope="col">Part Name</th>
+              <th scope="col">Type</th>
+              <th scope="col">Designed by</th>
+              <th scope="col">Registry link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Part:BBa_K4118000</th>
+              <td>RCA Domain</td>
+              <td>DNA</td>
+              <td>Eleftherios Bochalis</td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118000">http://parts.igem.org/Part:BBa_K4118000</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118001</th>
+              <td>hsa_circ_0070354 H1 probe</td>
+              <td>DNA</td>
+              <td>Eleftherios Bochalis</td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118001">http://parts.igem.org/Part:BBa_K4118001</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118002</th>
+              <td>hsa_circ_0102533 H1 probe</td>
+              <td>DNA</td>
+              <td>Eleftherios Bochalis</td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118002">http://parts.igem.org/Part:BBa_K4118002</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118003</th>
+              <td>hsa_circ_0005962 H1 probe</td>
+              <td>DNA</td>
+              <td>Eleftherios Bochalis</td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118003">http://parts.igem.org/Part:BBa_K4118003</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118004</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118004">http://parts.igem.org/Part:BBa_K4118004</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118005</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118005">http://parts.igem.org/Part:BBa_K4118005</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118006</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118006">http://parts.igem.org/Part:BBa_K4118006</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118007</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118007">http://parts.igem.org/Part:BBa_K4118007</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118008</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118008">http://parts.igem.org/Part:BBa_K4118008</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Part:BBa_K4118009</th>
+              <td></td>
+              <td>DNA</td>
+              <td></td>
+              <td><a class="link-primary" href="http://parts.igem.org/Part:BBa_K4118009">http://parts.igem.org/Part:BBa_K4118009</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
-    <Scrollspy :currentPage="currentPage" initialSection="section1">
-      <div class="row">
-        <div class="col-lg-3">
-          <nav class="section-nav">
-            <ol>
-              <li><a :href="`${currentPage}/#section1`" v-scroll-to="'#section1'">Section 1</a></li>
-              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Section 2</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section2-1`" v-scroll-to="'#section2-1'" parent="section2">Section 2-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-2`" v-scroll-to="'#section2-2'" parent="section2">Section 2-2</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-3`" v-scroll-to="'#section2-3'" parent="section2">Section 2-3</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section2-4`" v-scroll-to="'#section2-4'" parent="section2">Section 2-4</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Section 3</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section3-1`" v-scroll-to="'#section3-1'" parent="section3">Section 3-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section3-2`" v-scroll-to="'#section3-2'" parent="section3">Section 3-2</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Section 4</a></li>
-              <ul>
-                <li class="sub"><a :href="`${currentPage}/#section4-1`" v-scroll-to="'#section4-1'" parent="section4">Section 4-1</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-2`" v-scroll-to="'#section4-2'" parent="section4">Section 4-2</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section4-3`" v-scroll-to="'#section4-3'" parent="section4">Section 4-3</a></li>
-              </ul>
-              <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">Section 5</a></li>
-              <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">Section 6</a></li>
-            </ol>
-          </nav>
-        </div>
-
-        <div class="col-lg-9 main-content">
-          <section id="section1">
-            <h2 class="main-title">Section 1</h2>
-            <ul class="acc">
-              <li class="acc-item">
-                <input id="s1" class="hide" type="checkbox">
-                <label for="s1" class="acc-label icon">First</label>
-                <div class="acc-child">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
-                  <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </li>
-              <li class="acc-item">
-                <input id="s2" class="hide" type="checkbox">
-                <label for="s2" class="acc-label icon">Second</label>
-                 <div class="acc-child">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <section id="section2">
-            <h2 class="main-title">Section 2</h2>
-            <section id="section2-1">
-              <h3 class="small-title">Section 2-1</h3>
-
-
-              <!--  LEFT IMAGE / RIGHT TEXT  -->
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12 col-xl-6 align-self-xl-center">
-                    <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-small.png" width="100%" alt="" />
-                  </div>
-                  <div class="col-xs-12 col-xl-6 align-self-xl-center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
-                  </div>
-                </div>
-              </div>
-
-               <!--  LEFT TEXT / RIGHT IMAGE  -->
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-12 col-xl-6 order-xl-last align-self-xl-center">
-                    <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-small.png" width="100%" alt="" />
-                  </div>
-                  <div class="col-xs-12 col-xl-6 order-xl-first">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-2">
-              <h3 class="small-title">Section 2-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-3">
-              <h3 class="small-title">Section 2-3</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-4">
-              <h3 class="small-title">Section 2-4</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-2">
-              <h3 class="small-title">Section 2-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-3">
-              <h3 class="small-title">Section 2-3</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section2-4">
-              <h3 class="small-title">Section 2-4</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section id="section3">
-            <h2 class="main-title">Section 3</h2>
-            <section id="section3-1">
-              <h3 class="small-title">Section 3-1</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section3-2">
-              <h3 class="small-title">Section 3-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section id="section4">
-            <h2 class="main-title">Section 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <section id="section4-1">
-              <h3 class="small-title">Section 4-1</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section4-2">
-              <h3 class="small-title">Section 4-2</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section id="section4-3">
-              <h3 class="small-title">Section 4-3</h3>
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section id="section5">
-            <h2 class="main-title">Section 5</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-          <section id="section6">
-            <h2 class="main-title">Section 6</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png" width="100%" alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </section>
-        </div>
-      </div>
-    </Scrollspy>
   </div>
 </template>
 

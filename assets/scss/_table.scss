@@ -1,0 +1,16 @@
+thead tr th {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    background: $dark !important;
+    color: $secondary;
+} 
+
+tbody tr th, td {
+    font-family: 'Figtree', sans-serif;
+    background: $dark !important;
+    color: $white !important;
+    border-color: $white;
+    &:hover {
+        color: $white !important;
+    }
+}
