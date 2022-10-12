@@ -29,6 +29,7 @@
                 </ul>
                 <li><a :href="`${currentPage}/#ancillary`" v-scroll-to="'#ancillary'">Ancillary experiments</a></li>
                 <li><a :href="`${currentPage}/#protocols`" v-scroll-to="'#protocols'">Protocols</a></li>
+                <li><a :href="`${currentPage}/#notebook`" v-scroll-to="'#protocols'">Notebook</a></li>
                 <li><a :href="`${currentPage}/#references`" v-scroll-to="'#references'">References</a></li>
               </ol>              
             </div>
@@ -115,7 +116,26 @@
           </section>
           <section id="protocols">
             <h2 class="main-title">Protocols</h2>
+            <div class="row">
+                <div class="col btns">
+                  <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RT-PCR Protocol</a>
+                  <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Rolling Circle Amplication</a>
+                  <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RNA Isolation</a>
+                  <a @click="buttonEvent(4)" class="primary-button" :class="activebutton == 4 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0102533)</a>
+                  <a @click="buttonEvent(5)" class="primary-button" :class="activebutton == 5 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0005962)</a>
+                  <a @click="buttonEvent(6)" class="primary-button" :class="activebutton == 6 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Circularization of the phosphorylated DNA template cell culture</a>
+                  <a @click="buttonEvent(7)" class="primary-button" :class="activebutton == 7 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Buffer solutions preparation protocol</a>
+                </div>
+            </div>
           </section>
+          <secrion id="notebook">
+            <h2 class="main-title">Notebook</h2>
+            <div class="row">
+                <div class="col btns">
+                  <a @click="buttonEvent(8)" class="primary-button" :class="activebutton == 8 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Wet Lab Notebook</a>
+                  </div>
+            </div>
+          </secrion>
           <section id="references">
             <ul class="acc">
               <li class="acc-item references">
