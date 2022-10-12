@@ -38,7 +38,7 @@
             <p>Patras Medicine thinks a lot. So by focusing on people who contributed a lot to the field of science in a different and special way, we highlighted the work of personalities with disabilities in the field of science by creating a presentation and not only. Thomas Edison and Stephen Hawking are some examples.</p> 
             <p>In conclusion, Patras Medicine made it clear that people with disabilities study, work, and research at all levels and in all fields of science. However, scientists with disabilities often face barriers because of their physical and mental conditions, how others perceive those conditions, and the ability biases embedded in the fabric of our communities and societies. Famous and lesser-known scientists continue to influence their fields while promoting disability awareness.</p>
             <p>Our team made this presentation about scientists with special needs who were pioneering in their field and had a huge scientific contribution trying to showcase that disabilities are not meant to discourage and prohibit a person from accomplishing his dreams.</p>
-            <p><a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/disabled-scientists.pdf">Scientists with special needs.</a></p>
+            <p><a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/disabled-scientists.pdf">Scientists with special needs.</a></p>
           </section>
           <section id="stem">
             <h2 class="main-title">Women in STEM</h2>

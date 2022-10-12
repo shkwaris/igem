@@ -53,7 +53,7 @@
               <h3 class="small-title">GENE-US</h3>
               <p>This is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</p>
             </section>
-            <figure class="gallery">
+            <figure class="gallery rounded mx-auto d-block" style="width:80%;">
               <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"></a>
             </figure>
           </section>
@@ -107,6 +107,8 @@
 </template>
 
 <script>
+import SimpleLightbox from "simplelightbox";
+
 export default {
     data() {
         return {
@@ -114,6 +116,13 @@ export default {
         };
     },
     mounted() {
+        var lightbox = new SimpleLightbox('.gallery a',
+          {
+            overlayOpacity: 0.9,
+            animationSpeed: '150',
+            animationSlide: false,
+          }
+        );
       window.addEventListener("scroll", this.scrolled);
       window.addEventListener("load", () => {
           this.scrolled();

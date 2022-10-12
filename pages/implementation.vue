@@ -30,19 +30,21 @@
           <section id="section1">
             <h2 class="main-title">Market</h2>
             <p>People at a high risk of getting lung cancer, such as long-term smokers over 40 years old or employees exposed to asbestos and radium, are the recommended end users. Nonetheless, anyone can incorporate our test in their yearly/6-month check-up. Since it needs trained staff and specialized equipment, our diagnostic tool can be used in hospitals, clinics, and diagnostic centers. The goal for the first years is to approach the Greek market and expand the network worldwide. As shown in the graphics below, we can confirm the acceptance and the need for a new faster method of diagnosing lung cancer in its early stages. More than 100 medical students answered the questionnaire, with more than 50% considering the development of a new diagnostic method a necessity. This generation of doctors is young, innovative, and—with guidance—poised to take on healthcare's current and future challenges. The bar chart displayed below is on a scale of one to five with five indicating the strong agreement of the participants to the particular statement.</p>  
-            <figure class="gallery">
-                <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"/></a>
-            </figure>
-            <figure class="gallery">
-                <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/pie-chart.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/pie-chart.png"/></a>
-            </figure>
+            <div class="gallery d-flex justify-content-center">
+                <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"/></a>
+                </figure>
+                <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/pie-chart.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/pie-chart.png"/></a>
+                </figure>
+            </div>
           </section>
           <section id="section2">
             <h2 class="main-title">Application</h2>
             <p>The kit's use is simple and about a three step-process after blood sampling. First, with the use of a RNA extraction kit, total RNA is extracted, then added directly to the reaction mixture containing the Linear DNA Nanostructure and the buffer solution. Positive and Negative calibration samples are prepared as well to ensure that the delivered Nanostructure has retained its integrity and purity. After incubation for 70 minutes in a standard thermal cycler the medical personnel can proceed to sample analysis. The fluorescence signal emitted by the fluorescent labels present in the Nanostructure is detected using a Plate-Reader spectrophotometer. The steps are presented in the graphic below and detailed instructions can be found on the corresponding protocol listed in the Product Sheet Proposition listed in section Product Design.</p>
-            <figure class="gallery">
+            <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
                 <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/overview.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/overview.jpg"/></a>
-            </figure>
+            </figure><br>
             <h3 class="small-title">Product Design</h3>
             <p>Our kit is contained in a sealed foam box to avoid photobleaching and maintain its temperature at -20 ±5 &#8451. Inside the box, a 96-well plate is supplied alongside the following reagents: <br></p>
             <ul class="bullets">
@@ -52,12 +54,13 @@
               <li>4x lyophilized Positive Calibration Sample</li>
               <li>4x lyophilized Negative Calibration Sample</li>
               <li>12x lyophilized Reaction mixture, containing the Nanostructure</li>
-            </ul>
+            </ul><br>
             <p>Please advise our <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/product-sheet.pdf">Product Sheet Proposition</a> and the instruction video supplied below for more details about the product.</p>
             <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
               <iframe title="Patras_Medicine: Product Video (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/c903ca8c-7d12-4ad6-8a7b-5ab4f7dc56d0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
             </div>
-            <p>Our product design was based on Dr. Klapa’s advice. Dr. Klapa suggested that our diagnostic kit should contain positive and negative calibration samples. When a product is stored for long periods, the fluorescence signal might decay, or our Nanostructure might denature. So, we should include controls that can be tested simultaneously as our sample. In addition, the reference samples must return an expected value to ensure the test is valid. She also suggested that the test should include the total RNA extraction kit besides our diagnostic kit to ensure the ease of testing. <a class="link-ref" target="_blank" href="human-practices#section4">Read the full interview.</a></p>
+            <p>Our product design was based on Dr. Klapa’s advice. Dr. Klapa suggested that our diagnostic kit should contain positive and negative calibration samples. When a product is stored for long periods, the fluorescence signal might decay, or our Nanostructure might denature. So, we should include controls that can be tested simultaneously as our sample. In addition, the reference samples must return an expected value to ensure the test is valid. She also suggested that the test should include the total RNA extraction kit besides our diagnostic kit to ensure the ease of testing.</p>
+            <a class="link-download" target="_blank" href="human-practices#section4">Read the full interview.</a>
           </section>
           <section id="section3">
             <h2 class="main-title">Safety</h2>
@@ -73,11 +76,11 @@
           <section id="section4">
             <h2 class="main-title">Challenges & Risks</h2>
             <p>Despite the fact that the product is quite promising, we need to take into consideration possible risks and challenges. Both of them are explained in our Business plan in the SWOT and risk analysis which are presented below.</p>
-            <figure class="gallery">
+            <figure class="gallery rounded mx-auto d-block" style="width: 50%; height: auto;">
                 <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/table-2-finance.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/table-2-finance.jpg"/></a>
             </figure>
             <p>The weaknesses and threats should not discourage us but make us work harder to overcome those challenges and improve our product. In the graphic below we present the possible risks. Nonetheless, with the right precautions there should be no problem while using our kit.</p>
-            <figure class="gallery">
+            <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
                 <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/activity.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/activity.png"/></a>
             </figure>
           </section>

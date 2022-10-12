@@ -40,7 +40,7 @@
             <p>The 2030 Agenda promotes all three dimensions of Sustainable Development, intending to make our world a better place. According to the UN Secretary-General: "The Sustainable Development Goals are the path to a fairer, more peaceful and prosperous world and a healthy planet. It is also a call for solidarity between generations.</p>
             <p>However, it is not enough for states to adopt initiatives. The active participation of civil society is also necessary, which has a significant contribution to the selection and synthesis of the Goals, as it can contribute to the effort to achieve the 2030 Agenda by putting pressure on governments to adopt responsive policies.</p>
             <p>Thus, the Patras Medicine Team decided to participate in this effort and promote the 17 Goals through its work!</p>
-            <div class="gallery" style="display: flex; align-items: center; width=100%;">
+            <div class="gallery rounded mx-auto d-block" style="width:80%;">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goals.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goals.jpg"/></a>
             </div>          
           </section>
