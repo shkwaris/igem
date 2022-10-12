@@ -7,7 +7,8 @@
     </div>
 
     <section class="intro">
-      <p>syn-PNOIA kit introduces a new era regarding early-stage lung cancer detection, making the diagnosis more straightforward, more accessible, more affordable, and user-friendly for any customer and patient, and significantly increasing patients’ chances of survival. We performed questionnaires, market and financial analyses to implement the product in the real world. By investigating the market, we defined our customers and our goals. The confirmation results of our surveys in the initial phase of Primary Market Research among doctors make us quite hopeful of our product’s potential establishment and success. You can find all of the above in our <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/business-plan-2-edited.pdf">Business Plan.</a></p>
+      <h2 class="main-title">Introduction</h2>
+      <p>syn-PNOIA kit introduces a new era regarding early-stage lung cancer detection, making the diagnosis more straightforward, more accessible, more affordable, and user-friendly for any customer and patient, and significantly increasing patients’ chances of survival. We performed questionnaires, market and financial analyses to implement the product in the real world. By investigating the market, we defined our customers and our goals. The confirmation results of our surveys in the initial phase of Primary Market Research among doctors make us quite hopeful of our product’s potential establishment and success. You can find all of the above in our <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/business-plan-2-edited.pdf">Business Plan</a>.</p>
     </section>
 
     <Scrollspy :currentPage="currentPage" initialSection="section1">

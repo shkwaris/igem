@@ -113,7 +113,7 @@
           <section id="business-plan">
             <h2 class="main-title">Business plan</h2>
             <br>
-            <a class="link-download" href="" download="" target="_blank">Download our Business Plan</a>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/business-plan-2-edited.pdf">Download our Business Plan</a>
           </section>
         </div>
       </div>
