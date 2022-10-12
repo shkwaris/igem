@@ -1,7 +1,7 @@
 <template>
     <div style="overflow-x: hidden">
         <Header title="Team"></Header>
-        <div class="bg team" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/group-photo.jpg') center center no-repeat; background-size: cover;">
+        <div class="bg team" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/team123.jpg') center center no-repeat; background-size: cover;">
           <h1 class="head-title">The Team</h1>
         </div>
         <section class="container members">
