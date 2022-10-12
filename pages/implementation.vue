@@ -53,7 +53,7 @@
               <li>4x lyophilized Negative Calibration Sample</li>
               <li>12x lyophilized Reaction mixture, containing the Nanostructure</li>
             </ul>
-            <p>Please advise our <a class="link-ref" download="" target="_blank" href="">Product Sheet Proposition</a> and the instruction video supplied below for more details about the product.</p>
+            <p>Please advise our <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/product-sheet.pdf">Product Sheet Proposition</a> and the instruction video supplied below for more details about the product.</p>
             <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
               <iframe title="Patras_Medicine: Product Video (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/c903ca8c-7d12-4ad6-8a7b-5ab4f7dc56d0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
             </div>
