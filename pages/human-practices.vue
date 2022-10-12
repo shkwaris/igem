@@ -352,7 +352,7 @@
             </section>
           </section>
           <section id="section7">
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/future-steps.png">
+              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/future-steps1.png">
               <p>At this point, we had successfully contacted several experts, companies and associations who enhanced our knowledge on lung cancer and contributed to the development and improvement of our project and we additionally previewed our idea from the perspective of patients and high-risk groups.</p>
               <p>Having almost completed our Human Practices, syn-PNOIA was formed as follows: Combining the examination of blood samples, liquid biopsy, and the detection and quantification of certain overexpressed circular RNAs as specific biomarkers, we designed an innovative screening test aiming to redefine lung cancer diagnosis. Pointing out that our test is performed easily, quickly, without the need for surgery or specialized equipment, as the main advantages, our goal is to get our diagnostic tool approved for usage in molecular analysis laboratories, clinics and diagnostic centers.</p>
               <p>Such an examination can be established as an annual check up especially for people with a high risk of cancer -such as heavy smokers, consequently increasing patients’ chances of survival even up to 80%.</p>
