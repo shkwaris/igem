@@ -75,9 +75,8 @@
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/biopsies-icon.png" alt="" />
               </div>
               <h4 class="small-title">Liquid Biopsy</h4>
-              <h5 style = "font-weight: bold; font-weight: 1500; font-size: 20px;">It provides a patient-friendly diagnostic approach.</h5>
-              <p></p>
-              <p style="text-align: center !important;">Liquid Biopsy is based on the sampling and analysis of biological fluids, especially blood, for diagnosing and monitoring cancerous tumors. The main feature of liquid biopsies is the ease of sampling, providing a non-invasive, rapid alternative.</p>
+              <h5 class="excerpt">It provides a patient-friendly diagnostic approach.</h5>
+              <p>Liquid Biopsy is based on the sampling and analysis of biological fluids, especially blood, for diagnosing and monitoring cancerous tumors. The main feature of liquid biopsies is the ease of sampling, providing a non-invasive, rapid alternative.</p>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
@@ -86,9 +85,8 @@
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/circrna-icon.png" alt="" />
               </div>
               <h4 class="small-title">circRNAs</h4>
-              <h5 style = "font-weight: bold; font-weight: 1500; font-size: 20px;">They have the potential to be ideal biomarkers.</h5>
-              <p></p>
-              <p style="text-align: center !important;">They are a recent finding in cancer research whose abnormal expression is associated with the onset and progression of cancer. They are secreted by cancer cells in patients' blood. The panel of molecules we have chosen are NSCLC specific, likely not found in other cancer types.</p>
+              <h5 class="excerpt">They have the potential to be ideal biomarkers.</h5>
+              <p>They are a recent finding in cancer research whose abnormal expression is associated with the onset and progression of cancer. They are secreted by cancer cells in patients' blood. The panel of molecules we have chosen are NSCLC specific, likely not found in other cancer types.</p>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up-left" data-aos-duration="1000">
@@ -97,10 +95,8 @@
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/dna-icon.png" alt="" />
               </div>
               <h4 class="small-title">DNA</h4>
-              <h5 style = "font-weight: bold; font-weight: 1500; font-size: 20px;">They offer unmatched possibilities and novelty.</h5>
-              <p></p>
-              <p style="text-align: center !important;">Over the last few years, many DNA nanotechnology devices have been engineered to overcome specific bottlenecks in developing new diagnostic and analytical tools. As a result, we believe they can provide innumerable possibilities at a low cost.</p>
-              <p></p>
+              <h5 class="excerpt">They offer unmatched possibilities and novelty.</h5>
+              <p>Over the last few years, many DNA nanotechnology devices have been engineered to overcome specific bottlenecks in developing new diagnostic and analytical tools. As a result, we believe they can provide innumerable possibilities at a low cost.</p>
             </div>
           </div>
         </div>
