@@ -345,7 +345,7 @@
               <p>As far as the safety and security of our project are concerned, we performed additional research, which is extensively presented on our <a class="link-ref" target="_blank" href="safety">Safety</a> page.</p>
               <p>Moreover, through our participation in the biosafety practices collaboration of iGEM Team-IISER_Mohali, we explained the protective measures and rules in the laboratory step by filming a short video.</p>
               <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
-                <iframe title="Yale: Biosynthesis of an Optimized (S)-equol Pathway in Gut Microbial Species fo... (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/4e16b958-4b57-4021-943e-f5a9b31b82d5" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                <iframe title="Patras_Medicine: Biosafety (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/18ae7f81-18f7-4b69-be8a-a7ad5911da80" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
               </div>
               <p>Our team had a beneficial meeting with a microbiologist, <span>Mr. Sotiropoulos</span>, who assisted us in blood sample preservation and handling, and he also gave us worthwhile insights about laboratory procedures.</p>
               <figure class="gallery">
