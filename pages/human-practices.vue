@@ -117,19 +117,15 @@
             <p>Concerned with the information we collected from previous meetings on lung cancer and its mortality rates, we wanted to get feedback on the current situation from people with a high risk of developing this type of cancer.</p> 
             <p>More specifically, our team made a questionnaire to get insights about people's knowledge concerning lung cancer and check if they are willing to try a liquid biopsy and biomarkers detection–based test. The survey was conducted among high-risk groups such as heavy smokers and mine workers exposed to asbestos and other harmful metals, i.e., people requiring regular lung cancer screening.</p>
             <p>We reached a construction industry involving chemicals hazardous to lung health and forwarded our questionnaire to the workers. Below are presented the results:</p>
-            <div class="gallery grid2">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"/></a>
-            </div>
-            <div class="gallery grid2">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco1.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco2.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-1.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-2.jpg"/></a>
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tobacco3-3.jpg"/></a>
+            <div class="gallery grid">
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/1a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/1a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/2a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/2a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/3a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/3a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/4a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/4a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/5a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/5a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/6a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/6a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/7a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/7a.png"/></a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/8a.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/8a.png"/></a>
             </div>
             <p>9. If not, for what reason?</p>
             <p>In this question, the participants filled in a short answer, with the most frequent being for preventive reasons.</p>
@@ -300,6 +296,11 @@
                 <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/17.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/17.png"/></a>
               </figure>
               <p>Ms. Liouta presented us with the sequence of the necessary procedures to diagnose lung cancer, starting from an x-ray of the thoracic cavity, followed by a magnetic tomography, and the last step is a biopsy of the spot in which the tumor is located to ensure its presence.</p>
+              <p>We decided to approach future lung cancer specialists since lung cancer diagnosis innovations -including our idea- directly concern them. Intending to check how well informed they are about lung cancer diagnosis, the need for a more effective diagnostic method, and most importantly, their willingness to apply and recommend such an examination in the future, we targeted medical students and scientists building a career as lung cancer experts by creating a specific questionnaire.</p>
+              <p>Our questionnaire contained questions regarding lung cancer epidemiology, the existing lung cancer diagnostic techniques, liquid biopsies as an alternative solution, and the utility of circRNAs as biomarkers.</p>
+              <p>The point of the survey we conducted through this questionnaire was to determine whether future doctors are optimistic about our method and eager to use it. Based on the participants' responses, we found out that most of them are extensively informed about lung cancer, recognizing the problems arising from its diagnosis. Furthermore, more than half of them consider the invention of a new timely, repeatable diagnostic method as an imperative need.</p> 
+              <p>Although many participants did not know about liquid biopsies, after learning about our proposed solution, nearly all of them stated that they would apply/recommend our diagnostic test to their future patients as long as it is further investigated and legally approved.</p>
+              <p>In order to extract accurate results from the survey, we performed a <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/analysis-of-the-questionnaire-docx.pdf">statistical analysis</a> and drew conclusions. This process invalidates our reliable research and shows that future lung cancer specialists are interested in applying our proposed diagnostic.</p>
               <p>Admitting the complexity of the above procedure and after we presented her syn-PNOIA, Ms. Liouta told us that our idea seems very promising and that, after it gets approved, our examination could solve the problem of a lung cancer diagnosis.</p>
               <p>However, she underlined that to cope with the current situation, patients and doctors should be properly informed about the severity of the disease and the importance of prognosis.</p>
             </section>
