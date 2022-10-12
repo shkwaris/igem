@@ -58,12 +58,11 @@
         </SubMenu>
         <SubMenu id="public-engagement" selected="#public-engagement" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/human-practices')">(Integrated) Human Practices</a></li>
-            <li class="menu items"><a @click="pushRoute('/communication')">Communication</a></li>
+            <li class="menu items"><a @click="pushRoute('/communication')">Education & Communication</a></li>
         </SubMenu>
         <SubMenu id="awards" selected="#awards" className="submenu closed" :closeSubMenu="closeSubMenu">
             <li class="menu items"><a @click="pushRoute('/education')">Education</a></li>
             <li class="menu items"><a @click="pushRoute('/inclusivity')">Diversity & Inclusion</a></li>
-            <li class="menu items"><a @click="pushRoute('/software')">Software</a></li>
             <li class="menu items"><a @click="pushRoute('/sustainable')">Sustainable Development Impact</a></li>
         </SubMenu>
     </div>
