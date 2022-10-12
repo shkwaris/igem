@@ -40,13 +40,13 @@
                   <li class="sub"><a :href="`${currentPage}/#section5-1`" v-scroll-to="'#section5-1'" parent="section5">Public Sector</a></li>
                   <li class="sub"><a :href="`${currentPage}/#section5-2`" v-scroll-to="'#section5-2'" parent="section5">Private Sector</a></li>
                   <li class="sub"><a :href="`${currentPage}/#section5-3`" v-scroll-to="'#section5-3'" parent="section5">Future Doctors</a></li>
-                  <li class="sub"><a :href="`${currentPage}/#section5-4`" v-scroll-to="'#section5-4'" parent="section5">Future Steps</a></li>
                 </ul>
                 <li><a :href="`${currentPage}/#section6`" v-scroll-to="'#section6'">Bioethics & Biosafety</a></li>
                 <ul>
                   <li class="sub"><a :href="`${currentPage}/#section6-1`" v-scroll-to="'#section6-1'" parent="section6">Governmental Associatons</a></li>
                   <li class="sub"><a :href="`${currentPage}/#section6-2`" v-scroll-to="'#section6-2'" parent="section6">Biosafety & Biosecurity</a></li>
                 </ul>
+                <li><a :href="`${currentPage}/#section7`" v-scroll-to="'#section7'">Future Steps</a></li>
               </ol>
             </div>
           </nav>
@@ -304,13 +304,6 @@
               <p>Admitting the complexity of the above procedure and after we presented her syn-PNOIA, Ms. Liouta told us that our idea seems very promising and that, after it gets approved, our examination could solve the problem of a lung cancer diagnosis.</p>
               <p>However, she underlined that to cope with the current situation, patients and doctors should be properly informed about the severity of the disease and the importance of prognosis.</p>
             </section>
-            <section id="section5-4">
-              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/future-steps.png">
-              <p>At this point, we had successfully contacted several experts, companies and associations who enhanced our knowledge on lung cancer and contributed to the development and improvement of our project and we additionally previewed our idea from the perspective of patients and high-risk groups.</p>
-              <p>Having almost completed our Human Practices, syn-PNOIA was formed as follows: Combining the examination of blood samples, liquid biopsy, and the detection and quantification of certain overexpressed circular RNAs as specific biomarkers, we designed an innovative screening test aiming to redefine lung cancer diagnosis. Pointing out that our test is performed easily, quickly, without the need for surgery or specialized equipment, as the main advantages, our goal is to get our diagnostic tool approved for usage in molecular analysis laboratories, clinics and diagnostic centers.</p>
-              <p>Such an examination can be established as an annual check up especially for people with a high risk of cancer -such as heavy smokers, consequently increasing patients’ chances of survival even up to 80%.</p>
-              <p>Shielding and saving human life has been our motivation as Patras Medicine team to develop our test named syn-PNOIA and contribute to the progress of medical science.</p>
-            </section>
           </section>
           <section id="section6">
             <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/bioethics.jpg">
@@ -357,6 +350,13 @@
               <p>Concerning the safety rules in the laboratory, we scheduled an online meeting with <span>Mr. Apostolou Panagiotis</span>. He is the Supervisor and Safety and Quality Manager at the Lab Facilities of the Research Genetic Cancer Center in Florina, Greece.</p>
               <p>Firstly, Mr. Apostolou informed us about the protective measures we should follow in the lab for our safety. In particular, he mentioned the dress code and the mandatory lab coats, nitrile gloves, and protective glasses. He then discussed managing bacterial cultures and disposing of bacterial debris and agarose gels after electrophoresis. In addition, he mentioned how the eukaryotic cell lines worked, their cleanliness, and mandatory processing in particular laminar flows. Finally, he asked each group to study the escape plan, which follows the laboratory that works in fire, flood, and earthquake cases.</p>
             </section>
+          </section>
+          <section id="section7">
+              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/future-steps.png">
+              <p>At this point, we had successfully contacted several experts, companies and associations who enhanced our knowledge on lung cancer and contributed to the development and improvement of our project and we additionally previewed our idea from the perspective of patients and high-risk groups.</p>
+              <p>Having almost completed our Human Practices, syn-PNOIA was formed as follows: Combining the examination of blood samples, liquid biopsy, and the detection and quantification of certain overexpressed circular RNAs as specific biomarkers, we designed an innovative screening test aiming to redefine lung cancer diagnosis. Pointing out that our test is performed easily, quickly, without the need for surgery or specialized equipment, as the main advantages, our goal is to get our diagnostic tool approved for usage in molecular analysis laboratories, clinics and diagnostic centers.</p>
+              <p>Such an examination can be established as an annual check up especially for people with a high risk of cancer -such as heavy smokers, consequently increasing patients’ chances of survival even up to 80%.</p>
+              <p>Shielding and saving human life has been our motivation as Patras Medicine team to develop our test named syn-PNOIA and contribute to the progress of medical science.</p>
           </section>
         </div>
       </div>
