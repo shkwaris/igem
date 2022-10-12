@@ -154,24 +154,24 @@
               <p>By performing the following experiments, we aimed to evaluate the biomarkers we had initially selected. A calibration curve was constructed for hsa_circ_0005962 target, with serial dilutions of a stock solution, so that the input copies range from 10<sup>2</sup> to 10<sup>6</sup>. We focused only on hsa_circ_0005962 target for constructing a calibration curve, since it was the only one consistently found overexpressed in cancer cell lines. CircRNA from two different RNA extraction steps was used for RT-PCR. Hsa_circ_0005962, obtained from the first RNA extract from cell lines A549 and NCI-H1299, was found only in A549 cell line extract. Hsa_circ_0070354 and hsa_circ_0005962 targets obtained from the second RNA extract originating from cell lines A549, NCI-H1299, DMS454, NCI-H460, and NCI-H1237, were found to be overexpressed, taking into consideration the correlation of RFU and concentration. When the above results were compared to BEAS-2B, a normal epithelial cell line, we observed that circRNA concentration was higher in the lung cancer cell lines. BEAS-2B had a concentration of hsa_circ_0005962 target and hsa_circ_0070354 target almost halved, respectively, proving that the selected biomarkers can be successfully exploited for lung cancer diagnosis. In <span>Fig.12</span> the quantification amplification results are presented for all cell lines. We note that in the DMS 457 plot, amplification to hsa_circ_0102533 Negative control is present indicating sample contamination.</p>
               <div class="gallery d-flex justify-content-center">
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/a549-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/a549-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/1.png"></a>
                 </figure>
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h1299-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h1299-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/2.png"></a>
                 </figure>
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h460-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h460-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/3.png"></a>
                 </figure>
               </div>
               <div class="gallery d-flex justify-content-center" style="margin-top: 10px">
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h2347-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/h2347-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/4.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/4.png"></a>
                 </figure>
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/dms457-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/dms457-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/5.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/5.png"></a>
                 </figure>
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
-                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/beas-2b-all-3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/pcr/beas-2b-all-3.png"></a>
+                  <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/6.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/6.png"></a>
                 </figure>
               </div><br>
               <figcaption class="figure-caption text-left"><span>Fig.12 Quantification PCR plots for cell lines:</span> a) A549, b) H1299, c) H460, d) H2347, e) DMS 457, f) BEAS-2B. </figcaption>
