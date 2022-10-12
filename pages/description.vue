@@ -90,7 +90,7 @@
             <section id="our">
               <h3 class="small-title">Our biomarkers</h3>
               <p>We decided it was better to choose a panel of circular RNAs instead of a single one because a panel of biomarkers may improve the predictive performance of the test. The three final targets were hsa_circ_0070354, hsa_circ_0102533, and hsa_circ_0005962.</p>
-              <a class="primary-button" href="">See the biomarker choice process</a>
+              <a class="primary-button" href="model/#biomarker">See the biomarker choice process</a>
             </section>
           </section>
           <section id="nano">
