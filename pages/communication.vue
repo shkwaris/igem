@@ -181,7 +181,17 @@
                 <label for="e8" class="acc-label icon" style="margin-bottom: 20px">New chapter</label>
                 <div class="acc-child">
                   <p>After we had successfully visited schools and the summer camp, we got impressed by the interest students showed in our project and, most importantly, in Synthetic Biology. Most of them expressed their desire to study further and explore this scientific field. Therefore, we thought integrating Synthetic Biology into their lesson schedule would be helpful. For this reason, one of our team members, our advisor, wrote a whole chapter in which Synthetic Biology is scientifically defined, and further approaches and biosecurity are described in detail. This chapter is a proposed extension for the school book for high school students interested in this field so that they can be taught more about Synthetic Biology during their school life. </p>
-                  <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">Download synthetic biology chapter archive</a>
+                  <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/synthetic-biology-chapter-docx.pdf">Download synthetic biology chapter archive</a>
+                </div>
+              </li>
+              <li class="acc-item">
+                <input id="e9" class="hide" type="checkbox">
+                <label for="e9" class="acc-label icon" style="margin-bottom: 20px">SynBio Achievements</label>
+                <div class="acc-child">
+                  <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>
+                  <figure class="gallery">
+                    <a href=""><img src=""></a>
+                  </figure>
                 </div>
               </li>
             </ul>
