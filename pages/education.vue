@@ -60,6 +60,7 @@
           <section id="section3">
             <h2 class="main-title">The SynBio Dictionary</h2>
             <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology we came up with the creation of a dictionary. Our “SynBio Dictionary” contains terms scientifically and accurately defined, related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached from the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms, and so we invited 2 more teams to create their own extension to our idea.</p>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">You can find the SynBio Dictionary here</a>
           </section>
           <section id="section4">
             <h2 class="main-title">Summer Camp</h2>
