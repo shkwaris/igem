@@ -93,6 +93,7 @@
             <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/synthetic-biology-chapter-docx.pdf">Download synthetic biology chapter archive</a>
           </section>
           <section id="section7">
+            <h2 class="main-title">SynBio Achievements</h2>
             <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>
             <figure class="gallery">
               <a href=""><img src=""></a>
