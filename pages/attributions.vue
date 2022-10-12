@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :title="currentPage">
-      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/rectangle-hero.png') center center no-repeat; background-size: cover;">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/attributions.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
     </Header>
