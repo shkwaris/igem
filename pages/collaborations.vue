@@ -97,11 +97,6 @@
               <p>Ιn the context of science communication we collaborated with other iGEM teams and created a prototype dictionary that includes specific synthetic biology terms related to our project. Our SynBio dictionary, as we call it, includes more than 30 terms and has also been enriched and extended by iGEM TecCem and iGEM CUHK-Hong Kong teams who added their own project-related terms.</p>
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">You can find the SynBio Dictionary here</a>
             </section>
-            <section id="pride">
-              <h3 class="small-title">String Science with PRIDE</h3>
-              <p>On the occasion of the day against homophobia and pride, our team participated in a collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”, by creating a prose regarding pride and. Our main goal is to highlight the value of pride through active participation and awareness-raising. Thus reaffirming once again that " we are all different but also equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
-              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-word-pride.pdf">Read our article</a>
-            </section>
             <section id="board-game">
               <h3 class="small-title">GENE-US Board Game</h3>
               <p>GENE - US is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players! We invited iGEM Pharaohs CU and iGEM CUHK-Hong Kong teams to add a new session (each one 20 more questions with multiple choices) related to their project as an extension to the already existing questions.</p>
@@ -124,6 +119,11 @@
               <h3 class="small-title">Biosafety Practices</h3>
               <p>Biosafety has been a crucial factor throughout the development of our project. Hence we were interested in participating in the collaboration that iGEM'22 Team-IISER_Mohali organized about a series of informative videos based on Biosafety Practices followed in Labs. Thus we filmed a short video about biosafety related to a cell line that we use as a negative control to test our diagnostic tool. BEAS 2B cell line is classified as biosafety level 2 because it contains polyoma viral DNA sequences. To minimize the risk of accidental exposure to the cells, the laboratory personnel must follow precise safety rules, which we analyzed in our video. In addition, we rigorously present safety measures in case of exposure to the cell line.</p>
               <a class="link-download" target="_blank" href="https://www.youtube.com/watch?v=noctwnApqTg">Watch the video</a>
+            </section>
+            <section id="pride">
+              <h3 class="small-title">String Science with PRIDE</h3>
+              <p>On the occasion of the day against homophobia and pride, our team participated in a collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”, by creating a prose regarding pride and. Our main goal is to highlight the value of pride through active participation and awareness-raising. Thus reaffirming once again that " we are all different but also equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
+              <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-word-pride.pdf">Read our article</a>
             </section>
             <section id="journal">
               <h3 class="small-title">Synthetic Biology Art Journal</h3>
