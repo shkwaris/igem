@@ -54,7 +54,7 @@
               <p>This is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</p>
             </section>
             <figure class="gallery">
-              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"><</a>
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/education/tempimages3lbpl.gif"></a>
             </figure>
           </section>
           <section id="section3">
