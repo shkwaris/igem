@@ -26,7 +26,7 @@
         </div>
 
         <div class="col-lg-9 main-content" id="main-content">
-          <div class="row">
+          <!-- <div class="row">
             <div class="col btns">
               <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''">hsa_circ_0070354</a>
               <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''">hsa_circ_0102533</a>
@@ -56,7 +56,7 @@
               <figcaption class="figure-caption text-left">Target detection</figcaption>
             </figure>
           </div>
-          <a @click="thermoDetails()" class="primary-button thermo">View Thermodynamic details</a>
+          <a @click="thermoDetails()" class="primary-button thermo">View Thermodynamic details</a> -->
               
           <section id="overview">
             <h2 class="main-title">Overview</h2>
@@ -65,26 +65,26 @@
           <section id="kinetic">
             <h2 class="main-title">Mass-action kinetic analysis</h2>
             <h3 class="small-title">Modeling of LDN-circRNA reaction as a double toehold strand displacement reaction</h3>
-            <p>In this model, we study the circRNA detection reaction by our Linear DNA Nanostructure as two consecutive toehold-mediated strand displacement reactions. In each reaction, one strand of DNA (or RNA) displaces another in binding to a third strand with partial complementarity to both. In each case, a short single-stranded overhang region, known as a toehold, initiates the strand displacement reaction.</p>
+            <p>In this model, we study the circRNA detection reaction by our Linear DNA Nanostructure as two consecutive toehold-mediated <a class="link-primary" @click="changeWord('Strand displacement')">strand displacement</a> reactions. In each reaction, one strand of DNA (or RNA) displaces another in binding to a third strand with partial complementarity to both. In each case, a short single-stranded overhang region, known as a <a class="link-primary" @click="changeWord('Toehold')">toehold</a>, initiates the strand displacement reaction.</p>
             <h3 class="small-title">Domain Notation</h3>
-            <p>Domains are represented as lowercase letters. Asterisked letters denote domains complementary to the domains represented by not-asterisked letters (e.g., b* is complementary to b).</p>
+            <p><a class="link-primary" @click="changeWord('Domain')">Domains</a> are represented as lowercase letters. Asterisked letters denote domains complementary to the domains represented by not-asterisked letters (e.g., b* is complementary to b).</p>
             <h3 class="small-title">1<sup>st</sup> toehold-mediated strand displacement reaction</h3>
             <div class="row gallery">
                 <figure class="col-xs-12 col-xl-6 align-self-xl-center">
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step1.png"/></a>
-                  <figcaption class="figure-caption text-right">Fig 1. Domain order of H1 hairpin probe</figcaption>
+                  <figcaption class="figure-caption text-left">Fig 1. Domain order of H1 hairpin probe</figcaption>
                 </figure>
                 <figure class="col-xs-12 col-xl-6 align-self-xl-center">
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step1.png"/></a>
-                  <figcaption class="figure-caption text-right">Fig 2. Reaction breakdown of BSJ recognition by the H1 hairpin probe</figcaption>
+                  <figcaption class="figure-caption text-left">Fig 2. Reaction breakdown of BSJ recognition by the H1 hairpin probe</figcaption>
                 </figure>
-            </div>
-            <p>As shown in Fig.1, H1 consists of five domains c, b*, a, b, and r. Without the BSJ-target in the reaction mixture, H1 exists in a stem-loop conformation. The two complementary domains b and b* form the H1-stem. H1-loop consists of domain α. Η1 also possesses two different overhang regions, r, responsible for the hybridization with the RCA product through complementarity, and c, a toehold domain. The BSJ of the circRNA-target is complementary to the b and c domains. </p>
-            <p>As shown in Fig.2, the first reaction includes two steps: BSJ binds to H1 via invading the toehold c and displaces the b* domain by branch migration.</p>
+            </div><br>
+            <p>As shown in <span>Fig.1</span>, H1 consists of five domains c, b*, a, b, and r. Without the BSJ-target in the reaction mixture, H1 exists in a stem-loop conformation. The two complementary domains b and b* form the H1-stem. H1-loop consists of domain α. Η1 also possesses two different overhang regions, r, responsible for the hybridization with the RCA product through complementarity, and c, a toehold domain. The BSJ of the circRNA-target is complementary to the b and c domains. </p>
+            <p>As shown in <span>Fig.2</span>, the first reaction includes two steps: BSJ binds to H1 via invading the toehold c and displaces the b* domain by branch migration.</p>
             <p>The rate kf1 denotes the hybridization rate of c to its complement. The base composition of the c domain can cause the value of kf1 to vary significantly. </p>
             <p>The rate kb1 denotes the rate at which the branch migration junction crosses the middle of the b domain. As the incumbent, b*, and invader, BSJ, exchange base pairs with the substrate, b, the branch point of the three-stranded complex moves back and forth. Eventually, the b* domain dissociates, completing strand displacement. Overall, displacement is thermodynamically driven forward by the net gain in base pairs due to the toehold. The length of the b domain determines the value of kb1. Finally, kr1 denotes the rate at which toehold c dissociates. The binding of c to its complement is reversible because the toehold may ‘fray’ and eventually dissociate.</p>
             <p>kr1 = kf1 * (2/b) * eΔGo(c)/RT</p>
-            <p>where ΔGo(c)  < 0 is the binding energy between c and its complement, and b the length of b domain [1].</p>
+            <p>where ΔGo(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain [1].</p>
             <h3 class="small-title">2<sup>nd</sup> toehold-mediated strand displacement reaction</h3>
             <div class="row">
                 <figure class="col-xs-12 col-xl-6 align-self-xl-center">
@@ -155,7 +155,7 @@ export default {
         window.addEventListener("load", () => {
             this.scrolled();
         });
-        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model1.json")
+        fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/model2.json")
           .then(res => res.json())
           .then(data => this.dictionaryData = data)
           .catch(err => { throw err });
