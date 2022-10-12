@@ -199,6 +199,7 @@
 
           <section id="events">
             <h2 class="main-title">Informative events</h2>
+            <p>As part of the science communication session, we scheduled informative events accessible to everyone interested in learning more about iGEM Competition and syn-PNOIA project.</p>
             <ul class="acc">
               <li class="acc-item">
                 <input id="v1" class="hide" type="checkbox">
@@ -226,6 +227,7 @@
 
           <section id="media">
             <h2 class="main-title">Media & Press Conference</h2>
+            <p>Finally, we sought effective ways to disseminate our team's research through iGEM Competition and introduce Synthetic Biology to the audience. From our interaction with the public, we received positive reviews and genuine interest in our project, and we also enjoyed our journey in iGEM Competition 2022.</p>
             <ul class="acc">
               <li class="acc-item">
                 <input id="m1" class="hide" type="checkbox">
