@@ -56,7 +56,7 @@
               <p>As shown in <span>Fig.2</span>, the first reaction includes two steps: BSJ binds to H1 via invading the toehold c and displaces the b* domain by branch migration.</p>
               <p>The rate k<sub>f1</sub> denotes the hybridization rate of c to its complement. The base composition of the c domain can cause the value of k<sub>f1</sub> to vary significantly. </p>
               <p>The rate k<sub>b1</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. As the incumbent, b*, and invader, BSJ, exchange base pairs with the substrate, b, the branch point of the three-stranded complex moves back and forth. Eventually, the b* domain dissociates, completing strand displacement. Overall, displacement is thermodynamically driven forward by the net gain in base pairs due to the toehold. The length of the b domain determines the value of k<sub>b1</sub>. Finally, k<sub>r1</sub> denotes the rate at which toehold c dissociates. The binding of c to its complement is reversible because the toehold may ‘fray’ and eventually dissociate.</p>
-              <p>k<sub>r1</sub> = k<sub>f1</sub> * (2/b) * e<sup>ΔG<sub>o</sub>(c)/RT</sup></p>
+              <p>k<sub>r1</sub> = k<sub>f1</sub>&middot;(2/b)&middot;e<sup>ΔG<sub>o</sub>(c)/RT</sup> [I]</p>
               <p>where ΔG<sub>o</sub>(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain <a v-scroll-to="'#references'" class="link-ref">[1]</a>.</p>
             </section>
             <section>
@@ -73,20 +73,20 @@
               </div><br>
               <p>As depicted in <span>Fig.3</span>, H2 also consists of five domains a*, b, a, b*, and r. Initially, H2 forms a stem-loop conformation by hybridizing the two complementary domains, b and b*. The formed loop consists of domain l. Like H1, the H2 hairpin possesses two overhang regions: a toehold domain, a* domain, and an RCA binding domain, s domain. In addition, H2 brings a fluorophore and a quencher. We represent them in Fig3 as a green and a black dot, respectively.</p>
               <p>The second toehold reaction is illustrated in <span>Fig.4</span>. Toehold domain a* binds to H1’s complementary domain a. After the toehold invasion, branch migration displacement occurs. The H1 b domain displaces the stem b domain. H2 now exists in an open conformation, which results in the fluorophore diverging from the quencher and emitting fluorescence when excited at the right wavelength. </p>
-              <p>As in step 1, the rate k<sub>f2</sub> represents the hybridization rate of toehold domain a* to its complement. In addition, the rate k<sub>b2</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. Finally, kr2 denotes the rate at which toehold a* frays and dissociates. </p>
-              <p>k<sub>r2</sub> = k<sub>k<sub>f1</sub>2</sub> * (2/b) * e<sup>ΔG<sub>o</sub>(a)/RT</sup></p>
-              <p>where ΔGo(a) &lt; 0 is the binding energy between a and its complement, and b the length of b domain.</p>
+              <p>As in step 1, the rate k<sub>f2</sub> represents the hybridization rate of toehold domain a* to its complement. In addition, the rate k<sub>b2</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. Finally, k<sub>r2</sub> denotes the rate at which toehold a* frays and dissociates. </p>
+              <p>k<sub>r2</sub> = k<sub>f2</sub>&middot;(2/b)&middot;e<sup>ΔG<sub>o</sub>(c)/RT</sup> [II]</p>
+              <p>where ΔG<sub>o</sub>(a) &lt; 0 is the binding energy between a and its complement, and b the length of b domain.</p>
             </section>
             <section>
               <h3 class="small-title">KinDA: Kinetic DNA strand displacement analyzer</h3>
               <p>KinDA <a v-scroll-to="'#references'" class="link-ref">[2]</a> is a python package that can predict system <a @click="changeWord('Thermodynamics-kinetics')" class="link-primary">kinetic and thermodynamic behavior</a> at the sequence level. With KinDA, we can determine if the system as a whole behaves as designed. We tested KinDA through the available Amazon Web Services (AWS) Amazon Machine Image (AMI).</p>
               <p>First, the user creates a PIL file that specifies the domains, as described above, stands, and complexes of the DNA strand-displacement system. An example of the user input is the following</p>
-              <p># Specify all strands:
+              <p><span># Specify all strands:</span>
               <br>strand h1 = c b a b* r : 76
               <br>strand bsj = b* c* : 30
               <br>strand rca = r* s : 51
                             <br>
-              <br># Specify all predicted complexes:
+              <br><span># Specify all predicted complexes:</span>
               <br>structure 1 = h1 + rca : .(.)(+).
               <br>structure B = bsj : ..
               <br>structure 2 = bsj + h1 + rca : .(+)(.)(+).
@@ -101,7 +101,7 @@
               <p>We calculated the following rates for the 1st toehold-mediated strand displacement reaction:</p>
               <p>k1i: (3.41 ± 0.887) 10<sup>7</sup>
               <br>k2i: (2.18 ± 0.576) 10<sup>7</sup></p>
-              <p>In this model:	k1i = k<sub>f1</sub> [k<sub>b1</sub> / (k<sub>b1</sub>+k<sub>r1</sub>)] [III],	k2i = k<sub>b1</sub> [IV]</p>
+              <p>In this model:	k1i = k<sub>f1</sub> [k<sub>b1</sub> / (k<sub>b1</sub>+k<sub>r1</sub>)] [III],	k<sub>2</sub><sup>i</sup> = k<sub>b1</sub> [IV]</p>
               <p>From [I] we calculated that k<sub>f1</sub> >>> k<sub>r1</sub>, using the value of ΔGo(c) = -10.88 kcal/mol, as calculated by ViennaRNA. So, we can assume that the toehold domain is long enough so that the dissociation step proceeds slowly relative to the toehold invasion step. Hence, the toehold invasion step determines the rate of the whole reaction.</p>
               <p>Then we calculated the following rates for the 2nd toehold-mediated strand displacement reaction:</p>
               <p>Following the same process, we proved that the toehold invasion step again determines the rate of the whole reaction.</p>
@@ -219,7 +219,7 @@
               <h3 class="small-title">CircRNA secondary structure</h3>
               <p>A necessary component to understanding our system and progressing our Modeling work is the illustration of how the circular RNAs appeared to be in space. Hence, we used the ViennaRNA Web services, particularly the RNAfold server, a gold standard in RNA 2D visualization <a v-scroll-to="'#references'" class="link-ref">[14]</a>, <a v-scroll-to="'#references'" class="link-ref">[15]</a>. By importing the mature circRNA sequence and selecting the "assume RNA molecule to be circular" option under the advanced options menu, we generated the secondary structure for the circRNA targets. </p>
               <p>In the output, two different predictions are depicted: the Minimum Free Energy structure (MFE) and the Centroid structure, which represent the equilibrium ensemble differently. For the next steps of our Model, we used the MFE structure, depicted in <span>Fig.8</span>.</p>
-              <div class="gallery d-flex justify-content-center">
+              <div class="gallery grid4">
                 <figure class="gallery">
                   <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.jpg"/></a>
@@ -240,7 +240,7 @@
               <p>Two methods were implemented, one to model the structure of the circular RNAs and one to model the LDN system's components. Following the secondary structure prediction and our understanding that circular RNAs are far from a circle, we aimed to model their tertiary structure in order to identify where the back splice junction domain is located. That proves to be a valuable point when designing our structure, because if the BSJ site is located in a place where steric hindrance occurs it would be difficult to be accessed by our Nanostructure. As a result the detection reaction would take longer than expected or even not accomplished at all. </p>
               <p>CircRNAs were modeled using 3DRNA/DNA web services <a v-scroll-to="'#references'" class="link-ref">[16]</a>, which functions as a comparative modeling method and an ab initio method combining user-defined data and already characterized nucleic acid segments to obtain the best possible tertiary structure. By importing the mature circRNA sequence and the corresponding secondary structure obtained in the previous step, the server follows a pipeline of assembling the smallest secondary elements (SSEs) containing stem (helix), hairpin loop, internal loop, bulge loop, pseudoknot loop, and junction loop, from already characterized RNA PDB files and optimizing the structure with Monte Carlo simulations. After the simulation, multiple models are depicted, all scored by a 3dRNA score acting as a method to evaluate distance and torsion angle functions of the structure, where a lower value corresponds to a better structure. Hsa_circ_0070354 scored 26.3831, hsa_circ_0102533 scored 26.5516 and hsa_circ_0005962 scored 26.7353, values low enough considering their complex structure.</p>
               <p>After comparing the output to the original secondary structure, we obtain the 3D structure of choice. We visualized the circRNA 3D structure using UCSF Chimera X <a v-scroll-to="'#references'" class="link-ref">[17]</a> and Visual Molecular Dynamics (VMD) <a v-scroll-to="'#references'" class="link-ref">[18]</a>, <a v-scroll-to="'#references'" class="link-ref">[19]</a>. These next-generation molecular visualization programs provide a command line and a Graphical User Interface. By the interactive side panel, the BSJ site is selected, and it is differentiated by blue color from the remaining structure. In <span>Fig.9</span>, all three circRNA targets are depicted providing an easy-to-access BSJ site.</p>
-              <div class="gallery d-flex justify-content-center">
+              <div class="gallery grid4">
                 <figure class="gallery">
                   <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
@@ -286,7 +286,7 @@
             <section>
               <h3 class="small-title">Primer hybridization to phosphorylated template</h3>
               <p>First step to our project was the creation of the circular DNA template, by hybridization of RCA primer to the phosphorylated template. Modeling that structure proved to be a simple task, following the oxDNA pipeline described earlier, we just had to incorporate one more aspect, that of Mutual Traps. If we let our system reach equilibration on its own, it would take at least 108 timesteps for a simple oligonucleotide hybridization, amounting to time-consuming simulations. Mutual Traps act as time-sustained external forces bringing user-defined complementary and anti-aligned nucleotides closer. See more details in the Contribution page on how to orchestrate a Mutual  By incorporating these forces in the first and last nucleotide of the primer and their complementary nucleotides in the template sequence we are able to reach equilibration obtaining the desired structure.Simulation was run with a temperature set to 25 <sup>o</sup>C. In <span>Fig.10</span> the initial and equilibrated tertiary structures are presented before and after oxDNA simulation.</p>
-              <div class="gallery d-flex justify-content-center">
+              <div class="gallery grid3">
                 <figure class="gallery">
                   <figcaption class="figure-caption text-left"><span>Circle start</span></figcaption>
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-start.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-start.png"/></a>
@@ -327,21 +327,22 @@
               <h3 class="small-title">Protein-DNA interactions</h3>
               <p>Two interactions were studied: The T4 DNA ligase binding to the circular DNA template and the interaction between phi29 DNA polymerase and the template. The first step was to do a docking analysis on the desired complexes. PDB files for the T4 DNA ligase and the phi29 DNA polymerase were obtained from the PDB server as complexes with target DNA. Using VMD, we exported the protein structure as a new PDB file to be used for docking. Using the HDOCK web server <a v-scroll-to="'#references'" class="link-ref">[35]</a>, we got: </p>
               <br>
-              <div class="d-flex justify-content-around">
-                <div>
+              
+              <div class="row justify-content-around">
+                <div class="col-6 col-sm-4">
                   <p>For the phi29-DNA complex: </p>
                   <ul class="bullets">
                     <li>Docking Score: -220.17 </li>
                     <li>Confidence Score: 0.8602 </li>
-                    <li>Ligand RMSD: 248.25</li>
-                  </ul>                  
+                    <li>Ligand RMSD: 248.25</li><br>
+                  </ul>
                 </div>
-                <div>
+                <div class="col-6 col-sm-4">
                   <p>For the T4 ligase-DNA complex:</p>
                   <ul class="bullets">
                     <li>Docking Score: -270.22</li>
                     <li>Confidence Score: 0.9172</li>
-                    <li>Ligand RMSD: 174.29</li>
+                    <li>Ligand RMSD: 174.29</li><br>
                   </ul>
                 </div>
               </div><br>
@@ -402,6 +403,24 @@
     </Scrollspy>
   </div>
 </template>
+
+<style>
+.supsub {
+    display: inline-block;
+}
+
+.supsub sup,
+.supsub sub {
+    position: relative;
+    display: block;
+    font-size: .5em;
+    line-height: 1.2;
+}
+
+.supsub sub {
+    top: .3em;
+}
+</style>
 
 <script>
 import SimpleLightbox from "simplelightbox";

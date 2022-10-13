@@ -360,7 +360,7 @@ import SimpleLightbox from "simplelightbox";
 export default {
     data() {
         return {
-            currentPage: "Communication",
+            currentPage: "Education & Communication",
             reset: false
         };
     },
