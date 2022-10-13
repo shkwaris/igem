@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :title="currentPage">
-      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/results123.jpg') center center no-repeat; background-size: cover;">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/inclusivity.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
     </Header>
@@ -46,9 +46,18 @@
             <a href="https://open.spotify.com/episode/3sad2xQaNqcThOyvzf4grl?si=489f1b5b2de74c1a" class="link-download">Listen to our Podcast</a>
           </section>
           <section id="pride">
-            <h2 class="main-title">“String Science with PRIDE” collaboration</h2>
-            <p>On the occasion of the day against homophobia and pride, our team decided to highlight the value of pride through active participation and awareness-raising in actions such as the collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”. Reaffirming once again that " we are all different but equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
-            <a @click="scrollToCollaborations()" class="link-download">Here you can read our prose for String Science with PRIDE collaboration</a>
+            <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-xl-6">
+                    <h2 class="main-title">“String Science with PRIDE” collaboration</h2>
+                    <p>On the occasion of the day against homophobia and pride, our team decided to highlight the value of pride through active participation and awareness-raising in actions such as the collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”. Reaffirming once again that " we are all different but equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
+                    <a @click="scrollToCollaborations()" class="link-download">Here you can read our prose for String Science with PRIDE collaboration</a>
+                  </div>
+                  <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
+                    <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/string-science-with-pride-collaboration.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/string-science-with-pride-collaboration.png"/></a>
+                  </div>
+                </div>
+            </div>
           </section>
           <section id="blood">
             <h2 class="main-title">Homo/Trans/Bi-phobia is not a blood component</h2>
