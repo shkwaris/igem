@@ -103,38 +103,44 @@
           </section>
           <section id="ancillary">
             <h2 class="main-title">Ancillary experiments</h2>
-            <h3 class="small-title">H2 fluorescence intensity</h3>
-            <p>We diluted the H2 hairpin probe at a final concentration equal to the concentration of H2 in the final reaction and measured the fluorescence intensity of the sample. In this way, we estimated the emitted  fluorescence of the probe at a closed conformation. </p>
-            <h3 class="small-title">H1 & H2 mixture fluorescence intensity</h3>
-            <p>We mixed H1 & H2 hairpin probes at a final concentration equal to their concentration in the final reaction and measured the fluorescence intensity of the sample. Comparing these results with the fluorescence emitted by the closed conformation of H2 probe, we estimated the hybridization efficiency of the two probes in the reaction mixture in the absence of the target. </p>
-            <h3 class="small-title">LDN's fluorescence intensity in the absence of the target</h3>
-            <p>The negative samples (samples containing only LDN and water), prior to incubation step, were measured. In this way, we measured the fluorescence intensity emitted by the LDN alone. </p>
-            <h3 class="small-title">LDN's stability</h3>
-            <p>We constructed a calibration curve with increasing amounts of the BSJ target with LDN, that was previously stored at -80 <sup>o</sup>C, in order to assess the stability of LDN during time.</p>
-            <h3 class="small-title">Time-response kinetics analysis</h3>
-            <p>In order to find the optimal time of the final step of our method, we performed LDN detection reactions that were halted for consecutive times (0, 20 min, 40 min, 60 min, 80 min, 100 min and 120 min). Thus, the system's fluorescence enhancement with the time was determined. </p>
+            <section>
+              <h3 class="small-title">H2 fluorescence intensity</h3>
+              <p>We diluted the H2 hairpin probe at a final concentration equal to the concentration of H2 in the final reaction and measured the fluorescence intensity of the sample. In this way, we estimated the emitted  fluorescence of the probe at a closed conformation. </p>
+            </section>
+            <section>
+              <h3 class="small-title">H1 & H2 mixture fluorescence intensity</h3>
+              <p>We mixed H1 & H2 hairpin probes at a final concentration equal to their concentration in the final reaction and measured the fluorescence intensity of the sample. Comparing these results with the fluorescence emitted by the closed conformation of H2 probe, we estimated the hybridization efficiency of the two probes in the reaction mixture in the absence of the target. </p>
+            </section>
+            <section>
+              <h3 class="small-title">LDN's fluorescence intensity in the absence of the target</h3>
+              <p>The negative samples (samples containing only LDN and water), prior to incubation step, were measured. In this way, we measured the fluorescence intensity emitted by the LDN alone. </p>
+            </section>
+            <section>
+              <h3 class="small-title">LDN's stability</h3>
+              <p>We constructed a calibration curve with increasing amounts of the BSJ target with LDN, that was previously stored at -80 <sup>o</sup>C, in order to assess the stability of LDN during time.</p>
+            </section>
+            <section>
+              <h3 class="small-title">Time-response kinetics analysis</h3>
+              <p>In order to find the optimal time of the final step of our method, we performed LDN detection reactions that were halted for consecutive times (0, 20 min, 40 min, 60 min, 80 min, 100 min and 120 min). Thus, the system's fluorescence enhancement with the time was determined. </p>
+            </section>
           </section>
           <section id="protocols">
             <h2 class="main-title">Protocols</h2>
             <div class="row">
                 <div class="col btns">
-                  <a @click="buttonEvent(1)" class="primary-button" :class="activebutton == 1 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RT-PCR Protocol</a>
-                  <a @click="buttonEvent(2)" class="primary-button" :class="activebutton == 2 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Rolling Circle Amplication</a>
-                  <a @click="buttonEvent(3)" class="primary-button" :class="activebutton == 3 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RNA Isolation</a>
-                  <a @click="buttonEvent(4)" class="primary-button" :class="activebutton == 4 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0102533)</a>
-                  <a @click="buttonEvent(5)" class="primary-button" :class="activebutton == 5 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0005962)</a>
-                  <a @click="buttonEvent(6)" class="primary-button" :class="activebutton == 6 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Circularization of the phosphorylated DNA template cell culture</a>
-                  <a @click="buttonEvent(7)" class="primary-button" :class="activebutton == 7 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Buffer solutions preparation protocol</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RT-PCR Protocol</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Rolling Circle Amplication</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RNA Isolation</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0102533)</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0005962)</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Circularization of the phosphorylated DNA template cell culture</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Buffer solutions preparation protocol</a>
                 </div>
             </div>
           </section>
           <secrion id="notebook">
-            <h2 class="main-title">Notebook</h2>
-            <div class="row">
-                <div class="col btns">
-                  <a @click="buttonEvent(8)" class="primary-button" :class="activebutton == 8 ? 'active' : ''" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Wet Lab Notebook</a>
-                  </div>
-            </div>
+            <h2 class="main-title">Notebook</h2><br>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Wet Lab Notebook</a>
           </secrion>
           <section id="references">
             <ul class="acc">
