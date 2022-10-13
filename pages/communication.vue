@@ -121,8 +121,14 @@
                 <div class="acc-child">
                   <p>Patras Medicine team aims to bring children and adolescents up to 18 years old in contact with synthetic biology. For this purpose, we created 2 board games, and then we made sure to present them in schools, where students had the opportunity to play with them. More specifically</p>
                   <ul class="bullets acc">
-                    <li><span>DNA Runner:</span> This is a board game about the complementarity of DNA bases, which includes various mutagenic factors - such as DNA polymerase or mutagenic agents - that can affect it. So, more playfully, we educate younger children on how DNA is organized inside the cell.</li>
-                    <li><span>GENE - US:</span> This is a knowledge board game in the form of questions and answers, which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!</li>
+                    <li>
+                      <span>DNA Runner:</span> This is a board game about the complementarity of DNA bases, which includes various mutagenic factors - such as DNA polymerase or mutagenic agents - that can affect it. So, more playfully, we educate younger children on how DNA is organized inside the cell.
+                      <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/odhgies.pdf">Download the instructions</a>
+                    </li>
+                    <li>
+                      <span>GENE - US:</span> This is a knowledge board game in the form of questions and answers, which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players!
+                      <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/odigis-2.pdf">Download the instructions</a>         
+                    </li>
                   </ul>
                   <div class="gallery rounded mx-auto d-block" style="width: 80%; margin-top: 30px;">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/board-games.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/board-games.jpg"/></a>
@@ -134,6 +140,7 @@
                 <label for="e4" class="acc-label icon" style="margin-bottom: 20px">Comic</label>
                 <div class="acc-child">
                   <p>Our team has an unwavering goal to fight cancer. As we know, awareness and information are the keys to preventing and fighting this morbidity. Therefore, starting from childhood, we decided to create a comic that would bring children closer to our idea and project. After all, knowledge is power. This is how we get young people into contact with health, wellness, cancer, and iGEMers through a delightful story. Our comic made the rounds of Greek schools, where the children had the opportunity to hear our story and read it. The comic is called the "lamp of health".</p>
+                  <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/to-lixnari-tis-ygeias.pdf">Download our comic</a>                
                   <div class="gallery grid2">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic1.jpg"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/comic2.jpg"/></a>
@@ -194,7 +201,7 @@
                   <div class="row">
                   <div class="col-xs-12 col-xl-6">
                     <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>      
-                    <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/sbs-1.pdf">You can find the SynBio Dictionary here</a>
+                    <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/sbs-1.pdf">You can find the Synthetic Biology Scientists here</a>
                 
                   </div>
                   <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
