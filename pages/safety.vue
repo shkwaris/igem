@@ -53,6 +53,7 @@
               <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-3-min.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-3-min.jpg"/></a>
             </div>  
             <p>For example, lab coats are worn at all times, and lab members must dress appropriately (e.g., closed shoes, long pants, and avoid loose sleeves). Gloves and protective glasses are used when needed, and the work area is always kept clean. Team members understand and consider the risk level of the organisms, parts, chemicals, and equipment used. In addition, they must be aware of all actions needed in case of an emergency. Before entering the lab, preparing the design and methodology of the experiment is a ritual. All personnel are trained to handle materials safely, as well as to follow safety guidelines. Furthermore, we are provided with safety training from Principal Investigators on how to best keep their labs safe.</p>
+            <br>
             <section>
               <h2 class="small-title">COVID-19 Considerations</h2>
               <p>The laboratories that represent the project perform site- and activity-specific risk assessments to determine the most appropriate safety measures to implement for particular circumstances and activities. The staff is up to date with their vaccines, wears face masks, and is judicious with personal hygiene and disinfection.</p>
@@ -94,9 +95,10 @@
                 <input id="s1" class="hide" type="checkbox">
                 <label for="s1" class="acc-label icon">References</label>
                 <div class="acc-child">
-                  [1]. CDC. (2020, February 11). Information for Laboratories about Coronavirus (COVID-19). Centers for Disease Control and Prevention. <a href="https://www.cdc.gov/coronavirus/2019-ncov/lab/lab-safety-practices.html" class="link-ref">https://www.cdc.gov/coronavirus/2019-ncov/lab/lab-safety-practices.html</a>
+                  <p>[1]. CDC. (2020, February 11). Information for Laboratories about Coronavirus (COVID-19). Centers for Disease Control and Prevention. <a href="https://www.cdc.gov/coronavirus/2019-ncov/lab/lab-safety-practices.html" class="link-ref">https://www.cdc.gov/coronavirus/2019-ncov/lab/lab-safety-practices.html</a>
 ‌                  <br>[2]. iGEM Responsibility. (n.d.). Responsibility.igem.org. Retrieved October 12, 2022, from <a href="https://responsibility.igem.org/safety-forms/project-safety" class="link-ref">https://responsibility.igem.org/safety-forms/project-safety</a>
                   <br>[3]. Cell Culture Laboratory Safety - US. (n.d.). Www.thermofisher.com. Retrieved October 12, 2022, from <a href="https://www.thermofisher.com/gr/en/home/references/gibco-cell-culture-basics/cell-culture-laboratory-safety.html" class="link-ref">https://www.thermofisher.com/gr/en/home/references/gibco-cell-culture-basics/cell-culture-laboratory-safety.html</a> 
+                  </p>
                 </div>
               </li>
             </ul>
