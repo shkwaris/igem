@@ -90,7 +90,7 @@
             <section id="our">
               <h3 class="small-title">Our biomarkers</h3>
               <p>We decided it was better to choose a panel of circular RNAs instead of a single one because a panel of biomarkers may improve the predictive performance of the test. The three final targets were hsa_circ_0070354, hsa_circ_0102533, and hsa_circ_0005962.</p>
-              <a class="primary-button" href="model/#biomarker">See the biomarker choice process</a>
+              <a class="primary-button" @click="scollToBiomarker()">See the biomarker choice process</a>
             </section>
           </section>
           <section id="nano">
@@ -162,6 +162,14 @@ export default {
     data() {
         return {
             currentPage: "Description",
+            options: {
+              easing: [0.25, 0.1, 0.25, 1.0],
+              force: true,
+              cancelable: false,
+              x: false,
+              y: true,
+              offset: -80,
+            },
         };
     },
     mounted() {
@@ -183,7 +191,13 @@ export default {
     methods: {
       scrolled: function () {
         document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
-      }
+      },
+      scollToBiomarker: function () {
+        this.$router.push({path: "model"});
+          setTimeout(() =>{
+            this.$scrollTo("#biomarker", 350, this.options);
+          }, 1000)
+      },
     }
 }
 </script>
