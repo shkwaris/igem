@@ -53,7 +53,7 @@
               <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-3-min.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-3-min.jpg"/></a>
             </div>  
             <p>For example, lab coats are worn at all times, and lab members must dress appropriately (e.g., closed shoes, long pants, and avoid loose sleeves). Gloves and protective glasses are used when needed, and the work area is always kept clean. Team members understand and consider the risk level of the organisms, parts, chemicals, and equipment used. In addition, they must be aware of all actions needed in case of an emergency. Before entering the lab, preparing the design and methodology of the experiment is a ritual. All personnel are trained to handle materials safely, as well as to follow safety guidelines. Furthermore, we are provided with safety training from Principal Investigators on how to best keep their labs safe.</p>
-            <br>
+            <br><br>
             <section>
               <h2 class="small-title">COVID-19 Considerations</h2>
               <p>The laboratories that represent the project perform site- and activity-specific risk assessments to determine the most appropriate safety measures to implement for particular circumstances and activities. The staff is up to date with their vaccines, wears face masks, and is judicious with personal hygiene and disinfection.</p>
@@ -76,7 +76,9 @@
           <section id="section5">
             <h2 class="main-title">Biosafety Practices</h2>
             <p>All the rules mentioned above are thoroughly described and explained through an informative video our team filmed in the context of our collaboration with iGEM IISER Mohali team. In this video, one of our lab members talks about biosafety related to a cell line that we use as a negative control to test our diagnostic tool. BEAS2B cell line is classified as biosafety level 2, because it contains polyoma viral DNA sequences. </p>
-            <a class="link-download" href="https://video.igem.org/w/xkTMkySnmQEZfMc18hst9Y?start=0s">Watch the video</a>
+            <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+              <iframe title="Patras_Medicine: Biosafety Video (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/fdd25778-8821-4ba2-bd9c-71b1d44d95c4" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+            </div>
           </section>
           <section id="section6">
             <h2 class="main-title">Project safety</h2>
