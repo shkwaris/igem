@@ -188,18 +188,14 @@
             <p>Thankfully, we were invited to join many meet-ups globally and communicate syn-PNOIA on four continents, gaining positive feedback and learning about other teams' projects.</p>
             <p><span>America:</span> On August 20th, we attended the Mini Jamboree, hosted by iGEM Cornell and iGEM McGill team, which was a large meet-up for iGEM teams from USA and Canada. We performed a 15-minute presentation of our project and research so far, including Dry Lab, Wet Lab, and Human Practices, in front of a panel of judges. We got an early taste of what the Grand Jamboree judging process would look like and the feedback we got helped us evolve our project, by integrating more entrepreneurial aspects.</p>
             <p><span>Africa:</span> On August 23rd, Pharaoh's CU iGEM team invited us to participate virtually in their meet-up with Egyptian iGEM teams, professors from Cairo, and African iGEM Ambassadors.</p>
-            <figure class="gallery">
+            <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
               <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/meetup-africa-pharaohs-cu.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/meetup-africa-pharaohs-cu.jpg"></a>
-            </figure>
+            </figure><br><br>
             <p><span>Asia:</span> On August 6th, we joined the Worldshaper-HZ China team's meet-up among Chinese teams, where we had the opportunity to present syn-PNOIA and gain feedback.</p>
             <p><span>Europe:</span> On 22-24 of July, we took part in the Summer Mediterranean iGEM meeting organized by iGEM UBarcelona, where many iGEM teams were invited to share their knowledge, different approaches, and experience. The panel also included projects and selected scientists' presentations.</p>
-            <figure class="gallery">
-              <a href=""><img src=""></a>
-            </figure>
             <p><span>Greece:</span> On May 28th, we attended the Pre-Aegean meeting from the iGEM Patras team, an online introductory meeting between the Greek iGEM teams to meet each other and present our initial project ideas. An extra task for the participant teams was to choose and describe a person or scientist who inspired them to participate in the competition. Thus, we selected Shirley Chisholm, who fought for public health to become a right and requested equal rights for women, minorities, immigrants, and the poor. That motivated us to engage with Synthetic Biology in Medicine and prove that science is for everyone!</p>
             <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/shirley.pdf">Read about Shirley</a>
-            <br>
-            <br>
+            <br><br>
             <p>Afterward, we participated in the Aegean meeting, which took place with a physical presence in Patras on the 10-11 of July. At this event, we had the opportunity to exchange feedback on our projects and play interactive games to enhance the bonding among the Greek teams. We also presented our research to the Minister of Agriculture, an honored guest.</p>
             <div class="gallery grid2">
               <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aegean2.jpg"/></a>
