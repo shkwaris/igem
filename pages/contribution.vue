@@ -34,13 +34,14 @@
         <div class="col-lg-9 main-content" id="main-content">
           <p>In this section we present our contributions to the iGEM community.</p>
           <section id="enterpreneurship">
+            <h2 class="main-title">Supporting Enterpreneurship</h2>
             <section id="fundraising">
-              <h2 class="main-title">Fundraising</h2>
+              <h3 class="small-title">Fundraising</h3>
               <p>For our team it is of high importance that future iGEM teams don't lose any time figuring out how to organize their fundraising. For that reason we documented our fundraising journey and prepared a plan for the future iGEM teams.</p>
               <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/fundraising-tool.pdf" download="" target="_blank">Download the fundraising tool</a>
             </section>
             <section id="business">
-              <h2 class="main-title">Business plan</h2>
+              <h3 class="small-title">Business plan</h3>
               <p>A business plan can be very tricky so we are happy to provide this tool for the future iGEM teams, shaped from our experience. </p>
               <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/business-plan-tool.pdf" download="" target="_blank">Download the business plan tool</a>
             </section>
@@ -87,7 +88,7 @@
             <section id="safety">
               <h3 class="small-title">Safety</h3>
               <p>We designed safety stickers aiming to establish a universal safety system for Laboratory protection.</p>
-              <a class="primary-button" href="safety/#section1">Check out our stickers</a>
+              <a class="primary-button" @click="scrollToStickers()">Check out our stickers</a>
             </section> 
           </section>
           <section id="edu">
@@ -121,6 +122,14 @@ export default {
     data() {
         return {
             currentPage: "Contribution",
+            options: {
+              easing: [0.25, 0.1, 0.25, 1.0],
+              force: true,
+              cancelable: false,
+              x: false,
+              y: true,
+              offset: -80,
+            },
         };
     },
     mounted() {
@@ -142,7 +151,13 @@ export default {
     methods: {
       scrolled: function () {
         document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
-      }
+      },
+      scrollToStickers: function () {
+        this.$router.push({path: "safety"});
+          setTimeout(() =>{
+            this.$scrollTo("#section1", 350, this.options);
+          }, 1000)
+      },
     }
 }
 </script>
