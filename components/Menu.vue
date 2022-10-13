@@ -1,6 +1,6 @@
 <template>
     <div class="menu" :class="this.isOpened == true ? 'opened' : 'closed'">
-        <div class="nav">
+        <div class="nav" style="user-select: none;" >
             <a class="logo" @click="scrollToTop()">
                 <img src="https://static.igem.wiki/teams/4118/wiki/syn-pnoia-black.png" width="120" height="52"/>
             </a>
@@ -11,11 +11,10 @@
               </span>
             </button>
         </div>
-        <div class="blured"></div>
         <div class="content" @click="clickOuside()">
             <slot/>
         </div>
-        <aside>
+        <aside style="user-select: none;">
             <ul class="w-full flex flex-col text-white pt-5">
                 <li class="menu items"><a @click="pushRoute('/')">Home</a></li>
                 <li class="menu items">
