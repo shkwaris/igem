@@ -41,13 +41,13 @@
             <p>Created "by scientists for scientists", NEB is renowned for consistently providing exceptional product quality and unsurpassed technical support. For over four decades, NEB has been shaping the landscape of bioscience research by discovering, developing and supporting superior research reagents. From our founding principles – placing the advancement of science and the stewardship of the environment as our highest priorities – to our unique corporate culture, NEB’s philosophy can be distilled down to three core values: passion, humility and being genuine.
               <br><br>
             A supplier-of-choice for scientists across the globe, NEB offers the largest selection of recombinant and native enzymes for genomic research. While restriction enzymes remain part of our core product portfolio, our ever-expanding catalog also includes products related to PCR, gene expression, sample preparation for next generation sequencing, synthetic biology, glycobiology, epigenetics and RNA analysis. Additionally, NEB is focused on strengthening alliances that enable new technologies to reach key market sectors, including molecular diagnostics development.</p>
-            <a href="https://www.snapgene.com/" class="sponsors-link" target="_blank">https://www.snapgene.com/</a>
+            <a href="https://international.neb.com/about-neb/neb-overview" class="sponsors-link" target="_blank">https://international.neb.com/about-neb/neb-overview</a>
           </div>
-
+          
           <div class="col-xs-12">
             <img class="snapgene" src="https://static.igem.wiki/teams/4118/wiki/sponsors/logo-snap.png" alt="SnapGene" />
             <p>In 2004, Benjamin Glick co-founded SnapGene to eliminate the inefficiencies he observed in molecular biology research. Created by a team of scientists, software engineers, and usability experts, SnapGene has become the easiest and most secure way for scientists to plan, visualize and document everyday molecular biology procedures.</p>
-            <a href="https://international.neb.com/about-neb/neb-overview" class="sponsors-link" target="_blank">https://international.neb.com/about-neb/neb-overview</a>
+            <a href="https://www.snapgene.com/" class="sponsors-link" target="_blank">https://www.snapgene.com/</a>
           </div>
         </div>
       </section>
