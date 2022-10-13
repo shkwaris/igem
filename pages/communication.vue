@@ -202,7 +202,7 @@
                   <div class="col-xs-12 col-xl-6">
                     <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>      
                     <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/sbs-1.pdf">You can find the Synthetic Biology Scientists here</a>
-                
+  
                   </div>
                   <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
                     <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tempimagebj4urv.gif"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tempimagebj4urv.gif"/></a>
