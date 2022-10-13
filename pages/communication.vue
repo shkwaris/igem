@@ -29,7 +29,7 @@
 
         <div class="col-lg-9 main-content" id="main-content">
           <section id="general">
-            <h2 class="main-title">General Public</h2>
+            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com1.jpg"/>
             <p>Intending to attract more and more people to get interested in Synthetic Biology, iGEM Competition, and syn-PNOIA, we designed a sequel of activities including presentations in fairs and even quiz games combining entertainment and educational character.</p>
             <ul class="acc">
               <li class="acc-item">
@@ -72,7 +72,7 @@
           </section>
 
           <section id="community">
-            <h2 class="main-title">Academic Community</h2>
+            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com2.jpg"/>
             <p>Even though Synthetic Biology has kept growing as a scientific field in the last few years and has attracted the interest of more and more young researchers, it is not yet well-known and widely applied in Greece. Our duty as a research group is to communicate and highlight the achievements and opportunities offered by the branch of science we have been studying. For this reason, we intended to spread Synthetic Biology and our idea among the academic community.</p>
             <ul class="acc">
               <li class="acc-item">
@@ -83,7 +83,7 @@
                   <div class="gallery grid2">
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie3.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie3.jpg"/></a>
                     <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie2.jpg"/></a>
-                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie1.jpg"/></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie-1-1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/esfie-1-1.jpg"/></a>
                   </div>
                 </div>
               </li>
@@ -112,7 +112,7 @@
           </section>
 
           <section id="education">
-            <h2 class="main-title">Education</h2>
+            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com3.jpg"/>
             <p>Setting a goal to inspire and motivate young people to engage with Synthetic Biology and understand the prospects of this scientific field in solving global problems, we implemented several educational activities and presentations.</p>
             <ul class="acc">
               <li class="acc-item">
@@ -144,7 +144,10 @@
                 <input id="e5" class="hide" type="checkbox">
                 <label for="e5" class="acc-label icon" style="margin-bottom: 20px">The SynBio dictionary</label>
                 <div class="acc-child">
-                  <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology, we came up with the creation of a dictionary. Our "SynBio Dictionary" contains scientifically and accurately defined terms related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached by the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms. So we invited 2 more teams to create their extension of our idea, adding more Synthetic Biology related words based on their project. </p>
+                  <p>Searching for innovative approaches regarding science communication and public education for Synthetic Biology, we came up with the creation of a dictionary. Our "SynBio Dictionary" contains scientifically and accurately defined terms related to Synthetic Biology that are commonly used in our project. The terms are thoroughly explained and alphabetically sorted so that they can be easily reached by the reader. We also considered implementing this activity as a collaboration in order to enrich our dictionary with even more terms. So we invited 2 more teams to create their extension of our idea, adding more Synthetic Biology related words based on their project. 
+                  <br>
+                  To familiarize the reader of our website with scientific terms related to synthetic biology, we have included the definition of each term so that someone can learn about it by clicking on that word or phrase. This function is available mainly for laboratory terms contained on the <a class="link-ref" target="_blank" href="experiments">Experiments</a> page.  
+                  </p>
                   <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-synbio-dictionary.pdf">You can find the SynBio Dictionary here</a>
                 </div>
               </li>
@@ -188,9 +191,18 @@
                 <input id="e9" class="hide" type="checkbox">
                 <label for="e9" class="acc-label icon" style="margin-bottom: 20px">SynBio Achievements</label>
                 <div class="acc-child">
-                  <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>
+                  <div class="row">
+                  <div class="col-xs-12 col-xl-6">
+                    <p>Our team wrote a book about Synthetic Biology achievements so far. The first chapter is dedicated to Nobel prize winners on Synthetic Biology issues. This section provides information about scientists awarded since 1958, highlighting their research achievements. Lastly, we have included a timeline of Synthetic Biology's most significant dates and accomplishments, aiming to briefly present the history of this scientific field to the readers.</p>      
+                    <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/sbs-1.pdf">You can find the SynBio Dictionary here</a>
+                
+                  </div>
+                  <div class="gallery col-xs-12 col-xl-6 align-self-xl-center">
+                    <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tempimagebj4urv.gif"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/tempimagebj4urv.gif"/></a>
+                  </div>
+                </div>
                   <figure class="gallery">
-                    <a href=""><img src=""></a>
+                    <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/timeline.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/timeline.jpg"></a>
                   </figure>
                 </div>
               </li>
@@ -198,7 +210,7 @@
           </section>
 
           <section id="events">
-            <h2 class="main-title">Informative events</h2>
+            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com4.jpg"/>
             <p>As part of the science communication session, we scheduled informative events accessible to everyone interested in learning more about iGEM Competition and syn-PNOIA project.</p>
             <ul class="acc">
               <li class="acc-item">
@@ -226,7 +238,7 @@
           </section>
 
           <section id="media">
-            <h2 class="main-title">Media & Press Conference</h2>
+            <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com5.jpg">
             <p>Finally, we sought effective ways to disseminate our team's research through iGEM Competition and introduce Synthetic Biology to the audience. From our interaction with the public, we received positive reviews and genuine interest in our project, and we also enjoyed our journey in iGEM Competition 2022.</p>
             <ul class="acc">
               <li class="acc-item">
@@ -270,9 +282,9 @@
 
           <section id="quiz">
             <div class="d-flex justify-content-between">
-              <h2 class="main-title">Quiz</h2>
-              <a @click="resetQuiz()" class="primary-button" >Reset quiz</a>
+              <img src="https://static.igem.wiki/teams/4118/wiki/website-assets/communication/com6.jpg"/>
             </div>
+            <a @click="resetQuiz()" class="primary-button" >Reset quiz</a>
             <ul class="acc">
               <li class="acc-item">
                 <input id="s1" class="hide" type="checkbox">
