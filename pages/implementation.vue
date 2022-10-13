@@ -31,7 +31,7 @@
           <section id="section1">
             <h2 class="main-title">Market</h2>
             <p>People at a high risk of getting lung cancer, such as long-term smokers over 40 years old or employees exposed to asbestos and radium, are the recommended end users. Nonetheless, anyone can incorporate our test in their yearly/6-month check-up. Since it needs trained staff and specialized equipment, our diagnostic tool can be used in hospitals, clinics, and diagnostic centers. The goal for the first years is to approach the Greek market and expand the network worldwide. As shown in the graphics below, we can confirm the acceptance and the need for a new faster method of diagnosing lung cancer in its early stages. More than 100 medical students answered the questionnaire, with more than 50% considering the development of a new diagnostic method a necessity. This generation of doctors is young, innovative, and—with guidance—poised to take on healthcare's current and future challenges. The bar chart displayed below is on a scale of one to five with five indicating the strong agreement of the participants to the particular statement.</p>  
-            <div class="gallery d-flex justify-content-center">
+            <div class="gallery grid3">
                 <figure class="gallery">
                     <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/implementation/bar-chart.png"/></a>
                 </figure>
@@ -61,7 +61,7 @@
               <iframe title="Patras_Medicine: Product Video (2022) [English]" width="560" height="315" src="https://video.igem.org/videos/embed/c903ca8c-7d12-4ad6-8a7b-5ab4f7dc56d0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
             </div>
             <p>Our product design was based on Dr. Klapa’s advice. Dr. Klapa suggested that our diagnostic kit should contain positive and negative calibration samples. When a product is stored for long periods, the fluorescence signal might decay, or our Nanostructure might denature. So, we should include controls that can be tested simultaneously as our sample. In addition, the reference samples must return an expected value to ensure the test is valid. She also suggested that the test should include the total RNA extraction kit besides our diagnostic kit to ensure the ease of testing.</p>
-            <a class="link-download" target="_blank" href="human-practices#section4">Read the full interview.</a>
+            <a class="primary-button" @click="scrollToInterview()">Read the full interview.</a>
           </section>
           <section id="section3">
             <h2 class="main-title">Safety</h2>
@@ -97,6 +97,14 @@ export default {
     data() {
         return {
             currentPage: "Implementation",
+            options: {
+              easing: [0.25, 0.1, 0.25, 1.0],
+              force: true,
+              cancelable: false,
+              x: false,
+              y: true,
+              offset: -80,
+            },
         };
     },
     mounted() {
@@ -118,7 +126,13 @@ export default {
     methods: {
       scrolled: function () {
         document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
-      }
+      },
+      scrollToInterview: function () {
+        this.$router.push({path: "human-practices"});
+          setTimeout(() =>{
+            this.$scrollTo("#section4-1", 350, this.options);
+          }, 1000)
+      },
     } 
 }
 </script>
