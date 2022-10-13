@@ -93,27 +93,27 @@
               <br>structure 3 = bsj + h1 + rca : ((+))..(+).
               </p>
               <p>Then, KinDA uses Peppercorn, a reaction enumerator to create the Chain Reaction Network (CRN) at a domain-level. Next, the simulation proceeds with kinetics and thermodynamics analyses at a sequence-level using Multistrand and NUPACK, respectively. Of course, sequence-level interactions may not have direct counterparts in the domain-level system. Hence, KinDA calculates the conformation probability, that is the p-approximation for the sequence-level secondary structure to behave as the domain-level structure, from the fraction of nucleotides that are bound or unbound when both structures share the same ordered strands. </p>
-              <p>KinDA uses the “first-step reaction model” and separates the reactions into two steps and calculates one constant for each reaction: the initial binding step, with a rate of initiating the reaction, k1, and the folding trajectory that follows, with the rate of how long it takes to complete, k2. Errors for k1 and k2 are determined based on the system parameters. Also, KinDA determines spurious reactions that do not correspond to the predicted behavior and unproductive reactions when reactants and products coincide. </p>
+              <p>KinDA uses the “first-step reaction model” and separates the reactions into two steps and calculates one constant for each reaction: the initial binding step, with a rate of initiating the reaction, k<sub>1</sub>, and the folding trajectory that follows, with the rate of how long it takes to complete, k<sub>2</sub>. Errors for k<sub>1</sub>and k<sub>2</sub> are determined based on the system parameters. Also, KinDA determines spurious reactions that do not correspond to the predicted behavior and unproductive reactions when reactants and products coincide. </p>
             </section>
             <section>
               <h3 class="small-title">The Simulation</h3>
-              <p>We simulated our two steps as separate reactions. We chose this design because the system categorizes two complexes with the same strand order but different dot-and-bracket notation as a single reactant multiset and calculates the total k1 and k2. So, we decided to run a simulation for each step and retrieve the individual rate constant. Also, with two simulations, we could decrease the system's complexity to take only a few hours on a t2.micro instance.</p>
+              <p>We simulated our two steps as separate reactions. We chose this design because the system categorizes two complexes with the same strand order but different dot-and-bracket notation as a single reactant multiset and calculates the total k<sub>1</sub>and k<sub>2</sub>. So, we decided to run a simulation for each step and retrieve the individual rate constant. Also, with two simulations, we could decrease the system's complexity to take only a few hours on a t2.micro instance.</p>
               <p>We calculated the following rates for the 1st toehold-mediated strand displacement reaction:</p>
-              <p>k1i: (3.41 ± 0.887) 10<sup>7</sup>
-              <br>k2i: (2.18 ± 0.576) 10<sup>7</sup></p>
-              <p>In this model:	k1i = k<sub>f1</sub> [k<sub>b1</sub> / (k<sub>b1</sub>+k<sub>r1</sub>)] [III],	k<sub>2</sub><sup>i</sup> = k<sub>b1</sub> [IV]</p>
-              <p>From [I] we calculated that k<sub>f1</sub> >>> k<sub>r1</sub>, using the value of ΔGo(c) = -10.88 kcal/mol, as calculated by ViennaRNA. So, we can assume that the toehold domain is long enough so that the dissociation step proceeds slowly relative to the toehold invasion step. Hence, the toehold invasion step determines the rate of the whole reaction.</p>
+              <p>k<sub>1(i)</sub> : (3.41 ± 0.887) 10<sup>7</sup>
+              <br>k<sub>2(i)</sub> : (2.18 ± 0.576) 10<sup>7</sup></p>
+              <p>In this model:	k<sub>1(i)</sub>  = k<sub>f1</sub> [k<sub>b1</sub> / (k<sub>b1</sub>+k<sub>r1</sub>)] [III],	k<sub>2(i)</sub> = k<sub>b1</sub> [IV]</p>
+              <p>From [I] we calculated that k<sub>f1</sub> >>> k<sub>r1</sub>, using the value of ΔG<sub>o</sub>(c) = -10.88 kcal/mol, as calculated by ViennaRNA. So, we can assume that the toehold domain is long enough so that the dissociation step proceeds slowly relative to the toehold invasion step. Hence, the toehold invasion step determines the rate of the whole reaction.</p>
               <p>Then we calculated the following rates for the 2nd toehold-mediated strand displacement reaction:</p>
               <p>Following the same process, we proved that the toehold invasion step again determines the rate of the whole reaction.</p>
             </section>
             <section>
               <h3 class="small-title">The results</h3>
               <p>Modifying a MATLAB script provided by our partners, MetaThess team, we simulated our KinDA results. The plot for hsa_circ_0102533 is depicted on fig.5. The equations for the simulated reactions are the following:</p>
-              <p>[H1-closed] = - k1i [H1-closed][BSJ]
-	            <br>[BSJ] = - k1i [H1-closed][BSJ]
-	            <br>[H1-open] = k1i [H1][BSJ] - k1ii[H2-closed][H1-open]
-	            <br>[H2-closed] = - k1ii[H2-closed][H1-open]
-	            <br>[H2-open] = k1ii[H2-closed][H1-open]
+              <p>[H1-closed] = - k<sub>1(i)</sub> [H1-closed][BSJ]
+	            <br>[BSJ] = - k<sub>1(i)</sub> [H1-closed][BSJ]
+	            <br>[H1-open] = k<sub>1(i)</sub> [H1][BSJ] - k<sub>1(ii)</sub>[H2-closed][H1-open]
+	            <br>[H2-closed] = - k<sub>1(ii)</sub>[H2-closed][H1-open]
+	            <br>[H2-open] = k<sub>1(ii)</sub>[H2-closed][H1-open]
               </p>
               <p>The initial concentrations of [H1-closed] and [H2-closed] in the simulation correspond to H1 and H2 probes hybridized on the linear scaffold in their closed conformation, and are the experimental ones. We run a script using multiple target concentrations, [BSJ]. We observe that [H2-open] increases with time for all given [BSJ] concentrations. Also, [H2-open] maximum concentration increases with [BSJ]. This is crucial because [H2-open] determines the fluorescence emitted, which confirms our laboratory results.</p>
             </section>
@@ -403,24 +403,6 @@
     </Scrollspy>
   </div>
 </template>
-
-<style>
-.supsub {
-    display: inline-block;
-}
-
-.supsub sup,
-.supsub sub {
-    position: relative;
-    display: block;
-    font-size: .5em;
-    line-height: 1.2;
-}
-
-.supsub sub {
-    top: .3em;
-}
-</style>
 
 <script>
 import SimpleLightbox from "simplelightbox";
