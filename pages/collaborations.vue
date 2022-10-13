@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :title="currentPage">
-      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/results123.jpg') center center no-repeat; background-size: cover;">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/collab-cover.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
     </Header>
@@ -91,6 +91,9 @@
             <section id="promotion">
               <h3 class="small-title">Promotion video translation</h3>
               <p>Among our collaboration activities was translating our promotion video into different languages. Specifically, we got our promotion video script translated into <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Chinese</a> by iGEM CUHK-Hong Kong, in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/aboa-finnish-docx.pdf">Finnish</a> by iGEM Aboa, in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/iit-delhi-hindi-docx.pdf">Hindi</a> by iGEM IIT Delhi, and in <a class="link-ref" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/tec-chihuahua-spanish-docx.pdf">Spanish</a> by iGEM Tec Chihuahua. In addition, our team also managed to translate the script for iGEM CUHK-Hong Kong into Greek. This is a simple way to make the promotion video and, by extension, the project of the team and the concept of the iGEM Competition easily accessible and understandable by more people.</p>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="Patras_Medicine: Syn-PNOIA: Redefining Lung Cancer Diagnosis (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/56d840c6-223f-4761-9427-f91423025e12" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
             </section>
             <section id="synbio">
               <h3 class="small-title">The SynBio Dictionary</h3>
@@ -100,12 +103,28 @@
             <section id="board-game">
               <h3 class="small-title">GENE-US Board Game</h3>
               <p>GENE - US is a knowledge board game in the form of questions and answers which consists of 6 categories of cards and combines knowledge of synthetic biology, anatomy, or physiology while including a more specialized category for the most daring players! We invited iGEM Pharaohs CU and iGEM CUHK-Hong Kong teams to add a new session (each one 20 more questions with multiple choices) related to their project as an extension to the already existing questions.</p>
+              
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/gene-us-extended-version.pdf">You can see our GENE-US Extended version here</a>
             </section>
             <section id="sgds">
               <h3 class="small-title">Collaboration for SDGs</h3>
               <p>Aiming to achieve as many Sustainable Development Goals as possible we collaborated with other iGEM teams whose project is closely related to some of the 17 SDGs. Particularly, we asked iGEM Patras to send us a short text about the impact of their project in sustainable agriculture for SDG number 2 and iGEM Crete to send us a paragraph explaining the impact of their global food security-related project for SDG number 15.</p>
               <p>For more information, please visit our <a class="link-ref" target="_blank" href="sustainable">Sustainable Development Impact page</a>.</p>
+              <figure class="gallery">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/sdg.png"><img srf="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/sdg.png"></a>
+              </figure>
+            </section>
+            <section id="parternship123">
+              <h3 class="small-title">Partnership</h3>
+              <p>In collaboration with our partners, Thessaloniki_Meta team, we organized several activities and posted them on our social media. The first one was on June 5, celebrating National Cancer Survivors Day, providing information and statistics. Moreover, we created an informative post for World Lung Cancer Day, on August 8.</p>
+              <div class="row gallery">
+                  <figure class="col-xs-12 col-xl-6 align-self-xl-center">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/partnership-and-collaborations.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/partnership-and-collaborations.jpg"/></a>
+                  </figure>
+                  <figure class="col-xs-12 col-xl-6 align-self-xl-center">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/partnership-and-collaborations-1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/partnership-and-collaborations-1.png"/></a>
+                  </figure>
+              </div>
             </section>                 
           </section>
           <section id="participated">
@@ -124,6 +143,9 @@
               <h3 class="small-title">String Science with PRIDE</h3>
               <p>On the occasion of the day against homophobia and pride, our team participated in a collaboration organized by iGEM IISER Tirupati, titled “String Science with PRIDE”, by creating a prose regarding pride and. Our main goal is to highlight the value of pride through active participation and awareness-raising. Thus reaffirming once again that " we are all different but also equal" our group describes that the word "pride" means a feeling of satisfaction from one's achievements or, collectively, from the achievements of those with whom one is closely associated. In addition, the word pride means professionalism and perception (P), respect (R), integrity (I), diversity (D), and excellence (E).</p>
               <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/the-word-pride.pdf">Read our article</a>
+              <div class="gallery grid2">
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/string-science-with-pride-collaboration.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/inclusivity/string-science-with-pride-collaboration.png"></a>
+              </div>
             </section>
             <section id="journal">
               <h3 class="small-title">Synthetic Biology Art Journal</h3>
@@ -193,6 +215,9 @@
             </figure><br><br>
             <p><span>Asia:</span> On August 6th, we joined the Worldshaper-HZ China team's meet-up among Chinese teams, where we had the opportunity to present syn-PNOIA and gain feedback.</p>
             <p><span>Europe:</span> On 22-24 of July, we took part in the Summer Mediterranean iGEM meeting organized by iGEM UBarcelona, where many iGEM teams were invited to share their knowledge, different approaches, and experience. The panel also included projects and selected scientists' presentations.</p>
+            <div class="gallery grid2">
+              <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/barcelona.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/barcelona.jpg"></a>
+            </div>
             <p><span>Greece:</span> On May 28th, we attended the Pre-Aegean meeting from the iGEM Patras team, an online introductory meeting between the Greek iGEM teams to meet each other and present our initial project ideas. An extra task for the participant teams was to choose and describe a person or scientist who inspired them to participate in the competition. Thus, we selected Shirley Chisholm, who fought for public health to become a right and requested equal rights for women, minorities, immigrants, and the poor. That motivated us to engage with Synthetic Biology in Medicine and prove that science is for everyone!</p>
             <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/shirley.pdf">Read about Shirley</a>
             <br><br>
