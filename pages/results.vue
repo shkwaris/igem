@@ -51,7 +51,7 @@
             </section>
             <section id="rca">
               <h3 class="small-title">RCA Reaction</h3>
-              <p>Agarose gel electrophoresis experiments verified the RCA product. As shown in Fig.1, the long DNA scaffold remains at the top of the electrophoresis gel due to its low electrophoretic ability caused by its high molecular weight.</p>
+              <p>Agarose gel electrophoresis experiments verified the RCA product. As shown in <span>Fig.1</span>, the long DNA scaffold remains at the top of the electrophoresis gel due to its low electrophoretic ability caused by its high molecular weight.</p>
               <figure class="gallery rounded mx-auto d-block" style="width: 50%; height: auto;">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-1.png"></a>
                 <figcaption class="figure-caption text-left"><span>Fig.1:</span> Agarose gel electrophoresis analysis of successfully synthesized RCA product</figcaption>
@@ -67,7 +67,7 @@
             <section id="assembly">
               <h3 class="small-title">LDN Assembly</h3>
               <p>We also attempted visualization of the synthesized Nanostructures for all three circRNA targets by implementing Atomic Force Microscopy (AFM). A fellow laboratory with greater experience in the field was eager enough to help. After air-drying the Nanostructures for 12-16 hours, we sent them for AFM. Unfortunately, we had no satisfying results due to the high salt concentration in the reaction buffer. The only hint we obtained from the AFM analysis is that a circular structure was present in our samples, indicating possible coiling of the LDN. However, this result should be further evaluated by repeating experiments regarding AFM with a diluted reaction buffer, minimizing salt concentration without lowering the salt concentration too much, hindering DNA-DNA interactions in the LDN. </p>
-              <div class="gallery d-flex justify-content-center">
+              <div class="gallery grid3">
                 <figure class="gallery">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/ldn-2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/ldn-2.png"></a>
                 </figure>
@@ -120,7 +120,7 @@
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/102-h1-the-h2-bsj-in-center-error-bars.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/102-h1-the-h2-bsj-in-center-error-bars.png"></a>
                 <figcaption class="figure-caption text-left"><span>Fig.8 Calibration curve of the LDN system in 0.5-100 nM circular DNA concentration range:</span> Error bars correspond to standard deviation of n=3 replicates. The horizontal axis is displayed on a logarithmic scale. </figcaption>
               </figure> <br>
-              <p>The logarithmic equation upon which the fluorescence intensity increases with the target concentration is shown on Fig.8. Unfortunately, the signal-to-background ratio is not high enough to calculate significant limits of detection and quantification.</p>
+              <p>The logarithmic equation upon which the fluorescence intensity increases with the target concentration is shown on <span>Fig.8</span>. Unfortunately, the signal-to-background ratio is not high enough to calculate significant limits of detection and quantification.</p>
             </section>
             <section id="linear">
               <h3 class="small-title">Selectivity: Linear isoform of hsa_circ_0102533</h3>
@@ -137,7 +137,7 @@
             <section id="extraction">
               <h3 class="small-title">Total RNA extraction</h3>
               <p>RNA extraction was performed in lung cancer cell lines A549, NCI-H1299, DMS454, NCI-H460, and NCI-H1237 and from normal epithelial cell line BEAS-2B, using the TRIzoL reagent kit. After RNA extraction, the extract was immediately evaluated for its content before proceeding. RNA concentration was measured using Implen NanoPhotometer® P330 with the dedicated RNA setting. In <span>Fig.10</span>, the total RNA concentration derived from cell lines is depicted, and in <span>Fig.11</span>, we present the circRNA concentration after RNase R treatment.</p>
-              <div class="gallery d-flex justify-content-center">
+              <div class="gallery grid3">
                 <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-9.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-9.jpg"></a>
                   <figcaption class="figure-caption text-left"><span>Fig.10:</span> Table presenting total RNA concentration after RNA extraction.</figcaption>
@@ -152,25 +152,25 @@
             <section id="pcr">
               <h3 class="small-title">PCR results</h3>
               <p>By performing the following experiments, we aimed to evaluate the biomarkers we had initially selected. A calibration curve was constructed for hsa_circ_0005962 target, with serial dilutions of a stock solution, so that the input copies range from 10<sup>2</sup> to 10<sup>6</sup>. We focused only on hsa_circ_0005962 target for constructing a calibration curve, since it was the only one consistently found overexpressed in cancer cell lines. CircRNA from two different RNA extraction steps was used for RT-PCR. Hsa_circ_0005962, obtained from the first RNA extract from cell lines A549 and NCI-H1299, was found only in A549 cell line extract. Hsa_circ_0070354 and hsa_circ_0005962 targets obtained from the second RNA extract originating from cell lines A549, NCI-H1299, DMS454, NCI-H460, and NCI-H1237, were found to be overexpressed, taking into consideration the correlation of RFU and concentration. When the above results were compared to BEAS-2B, a normal epithelial cell line, we observed that circRNA concentration was higher in the lung cancer cell lines. BEAS-2B had a concentration of hsa_circ_0005962 target and hsa_circ_0070354 target almost halved, respectively, proving that the selected biomarkers can be successfully exploited for lung cancer diagnosis. In <span>Fig.12</span> the quantification amplification results are presented for all cell lines. We note that in the DMS 457 plot, amplification to hsa_circ_0102533 Negative control is present indicating sample contamination.</p>
-              <div class="gallery d-flex justify-content-center">
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+              <div class="gallery grid4">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/1.png"></a>
                 </figure>
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/2.png"></a>
                 </figure>
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/3.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/3.png"></a>
                 </figure>
               </div>
-              <div class="gallery d-flex justify-content-center" style="margin-top: 10px">
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+              <div class="gallery grid4" style="margin-top: 10px">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/4.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/4.png"></a>
                 </figure>
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/5.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/5.png"></a>
                 </figure>
-                <figure class="gallery rounded mx-auto d-block" style="width: 100%; height: auto; margin-right: 10px; margin-left: 10px;">
+                <figure class="gallery" style="width: 100%; height: auto;">
                   <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/6.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/6.png"></a>
                 </figure>
               </div><br>
@@ -186,7 +186,7 @@
               </figure><br>
               <p>For hsa_0102533 target, results are presented in <span>Fig.14</span> as a bar chart. A mixture containing LDN for hsa_circ_0102533, PBS buffer, and 12 μL of total RNA isolated from A549, NCI-H1299, and BEAS-2B were incubated for 70 min at 37 <sup>o</sup>C. Negative samples containing H2O (RNase-free) instead of RNA were prepared for reference. Samples were loaded on Thermo Scientific™ Nunc 384-Well Clear Plates where the emitted fluorescence at 576 nm was measured using an excitation wavelength of 554 nm.</p>
               <figure class="gallery rounded mx-auto d-block" style="width: 80%; height: auto;">
-                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-13.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-13.png"></a>
+                <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-14.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/results/fig-14.png"></a>
                 <figcaption class="figure-caption text-left"><span>Fig.14 Bar chart of fluorescence intensity (a.u.) of samples containing total RNA from A549, H1299, BEAS-2B</span> Negative samples were plotted for reference. Error bars correspond to standard deviation of n=2 replicates.</figcaption>
               </figure>
             </section>
