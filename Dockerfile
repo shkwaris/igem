@@ -10,4 +10,7 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["npm", "run", "dev"]
+RUN npm run build
+RUN npm run generate
+
+CMD ["npm", "run", "start"]
