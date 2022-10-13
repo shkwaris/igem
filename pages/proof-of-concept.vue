@@ -45,15 +45,52 @@
               <p><span>Drawbacks</span>: Due to Rolling Circle Transcription artifacts, data obtained from RT-PCR can not always be used to quantify the circRNA biomarker of choice <a class="link-ref" v-scroll-to="'#section3'">[1]</a> accurately. So direct comparison between results acquired from RT-PCR and LDN is restricted. Hsa_circ_0102533 was successfully identified in the A549 cancer cell line. Even though this sounds like a positive result, we have not been able to identify hsa_circ_0102533 ever since. That might indicate that further culture is needed for this circRNA to be expressed or that further research is needed to validate this biomarker. </p>
             </section>
             <section id="section1-3">
-              <h3 class="small-title">Can the Nanostructure be successfully synthesized??</h3>
+              <h3 class="small-title">Can the Nanostructure be successfully synthesized?</h3>
               <p><span>Proof of concept</span>: In the present method developed, we are working on a synthesis procedure where each step's successful completion can verify the previous one's successful completion. Regardless, we provide proof of the successful completion of each synthetic step. We chose the agarose gel electrophoresis technique and visualization of the sequences of interest under UV light, for nucleic acid quantification, as our top verification method. Finally, the DNA template's circularization and the linear scaffold's formation were confirmed based on the above.</p>
               <p><span>Drawbacks & future steps</span>: We have two suggestions for achieving our validation. First, we need an established method for verifying and purifying nucleic acids if we need a more mass production of the RCA products in the future. For example, sequence determination could be carried out by Sanger sequencing. We have already scheduled to send our RCA for Sanger sequencing. Furthermore, we need an established method to verify our LDN Assembly. Unfortunately, the Nanostructure is denatured in agarose gels due to temperature increase. We tried to verify the Nanostructure using <a @click="changeWord('Atomic force microscopy (AFM)')" class="link-primary">Atomic Force Microscopy (AFM)</a> imaging, but the concentration of salts in the sample was too high, preventing us from obtaining significant results. </p>
             </section>
             <section id="section1-4">
-              <h3 class="small-title">Can the Nanostructure be successfully shipped from the point of manufacturing to the point of testing</h3>
-              <p>We may be able to synthesize our product, but can we successfully distribute it to clinics, hospitals, and microbiological laboratories? We have experimentally proven that we are not able to store our Nanostructure in liquid form. For more information please refer to the “LDN Stability” subsection of our Results page.</p>
-              <p>We propose the lyophilization of our Nanostructure to preserve its structural integrity during long-term storage. Lyophilization, or freeze drying, enhances the long-term storage stability of cells, proteins, microorganisms, or nanoparticles. Pharmaceutical companies are using freeze drying to increase the shelf life of products, especially at room temperature.  However, DNA integrity is said to be compromised by freeze drying due to its vulnerability to common factors, such as pH or ionic interactions. DNA nanostructures can be lyophilized with the addition of stabilizers such as lipids or polymers. For example, plasmid DNA nanoparticles can be lyophilized with high amounts of sugars, such as sucrose or trehalose, in concentrations up to 0.5 M to maintain particle size and transfection activity <a class="link-ref" v-scroll-to="'#section3'">[2]</a>,<a class="link-ref" v-scroll-to="'#section3'">[3]</a>. Also, DNA/polymer complexes with polymers like poly(2-dimethylamino)ethyl methacrylate are used in the lyophilization of plasmid DNA. This DNA complex, with the addition of sucrose, can maintain its size and integrity for up to 10 months at 4 <sup>o</sup>C <a class="link-ref" v-scroll-to="'#section3'">[4]</a>. </p>
-              <p>Furthermore, a study has shown that DNA nanostructures can preserve their structural integrity during freeze-drying with different concentrations of Mg<sup>+2</sup>. Tetrahedral DNAs and triangular origami DNA nanostructures were frozen with a solution containing 50 μM Mg<sup>+2</sup> at -80 <sup>o</sup>C and then reconstituted with deionized water. Gel electrophoresis demonstrated that DNA molecules had identical mobilities with freshly prepared DNA molecules, and no structural changes were observed <a class="link-ref" v-scroll-to="'#section3'">[5]</a>. Therefore, DNA nanostructures can easily withstand lyophilization.</p>
+              <h3 class="small-title">Can the Nanostructure be successfully shipped from the point of manufacturing to the point of testing?</h3>
+              <p>We created a tool for diagnosing lung cancer, proving that we can use the circRNAs’ diagnostic advantage; their unique BSJ read differentiates them from the rest of the RNAs. Furthermore, given the fact that their expression relies on the tumor location and size, they have the potential to be the ideal biomarker molecule. As we have mentioned, circular RNAs are a breakthrough in cancer diagnosis but need to be further explored. We have chosen a panel of circRNAs that complete both criteria: their expression in lung cancer cell lines to have a tool to test our method on and their existence in the blood circulation of lung cancer patients. The data supporting our biomarker choice derived from literature reviews <a class="link-ref" v-scroll-to="'#section3'">[2]</a>, <a class="link-ref" v-scroll-to="'#section3'">[3]</a>, <a class="link-ref" v-scroll-to="'#section3'">[4]</a> and circRNA databases <a class="link-ref" v-scroll-to="'#section3'">[5]</a>, <a class="link-ref" v-scroll-to="'#section3'">[6]</a>, <a class="link-ref" v-scroll-to="'#section3'">[7]</a>, <a class="link-ref" v-scroll-to="'#section3'">[8]</a>, <a class="link-ref" v-scroll-to="'#section3'">[9]</a>, as mentioned in the "Biomarkers selection" section of our Model page, are organized in the following table.</p>
+              <br>
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead class="table-dark">
+                    <tr>
+                      <th scope="col">circRNA</th>
+                      <th scope="col">circBase result</th>
+                      <th scope="col">Cell lines expression</th>
+                      <th scope="col">Number of patients participating the study</th>
+                      <th scope="col">AUC (patients’ serum)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">hsa_circ_0070354</th>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0070354" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0070354</a></td>
+                      <td>SPCA (****), H1299 (***), A549 (****)</td>
+                      <td>133 NSCLC patients (I-IV stage) and 97 healthy donors</td>
+                      <td>0.66</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">hsa_circ_0102533</th>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0102533" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0102533</a></td>
+                      <td>A549 (***), H1299 (***), H1792 (***), SK-MES-1 (***), SPC-A1 (***)</td>
+                      <td>41 NSCLC patients and 26 healthy donors</td>
+                      <td>0.744 and 0.774 (for stages I-II)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">hsa_circ_0005962</th>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0005962" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0005962</a></td>
+                      <td>A549, NCI-H1299, HCC827, 16HBE</td>
+                      <td>153 LUAD patients (83 were in stage I, 13 in stage II, 30 in stage III, and 25 in stage IV) and 54 healthy donors<br></td>
+                      <td>0.73</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <br>
+              <p>In our future steps, we include RNA-seq to analyze the expression profile of circular RNAs in lung cancer patients' circulation. This way, we can choose a biomarker panel more wisely that may be wider and certainly more accurate. Besides, now that we have proposed a way to detect them, we can easily create a Nanostructure given any circRNA sequence using our Software ldn_generator.py.</p>
             </section>
           </section>
           <section id="section2">
@@ -67,12 +104,15 @@
                 <input id="s1" class="hide" type="checkbox">
                 <label for="s1" class="acc-label icon">References</label>
                 <div class="acc-child">
-                  <p>[1]. Cocquet, J., Chong, A., Zhang, G., & Veitia, R. A. (2006, July). Reverse transcriptase template switching and false alternative transcripts. Genomics, 88(1), 127–131. <a class="link-ref" href="https://doi.org/10.1016/j.ijpharm.2022.122233">https://doi.org/10.1016/j.ygeno.2005.12.013</a>
-                  <br>[2] T.J. Anchordoquy, J.F. Carpenter, D.J. Kroll, Maintenance of Transfection Rates and Physical Characterization of Lipid/DNA Complexes after Freeze-Drying and Rehydration, Arch. Biochem. Biophys., 348 (1997) 199-206.
-                  <br>[3] K.K. Abla, M.M. Mehanna, Freeze-drying: A Flourishing Strategy to Fabricate Stable Pharmaceutical and Biological Products, International Journal of Pharmaceutics (2022), <a class="link-ref" href="https://doi.org/10.1016/j.ijpharm.2022.122233">https://doi.org/10.1016/j.ijpharm.2022.122233</a>
-                  <br>[4] J.-Y. Cherng, P. van de Wetering, H. Talsma, D.J.A. Crommelin, W.E. Hennink, Freeze-Drying of Poly((2-dimethylamino)ethyl Methacrylate)-Based Gene Delivery Systems, Pharm.Res., 14 (1997) 1838-1841.
-                  <br>[5] Zhu, B., Zhao, Y., Dai, J., Wang, J., Xing, S., Guo, L., … Wang, L. (2017). Preservation of DNA Nanostructure Carriers: Effects of Freeze–Thawing and Ionic Strength during Lyophilization and Storage. ACS Applied Materials & Interfaces, 9(22), 18434–18439. <a class="link-ref" href="https://pubs.acs.org/doi/10.1021/acsami.7b04784">doi:10.1021/acsami.7b04784</a>
-                  </p>
+                  <p>[1]. Cocquet, J., Chong, A., Zhang, G., & Veitia, R. A. (2006, July). Reverse transcriptase template switching and false alternative transcripts. Genomics, 88(1), 127–131. <a href="https://doi.org/10.1016/j.ygeno.2005.12.013" class="link-ref">https://doi.org/10.1016/j.ygeno.2005.12.013</a>  
+                  <br>[2]. Huang, Y., Qin, S., Gu, X., Zheng, M., Zhang, Q., Liu, Y., Cheng, C., Huang, K., Peng, C., & Ju, S. (2022, January 13). Comprehensive Assessment of Serum hsa_circ_0070354 as a Novel Diagnostic and Predictive Biomarker in Non-small Cell Lung Cancer. Frontiers in Genetics, 12. <a href="https://doi.org/10.3389/fgene.2021.796776" class="link-ref">https://doi.org/10.3389/fgene.2021.796776</a>  
+                  <br>[3].Zhou, X., Liu, H. Y., Wang, W. Y., Zhao, H., & Wang, T. (2018). Hsa_circ_0102533 serves as a blood-based biomarker for non-small-cell lung cancer diagnosis and regulates apoptosis in vitro. International journal of clinical and experimental pathology, 11(9), 4395–4404.
+                  <br>[4]. Liu, X. X., Yang, Y. E., Liu, X., Zhang, M. Y., Li, R., Yin, Y. H., & Qu, Y. Q. (2019, February 18). A two-circular RNA signature as a noninvasive diagnostic biomarker for lung adenocarcinoma. Journal of Translational Medicine, 17(1). <a href="https://doi.org/10.1186/s12967-019-1800-z" class="link-ref">https://doi.org/10.1186/s12967-019-1800-z</a>   
+                  <br>[5]. Glažar, P., Papavasileiou, P., & Rajewsky, N. (2014, September 18). circBase: a database for circular RNAs. RNA, 20(11), 1666–1670. <a href="https://doi.org/10.1261/rna.043687.113" class="link-ref">https://doi.org/10.1261/rna.043687.113</a>   
+                  <br>[6]. Liu, M., Wang, Q., Shen, J., Yang, B. B., & Ding, X. (2019, April 25). Circbank: a comprehensive database for circRNA with standard nomenclature. RNA Biology, 16(7), 899–905. <a href="https://doi.org/10.1080/15476286.2019.1600395" class="link-ref">https://doi.org/10.1080/15476286.2019.1600395</a>   
+                  <br>[7]. Wu, W., Ji, P., & Zhao, F. (2020, April 28). CircAtlas: an integrated resource of one million highly accurate circular RNAs from 1070 vertebrate transcriptomes. Genome Biology, 21(1). <a href="https://doi.org/10.1186/s13059-020-02018-y" class="link-ref">https://doi.org/10.1186/s13059-020-02018-y</a>   
+                  <br>[8]. Chen, X., Han, P., Zhou, T., Guo, X., Song, X., & Li, Y. (2016, October 11). circRNADb: A comprehensive database for human circular RNAs with protein-coding annotations. Scientific Reports, 6(1). <a href="https://doi.org/10.1038/srep34985" class="link-ref">https://doi.org/10.1038/srep34985</a>  
+                  <br>[9]. Xia, S., Feng, J., Chen, K., Ma, Y., Gong, J., Cai, F., Jin, Y., Gao, Y., Xia, L., Chang, H., Wei, L., Han, L., & He, C. (2017, September 28). CSCD: a database for cancer-specific circular RNAs. Nucleic Acids Research, 46(D1), D925–D929. <a href="https://doi.org/10.1093/nar/gkx863" class="link-ref">https://doi.org/10.1093/nar/gkx863</a></p>
                 </div>
               </li>
             </ul>
