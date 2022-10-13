@@ -13,7 +13,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '',
+    title: 'Patras Medicine - iGEM 2022',
     htmlAttrs: {
       lang: 'en',
     },
