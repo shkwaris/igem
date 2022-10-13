@@ -47,13 +47,13 @@
             <section id="section1-3">
               <h3 class="small-title">Can the Nanostructure be successfully synthesized??</h3>
               <p><span>Proof of concept</span>: In the present method developed, we are working on a synthesis procedure where each step's successful completion can verify the previous one's successful completion. Regardless, we provide proof of the successful completion of each synthetic step. We chose the agarose gel electrophoresis technique and visualization of the sequences of interest under UV light, for nucleic acid quantification, as our top verification method. Finally, the DNA template's circularization and the linear scaffold's formation were confirmed based on the above.</p>
-              <p><span>Drawbacks & future steps</span>: We have two suggestions for achieving our validation. First, we need an established method for verifying and purifying nucleic acids if we need a more mass production of the RCA products in the future. For example, sequence determination could be carried out by Sanger sequencing. We have already scheduled to send our RCA for Sanger sequencing. Furthermore, we need an established method to verify our LDN Assembly. Unfortunately, the Nanostructure is denatured in agarose gels due to temperature increase. We tried to verify the Nanostructure using Atomic Force Microscopy (AFM) imaging, but the concentration of salts in the sample was too high, preventing us from obtaining significant results. </p>
+              <p><span>Drawbacks & future steps</span>: We have two suggestions for achieving our validation. First, we need an established method for verifying and purifying nucleic acids if we need a more mass production of the RCA products in the future. For example, sequence determination could be carried out by Sanger sequencing. We have already scheduled to send our RCA for Sanger sequencing. Furthermore, we need an established method to verify our LDN Assembly. Unfortunately, the Nanostructure is denatured in agarose gels due to temperature increase. We tried to verify the Nanostructure using <a @click="changeWord('Atomic force microscopy (AFM)')" class="link-primary">Atomic Force Microscopy (AFM)</a> imaging, but the concentration of salts in the sample was too high, preventing us from obtaining significant results. </p>
             </section>
             <section id="section1-4">
               <h3 class="small-title">Can the Nanostructure be successfully shipped from the point of manufacturing to the point of testing</h3>
               <p>We may be able to synthesize our product, but can we successfully distribute it to clinics, hospitals, and microbiological laboratories? We have experimentally proven that we are not able to store our Nanostructure in liquid form. For more information please refer to the “LDN Stability” subsection of our Results page.</p>
-              <p>We propose the lyophilization of our Nanostructure to preserve its structural integrity during long-term storage. Lyophilization, or freeze drying, enhances the long-term storage stability of cells, proteins, microorganisms, or nanoparticles. Pharmaceutical companies are using freeze drying to increase the shelf life of products, especially at room temperature.  However, DNA integrity is said to be compromised by freeze drying due to its vulnerability to common factors, such as pH or ionic interactions. DNA nanostructures can be lyophilized with the addition of stabilizers such as lipids or polymers. For example, plasmid DNA nanoparticles can be lyophilized with high amounts of sugars, such as sucrose or trehalose, in concentrations up to 0.5 M to maintain particle size and transfection activity <a class="link-ref" v-scroll-to="'#section3'">[2]</a>,<a class="link-ref" v-scroll-to="'#section3'">[3]</a>. Also, DNA/polymer complexes with polymers like poly(2-dimethylamino)ethyl methacrylate are used in the lyophilization of plasmid DNA. This DNA complex, with the addition of sucrose, can maintain its size and integrity for up to 10 months at 4 oC <a class="link-ref" v-scroll-to="'#section3'">[4]</a>. </p>
-              <p>Furthermore, a study has shown that DNA nanostructures can preserve their structural integrity during freeze-drying with different concentrations of Mg+2. Tetrahedral DNAs and triangular origami DNA nanostructures were frozen with a solution containing 50 μM Mg+2 at -80 oC and then reconstituted with deionized water. Gel electrophoresis demonstrated that DNA molecules had identical mobilities with freshly prepared DNA molecules, and no structural changes were observed <a class="link-ref" v-scroll-to="'#section3'">[5]</a>. Therefore, DNA nanostructures can easily withstand lyophilization.</p>
+              <p>We propose the lyophilization of our Nanostructure to preserve its structural integrity during long-term storage. Lyophilization, or freeze drying, enhances the long-term storage stability of cells, proteins, microorganisms, or nanoparticles. Pharmaceutical companies are using freeze drying to increase the shelf life of products, especially at room temperature.  However, DNA integrity is said to be compromised by freeze drying due to its vulnerability to common factors, such as pH or ionic interactions. DNA nanostructures can be lyophilized with the addition of stabilizers such as lipids or polymers. For example, plasmid DNA nanoparticles can be lyophilized with high amounts of sugars, such as sucrose or trehalose, in concentrations up to 0.5 M to maintain particle size and transfection activity <a class="link-ref" v-scroll-to="'#section3'">[2]</a>,<a class="link-ref" v-scroll-to="'#section3'">[3]</a>. Also, DNA/polymer complexes with polymers like poly(2-dimethylamino)ethyl methacrylate are used in the lyophilization of plasmid DNA. This DNA complex, with the addition of sucrose, can maintain its size and integrity for up to 10 months at 4 <sup>o</sup>C <a class="link-ref" v-scroll-to="'#section3'">[4]</a>. </p>
+              <p>Furthermore, a study has shown that DNA nanostructures can preserve their structural integrity during freeze-drying with different concentrations of Mg<sup>+2</sup>. Tetrahedral DNAs and triangular origami DNA nanostructures were frozen with a solution containing 50 μM Mg<sup>+2</sup> at -80 <sup>o</sup>C and then reconstituted with deionized water. Gel electrophoresis demonstrated that DNA molecules had identical mobilities with freshly prepared DNA molecules, and no structural changes were observed <a class="link-ref" v-scroll-to="'#section3'">[5]</a>. Therefore, DNA nanostructures can easily withstand lyophilization.</p>
             </section>
           </section>
           <section id="section2">
@@ -87,9 +87,16 @@
 import SimpleLightbox from "simplelightbox";
 
 export default {
+    layout: "highlighter",
+    props: {
+      isOpened: {type: Boolean},
+      wordName: {type: String},
+      wordDescription: {type: String},
+    },
     data() {
         return {
             currentPage: "Proof of Concept",
+            dictionaryData: null,
         };
     },
     mounted() {
@@ -104,6 +111,10 @@ export default {
       window.addEventListener("load", () => {
           this.scrolled();
         });
+      fetch("https://static.igem.wiki/teams/4118/wiki/website-assets/dictionary/experiments-2.json")
+        .then(res => res.json())
+        .then(data => this.dictionaryData = data)
+        .catch(err => { throw err });
     },
     beforeDestroy() {
       window.removeEventListener("scroll", this.scrolled);
@@ -111,6 +122,22 @@ export default {
     methods: {
       scrolled: function () {
         document.querySelector("progress").value = window.scrollY / (document.querySelector("#main-content").offsetHeight - window.innerHeight + document.querySelector("#header").clientHeight) * 100;
+      },
+      changeWord: function (word) {
+        if (this.wordName != word) {
+          if (!this.isOpened) {
+            this.$emit('update:isOpened', true);
+          }
+          if (this.dictionaryData != null && this.wordIndex != "") {
+            const index = this.dictionaryData.findIndex((index) => index.name == word)
+            this.$emit('update:wordName', this.dictionaryData[index].name);
+            this.$emit('update:wordDescription', this.dictionaryData[index].description);
+          }
+        } else if (this.wordName == word || this.wordName == "") {
+          this.$emit('update:isOpened', !this.isOpened);
+          this.$emit('update:wordName', "");
+          this.$emit('update:wordDescription', "");
+        }
       }
     }
 }
