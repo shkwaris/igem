@@ -381,7 +381,7 @@
               <h3 class="small-title">Stability analysis</h3>
               <p>Two different components were examined for their stability, the circular DNA template and its binding to phi29 DNA Polymerase. Importing the PDB files obtained from oxDNA, to GROMACS we followed the steps described in the Contribution page in order to minimize the system and follow a standard MD stability protocol. In the trajectory produced for 1ns the circular DNA template retained its structure, with bonds breaking and forming again.</p>
               <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
-                <iframe title="Patras_Medicine: Circle  (2022) [English]" width="1366" height="768" src="https://video.igem.org/videos/embed/2238a073-8389-4085-a6a4-6f65c6837cc9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                <iframe width="1366" height="768" src="https://video.igem.org/videos/embed/2238a073-8389-4085-a6a4-6f65c6837cc9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
               </div>
             </section>
             <section>
@@ -419,7 +419,7 @@
               <br>
               <p>After docking the DNA template to phi29 DNA polymerase, we proceeded to a Molecular Dynamics analysis to verify the created complex's stability. For this protein-DNA complex, the Molecular Dynamic simulation parameters are specified above. A 1ns simulation was produced with the trajectory displayed below, proving the desired stability of our complex, indicating that we should further develop our Modeling work.</p>
               <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
-                <iframe title="Patras_Medicine: PHI29  (2022) [English]" width="1366" height="768" src="https://video.igem.org/videos/embed/003bcca8-c98d-4444-ba44-aa5860814f54" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                <iframe width="1366" height="768" src="https://video.igem.org/videos/embed/003bcca8-c98d-4444-ba44-aa5860814f54" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
               </div>
             </section>
           </section>
