@@ -20,11 +20,11 @@
               <ul>
                 <li class="sub"><a :href="`${currentPage}/#section1-1`" v-scroll-to="'#section1-1'" parent="section1">Target quantification & Selectivity</a></li>
                 <li class="sub"><a :href="`${currentPage}/#section1-2`" v-scroll-to="'#section1-2'" parent="section1">Cross Validation</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section1-3`" v-scroll-to="'#section1-3'" parent="section1">Can the Nanostructure be successfully synthesized?</a></li>
-                <li class="sub"><a :href="`${currentPage}/#section1-4`" v-scroll-to="'#section1-4'" parent="section1">Can the Nanostructure be successfully shipped from the point of manufacturing to the point of testing?</a></li>
               </ul>
-              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Can our technique be implemented in other diseases?</a></li>
-              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">References</a></li>
+              <li><a :href="`${currentPage}/#section2`" v-scroll-to="'#section2'">Can the Nanostructure be successfully synthesized?</a></li>
+              <li><a :href="`${currentPage}/#section3`" v-scroll-to="'#section3'">Did we make the right biomaker choice?</a></li>
+              <li><a :href="`${currentPage}/#section4`" v-scroll-to="'#section4'">Can our technique be implemented in other diseases?</a></li>
+              <li><a :href="`${currentPage}/#section5`" v-scroll-to="'#section5'">References</a></li>
             </ol>
           </nav>
         </div>
@@ -44,19 +44,20 @@
               <p>The presence of hsa_circ_0070354 and hsa_circ_0005962 was also verified with the designed LDN. Using the total RNA extract for cell lines A549, NCI-H1299, and BEAS-2B, we tested if our technique could successfully identify hsa_circ_0070354 and hsa_circ_0005962 in a complex sample, such as total RNA extract. We could detect both circRNAs verifying the selectivity of our LDN system.</p>
               <p><span>Drawbacks</span>: Due to Rolling Circle Transcription artifacts, data obtained from RT-PCR can not always be used to quantify the circRNA biomarker of choice <a class="link-ref" v-scroll-to="'#section3'">[1]</a> accurately. So direct comparison between results acquired from RT-PCR and LDN is restricted. Hsa_circ_0102533 was successfully identified in the A549 cancer cell line. Even though this sounds like a positive result, we have not been able to identify hsa_circ_0102533 ever since. That might indicate that further culture is needed for this circRNA to be expressed or that further research is needed to validate this biomarker. </p>
             </section>
-            <section id="section1-3">
-              <h3 class="small-title">Can the Nanostructure be successfully synthesized?</h3>
-              <p><span>Proof of concept</span>: In the present method developed, we are working on a synthesis procedure where each step's successful completion can verify the previous one's successful completion. Regardless, we provide proof of the successful completion of each synthetic step. We chose the agarose gel electrophoresis technique and visualization of the sequences of interest under UV light, for nucleic acid quantification, as our top verification method. Finally, the DNA template's circularization and the linear scaffold's formation were confirmed based on the above.</p>
-              <p><span>Drawbacks & future steps</span>: We have two suggestions for achieving our validation. First, we need an established method for verifying and purifying nucleic acids if we need a more mass production of the RCA products in the future. For example, sequence determination could be carried out by Sanger sequencing. We have already scheduled to send our RCA for Sanger sequencing. Furthermore, we need an established method to verify our LDN Assembly. Unfortunately, the Nanostructure is denatured in agarose gels due to temperature increase. We tried to verify the Nanostructure using <a @click="changeWord('Atomic force microscopy (AFM)')" class="link-primary">Atomic Force Microscopy (AFM)</a> imaging, but the concentration of salts in the sample was too high, preventing us from obtaining significant results. </p>
-            </section>
-            <section id="section1-4">
-              <h3 class="small-title">Can the Nanostructure be successfully shipped from the point of manufacturing to the point of testing?</h3>
-              <p>We created a tool for diagnosing lung cancer, proving that we can use the circRNAs’ diagnostic advantage; their unique BSJ read differentiates them from the rest of the RNAs. Furthermore, given the fact that their expression relies on the tumor location and size, they have the potential to be the ideal biomarker molecule. As we have mentioned, circular RNAs are a breakthrough in cancer diagnosis but need to be further explored. We have chosen a panel of circRNAs that complete both criteria: their expression in lung cancer cell lines to have a tool to test our method on and their existence in the blood circulation of lung cancer patients. The data supporting our biomarker choice derived from literature reviews <a class="link-ref" v-scroll-to="'#section3'">[2]</a>, <a class="link-ref" v-scroll-to="'#section3'">[3]</a>, <a class="link-ref" v-scroll-to="'#section3'">[4]</a> and circRNA databases <a class="link-ref" v-scroll-to="'#section3'">[5]</a>, <a class="link-ref" v-scroll-to="'#section3'">[6]</a>, <a class="link-ref" v-scroll-to="'#section3'">[7]</a>, <a class="link-ref" v-scroll-to="'#section3'">[8]</a>, <a class="link-ref" v-scroll-to="'#section3'">[9]</a>, as mentioned in the "Biomarkers selection" section of our Model page, are organized in the following table.</p>
-              <br>
-              <div class="table-responsive">
-                <table class="table table-hover">
-                  <thead class="table-dark">
-                    <tr>
+          </section>
+          <section id="section2">
+            <h3 class="small-title">Can the Nanostructure be successfully synthesized?</h3>
+            <p><span>Proof of concept</span>: In the present method developed, we are working on a synthesis procedure where each step's successful completion can verify the previous one's successful completion. Regardless, we provide proof of the successful completion of each synthetic step. We chose the agarose gel electrophoresis technique and visualization of the sequences of interest under UV light, for nucleic acid quantification, as our top verification method. Finally, the DNA template's circularization and the linear scaffold's formation were confirmed based on the above.</p>
+            <p><span>Drawbacks & future steps</span>: We have two suggestions for achieving our validation. First, we need an established method for verifying and purifying nucleic acids if we need a more mass production of the RCA products in the future. For example, sequence determination could be carried out by Sanger sequencing. We have already scheduled to send our RCA for Sanger sequencing. Furthermore, we need an established method to verify our LDN Assembly. Unfortunately, the Nanostructure is denatured in agarose gels due to temperature increase. We tried to verify the Nanostructure using <a @click="changeWord('Atomic force microscopy (AFM)')" class="link-primary">Atomic Force Microscopy (AFM)</a> imaging, but the concentration of salts in the sample was too high, preventing us from obtaining significant results. </p>
+          </section>
+          <section id="section3">
+            <h3 class="small-title">Did we make the right biomarker choice?</h3>
+            <p>We created a tool for diagnosing lung cancer, proving that we can use the circRNAs’ diagnostic advantage; their unique BSJ read differentiates them from the rest of the RNAs. Furthermore, given the fact that their expression relies on the tumor location and size, they have the potential to be the ideal biomarker molecule. As we have mentioned, circular RNAs are a breakthrough in cancer diagnosis but need to be further explored. We have chosen a panel of circRNAs that complete both criteria: their expression in lung cancer cell lines to have a tool to test our method on and their existence in the blood circulation of lung cancer patients. The data supporting our biomarker choice derived from literature reviews [2],[3],[4] and circRNA databases [5],[6],[7],[8],[9], as mentioned in the "Biomarkers selection" section of our Model page, are organized in the following table. </p>
+            <br>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead class="table-dark">
+                   <tr>
                       <th scope="col">circRNA</th>
                       <th scope="col">circBase result</th>
                       <th scope="col">Cell lines expression</th>
@@ -67,38 +68,37 @@
                   <tbody>
                     <tr>
                       <th scope="row">hsa_circ_0070354</th>
-                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0070354" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0070354</a></td>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0070354" class="link-primary">hsa_circ_0070354</a></td>
                       <td>SPCA (****), H1299 (***), A549 (****)</td>
                       <td>133 NSCLC patients (I-IV stage) and 97 healthy donors</td>
                       <td>0.66</td>
                     </tr>
                     <tr>
                       <th scope="row">hsa_circ_0102533</th>
-                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0102533" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0102533</a></td>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0102533" class="link-primary">hsa_circ_0102533</a></td>
                       <td>A549 (***), H1299 (***), H1792 (***), SK-MES-1 (***), SPC-A1 (***)</td>
                       <td>41 NSCLC patients and 26 healthy donors</td>
                       <td>0.744 and 0.774 (for stages I-II)</td>
                     </tr>
                     <tr>
                       <th scope="row">hsa_circ_0005962</th>
-                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0005962" class="link-primary">http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0005962</a></td>
+                      <td><a href="http://www.circbase.org/cgi-bin/singlerecord.cgi?id=hsa_circ_0005962" class="link-primary">hsa_circ_0005962</a></td>
                       <td>A549, NCI-H1299, HCC827, 16HBE</td>
                       <td>153 LUAD patients (83 were in stage I, 13 in stage II, 30 in stage III, and 25 in stage IV) and 54 healthy donors<br></td>
                       <td>0.73</td>
                     </tr>
-                  </tbody>
-                </table>
-              </div>
-              <br>
-              <p>In our future steps, we include RNA-seq to analyze the expression profile of circular RNAs in lung cancer patients' circulation. This way, we can choose a biomarker panel more wisely that may be wider and certainly more accurate. Besides, now that we have proposed a way to detect them, we can easily create a Nanostructure given any circRNA sequence using our Software ldn_generator.py.</p>
-            </section>
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <p>In our future steps, we include RNA-seq to analyze the expression profile of circular RNAs in lung cancer patients' circulation. This way, we can choose a biomarker panel more wisely that may be wider and certainly more accurate. Besides, now that we have proposed a way to detect them, we can easily create a Nanostructure given any circRNA sequence using our Software ldn_generator.py. </p>
           </section>
-          <section id="section2">
+          <section id="section4">
             <h2 class="main-title">Can our technique be implemented in other diseases?</h2>
             <p><span>Proof of concept</span>: We know our design process is too complicated to follow. Therefore, we automated our design by creating a python script that calculates and simulates possible LDNs given the mature circRNA sequence. So, given the target, anyone can design the desirable LDN system. This way, our LDN system can be easily applied on different types of diseases, when  circRNAs are used as biomarkers.</p>
             <p><span>Drawbacks & future steps</span>: However, research on the pathophysiological functions of circRNAs in lung cancer has a long way to go. We propose a detection method based on Linear DNA Nanostructures to make circRNAs a widely-used biomarker. Implementation of our Modeling work can automate the sequences needed to create a specific circRNA biomarker or even simultaneously model multiple LDNs for various circRNA mature sequence inputs.</p>
           </section>
-          <section id="section3">
+          <section id="section5">
             <ul class="acc">
               <li class="acc-item references">
                 <input id="s1" class="hide" type="checkbox">
