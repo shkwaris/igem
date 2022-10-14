@@ -325,43 +325,43 @@
             </section>
             <section>
               <h3 class="small-title">Probe formation</h3>
-              <p>One of the primary uses of oxDNA, apart from origami DNA structure visualization, is hairpin formation. We obtained the trajectories, tertiary structures, and energy files for each of the hairpin probes used in our project. By setting the temperature to 25 <sup>o</sup>C. You can observe that each probe has the expected loop structure and the two hanging tails, one for target detection and one for binding to the DNA backbone. Equilibration was achieved in 10<sup>8</sup> steps.</p>
+              <p>One of the primary uses of oxDNA, apart from origami DNA structure visualization, is hairpin formation. We obtained the trajectories, tertiary structures, and energy files for each of the hairpin probes used in our project. By setting the temperature to 25 <sup>o</sup>C. You can observe that each probe has the expected loop structure and the two hanging tails, one for target detection and one for binding to the DNA backbone. Equilibration was achieved in 10<sup>8</sup> steps.</p> 
               <div class="gallery grid4">
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
-                </figure>
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0005962</span></figcaption>  
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"/></a>
-                </figure>
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0102533</span></figcaption>
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
-                </figure>
-              </div>  
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.3:</span> Domain order of H2 hairpin probe</figcaption>
+                  </figure>
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.4:</span> Reaction breakdown of H1 and H2 hybridization </figcaption>
+                  </figure>
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.4:</span> Reaction breakdown of H1 and H2 hybridization </figcaption>
+                  </figure>
+              </div>
               <div class="gallery grid4">
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
-                </figure>
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0005962</span></figcaption>  
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"/></a>
-                </figure>
-                <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>hsa_circ_0102533</span></figcaption>
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
-                </figure>
-              </div>   
-            <figcaption class="figure-caption text-left"><span>Fig.11 H1 and H2 probe tertiary structures are depicted for each circRNA.</span> For the H1 probes the BSJ detection site is colored in black and the RCA binding domain in blue. Regarding the H2 probe the RCA binding domain is colored in blue and the H1 binding site in green.</figcaption>
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig1-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.3:</span> Domain order of H2 hairpin probe</figcaption>
+                  </figure>
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.4:</span> Reaction breakdown of H1 and H2 hybridization </figcaption>
+                  </figure>
+                  <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step2.png"/></a>
+                    <figcaption class="figure-caption text-left"><span>Fig.4:</span> Reaction breakdown of H1 and H2 hybridization </figcaption>
+                  </figure>
+              </div>
+              <figcaption class="figure-caption text-left"><span>Fig.10. Circular DNA template conformations:</span> In the left the initial structure is depicted, and in the right the formed padlock template is shown. With green RCA primer is shown and with black the phosphorylated DNA template.</figcaption>
             </section>
             <section>
               <h3 class="small-title">Nanostructure formation</h3>
               <p>Importing the modeled probe tertiary structures and the RCA domain, in oxView using the topology and last configuration files, we exported the image in oxDNA files, to be used for the next simulation. We set the temperature to 37.0 <sup>o</sup>C and salt concentration to 1.05M, using the corresponding Mutual Traps, and in just 10<sup>6</sup> time-steps the Nanostructure was formed retaining the designed structure. </p>
               <p>In order to use these results for further simulations, conversion to all-atomistic PDB files is necessary. First step was to install Python2 to WSL2 since most of the legacy utility scripts provided with oxDNA are written in Python2. Using the supplied convert_to_atomic.py script we obtained the desired structures. Upon visualization of the generated PDB files, we observed that in VMD bond breaks were apparent, whereas in ChimeraX the desired structure was depicted. After hours of trying to figure out if we had done something wrong during the simulation or during the .pdb file conversion, we found a discussion page in the oxDNA forum pointing out that this is a common problem presented when converting coarse-grained models to all-atomistic ones.  So we decided to continue with the generated .pdb files. </p>
               <figure class="gallery">
-                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"><img src="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"/></a>
+                  <a width="50%" href="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"><img src="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"/></a>
                   <figcaption class="figure-caption text-left"><span>Fig.12 A Linear DNA Nanostructure domain is depicted.</span> The RCA domain is colored in black, and with blue and green the H1 and H2 hairpin probes are shown, respectively.</figcaption>
               </figure>
             </section>
