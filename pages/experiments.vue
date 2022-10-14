@@ -128,19 +128,19 @@
             <h2 class="main-title">Protocols</h2>
             <div class="row">
                 <div class="col btns">
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RT-PCR Protocol</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Rolling Circle Amplication</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">RNA Isolation</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0102533)</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">LDN Assembly and Detection (hsa_circ_0005962)</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Circularization of the phosphorylated DNA template cell culture</a>
-                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Buffer solutions preparation protocol</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/rt-pcr-protocol.pdf">RT-PCR Protocol</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/rolling-circle-amplification.pdf">Rolling Circle Amplication</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/rna-isolation.pdf">RNA Isolation</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/ldn-assembly-and-detection-hsa-circ-0102533.pdf">LDN Assembly and Detection (hsa_circ_0102533)</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/ldn-assembly-and-detection-hsa-circ-0005962.pdf">LDN Assembly and Detection (hsa_circ_0005962)</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/circularization-of-the-phosphorylated-dna-template.pdf">Circularization of the phosphorylated DNA template cell culture</a>
+                  <a class="primary-button" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/buffer-solutions-preparation-protocol.pdf">Buffer solutions preparation protocol</a>
                 </div>
             </div>
           </section>
           <secrion id="notebook">
             <h2 class="main-title">Notebook</h2><br>
-            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/script-in-chinese-by-igem-cuhk-hong-kong-docx.pdf">Wet Lab Notebook</a>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/protocols/lab-notebook.pdf">Wet Lab Notebook</a>
           </secrion>
           <section id="references">
             <ul class="acc">
