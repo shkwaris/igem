@@ -240,7 +240,10 @@
             <section>
               <h3 class="small-title">CircRNA secondary structure</h3>
               <p>A necessary component to understanding our system and progressing our Modeling work is the illustration of how the circular RNAs appeared to be in space. Hence, we used the ViennaRNA Web services, particularly the RNAfold server, a gold standard in RNA 2D visualization <a v-scroll-to="'#references'" class="link-ref">[14]</a>, <a v-scroll-to="'#references'" class="link-ref">[15]</a>. By importing the mature circRNA sequence and selecting the "assume RNA molecule to be circular" option under the advanced options menu, we generated the secondary structure for the circRNA targets. </p>
-              <p>In the output, two different predictions are depicted: the Minimum Free Energy structure (MFE) and the Centroid structure, which represent the equilibrium ensemble differently. For the next steps of our Model, we used the MFE structure, depicted in <span>Fig.8</span>.</p>
+              <p>In the output, two different predictions are depicted: the Minimum Free Energy structure (MFE) and the Centroid structure, which represent the equilibrium ensemble differently. For the next steps of our Model, we used the MFE structure, depicted in <span>Fig.8</span>.The circRNAs had the following Gibbs free energy: </p>
+              <p style="text-align:center">Hsa_circ_0070354: ΔG = -105.60 kcal/mol</p>
+              <p style="text-align:center">Hsa_circ_0102533: ΔG = -222.10 kcal/mol</p>
+              <p style="text-align:center">Hsa_circ_0005962: ΔG = -79.90 kcal/mol</p>
               <div class="gallery grid4">
                 <figure class="gallery">
                   <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
@@ -310,24 +313,57 @@
               <p>First step to our project was the creation of the circular DNA template, by hybridization of RCA primer to the phosphorylated template. Modeling that structure proved to be a simple task, following the oxDNA pipeline described earlier, we just had to incorporate one more aspect, that of Mutual Traps. If we let our system reach equilibration on its own, it would take at least 108 timesteps for a simple oligonucleotide hybridization, amounting to time-consuming simulations. Mutual Traps act as time-sustained external forces bringing user-defined complementary and anti-aligned nucleotides closer. See more details in the Contribution page on how to orchestrate a Mutual  By incorporating these forces in the first and last nucleotide of the primer and their complementary nucleotides in the template sequence we are able to reach equilibration obtaining the desired structure.Simulation was run with a temperature set to 25 <sup>o</sup>C. In <span>Fig.10</span> the initial and equilibrated tertiary structures are presented before and after oxDNA simulation.</p>
               <div class="gallery grid3">
                 <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>Circle start</span></figcaption>
+                  <figcaption class="figure-caption text-left"><span>Initial Structure</span></figcaption>
                   <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-start.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-start.png"/></a>
                 </figure>
                 <figure class="gallery">
-                  <figcaption class="figure-caption text-left"><span>Circle end</span></figcaption>
+                  <figcaption class="figure-caption text-left"><span>Equilibrated Structure</span></figcaption>
                     <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-end.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/circle-end.png"/></a>
                 </figure>
             </div>
-            <figcaption class="figure-caption text-left"><span>Fig.10. Circular DNA template conformations:</span> In the left the initial structure is depicted, and in the right the formed padlock template is shown.</figcaption>
+            <figcaption class="figure-caption text-left"><span>Fig.10. Circular DNA template conformations:</span> In the left the initial structure is depicted, and in the right the formed padlock template is shown. With green RCA primer is shown and with black the phosphorylated DNA template.</figcaption>
             </section>
             <section>
               <h3 class="small-title">Probe formation</h3>
               <p>One of the primary uses of oxDNA, apart from origami DNA structure visualization, is hairpin formation. We obtained the trajectories, tertiary structures, and energy files for each of the hairpin probes used in our project. By setting the temperature to 25 <sup>o</sup>C. You can observe that each probe has the expected loop structure and the two hanging tails, one for target detection and one for binding to the DNA backbone. Equilibration was achieved in 10<sup>8</sup> steps.</p>
+              <div class="gallery grid4">
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
+                </figure>
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0005962</span></figcaption>  
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"/></a>
+                </figure>
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0102533</span></figcaption>
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
+                </figure>
+              </div>  
+              <div class="gallery grid4">
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0070354</span></figcaption>
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
+                </figure>
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0005962</span></figcaption>  
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0005962.png"/></a>
+                </figure>
+                <figure class="gallery">
+                  <figcaption class="figure-caption text-left"><span>hsa_circ_0102533</span></figcaption>
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/hsa-circ-0070354.png"/></a>
+                </figure>
+              </div>   
+            <figcaption class="figure-caption text-left"><span>Fig.11 H1 and H2 probe tertiary structures are depicted for each circRNA.</span> For the H1 probes the BSJ detection site is colored in black and the RCA binding domain in blue. Regarding the H2 probe the RCA binding domain is colored in blue and the H1 binding site in green.</figcaption>
             </section>
             <section>
               <h3 class="small-title">Nanostructure formation</h3>
               <p>Importing the modeled probe tertiary structures and the RCA domain, in oxView using the topology and last configuration files, we exported the image in oxDNA files, to be used for the next simulation. We set the temperature to 37.0 <sup>o</sup>C and salt concentration to 1.05M, using the corresponding Mutual Traps, and in just 10<sup>6</sup> time-steps the Nanostructure was formed retaining the designed structure. </p>
               <p>In order to use these results for further simulations, conversion to all-atomistic PDB files is necessary. First step was to install Python2 to WSL2 since most of the legacy utility scripts provided with oxDNA are written in Python2. Using the supplied convert_to_atomic.py script we obtained the desired structures. Upon visualization of the generated PDB files, we observed that in VMD bond breaks were apparent, whereas in ChimeraX the desired structure was depicted. After hours of trying to figure out if we had done something wrong during the simulation or during the .pdb file conversion, we found a discussion page in the oxDNA forum pointing out that this is a common problem presented when converting coarse-grained models to all-atomistic ones.  So we decided to continue with the generated .pdb files. </p>
+              <figure class="gallery">
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"><img src="https://static.igem.wiki/teams/4118/wiki/probes/ldn.png"/></a>
+                  <figcaption class="figure-caption text-left"><span>Fig.12 A Linear DNA Nanostructure domain is depicted.</span> The RCA domain is colored in black, and with blue and green the H1 and H2 hairpin probes are shown, respectively.</figcaption>
+              </figure>
             </section>
           </section>
           <section id="md">
@@ -344,6 +380,9 @@
             <section>
               <h3 class="small-title">Stability analysis</h3>
               <p>Two different components were examined for their stability, the circular DNA template and its binding to phi29 DNA Polymerase. Importing the PDB files obtained from oxDNA, to GROMACS we followed the steps described in the Contribution page in order to minimize the system and follow a standard MD stability protocol. In the trajectory produced for 1ns the circular DNA template retained its structure, with bonds breaking and forming again.</p>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="Patras_Medicine: Circle  (2022) [English]" width="1366" height="768" src="https://video.igem.org/videos/embed/2238a073-8389-4085-a6a4-6f65c6837cc9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
             </section>
             <section>
               <h3 class="small-title">Protein-DNA interactions</h3>
@@ -368,7 +407,20 @@
                   </ul>
                 </div>
               </div><br>
+              <div class="gallery grid3">
+                <figure class="gallery">
+                  <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/probes/phi-dna.png"><img src="https://static.igem.wiki/teams/4118/wiki/probes/phi-dna.png"/></a>
+                </figure>
+                <figure class="gallery">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/probes/t4-ligase.png"><img src="https://static.igem.wiki/teams/4118/wiki/probes/t4-ligase.png"/></a>
+                </figure>
+              </div>
+              <figcaption class="figure-caption text-left"><span>Fig.13 The circular DNA template docked with phi29 DNA polymerase (right) and T4 DNA ligase (left) is depicted.</span> On the right complex, phi29 DNA polymerase is docked on the end of the primer to engage the RCA reaction. On the left T4 DNA ligase is docked on the ligation site.</figcaption>
+              <br>
               <p>After docking the DNA template to phi29 DNA polymerase, we proceeded to a Molecular Dynamics analysis to verify the created complex's stability. For this protein-DNA complex, the Molecular Dynamic simulation parameters are specified above. A 1ns simulation was produced with the trajectory displayed below, proving the desired stability of our complex, indicating that we should further develop our Modeling work.</p>
+              <div class="d-flex justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+                <iframe title="Patras_Medicine: PHI29  (2022) [English]" width="1366" height="768" src="https://video.igem.org/videos/embed/003bcca8-c98d-4444-ba44-aa5860814f54" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+              </div>
             </section>
           </section>
           <section id="steps">
