@@ -29,6 +29,9 @@
           <section id="overview">
             <h2 class="main-title">Overview</h2>
             <p>A crucial step in an experiment's design is understanding how different reaction components interact. Setting that as a center point for this year's Model, we tried to cover as many aspects of our project as possible. Integrating elements such as 2D/3D structural analysis, Molecular Dynamics/Docking, and Mass action kinetic analysis, we got a comprehensive and well-rounded view of how the novel LDN system functions. </p>
+            <figure class="gallery">
+              <a href="https://static.igem.wiki/teams/4118/wiki/probes/model-plan-2.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/probes/model-plan-2.jpg"></a>
+            </figure>
           </section>
           <section id="kinetic">
             <h2 class="main-title">Mass-action kinetic analysis</h2>
