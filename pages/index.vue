@@ -25,7 +25,9 @@
         <div class="row home-sections">
           <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
             <h3 class="main-title">The Problem</h3>
-            <p>Lung cancer is the leading cause of cancer death, accounting for almost 18% of all cancer deaths. Each year, more people die of lung cancer than pancreatic, breast, and prostate cancers combined. Unfortunately, symptoms usually occur when cancer has become too advanced to cure, at which point the chances of survival are extremely low. In addition, currently used diagnostic techniques lack simplicity, accuracy, and patient safety. It is, therefore, necessary to develop a diagnostic approach that will be more accessible to the patient and will be able to fill the gaps shown by existing techniques.</p>
+            <p>Lung cancer is the leading cause of cancer death, accounting for almost 18% of all cancer deaths. Each year, more people die of lung cancer than pancreatic, breast, and prostate cancers combined. Unfortunately, symptoms usually occur when cancer has become too advanced to cure, at which point the chances of survival are extremely low. In addition, currently used diagnostic techniques lack simplicity, accuracy, and patient safety. It is, therefore, necessary to develop a diagnostic approach that will be more accessible to the patient and will be able to fill the gaps shown by existing techniques.
+              <br><br>Hover over the interactive pie chart to see the mortality rates of each cancer types.
+            </p>
           </div>
           <PieChart/>
         </div>
