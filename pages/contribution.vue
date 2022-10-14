@@ -4,6 +4,9 @@
       <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/human-practices/contr.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
+      <section class="intro">
+        <p>In this section we present our contributions to the iGEM community. In our project, we developed several skills that we want to pass on to the next generation of iGEM teams. Our contribution consists of four aspects: Supporting Entrepreneurship, Lab, and Education.</p>
+      </section>
     </Header>
 
     <Scrollspy :currentPage="currentPage" initialSection="fundraising">
@@ -13,16 +16,16 @@
             <div class="row">
               <progress min="0" max="100" value="0"></progress>
               <ol>
-                <li><a :href="`${currentPage}/#enterpreneurship`" v-scroll-to="'#enterpreneurship'">Supporting Enterpreneurship</a></li>
-                <ul>
-                  <li><a :href="`${currentPage}/#fundraising`" v-scroll-to="'#fundraising'" parent="enterpreneurship">Fundraising</a></li>
-                  <li><a :href="`${currentPage}/#business`" v-scroll-to="'#business'" parent="enterpreneurship">Business plan</a></li>
-                </ul>
                 <li><a :href="`${currentPage}/#lab`" v-scroll-to="'#lab'">Lab</a></li>
                 <ul>
                   <li><a :href="`${currentPage}/#rca`" v-scroll-to="'#rca'" parent="lab">DNA template design for RCA reactions</a></li>
                   <li><a :href="`${currentPage}/#nano`" v-scroll-to="'#nano'" parent="lab">Automization of Linear DNA Nanostructure Design</a></li>
                   <li><a :href="`${currentPage}/#safety`" v-scroll-to="'#safety'" parent="lab">Safety</a></li>
+                </ul>
+                <li><a :href="`${currentPage}/#enterpreneurship`" v-scroll-to="'#enterpreneurship'">Supporting Enterpreneurship</a></li>
+                <ul>
+                  <li><a :href="`${currentPage}/#fundraising`" v-scroll-to="'#fundraising'" parent="enterpreneurship">Fundraising</a></li>
+                  <li><a :href="`${currentPage}/#business`" v-scroll-to="'#business'" parent="enterpreneurship">Business plan</a></li>
                 </ul>
                 <li><a :href="`${currentPage}/#edu`" v-scroll-to="'#edu'">Education & Communication</a></li>
                 <li><a :href="`${currentPage}/#refs`" v-scroll-to="'#refs'">References</a></li>
@@ -32,20 +35,6 @@
           </nav>
         </div>
         <div class="col-lg-9 main-content" id="main-content">
-          <p>In this section we present our contributions to the iGEM community.</p>
-          <section id="enterpreneurship">
-            <h2 class="main-title">Supporting Enterpreneurship</h2>
-            <section id="fundraising">
-              <h3 class="small-title">Fundraising</h3>
-              <p>For our team it is of high importance that future iGEM teams don't lose any time figuring out how to organize their fundraising. For that reason we documented our fundraising journey and prepared a plan for the future iGEM teams.</p>
-              <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/fundraising-tool.pdf" download="" target="_blank">Download the fundraising tool</a>
-            </section>
-            <section id="business">
-              <h3 class="small-title">Business plan</h3>
-              <p>A business plan can be very tricky so we are happy to provide this tool for the future iGEM teams, shaped from our experience. </p>
-              <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/business-plan-tool.pdf" download="" target="_blank">Download the business plan tool</a>
-            </section>
-          </section>
           <section id="lab">
             <h2 class="main-title">Lab</h2>
             <section id="rca">
@@ -58,38 +47,58 @@
             </section>
             <section id="nano">
               <h3 class="small-title">Automization of Linear DNA Nanostructure Design</h3>
-              <p>During our Modeling work, we found it difficult trying to visualize and analyze every secondary structure created by the components of our Linear DNA Nanostructure system. The need to engineer a way to automate the secondary production process presented itself. During our Human Practices calls and with the help of our Dry Lab advisor, Bochalis Christodoulos, we created a Python script combining NUPACK, a near neighbor model, and simple coding skills. With the integration of for-loops, we made the software simple and provided fast results to the end user. Its design is based on the fact that H1 and H2 hairpin probes have sequences deriving from circRNAs, having a distinct domain called Backsplice Junction (BSJ) site. As discussed in the Project Description, in circular RNAs, the BSJ consists of a donor sequence of an upstream exon that covalently links to the acceptor sequence of a downstream exon (back-splice junction), which results in the formation of single-stranded circRNA molecules. For our initial design, we figured the selection of 15 bases upstream and 15 bases downstream would be an excellent way to separate them from their linear counterparts. But as our design evolved and through our modeling work, we found better, more thermodynamically stable than the original design.</p>
-              <p>Based on the information presented in our modeling work H1 and H2 probes consist of the following domains, based on the BSJ sequence.</p>
-              <p>For the H1 probe:</p>
-              <ul class="bullets">
-                <li>A domain complementary to the BSJ sequence to "identify" the target circRNA among the various RNAs present in the sample (1)</li>
-                <li>The loop domain (2)</li>
-                <li>A domain complementary to 20 bases of sequence (1) to create a 20-base hairpin stem (3)</li>
-                <li>A domain complementary to the RCA product (4)</li>
-              </ul><br>
-              <p>For the H2 probe:</p>
-              <ul class="bullets">
-                <li>A domain complementary to the RCA product (5),</li>
-                <li>A domain complementary to sequences (2) and (3) that is responsible for the hybridization of the two probes (6),</li>
-                <li>A domain complementary to 20 bases of sequence (6) to create a 20-base hairpin stem (7)</li>
-                <li>The loop domain (8)</li>
-              </ul><br>
-              <p>By alternating the combination of 15-15 bases upstream and downstream, respectively, different H1 and H2 molecules arose, and the ldn_generator.py script was born. Being run on Python 3. X, and with its only dependency being the installation of NUPACK, the script works as follows:</p>
-              <p>A .fasta file format, including the target circRNA molecules name and mature sequence, is needed before usage. The command is simple :
-              <br>python ldn_generator.py input.fasta</p>
-              <ul class="bullets">
-                <li>Temperature and salt concentrations can be user-defined.</li>
-                <li>The user can view results in the command line output. As follows: </li>
-              </ul>
-              <div class="gallery grid">
-                <a href="https://static.igem.wiki/teams/4118/wiki/screen.png"><img src="https://static.igem.wiki/teams/4118/wiki/screen.png"/></a>
-              </div>
+              <p>At first, we found it difficult trying to visualize and analyze every secondary structure created by the components of our Linear DNA Nanostructure system. The need to engineer a way to automate the secondary production process presented itself. During our Human Practices calls and with the help of our Dry Lab advisor, Bochalis Christodoulos, we created a Python script combining NUPACK, a near neighbor model, and simple coding skills.</p> 
+              <p>With the integration of for-loops, we made the software simple and provided fast results to the end user. Its design is based on the fact that H1 and H2 hairpin probes have sequences deriving from the target circRNA mature sequence, having a distinct domain called Backsplice Junction (BSJ) site. As discussed in the Project Description, the BSJ consists of an upstream donor sequence in circular RNAs that covalently links to the downstream acceptor sequence. For our initial design, we figured the selection of 15 bases upstream and 15 bases downstream, the Backsplice Junction site would be an excellent way to separate the circRNAs from their linear counterparts. But as our design evolved and our modeling work, we found structures more thermodynamically stable and with fewer artifacts than the original design.</p>
+              <p>Per the information described in our Model page, by alternating the combination of 15-15 bases upstream and downstream, respectively, different H1 and H2 molecules arose, and the ldn_generator.py script was born. Being run on Python 3, and with its only dependency being the installation of NUPACK, the script works as follows:</p>
+              <p>For the installation:</p>
+              <p><span>Step 1</span>: Download our script and the requirements.txt file from our <a href="https://gitlab.igem.org/2022/software-tools/patras-medicine" class="link-ref" target="_blank">GitLab</a> page.</p> 
+              <p><span>Step 2</span>: Run the command pip install -r requirements.txt.</p>
+              <p>A FASTA (.fasta) file, including the target circRNA molecule name and mature sequence, and the RCA domain sequence, is needed before usage. An exemplary FASTA file, named example.fasta, is supplied with the code.</p>
+              <p>After having obtained the FASTA file, the command to run the script goes as follows:
+              <br><br>
+              python ldn_generator.py input.fasta</p>
+              <p>Temperature can be user-defined using the -t argument, and salt concentrations can be set using the -s and -m arguments. -s corresponds to the concentration of Sodium, and -m corresponds to the concentration of Magnesium. If not, the default settings are 37 oC and 1M for Sodium and 0.05M for Magnesium. </p>
+              <p>The user can view results in the command line output with the following format.</p>
+              <p>--------------------<br>
+                20 10<br>
+                --------------------<br>
+                BSJ : CAACTTGACATCTCTTTTGGAAAAGTTCTT<br>
+                H1 : AAGAACTTTTCCAAAAGAGATGTCAAGTTGGACATCTACCAACACAACTTGACATCTCTTTTGGCTCATACCATAT<br>
+                H2 : CTTATCCGGAAGCAACTTGACATCTCTTTTGGAAAAGTTCTTCCAAAAGAGATGTCAAGTTGTGTTGGTAGATGTC<br><br>
+
+                MFE proxy structure(s):<br><br>
+
+                H1 probe 20: ..........((((((((((((((((((((..............))))))))))))))))))))............ (-23.14 kcal/mol)<br><br>
+
+                H2 probe 20: (((......)))((((((((((((((((((((((......)))))))))))))))))))))).............. (-26.40 kcal/mol)<br><br><br>
+
+
+                LDN 20:<br>
+                .....(((((((((((((((((((((((((..............))))))))))))))))))))((((((((((((+))))))))))))(.......)))))).....((((((((((((........+))))))))))))((((((((((((((((((((((......)))))))))))))))))))))).............. (-83.52 kcal/mol)<br><br>
+
+                LDN_BSJ detect 20:<br>
+                ((((((((((((((((((((((((((((((+))))))))))))))))))))))))))))))((((((((((((((((((((((((((((((((((((((((((((((+))))))))))))((.......))(((((...((((((((((((........+))))))))))))((...))......((((....))))))))))))))))))))))))))))))))))))))))))) (-115.93 kcal/mol)</p>
+                <p>Both secondary structure, in dot-bracket notation, and the Gibbs free energy are depicted in the parenthesis. At the beginning of the output, the RCA domain structure is shown. Following that, the rest go as follows:</p>
+                <p>First, the Backsplice Junction sequence is depicted, following the H1 and H2 probes. Then, regarding the secondary structures, LDN corresponds to the Linear DNA Nanostructure, and the domain goes as follows: H1 probe, RCA domain, H2 probe, and the LDN_BSJ detect follows the same sequence of domains with the addition of Backsplice Junction in the beginning.</p>
             </section>
             <section id="safety">
               <h3 class="small-title">Safety</h3>
               <p>We designed safety stickers aiming to establish a universal safety system for Laboratory protection.</p>
               <a class="primary-button" @click="scrollToStickers()">Check out our stickers</a>
             </section> 
+          </section>
+          <section id="enterpreneurship">
+            <h2 class="main-title">Supporting Enterpreneurship</h2>
+            <section id="fundraising">
+              <h3 class="small-title">Fundraising</h3>
+              <p>For our team it is of high importance that future iGEM teams don't lose any time figuring out how to organize their fundraising. For that reason we documented our fundraising journey and prepared a plan for the future iGEM teams.</p>
+              <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/fundraising-tool.pdf" download="" target="_blank">Download the fundraising tool</a>
+            </section>
+            <section id="business">
+              <h3 class="small-title">Business plan</h3>
+              <p>A business plan can be very tricky so we are happy to provide this tool for the future iGEM teams, shaped from our experience. </p>
+              <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/contribution/business-plan-tool.pdf" download="" target="_blank">Download the business plan tool</a>
+            </section>
           </section>
           <section id="edu">
             <h2 class="main-title">Education & Communication</h2>
