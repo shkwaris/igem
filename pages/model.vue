@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :title="currentPage">
-      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/collaborations/results123.jpg') center center no-repeat; background-size: cover;">
+      <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/model.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
       </div>
     </Header>
@@ -51,13 +51,13 @@
                     <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step1.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/model/fig2-step1.png"/></a>
                     <figcaption class="figure-caption text-left"><span>Fig.2:</span> Reaction breakdown of BSJ recognition by the H1 hairpin probe</figcaption>
                   </figure>
-              </div><br>
+              </div> <br>
               <p>As shown in <span>Fig.1</span>, H1 consists of five domains c, b*, a, b, and r. Without the BSJ-target in the reaction mixture, H1 exists in a stem-loop conformation. The two complementary domains b and b* form the H1-stem. H1-loop consists of domain α. Η1 also possesses two different overhang regions, r, responsible for the hybridization with the RCA product through complementarity, and c, a toehold domain. The BSJ of the circRNA-target is complementary to the b and c domains. </p>
               <p>As shown in <span>Fig.2</span>, the first reaction includes two steps: BSJ binds to H1 via invading the toehold c and displaces the b* domain by branch migration.</p>
               <p>The rate k<sub>f1</sub> denotes the hybridization rate of c to its complement. The base composition of the c domain can cause the value of k<sub>f1</sub> to vary significantly. </p>
               <p>The rate k<sub>b1</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. As the incumbent, b*, and invader, BSJ, exchange base pairs with the substrate, b, the branch point of the three-stranded complex moves back and forth. Eventually, the b* domain dissociates, completing strand displacement. Overall, displacement is thermodynamically driven forward by the net gain in base pairs due to the toehold. The length of the b domain determines the value of k<sub>b1</sub>. Finally, k<sub>r1</sub> denotes the rate at which toehold c dissociates. The binding of c to its complement is reversible because the toehold may ‘fray’ and eventually dissociate.</p>
-              <p>k<sub>r1</sub> = k<sub>f1</sub>&middot;(2/b)&middot;e<sup>ΔG<sub>o</sub>(c)/RT</sup> [I]</p>
-              <p>where ΔG<sub>o</sub>(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain <a v-scroll-to="'#references'" class="link-ref">[1]</a>.</p>
+              <p style="text-align: center;">k<sub>r1</sub> = k<sub>f1</sub>&middot;(2/b)&middot;e<sup>ΔG<sup>o</sup>(c)/RT</sup> [I]</p>
+              <p>where ΔG<sup>o</sup>(c) &lt; 0 is the binding energy between c and its complement, and b the length of b domain <a v-scroll-to="'#references'" class="link-ref">[1]</a>.</p>
             </section>
             <section>
               <h3 class="small-title">2<sup>nd</sup> toehold-mediated strand displacement reaction</h3>
@@ -74,13 +74,21 @@
               <p>As depicted in <span>Fig.3</span>, H2 also consists of five domains a*, b, a, b*, and r. Initially, H2 forms a stem-loop conformation by hybridizing the two complementary domains, b and b*. The formed loop consists of domain l. Like H1, the H2 hairpin possesses two overhang regions: a toehold domain, a* domain, and an RCA binding domain, s domain. In addition, H2 brings a fluorophore and a quencher. We represent them in Fig3 as a green and a black dot, respectively.</p>
               <p>The second toehold reaction is illustrated in <span>Fig.4</span>. Toehold domain a* binds to H1’s complementary domain a. After the toehold invasion, branch migration displacement occurs. The H1 b domain displaces the stem b domain. H2 now exists in an open conformation, which results in the fluorophore diverging from the quencher and emitting fluorescence when excited at the right wavelength. </p>
               <p>As in step 1, the rate k<sub>f2</sub> represents the hybridization rate of toehold domain a* to its complement. In addition, the rate k<sub>b2</sub> denotes the rate at which the branch migration junction crosses the middle of the b domain. Finally, k<sub>r2</sub> denotes the rate at which toehold a* frays and dissociates. </p>
-              <p>k<sub>r2</sub> = k<sub>f2</sub>&middot;(2/b)&middot;e<sup>ΔG<sub>o</sub>(c)/RT</sup> [II]</p>
-              <p>where ΔG<sub>o</sub>(a) &lt; 0 is the binding energy between a and its complement, and b the length of b domain.</p>
+              <p style="text-align: center;">k<sub>r2</sub> = k<sub>f2</sub>&middot;(2/b)&middot;e<sup>ΔG<sup>o</sup>(a)/RT</sup> [II]</p>
+              <p>where ΔG<sup>o</sup>(a) &lt; 0 is the binding energy between a and its complement, and b the length of b domain.</p>
             </section>
             <section>
               <h3 class="small-title">KinDA: Kinetic DNA strand displacement analyzer</h3>
               <p>KinDA <a v-scroll-to="'#references'" class="link-ref">[2]</a> is a python package that can predict system <a @click="changeWord('Thermodynamics-kinetics')" class="link-primary">kinetic and thermodynamic behavior</a> at the sequence level. With KinDA, we can determine if the system as a whole behaves as designed. We tested KinDA through the available Amazon Web Services (AWS) Amazon Machine Image (AMI).</p>
               <p>First, the user creates a PIL file that specifies the domains, as described above, stands, and complexes of the DNA strand-displacement system. An example of the user input is the following</p>
+              <p><span>#0102533_step1.pil</span><br><br>
+
+                  <span># Specify all domains</span><br>
+                  sequence c = CTGTAATCGC : 10<br>
+                  sequence b = TCACTCTGGATTTCTATCAA : 20<br>
+                  sequence a = GACATCTACCAACA : 14<br>
+                  sequence r = CTCATACCATAT : 12<br>
+                  sequence s = TTGCCATGAAAAAGAAAAACTTCCGGATAAGAAAGAAAA : 39</p>
               <p><span># Specify all strands:</span>
               <br>strand h1 = c b a b* r : 76
               <br>strand bsj = b* c* : 30
@@ -108,14 +116,26 @@
             </section>
             <section>
               <h3 class="small-title">The results</h3>
-              <p>Modifying a MATLAB script provided by our partners, MetaThess team, we simulated our KinDA results. The plot for hsa_circ_0102533 is depicted on fig.5. The equations for the simulated reactions are the following:</p>
-              <p>[H1-closed] = - k<sub>1(i)</sub> [H1-closed][BSJ]
-	            <br>[BSJ] = - k<sub>1(i)</sub> [H1-closed][BSJ]
-	            <br>[H1-open] = k<sub>1(i)</sub> [H1][BSJ] - k<sub>1(ii)</sub>[H2-closed][H1-open]
-	            <br>[H2-closed] = - k<sub>1(ii)</sub>[H2-closed][H1-open]
-	            <br>[H2-open] = k<sub>1(ii)</sub>[H2-closed][H1-open]
+              <p>Modifying a MATLAB script provided by our partners, the Thessaloniki_Meta team, we simulated our KinDA results. The plot for hsa_circ_0102533 is depicted in Fig.5. The equations for the simulated reactions are the following:</p>
+              <p>[H1-closed]/dt = - k<sub>1(i)</sub> [H1-closed][BSJ]
+	            <br>[BSJ]/dt = - k<sub>1(i)</sub> [H1-closed][BSJ]
+	            <br>[H1-open]/dt = k<sub>1(i)</sub> [H1][BSJ] - k<sub>1(ii)</sub>[H2-closed][H1-open]
+	            <br>[H2-closed]/dt = - k<sub>1(ii)</sub>[H2-closed][H1-open]
+	            <br>[H2-open]/dt = k<sub>1(ii)</sub>[H2-closed][H1-open]
               </p>
-              <p>The initial concentrations of [H1-closed] and [H2-closed] in the simulation correspond to H1 and H2 probes hybridized on the linear scaffold in their closed conformation, and are the experimental ones. We run a script using multiple target concentrations, [BSJ]. We observe that [H2-open] increases with time for all given [BSJ] concentrations. Also, [H2-open] maximum concentration increases with [BSJ]. This is crucial because [H2-open] determines the fluorescence emitted, which confirms our laboratory results.</p>
+              <p>The initial concentrations of [H1-closed] and [H2-closed] in the simulation correspond to H1, and H2 probes hybridized on the linear scaffold in their closed conformation. We run a script using multiple target concentrations, [BSJ]. We used 42.000 sec as our simulation time, the same as the experimental. We observe that [H2-open] increases with time for all given [BSJ] concentrations. Also, [H2-open] maximum concentration increases with [BSJ]. It is crucial because [H2-open] determines the response signal, confirming our laboratory results.</p>
+              <div class="row gallery">
+                  <figure class="col-xs-12 col-xl-6 align-self-xl-center">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/pic1.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/pic1.jpg"/></a>
+                  </figure>
+                  <figure class="col-xs-12 col-xl-6 align-self-xl-center">
+                    <a width="100%" href="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/all-x-for-ye-3e-12.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/all-x-for-ye-3e-12.jpg"/></a>
+                  </figure>
+                  <figcaption class="figure-caption text-left"><span>Fig.5:</span> Concentrations of H1 and H2 in their open and closed conformations during 70 min for BSJ target concentrations 1.5e-12 (Left) and 3e-12 M (Right)</figcaption>
+              </div>
+              <figure class="gallery">
+                <a href="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/x5-concetration.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/parts/mat-lab/x5-concetration.jpg"></a>
+              </figure>
             </section>
           </section>
           <section id="biomarker">
