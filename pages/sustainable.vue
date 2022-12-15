@@ -47,7 +47,7 @@
           <section id="goals">
             <h2 class="main-title">Which Sustainable Development Goals do we target as a team?</h2>
             <section id="hunger">
-              <h3 class="small-title">2. Zero Hunger</h3>
+              <!-- <h3 class="small-title">2. Zero Hunger</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-2-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-2-min.png"/></a>
               </div>
@@ -55,7 +55,7 @@
               <p>"Even though our team comes from Greece, a country with much potential in the primary sector, we noticed important deficiencies in the field of Agriculture, such as a lack of important data regarding soil physical and chemical properties in large and isolated  areas,  insufficient information regarding the  combination between precision agriculture tools and other technological advancements and low efficiency of crop inputs including fertilizers, tillage, pesticides, and irrigation water. Our team's project's central pillar idea is improving production quality using technology  (GPS, DSS, soil-sampling drones, ML) through precision agriculture. Some  of  the project's primary goals are access  to  agricultural  data  even  in remote and large areas, the precise prediction of soil biodiversity and crops for planting, and  the  environmental  protection  related  to  the  reduction."</p>
             </section>
             <section id="good">
-              <h3 class="small-title">3. Good Health & Well-Being</h3>
+              <!-- <h3 class="small-title">3. Good Health & Well-Being</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-3-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-3-min.png"/></a>
               </div>
@@ -63,7 +63,7 @@
               <p>With lung cancer being the leading cancer death cause worldwide, engineering a new way for its early-stage diagnosis will undoubtedly provide a higher survival rate. Furthermore, our diagnostic test is centered around the innovative Liquid Biopsy methodology, a non-invasive technique requiring a simple blood sampling procedure. That way, it will attract more people to incorporate our test in their annual Health examination since the already established diagnostic methods lack the simplicity needed to be patient-friendly. Furthermore, our fast and accurate Linear DNA Nanostructure detection system can successfully identify target circRNA from a complex RNA sample in 70 minutes. The promotion of well-being is also supported by the low cost of our kit, costing just 25 Euros, making it affordable for patients ranging from different financial backgrounds. Please refer to our <a class="link-ref" href="entrepreneurship">Human Practices</a> page for our target group survey, our <a class="link-ref" href="entrepreneurship">Entrepreneurship</a> page for cost analysis, and the <a class="link-ref" href="entrepreneurship">Results</a> page for the experimental design.</p>
             </section>
             <section id="education">
-              <h3 class="small-title">4. Quality Education</h3>
+              <!-- <h3 class="small-title">4. Quality Education</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-4-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-4-min.png"/></a>
               </div>
@@ -73,7 +73,7 @@
               <a href="education" class="primary-button">visit our Education & Communication page</a>
             </section>
             <section id="gender">
-              <h3 class="small-title">5. Gender Equality</h3>
+              <!-- <h3 class="small-title">5. Gender Equality</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-5-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-5-min.png"/></a>
               </div>
@@ -82,7 +82,7 @@
               <p>After all, we purposefully formed the Patras Medicine team equally consisting of males and females, and we selected two successful female scientists, professors of the University of Patras, as Principal Investigators of our team.</p>
             </section>
             <section id="innovation">
-              <h3 class="small-title">9. Industry, Innovation & Infrastructure</h3>
+              <!-- <h3 class="small-title">9. Industry, Innovation & Infrastructure</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-9-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-9-min.png"/></a>
               </div>
@@ -92,7 +92,7 @@
               <a href="education" class="primary-button">visit our Project Description page</a>
             </section>
             <section id="reduced">
-              <h3 class="small-title">10. Reduced Inequalities</h3>
+              <!-- <h3 class="small-title">10. Reduced Inequalities</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-10-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-10-min.png"/></a>
               </div>
@@ -100,7 +100,7 @@
               <p>Thus, we accomplished SDG number 10.</p>
             </section>
             <section id="land">
-              <h3 class="small-title">15. Life on Land</h3>
+              <!-- <h3 class="small-title">15. Life on Land</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-15-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-15-min.png"/></a>
               </div>
@@ -109,7 +109,7 @@
               <p>"Loss of natural habitat could have devastating consequences for the planet's food supply. Our project takes seriously into consideration the need to maintain healthy crops at a time when malnutrition is increasing rapidly. Thus, it aims at an innovative method of diagnosing plant pathogens with the aim of introducing a huge advantage in agricultural diagnostics. Our proposed diagnostic method uses Lrrs instead of antibodies. This method is cheaper and much faster than the existing ones, giving the farmers the margin to save much money but also the opportunity to cultivate species that, until now, specific plant pathogens did not allow them to since the diagnosis was way more difficult."</p>
             </section>
             <section id="peace">
-              <h3 class="small-title">16. Peace, Justice & Strong Institutions</h3>
+              <!-- <h3 class="small-title">16. Peace, Justice & Strong Institutions</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-16-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-16-min.png"/></a>
               </div>
@@ -117,7 +117,7 @@
               <p>Therefore, we hosted many collaborations aiming to bring together and connect iGEM members worldwide, for instance, the World DNA Day poster collaboration. In this context, we communicated and interacted with iGEM teams from different countries via virtual meetings.</p>
             </section>
             <section id="partnerships">
-              <h3 class="small-title">17. Partnerships for the Goals</h3>
+              <!-- <h3 class="small-title">17. Partnerships for the Goals</h3> -->
               <div class="gallery">
                 <a href="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-17-min.png"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/sustainable/goal-17-min.png"/></a>
               </div>
