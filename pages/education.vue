@@ -101,7 +101,7 @@
             <img src = "https://static.igem.wiki/teams/4118/wiki/website-assets/communication/ed6.jpg">
             <p>After we had successfully visited schools and the summer camp, we got impressed by the interest students showed in our project and most importantly in Synthetic Biology. The majority of them expressed their desire to further study and explore this scientific field. We thought that it would be really helpful to integrate Synthetic Biology to their lessons’ schedule. For this reason one of our team members, our advisor, wrote a whole chapter in which Synthetic Biology is scientifically defined and further approaches and biosecurity are described in detail. This chapter is a proposed extension for the school book of high school students interested in this field, so that they will  have the opportunity to be taught more about Synthetic Biology during their school life.</p>
             <p>Our Synthetic Biology chapter was evaluated by Mr. Arlapanos, a biology teacher at the Experimental High School in Patras. He thought the educational system much needed our idea in High Schools all over Greece since the fascinating field of Synthetic Biology is underrepresented.</p>
-            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/website-assets/education/synthetic-biology-chapter-docx.pdf">Download synthetic biology chapter archive</a>
+            <a class="link-download" download="" target="_blank" href="https://static.igem.wiki/teams/4118/wiki/syn-bio-chapter.pdf">Download synthetic biology chapter archive</a>
           </section>
           <section id="section7">
             <img src = "https://static.igem.wiki/teams/4118/wiki/website-assets/communication/ed7.jpg">
