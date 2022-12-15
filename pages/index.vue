@@ -8,6 +8,34 @@
       </video>
     </div>
 
+    <section class="stats-counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 count" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="count-icon">
+              <img src="https://static.igem.wiki/teams/4118/wiki/awards/2.png" height="80" width="71" alt="wiki award">
+            </div>
+            <div class="number"></div>
+            <span>Best Wiki Award</span>
+          </div>
+          <div class="col-lg-4 count" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="count-icon">
+              <img src="https://static.igem.wiki/teams/4118/wiki/awards/1.png" width="91" height="82" alt="diagnostic project award">
+            </div>
+            <div class="number"></div>
+            <span>Best Diagnostic Project Award</span>
+          </div>
+          <div class="col-lg-4 count" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="count-icon">
+              <img src="https://static.igem.wiki/teams/4118/wiki/awards/3.png" width="64" height="80" alt="gold medal">
+            </div>
+            <div class="number"></div>
+            <span>Gold Medal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-section">
       <div class="container">
         <div class="row home-sections justify-content-end">
