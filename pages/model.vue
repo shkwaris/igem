@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-x: hidden">
     <Header :title="currentPage">
       <div class="bg" style="background: url('https://static.igem.wiki/teams/4118/wiki/website-assets/model.jpg') center center no-repeat; background-size: cover;">
         <h1 class="head-title">{{currentPage}}</h1>
