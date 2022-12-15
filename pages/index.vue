@@ -76,7 +76,7 @@
               <div class="comp">
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/biopsies-icon.png" alt="" />
               </div>
-              <h4 class="small-title">Liquid Biopsy</h4>
+              <h4 class="small-title2">Liquid Biopsy</h4>
               <h5 class="excerpt">It provides a patient-friendly diagnostic approach.</h5>
               <p>Liquid Biopsy is based on the sampling and analysis of biological fluids, especially blood, for diagnosing and monitoring cancerous tumors. The main feature of liquid biopsies is the ease of sampling, providing a non-invasive, rapid alternative.</p>
             </div>
@@ -86,7 +86,7 @@
               <div class="comp">
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/circrna-icon.png" alt="" />
               </div>
-              <h4 class="small-title">circRNAs</h4>
+              <h4 class="small-title2">circRNAs</h4>
               <h5 class="excerpt">They have the potential to be ideal biomarkers.</h5>
               <p>They are a recent finding in cancer research whose abnormal expression is associated with the onset and progression of cancer. They are secreted by cancer cells in patients' blood. The panel of molecules we have chosen are NSCLC specific, likely not found in other cancer types.</p>
             </div>
@@ -96,7 +96,7 @@
               <div class="comp">
                 <img src="https://static.igem.wiki/teams/4118/wiki/icons/dna-icon.png" alt="" />
               </div>
-              <h4 class="small-title">DNA</h4>
+              <h4 class="small-title2">DNA Nanostructures</h4>
               <h5 class="excerpt">They offer unmatched possibilities and novelty.</h5>
               <p>Over the last few years, many DNA nanotechnology devices have been engineered to overcome specific bottlenecks in developing new diagnostic and analytical tools. As a result, we believe they can provide innumerable possibilities at a low cost.</p>
             </div>
