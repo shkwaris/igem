@@ -114,12 +114,15 @@ p {
     color: white;
     font-size: 40px;
 
-    @include media-breakpoint-up(sm) {
-      font-size: 80px;
-    }
-
-    @include media-breakpoint-up(lg) {
+    @media (min-width: 768px) and (max-width: 1180px) {
       left: 80px;
+      font-size: 50px;
+      transform: translateX(0);
+    }
+    
+    @media (min-width: 1180px) {
+      left: 80px;
+      font-size: 80px;
       transform: translateX(0);
     }
   }
