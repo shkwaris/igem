@@ -40,7 +40,7 @@
             <div class="gallery grid">
               <a class="half-content" href="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-1-min.jpg"><img src="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/photo-1-min.jpg"/></a>
             </div><br>
-            <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/website-assets/safety/safety-stickers.pdf" target="_blank" download="">Download safety stickers pdf archive</a>
+            <a class="link-download" href="https://static.igem.wiki/teams/4118/wiki/safety-stickers-2-1.pdf" target="_blank" download="">Download safety stickers pdf archive</a>
           </section>
           <section id="section2">
             <h2 class="main-title">Guidelines in the lab</h2>
